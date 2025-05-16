@@ -1,0 +1,37 @@
+# === PreTeXt Build Artifacts ===
+
+# Output directory (from PreTeXt build)
+output/
+
+# Common LaTeX/TeX auxiliary files
+#*.aux
+*.log
+#*.toc
+#*.out
+#*.lof
+#*.lot
+#*.fls
+#*.fdb_latexmk
+#*.synctex.gz
+#*.nav
+#*.snm
+#*.vrb
+#*.xdv
+
+# HTML output temp files
+*.tmp
+
+# PDFs and EPUBs
+*.pdf
+*.epub
+*.mobi
+
+# Local editor settings (optional)
+.idea/
+*.swp
+
+# macOS junk files
+.DS_Store
+
+# Backup files
+*~
