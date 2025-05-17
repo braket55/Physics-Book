@@ -12,8 +12,8 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="Chapters/PreTeXt_Examples/Chapter-01.ptx" />
-    <xi:include href="Chapters/Physics_Skills_Primer/ch-chapter-title.ptx" />
+    <xi:include href="Chapters/PreTeXt_Examples/ch-pretext-examples.ptx" />
+    <xi:include href="Chapters/Physics_Skills_Primer/ch-physics-skills-primer.ptx" />
     <xi:include href="Chapters/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
 
     <!-- Include backmatter -->

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scientific Notation</title>
+
+  <p> Text of section. </p>
+
+  <subsection xml:id="prep-sci-not">
+      <title>Prep</title>
+      <p>This is the Prep SubSection in this chapter.</p>
+
+          <subsubsection xml:id="prep-vid-3d-kin">
+            <title>3D Kinematics Prep Video</title>
+              <video youtube="2ilCSXm7iMQ">
+                <title>Great Example of Interference</title>
+              </video>
+          </subsubsection>
+ 
+          <subsubsection xml:id="prep-text-3d-kin">
+            <title>3D Kinematics Prep Text</title>
+                <details>
+                  <summary>Read more here.</summary>
+
+                  <p>This is a drop down box with text. Maybe. I dunno. Maybe I need more text here. Let's fill it with random text. More random text.</p>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </details>
+          </subsubsection>
+
+          <subsubsection xml:id="prep-q-3d-kin">
+            <title>3D Kinematics Prep Questions</title>
+              <exercise>
+                <statement>
+                  <p>The statement is required if a hint, answer, or solution is present.</p>
+                </statement>
+
+                <hint>
+                  <p>Just a suggestion of what to try.</p>
+                </hint>
+
+                <answer>
+                  <p>Just the final answer.</p>
+                </answer>
+
+                <solution>
+                  <p>All the gory details.</p>
+                </solution>
+              </exercise>
+
+            
+          </subsubsection>
+        
+
+
+
+  </subsection>
+
+
+  <subsection xml:id="explore-sci-not">
+      <title>Explore</title>
+      <p>This is the Prep SubSection in this chapter.</p>
+
+      <exercise>
+        <statement>
+          <p>The statement is required if a hint, answer, or solution is present.</p>
+        </statement>
+
+        <hint>
+          <p>Just a suggestion of what to try.</p>
+        </hint>
+
+        <answer>
+          <p>Just the final answer.</p>
+        </answer>
+
+        <solution>
+          <p>All the gory details.</p>
+        </solution>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>The statement is required if a hint, answer, or solution is present.</p>
+        </statement>
+
+        <hint>
+          <p>Just a suggestion of what to try.</p>
+        </hint>
+
+        <answer>
+          <p>Just the final answer.</p>
+        </answer>
+
+        <solution>
+          <p>All the gory details.</p>
+        </solution>
+      </exercise>
+
+  </subsection>
+
+  <subsection xml:id="practice-sci-not">
+      <title>Practice</title>
+      <p>This is the Prep SubSection in this chapter.</p>
+
+      <exercise>
+        <statement>
+          <p>The statement is required if a hint, answer, or solution is present.</p>
+        </statement>
+
+        <hint>
+          <p>Just a suggestion of what to try.</p>
+        </hint>
+
+        <answer>
+          <p>Just the final answer.</p>
+        </answer>
+
+        <solution>
+          <p>All the gory details.</p>
+        </solution>
+      </exercise>
+
+  </subsection>
+
+
+</section>

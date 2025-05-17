@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sections" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section Title</title>
+
+  <p> This is the first Section in this chapter. </p>
+
+
+  <subsection xml:id="subsection-01">
+    <title>SubSection Example 01</title>
+    <p>This is the first SubSection. </p>
+ 
+    <subsubsection xml:id="subsubsection-01">
+      <title>Math Concepts</title>
+      <p>This is the first SubSubSection.</p>
+    </subsubsection>
+
+  </subsection>
+
+  <subsection xml:id="subsection-02">
+    <title>SubSection 02</title>
+    <p>This is the second SubSection in this chapter.</p>
+  </subsection>
+
+
+
+</section>
