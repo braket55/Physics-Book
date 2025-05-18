@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <!-- we first include a file which contains the docinfo element: -->
+  <!-- Include metadata -->
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
     <title>My Great Book</title>
     <subtitle>An example to get you started</subtitle>
 
-    <!-- Include frontmatter -->
+    <!-- Frontmatter (TOC, dedication, preface, etc.) -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <xi:include href="Chapters/PreTeXt_Examples/ch-pretext-examples.ptx" />
-    <xi:include href="Chapters/Physics_Skills_Primer/ch-physics-skills-primer.ptx" />
-    <xi:include href="Chapters/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
+    <!-- First part -->
+    <part xml:id="part-pretext">
+      <title>Part I: PreTeXt Basics</title>
+      <xi:include href="Chapters/PreTeXt_Examples/ch-pretext-examples.ptx" />
+    </part>
 
-    <!-- Include backmatter -->
+    <!-- Second part -->
+    <part xml:id="part-skills">
+      <title>Physics Skills Primer</title>
+      <xi:include href="Chapters/Physics_Skills_Primer/ch-physics-skills-primer.ptx" />
+    </part>
+
+    <!-- Third part -->
+    <part xml:id="part-vectors">
+      <title>Scalars and Vectors</title>
+      <xi:include href="Chapters/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
+    </part>
+
+    <!-- Backmatter (glossary, index, etc.) -->
     <xi:include href="./backmatter.ptx" />
 
   </book>

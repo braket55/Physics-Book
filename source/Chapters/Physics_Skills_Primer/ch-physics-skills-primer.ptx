@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Physics Skills Primer</title>
+  <title>Scientific Notation</title>
 
   <introduction>
     <p> Hello.  I changed this. </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-scientific-notation.ptx" />
+  <xi:include href="sec-scientific-notation-prep.ptx" />
+  <xi:include href="sec-scientific-notation-practice.ptx" />
+  <xi:include href="sec-scientific-notation-explore.ptx" />
 
 </chapter>

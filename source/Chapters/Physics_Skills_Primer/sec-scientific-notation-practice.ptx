@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-practice-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Practice</title>
+
+  <p> Text of section. </p>
+
+  <subsection xml:id="practice-sci-not">
+      <title>Practice</title>
+      <p>This is the Prep SubSection in this chapter.</p>
+
+      <exercise>
+        <statement>
+          <p>The statement is required if a hint, answer, or solution is present.</p>
+        </statement>
+
+        <hint>
+          <p>Just a suggestion of what to try.</p>
+        </hint>
+
+        <answer>
+          <p>Just the final answer.</p>
+        </answer>
+
+        <solution>
+          <p>All the gory details.</p>
+        </solution>
+      </exercise>
+
+  </subsection>
+
+
+</section>
