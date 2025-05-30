@@ -12,18 +12,12 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- First part -->
-    <part xml:id="part-pretext">
-      <title>Part I: PreTeXt Basics</title>
-      <xi:include href="Chapters/PreTeXt_Examples/ch-pretext-examples.ptx" />
-    </part>
-
-    <!-- Second part -->
     <part xml:id="part-skills">
       <title>Physics Skills Primer</title>
       <xi:include href="Chapters/Physics_Skills_Primer/ch-physics-skills-primer.ptx" />
     </part>
 
-    <!-- Third part -->
+    <!-- Second part -->
     <part xml:id="part-vectors">
       <title>Scalars and Vectors</title>
       <xi:include href="Chapters/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
