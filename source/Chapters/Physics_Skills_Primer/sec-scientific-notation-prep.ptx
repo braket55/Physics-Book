@@ -1,146 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Prep</title>
+<chapter xml:id="ch-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scientific Notation Prep</title>
+
+<!--
+  <section xml:id="sec-prep-sci-not-video">
+    <title>Prep Video: Scientific Notation</title>
+    <video youtube="2ilCSXm7iMQ">
+      <title>Great Example of Interference</title>
+    </video>
+  </section>
+-->
+
+  <section xml:id="sec-prep-sci-not-text">
+    <title>Prep Text: Scientific Notation</title>
+
+    <p>To wield scientific notation properly, follow these arcane guidelines:</p>
+
+    <ol>
+      <li>
+        <p><em>Find the coefficient.</em> Move the decimal point so the number becomes at least 1 but less than 10.
+        This becomes the <em>coefficient</em>. For example, <m>32{,}700</m> becomes <m>3.27</m>.</p>
+      </li>
+      <li>
+        <p><em>Count the decimal steps.</em> Count how many places you moved the decimal. That number becomes the exponent on your power of ten.
+        If you moved the decimal to the left, the exponent is <em>positive</em>. If you moved it to the right, the exponent is <em>negative</em>.</p>
+      </li>
+      <li>
+        <p><em>Check your form.</em> The final expression should look like <m>a \times 10^n</m>, where <m>1 \leq |a| &lt; 10</m> and <m>n</m> is an integer.</p>
+      </li>
+    </ol>
+
+    <exercise>
+      <statement>
+        <p>Convert <m>32,700</m> to scientific notation.</p>
+      </statement>
+      <hint>
+        <p>The decimal point would need to move to the left by 4 places.</p>
+      </hint>
+      <answer>
+        <p><m>3.27 \times 10^4</m></p>
+      </answer>
+      <solution>
+        <p>Move the decimal 4 places to the left: <m>32,700 = 3.27 \times 10^4</m>.</p>
+      </solution>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>Convert <m>0.000089</m> to scientific notation.</p>
+      </statement>
+      <hint>
+        <p>The decimal point would need to move to the right by 5 places.</p>
+      </hint>
+      <answer>
+        <p><m>8.9 \times 10^{-5}</m></p>
+      </answer>
+      <solution>
+        <p>Move the decimal 5 places to the right: <m>0.000089 = 8.9 \times 10^{-5}</m>.</p>
+      </solution>
+    </exercise>
+
+    <p><term>Why Use It?</term></p>
     <p>
-      Prepare by reading the text and answering the questions. 
+      Imagine trying to write the mass of the Earth (~<m>5.97 \times 10^{24}</m> kg) or the mass of an electron
+      (~<m>9.1 \times 10^{-31}</m> kg) without magical shorthand!
+      Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.
     </p>
 
-<!--    <subsection xml:id="sub-sec-prep-sci-not-video">
-      <title>3D Kinematics Prep Video</title>
-        <video youtube="2ilCSXm7iMQ">
-          <title>Great Example of Interference</title>
-        </video>
-    </subsection>
-  -->
-    <subsection xml:id="sub-sec-prep-sci-not-text">
-      <title>3D Kinematics Prep Text</title>
-        <p> 
-          To wield scientific notation properly, follow these arcane guidelines: 
-        </p>
+    <p><term>Bonus Trick: Comparing Powers</term></p>
+    <p>
+      Scientific notation reveals <em>orders of magnitude</em>.
+      Two numbers differ by one order of magnitude for every tenfold difference.
+      A dragon's hoard of <m>1 \times 10^6</m> gold coins is
+      <em>three orders of magnitude</em> larger than a goblin's pouch of <m>1 \times 10^3</m>.
+    </p>
 
-          <ol> 
-            <li> 
-              <p>
-                <em>Find the coefficient.</em> Move the decimal point so the number becomes at least 1 but less than 10. 
-                This becomes the <em>coefficient</em>. For example, 
-                <m>32{,}700</m> becomes <m>3.27</m>.
-              </p>
-            </li> 
-            <li> 
-              <p>
-                <em>Count the decimal steps.</em> Count how many places you moved the decimal. That number becomes the exponent on your power of ten. 
-                If you moved the decimal to the left, the exponent is <em>positive</em>. If you moved it to the right, the exponent is <em>negative</em>.
-              </p>
-            </li> 
-            <li> 
-              <p>
-                <em>Step 3: Check your form.</em> The final expression should look like 
-                <m>a \times 10^n</m>, where <m>1 \leq |a| &lt; 10</m> and <m>n</m> is an integer.
-              </p>
-            </li> 
-          </ol>
+    <p><term>A Final Word from the Grand Mathemagician</term></p>
+    <p>
+      With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement.
+      Write your numbers with care, check your powers of ten, and let no zero go unwielded.
+    </p>
+  </section>
 
-        <exercise>
-          <statement>
-            <p>Convert <m>32,700</m> to scientific notation.</p>
-          </statement>
-            <hint>
-              <p>The decimal point would need to move to the left by 4 places.</p>
-            </hint>
-            <answer>
-              <p><m>3.27 \times 10^4</m></p>
-            </answer>
-            <solution>
-              <p>All the gory details.</p>
-            </solution>
-        </exercise>
-            
-        <exercise>
-          <statement>
-            <p>Convert  <m>0.000089</m> to scientific notation.</p>
-          </statement>
-            <hint>
-              <p>The decimal point would need to move to the right by 5 places.</p>
-            </hint>
-            <answer>
-              <p> <m>8.9 \times 10^{-5}</m></p>
-            </answer>
-            <solution>
-              <p>All the gory details.</p>
-            </solution>
-        </exercise>
+  <section xml:id="sec-prep-sci-not-questions">
+    <title>Prep Questions: Scientific Notation</title>
 
-          <p><term>Why Use It?</term></p> 
-          <p> 
-            Imagine trying to write the mass of the Earth (~<m>5.97 \times 10^{24}</m> kg) or the mass of an electron 
-            (~<m>9.1 \times 10^{-31}</m> kg) without magical shorthand! 
-            Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.
-          </p>
+    <exercise>
+      <statement>
+        <p>What is the value of <m>2^3</m>?</p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="no">
+          <statement><p>6</p></statement>
+          <feedback><p>Not quite. That's <m>2 \times 3</m>, not <m>2^3</m>.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p>7</p></statement>
+          <feedback><p>Close, but not correct. Try multiplying 2 by itself three times.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p>8</p></statement>
+          <feedback><p>Correct! <m>2^3 = 2 \times 2 \times 2 = 8</m>.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p>9</p></statement>
+          <feedback><p>Nope. That's <m>3^2</m>, not <m>2^3</m>.</p></feedback>
+        </choice>
+      </choices>
+    </exercise>
 
-          <p><term>Bonus Trick: Comparing Powers</term></p> 
-          <p> 
-            Scientific notation reveals <em>orders of magnitude</em>. 
-            Two numbers differ by one order of magnitude for every tenfold difference. 
-            A dragon's hoard of <m>1 \times 10^6</m> gold coins is 
-            <em>three orders of magnitude</em> larger than a goblin's pouch of <m>1 \times 10^3</m>.
-          </p> 
+  </section>
 
-          <p><term>A Final Word from the Grand Mathemagician</term></p> 
-          <p> 
-            With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement. 
-            Write your numbers with care, check your powers of ten, and let no zero go unwielded.
-          </p>
-    </subsection>
-
-    <subsection xml:id="sub-sec-prep-sci-not-questions">
-      <title>Scientific Notation Prep Questions</title>
-
-        <exercise>
-          <statement>
-            <p>What is the value of <m>2^3</m>?</p>
-          </statement>
-          <choices randomize="yes">
-            <choice correct="no">
-              <statement>
-                <p>6</p>
-              </statement>
-              <feedback>
-                <p>Not quite. That's <m>2 \times 3</m>, not <m>2^3</m>.</p>
-              </feedback>
-            </choice>
-            <choice correct="no">
-              <statement>
-                <p>7</p>
-              </statement>
-              <feedback>
-                <p>Close, but not correct. Try multiplying 2 by itself three times.</p>
-              </feedback>
-            </choice>
-            <choice correct="yes">
-              <statement>
-                <p>8</p>
-              </statement>
-              <feedback>
-                <p>Correct! <m>2^3 = 2 \times 2 \times 2 = 8</m>.</p>
-              </feedback>
-            </choice>
-            <choice correct="no">
-              <statement>
-                <p>9</p>
-              </statement>
-              <feedback>
-                <p>Nope. That's <m>3^2</m>, not <m>2^3</m>.</p>
-              </feedback>
-            </choice>
-          </choices>
-        </exercise>
-
-
-    </subsection>
-
-
-
-
-
-</section>
+</chapter>
