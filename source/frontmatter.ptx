@@ -7,9 +7,9 @@
   <bibinfo>
   
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>M. E. Spellwing</personname>
+      <department>Eigenspell Publishing</department>
+      <!-- <institution>Your institution</institution> -->
     </author>
     <date>
       <today />
@@ -20,12 +20,36 @@
     </website>
 
     <copyright>
-      <year>2020<ndash />2024</year>
-      <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      <year>2025</year>
+      <holder>M. E. Spellwing</holder>
+      <shortlicense>
+        <p>
+          This work, including all PreTeXt source files, generated outputs (PDF, HTML, EPUB), images, videos, and ancillary materials, is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+        </p>
+        <p>
+          You are free to:
+        </p>
+        <ul>
+          <li>Share — copy and redistribute the material in any medium or format</li>
+          <li>Adapt — remix, transform, and build upon the material for any purpose, even commercially</li>
+        </ul>
+        <p>Under the following terms:</p>
+        <ul>
+          <li>
+            <strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+          </li>
+          <li>
+            <strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+          </li>
+        </ul>
+        <p>
+          Full license text available at: <url href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</url>
+        </p>
+        <p> Copyright © M. E. Spellwing 2025</p>
+        <p>Published by Eigenspell Publishing</p>
       </shortlicense>
     </copyright>
-  
+
   </bibinfo>
 
   <titlepage>

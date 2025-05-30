@@ -4,9 +4,9 @@
   <!-- Include metadata -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="intro-physics-book">
+    <title>The Apprentice's Guide to Physics</title>
+    <subtitle>An Introductory Quest Through the Mechanics of the Universe</subtitle>
 
     <!-- Frontmatter (TOC, dedication, preface, etc.) -->
     <xi:include href="./frontmatter.ptx" />
