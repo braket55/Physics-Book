@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-explore-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Explore</title>
+<chapter xml:id="ch-explore-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scientific Notation Explore</title>
+
+  <section xml:id="sec-explore-sci-not-text" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Explore Text: Scientific Notation</title>
 
   <p> Text of section. </p>
 
-  <subsection xml:id="explore-sci-not">
-      <title>Explore</title>
-      <p>This is the Prep SubSection in this chapter.</p>
+  </section>
 
-      <exercise>
+  <exercise>
         <statement>
           <p>The statement is required if a hint, answer, or solution is present.</p>
         </statement>
@@ -45,9 +46,4 @@
         </solution>
       </exercise>
 
-  </subsection>
-
-
-
-
-</section>
+</chapter>

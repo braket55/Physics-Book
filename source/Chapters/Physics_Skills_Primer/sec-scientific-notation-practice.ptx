@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-practice-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="sec-practice-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Practice</title>
 
   <p> Text of section. </p>
 
-  <subsection xml:id="practice-sci-not">
+  <section xml:id="practice-sci-not">
       <title>Practice</title>
       <p>This is the Prep SubSection in this chapter.</p>
 
@@ -27,7 +27,7 @@
         </solution>
       </exercise>
 
-  </subsection>
+  </section>
 
 
-</section>
+</chapter>
