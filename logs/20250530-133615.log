@@ -1,0 +1,16 @@
+INFO    : Building target web
+ERROR   : XInclude Error caused build to fail:
+ERROR   : /Users/ryanscheirer/Documents/Physics Book/source/Chapters/Physics_Skills_Primer/sec-scientific-notation-prep.ptx:22:397:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: br line 22 and li
+/Users/ryanscheirer/Documents/Physics Book/source/Chapters/Physics_Skills_Primer/sec-scientific-notation-prep.ptx:24:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: br line 22 and ol
+/Users/ryanscheirer/Documents/Physics Book/source/Chapters/Physics_Skills_Primer/sec-scientific-notation-prep.ptx:31:18:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: li line 22 and subsection
+/Users/ryanscheirer/Documents/Physics Book/source/Chapters/Physics_Skills_Primer/sec-scientific-notation-prep.ptx:58:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: ol line 20 and section
+/Users/ryanscheirer/Documents/Physics Book/source/Chapters/Physics_Skills_Primer/ch-physics-skills-primer.ptx:25:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/ryanscheirer/Documents/Physics Book/source/Chapters/Physics_Skills_Primer/sec-scientific-notation-prep.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

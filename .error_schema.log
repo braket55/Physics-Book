@@ -1,0 +1,5 @@
+<string>:0:0:ERROR:RELAXNGV:RELAXNG_ERR_INTEREXTRA: Extra element copyright in interleave
+/Users/ryanscheirer/Documents/Physics Book/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
+/Users/ryanscheirer/Documents/Physics Book/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+/Users/ryanscheirer/Documents/Physics Book/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+/Users/ryanscheirer/Documents/Physics Book/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there
