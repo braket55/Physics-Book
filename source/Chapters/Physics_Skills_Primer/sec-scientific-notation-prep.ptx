@@ -85,30 +85,113 @@
 
   <section xml:id="sec-prep-sci-not-questions">
     <title>Prep Questions: Scientific Notation</title>
-
+    <!-- Prep q01 -->
+    <p><term> Convert standard notation to scientific notation. </term></p>
     <exercise>
       <statement>
-        <p>What is the value of <m>2^3</m>?</p>
+        <p>Convert <m>0.0072</m> to scientific notation.</p>
       </statement>
       <choices randomize="yes">
         <choice correct="no">
-          <statement><p>6</p></statement>
-          <feedback><p>Not quite. That's <m>2 \times 3</m>, not <m>2^3</m>.</p></feedback>
+          <statement><p><m>72 \times 10^{-4}</m></p></statement>
+          <feedback><p>While this is true, <m>72</m> is greater than <m>10</m>. So this is not considered scientific notation.</p></feedback>
         </choice>
         <choice correct="no">
-          <statement><p>7</p></statement>
-          <feedback><p>Close, but not correct. Try multiplying 2 by itself three times.</p></feedback>
+          <statement><p><m>7.2 \times 10^{3}</m></p></statement>
+          <feedback><p>While the decimal moved three, it was moved to the right which results in a negative power of 10.</p></feedback>
         </choice>
         <choice correct="yes">
-          <statement><p>8</p></statement>
-          <feedback><p>Correct! <m>2^3 = 2 \times 2 \times 2 = 8</m>.</p></feedback>
+          <statement><p><m>7.2 \times 10^{-3}</m></p></statement>
+          <feedback><p>Correct! <m>0.0072 = 7.2 \times 10^{-3}</m></p></feedback>
         </choice>
         <choice correct="no">
-          <statement><p>9</p></statement>
-          <feedback><p>Nope. That's <m>3^2</m>, not <m>2^3</m>.</p></feedback>
+          <statement><p><m>7.2 \times 10^{-2}</m></p></statement>
+          <feedback><p>Your digital blade missed the mark, try again. That's <m>0.072</m>, not <m>0.0072</m>.</p></feedback>
         </choice>
       </choices>
     </exercise>
+    <!-- Prep q02 -->
+    <exercise>
+      <statement>
+        <p>Convert <m>0.00000702</m> to scientific notation.</p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="no">
+          <statement><p><m>7.0 \times 10^{-6}</m></p></statement>
+          <feedback><p>Your digital blade missed the mark, try again.  <m>7.0</m> is missing something.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p><m>7.02 \times 10^{6}</m></p></statement>
+          <feedback><p>While the decimal moved 6, it was moved to the right which results in a negative power of 10.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p><m>7.02 \times 10^{-6}</m></p></statement>
+          <feedback><p>Correct! <m>0.00000702 = 7.02 \times 10^{-6}</m></p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p><m>7.02 \times 10^{-5}</m></p></statement>
+          <feedback><p>Your enchanted click missed the mark, try again. That's <m>0.0000702</m>, not <m>0.00000702</m>.</p></feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep q03 -->
+    <exercise>
+      <statement>
+        <p>Convert <m>0.70</m> to scientific notation.</p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="no">
+          <statement><p><m>0.70 \times 10^{0}</m></p></statement>
+          <feedback><p>While this is true, <m>0.70</m> is less than <m>1</m>. So this is not considered scientific notation.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p><m>7.0 \times 10^{1}</m></p></statement>
+          <feedback><p>While the decimal moved one, it was moved to the right which results in a negative power of 10.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p><m>7.0 \times 10^{-1}</m></p></statement>
+          <feedback><p>Correct! <m>0.70 = 7.0 \times 10^{-1}</m></p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p><m>0.70 \times 10^{1}</m></p></statement>
+          <feedback><p>Your digital blade missed the mark, try again. That's <m>7.0</m>, not <m>0.70</m>. Also, <m>0.70</m> is less than <m>1</m></p></feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep q04 -->
+    <exercise>
+      <statement>
+        <p>Convert <m>4,242</m> to scientific notation.</p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="no">
+          <statement><p><m>4.242 \times 10^{4}</m></p></statement>
+          <feedback><p>While this is true, <m>0.70</m> is less than <m>1</m>. So this is not considered scientific notation.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p><m>4.242 \times 10^{-3}</m></p></statement>
+          <feedback><p>While the decimal moved three, it was moved to the left which results in a positive power of 10.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p><m>4.242 \times 10^{3}</m></p></statement>
+          <feedback><p>Correct! <m>4,242 = 4.242 \times 10^{3}</m></p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p><m>4.242 \times 10^{-4}</m></p></statement>
+          <feedback><p>Your digital blade missed the mark, try again. That's <m>7.0</m>, not <m>0.70</m>. Also, <m>0.70</m> is less than <m>1</m></p></feedback>
+        </choice>
+      </choices>
+    </exercise>
+
+
+
+
+
+
+
+
+    <p><term> Convert scientific notation to standard notation. </term></p>
+
 
   </section>
 
