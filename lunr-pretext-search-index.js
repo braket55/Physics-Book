@@ -15,8 +15,17 @@ var ptx_lunr_docs = [
   "url": "ch-prep-sci-not.html",
   "type": "Chapter",
   "number": "1.2",
-  "title": "Scientific Notation Prep",
-  "body": " Scientific Notation Prep    Prep Text: Scientific Notation  To wield scientific notation properly, follow these arcane guidelines:    Find the coefficient. Move the decimal point so the number becomes at least 1 but less than 10. This becomes the coefficient . For example, becomes .    Count the decimal steps. Count how many places you moved the decimal. That number becomes the exponent on your power of ten. If you moved the decimal to the left, the exponent is positive . If you moved it to the right, the exponent is negative .    Check your form. The final expression should look like , where and is an integer.      Convert to scientific notation.    The decimal point would need to move to the left by 4 places.       Move the decimal 4 places to the left: .      Convert to scientific notation.    The decimal point would need to move to the right by 5 places.       Move the decimal 5 places to the right: .    Why Use It?  Imagine trying to write the mass of the Earth (~ kg) or the mass of an electron (~ kg) without magical shorthand! Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.  Bonus Trick: Comparing Powers  Scientific notation reveals orders of magnitude . Two numbers differ by one order of magnitude for every tenfold difference. A dragon's hoard of gold coins is three orders of magnitude larger than a goblin's pouch of .  A Final Word from the Grand Mathemagician  With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement. Write your numbers with care, check your powers of ten, and let no zero go unwielded.    Prep Questions: Scientific Notation   Convert standard notation to scientific notation.    Convert to scientific notation.      While this is true, is greater than . So this is not considered scientific notation.     While the decimal moved three, it was moved to the right which results in a negative power of 10.     Correct!     Your digital blade missed the mark, try again. That's , not .        Convert to scientific notation.      Your digital blade missed the mark, try again. is missing something.     While the decimal moved 6, it was moved to the right which results in a negative power of 10.     Correct!     Your enchanted click missed the mark, try again. That's , not .        Convert to scientific notation.      While this is true, is less than . So this is not considered scientific notation.     While the decimal moved one, it was moved to the right which results in a negative power of 10.     Correct!     Your digital blade missed the mark, try again. That's , not . Also, is less than     Convert scientific notation to standard notation.   "
+  "title": "Prep",
+  "body": " Prep    Prep Text: Scientific Notation  To wield scientific notation properly, follow these arcane guidelines:    Find the coefficient. Move the decimal point so the number becomes at least 1 but less than 10. This becomes the coefficient . For example, becomes .    Count the decimal steps. Count how many places you moved the decimal. That number becomes the exponent on your power of ten. If you moved the decimal to the left, the exponent is positive . If you moved it to the right, the exponent is negative .    Check your form. The final expression should look like , where and is an integer.      Convert to scientific notation.    The decimal point would need to move to the left by 4 places.       To write in scientific notation, move the decimal point four places to the left to place it after the first nonzero digit. This gives . Since the decimal moved four places, the exponent on 10 is 4.  So, .      Convert to scientific notation.    The decimal point would need to move to the right by 6 places.       To write in scientific notation, move the decimal point six places to the right to place it after the first nonzero digit. This gives . Because the decimal moved to the right, the exponent is negative.  So, .    Why Use It?  Imagine trying to write the mass of the Earth (~ kg) or the mass of an electron (~ kg) without magical shorthand! Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.  Bonus Trick: Comparing Powers  Scientific notation reveals orders of magnitude . Two numbers differ by one order of magnitude for every tenfold difference. A dragon's hoard of gold coins is three orders of magnitude larger than a goblin's pouch of .  A Parting Word  With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement. Write your numbers with care, check your powers of ten, and let no zero go unwielded.    Prep Questions: Scientific Notation   Convert standard notation to scientific notation.     Convert to scientific notation.      Correct!     Your targeting system glitched, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your enchanted click missed the mark, try again. The decimal moved left, so the power should be negative.     Your digital blade missed the mark, try again. is smaller than .        Convert to scientific notation.      Correct!     Your targeting system glitched, try again. You left out a digit—don’t forget the .     Your enchanted click missed the mark, try again. The decimal moved left, so the exponent should be negative.     Your digital blade missed the mark, try again. That gives , not .        Convert to scientific notation.      Correct!     Your targeting system glitched, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your enchanted click missed the mark, try again. The decimal moved left, so the exponent should be negative.     Your digital blade missed the mark, try again. That equals , not .        Convert to scientific notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully, it should move 3, not 4.     Your enchanted click missed the mark, try again. The decimal moved right, so the exponent should be positive.     Your digital blade missed the mark, try again. Count your decimal places carefully, and remember if the decimal moved right then exponent should be positive.        Convert to scientific notation.      Correct!     Your targeting system glitched, try again. That equals , not .     Your enchanted click missed the mark, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your digital blade missed the mark, try again. The decimal moved right, so the exponent should be positive.        Convert to scientific notation.      Correct!     Your targeting system glitched, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your enchanted click missed the mark, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your digital blade missed the mark, try again. That equals , not .      Convert scientific notation to standard notation.     Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.     Your digital blade missed the mark, try again. The exponent is negative, so the decimal should move to the left.        Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.     Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.        Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.     Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.        Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.     Your digital blade missed the mark, try again. The exponent is negative, so the decimal should move to the left.        Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.     Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.        Convert to standard notation.      Correct!     Your targeting system glitched, try again. Recall any nonzero number raised to is equal to .     Your enchanted click missed the mark, try again. Recall any nonzero number raised to is equal to .     Your digital blade missed the mark, try again. Recall any nonzero number raised to is equal to .      "
+},
+{
+  "id": "sec-prep-sci-not-text-2",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-text-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "To wield scientific notation properly, follow these arcane guidelines: "
 },
 {
   "id": "sec-prep-sci-not-text-4",
@@ -25,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.1",
   "title": "",
-  "body": "  Convert to scientific notation.    The decimal point would need to move to the left by 4 places.       Move the decimal 4 places to the left: .   "
+  "body": "  Convert to scientific notation.    The decimal point would need to move to the left by 4 places.       To write in scientific notation, move the decimal point four places to the left to place it after the first nonzero digit. This gives . Since the decimal moved four places, the exponent on 10 is 4.  So, .   "
 },
 {
   "id": "sec-prep-sci-not-text-5",
@@ -34,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.2",
   "title": "",
-  "body": "  Convert to scientific notation.    The decimal point would need to move to the right by 5 places.       Move the decimal 5 places to the right: .   "
+  "body": "  Convert to scientific notation.    The decimal point would need to move to the right by 6 places.       To write in scientific notation, move the decimal point six places to the right to place it after the first nonzero digit. This gives . Because the decimal moved to the right, the exponent is negative.  So, .   "
 },
 {
   "id": "sec-prep-sci-not-text-6",
@@ -61,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "A Final Word from the Grand Mathemagician "
+  "body": "A Parting Word "
 },
 {
   "id": "sec-prep-sci-not-questions-2",
@@ -79,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.1",
   "title": "",
-  "body": "  Convert to scientific notation.      While this is true, is greater than . So this is not considered scientific notation.     While the decimal moved three, it was moved to the right which results in a negative power of 10.     Correct!     Your digital blade missed the mark, try again. That's , not .    "
+  "body": "  Convert to scientific notation.      Correct!     Your targeting system glitched, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your enchanted click missed the mark, try again. The decimal moved left, so the power should be negative.     Your digital blade missed the mark, try again. is smaller than .    "
 },
 {
   "id": "sec-prep-sci-not-questions-4",
@@ -88,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.2",
   "title": "",
-  "body": "  Convert to scientific notation.      Your digital blade missed the mark, try again. is missing something.     While the decimal moved 6, it was moved to the right which results in a negative power of 10.     Correct!     Your enchanted click missed the mark, try again. That's , not .    "
+  "body": "  Convert to scientific notation.      Correct!     Your targeting system glitched, try again. You left out a digit—don’t forget the .     Your enchanted click missed the mark, try again. The decimal moved left, so the exponent should be negative.     Your digital blade missed the mark, try again. That gives , not .    "
 },
 {
   "id": "sec-prep-sci-not-questions-5",
@@ -97,16 +106,97 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.3",
   "title": "",
-  "body": "  Convert to scientific notation.      While this is true, is less than . So this is not considered scientific notation.     While the decimal moved one, it was moved to the right which results in a negative power of 10.     Correct!     Your digital blade missed the mark, try again. That's , not . Also, is less than    "
+  "body": "  Convert to scientific notation.      Correct!     Your targeting system glitched, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your enchanted click missed the mark, try again. The decimal moved left, so the exponent should be negative.     Your digital blade missed the mark, try again. That equals , not .    "
 },
 {
   "id": "sec-prep-sci-not-questions-6",
   "level": "2",
   "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-6",
+  "type": "Checkpoint",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  Convert to scientific notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully, it should move 3, not 4.     Your enchanted click missed the mark, try again. The decimal moved right, so the exponent should be positive.     Your digital blade missed the mark, try again. Count your decimal places carefully, and remember if the decimal moved right then exponent should be positive.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-7",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-7",
+  "type": "Checkpoint",
+  "number": "1.2.5",
+  "title": "",
+  "body": "  Convert to scientific notation.      Correct!     Your targeting system glitched, try again. That equals , not .     Your enchanted click missed the mark, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your digital blade missed the mark, try again. The decimal moved right, so the exponent should be positive.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-8",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-8",
+  "type": "Checkpoint",
+  "number": "1.2.6",
+  "title": "",
+  "body": "  Convert to scientific notation.      Correct!     Your targeting system glitched, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your enchanted click missed the mark, try again. While , the coefficient must be greater than or equal to and less than for scientific notation.     Your digital blade missed the mark, try again. That equals , not .    "
+},
+{
+  "id": "sec-prep-sci-not-questions-9",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-9",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Convert scientific notation to standard notation. "
+},
+{
+  "id": "sec-prep-sci-not-questions-10",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-10",
+  "type": "Checkpoint",
+  "number": "1.2.7",
+  "title": "",
+  "body": "  Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.     Your digital blade missed the mark, try again. The exponent is negative, so the decimal should move to the left.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-11",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-11",
+  "type": "Checkpoint",
+  "number": "1.2.8",
+  "title": "",
+  "body": "  Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.     Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-12",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-12",
+  "type": "Checkpoint",
+  "number": "1.2.9",
+  "title": "",
+  "body": "  Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.     Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-13",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-13",
+  "type": "Checkpoint",
+  "number": "1.2.10",
+  "title": "",
+  "body": "  Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.     Your digital blade missed the mark, try again. The exponent is negative, so the decimal should move to the left.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-14",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-14",
+  "type": "Checkpoint",
+  "number": "1.2.11",
+  "title": "",
+  "body": "  Convert to standard notation.      Correct!     Your targeting system glitched, try again. Count your decimal places carefully.     Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.     Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.    "
+},
+{
+  "id": "sec-prep-sci-not-questions-15",
+  "level": "2",
+  "url": "ch-prep-sci-not.html#sec-prep-sci-not-questions-15",
+  "type": "Checkpoint",
+  "number": "1.2.12",
+  "title": "",
+  "body": "  Convert to standard notation.      Correct!     Your targeting system glitched, try again. Recall any nonzero number raised to is equal to .     Your enchanted click missed the mark, try again. Recall any nonzero number raised to is equal to .     Your digital blade missed the mark, try again. Recall any nonzero number raised to is equal to .    "
 },
 {
   "id": "ch-explore-sci-not",
@@ -114,8 +204,8 @@ var ptx_lunr_docs = [
   "url": "ch-explore-sci-not.html",
   "type": "Chapter",
   "number": "1.3",
-  "title": "Scientific Notation Explore",
-  "body": " Scientific Notation Explore   Explore Text: Scientific Notation  Text of section.     The statement is required if a hint, answer, or solution is present.    Just a suggestion of what to try.    Just the final answer.    All the gory details.      The statement is required if a hint, answer, or solution is present.    Just a suggestion of what to try.    Just the final answer.    All the gory details.    "
+  "title": "Explore",
+  "body": " Explore   Explore Text: Scientific Notation  Text of section.     The statement is required if a hint, answer, or solution is present.    Just a suggestion of what to try.    Just the final answer.    All the gory details.      The statement is required if a hint, answer, or solution is present.    Just a suggestion of what to try.    Just the final answer.    All the gory details.    "
 },
 {
   "id": "ch-explore-sci-not-3",
