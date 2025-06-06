@@ -6,26 +6,78 @@
   <p> Text of section. </p>
 
   <section xml:id="practice-sci-not">
-      <title>Practice</title>
-      <p>This is the Prep SubSection in this chapter.</p>
+      <title>Practice: Scientific Notation</title>
+      <p>Extra questions to help level up your abilities.</p>
 
-      <exercise>
-        <statement>
-          <p>The statement is required if a hint, answer, or solution is present.</p>
-        </statement>
+       <!-- Practice Question 01 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 0.0072 to scientific notation.
+                </p>
+            </statement>
 
-        <hint>
-          <p>Just a suggestion of what to try.</p>
-        </hint>
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>7.2 \times 10^{-3}</m>
+                        </p>
+                    </statement>
 
-        <answer>
-          <p>Just the final answer.</p>
-        </answer>
+                    <feedback>
+                        <p>
+                            Correct! <m>0.0072 = 7.2 \times 10^{-3}</m>
+                        </p>
+                    </feedback>
+                </choice>
 
-        <solution>
-          <p>All the gory details.</p>
-        </solution>
-      </exercise>
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>72 \times 10^{-4}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            While <m>72 \times 10^{-4} = 0.0072</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.2 \times 10^{3}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved left, so the power should be negative.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.2 \times 10^{-2}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            0.0072 is smaller than 0.072.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
 
   </section>
 

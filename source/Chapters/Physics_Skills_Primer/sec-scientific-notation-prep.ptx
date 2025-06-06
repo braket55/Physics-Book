@@ -1,415 +1,987 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Prep</title>
+    <title>Prep</title>
 
-<!--
-  <section xml:id="sec-prep-sci-not-video">
-    <title>Prep Video: Scientific Notation</title>
-    <video youtube="2ilCSXm7iMQ">
-      <title>Great Example of Interference</title>
-    </video>
-  </section>
--->
+    <!--
+    <section xml:id="sec-prep-sci-not-video">
+        <title>Prep Video: Scientific Notation</title>
 
-  <section xml:id="sec-prep-sci-not-text">
-    <title>Prep Text: Scientific Notation</title>
+        <video youtube="2ilCSXm7iMQ">
+        <title>Great Example of Interference</title>
 
-    <p><term>To wield scientific notation properly, follow these arcane guidelines:</term></p>
+        </video>
+    </section>
+    -->
+    <section xml:id="sec-prep-sci-not-text">
+        <title>Prep Text: Scientific Notation</title>
 
-    <ol>
-      <li>
-        <p><em>Find the coefficient.</em> Move the decimal point so the number becomes at least 1 but less than 10.
-        This becomes the <em>coefficient</em>. For example, <m>32{,}700</m> becomes <m>3.27</m>.</p>
-      </li>
-      <li>
-        <p><em>Count the decimal steps.</em> Count how many places you moved the decimal. That number becomes the exponent on your power of ten.
-        If you moved the decimal to the left, the exponent is <em>positive</em>. If you moved it to the right, the exponent is <em>negative</em>.</p>
-      </li>
-      <li>
-        <p><em>Check your form.</em> The final expression should look like <m>a \times 10^n</m>, where <m>1 \leq |a| &lt; 10</m> and <m>n</m> is an integer.</p>
-      </li>
-    </ol>
-
-    <exercise>
-      <statement>
-        <p>Convert <m>32,700</m> to scientific notation.</p>
-      </statement>
-      <hint>
-        <p>The decimal point would need to move to the left by 4 places.</p>
-      </hint>
-      <answer>
-        <p><m>3.27 \times 10^4</m></p>
-      </answer>
-      <solution>
         <p>
-          To write <m>32,700</m> in scientific notation, move the decimal point 
-          <em>four places to the left</em> to place it after the first nonzero digit.
-          This gives <m>3.27</m>. Since the decimal moved four places, the exponent on 10 is 4.
+            <term>To wield scientific notation properly, follow these arcane guidelines:</term>
         </p>
+
+        <ol>
+            <li>
+                <p>
+                    <em>Find the coefficient.</em> Move the decimal point so the number becomes at least 1 but less than 10. This becomes the <em>coefficient</em>. For example, 32,700 becomes "3.27".
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Count the decimal steps.</em> Count how many places you moved the decimal. That number becomes the exponent on your power of ten. If you moved the decimal to the left, the exponent is <em>positive</em>. If you moved it to the right, the exponent is <em>negative</em>.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Check your form.</em> The final expression should look like <m>a \times 10^n</m>, where <m>1 \leq |a| &lt; 10</m> and <m>n</m> is an integer.
+                </p>
+            </li>
+        </ol>
+        <!-- Checkpoint Question 01 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 32,700 to scientific notation.
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    The decimal point would need to move to the left by 4 places.
+                </p>
+            </hint>
+
+            <answer>
+                <p>
+                    <m>3.27 \times 10^4</m>
+                </p>
+            </answer>
+
+            <solution>
+                <p>
+                    To write 32,700 in scientific notation, move the decimal point <em>four places to the left</em> to place it after the first nonzero digit.
+                    This gives "3.27".
+                    Since the decimal moved left by four places, the exponent on 10 is 4.
+                </p>
+
+                <p>
+                    So, <m>32,700 = 3.27 \times 10^4</m>.
+                </p>
+            </solution>
+        </exercise>
+        <!-- Checkpoint Question 02 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 0.0000089 to scientific notation.
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    The decimal point would need to move to the right by 6 places.
+                </p>
+            </hint>
+
+            <answer>
+                <p>
+                    <m>8.9 \times 10^{-6}</m>
+                </p>
+            </answer>
+
+            <solution>
+                <p>
+                    To write 0.0000089 in scientific notation, move the decimal point <em>six places to the right</em> to place it after the first nonzero digit.
+                    This gives "8.9".
+                    Because the decimal moved right by six places, the exponent on 10 is -6.
+                </p>
+
+                <p>
+                    So, <m>0.0000089 = 8.9 \times 10^{-6}</m>.
+                </p>
+            </solution>
+        </exercise>
+
         <p>
-          So, <m>32,700 = 3.27 \times 10^4</m>.
+            <term>Why Use It?</term>
         </p>
-      </solution>
-    </exercise>
 
-    <exercise>
-      <statement>
-        <p>Convert <m>0.0000089</m> to scientific notation.</p>
-      </statement>
-      <hint>
-        <p>The decimal point would need to move to the right by 6 places.</p>
-      </hint>
-      <answer>
-        <p><m>8.9 \times 10^{-6}</m></p>
-      </answer>
-      <solution>
         <p>
-          To write <m>0.0000089</m> in scientific notation, move the decimal point 
-          <em>six places to the right</em> to place it after the first nonzero digit. 
-          This gives <m>8.9</m>. Because the decimal moved to the right, the exponent is negative.
+            Imagine trying to write the mass of the Earth (~<m>5.97 \times 10^{24}</m> kg) or the mass of an electron (~<m>9.1 \times 10^{-31}</m> kg) without magical shorthand! Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.
         </p>
+
         <p>
-          So, <m>0.0000089 = 8.9 \times 10^{-6}</m>.
+            <term>Bonus Trick: Comparing Powers</term>
         </p>
-      </solution>
-    </exercise>
 
-    <p><term>Why Use It?</term></p>
-    <p>
-      Imagine trying to write the mass of the Earth (~<m>5.97 \times 10^{24}</m> kg) or the mass of an electron
-      (~<m>9.1 \times 10^{-31}</m> kg) without magical shorthand!
-      Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.
-    </p>
+        <p>
+            Scientific notation reveals <em>orders of magnitude</em>.
+            Two numbers differ by one order of magnitude for every tenfold difference.
+            A dragon's hoard of <m>1 \times 10^6</m> gold coins is <em>three orders of magnitude</em> larger than a goblin's pouch of <m>1 \times 10^3</m>.
+        </p>
 
-    <p><term>Bonus Trick: Comparing Powers</term></p>
-    <p>
-      Scientific notation reveals <em>orders of magnitude</em>.
-      Two numbers differ by one order of magnitude for every tenfold difference.
-      A dragon's hoard of <m>1 \times 10^6</m> gold coins is
-      <em>three orders of magnitude</em> larger than a goblin's pouch of <m>1 \times 10^3</m>.
-    </p>
+        <p>
+            <term>A Parting Word</term>
+        </p>
 
-    <p><term>A Parting Word</term></p>
-    <p>
-      With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement.
-      Write your numbers with care, check your powers of ten, and let no zero go unwielded.
-    </p>
-  </section>
+        <p>
+            With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement.
+            Write your numbers with care, check your powers of ten, and let no zero go unwielded.
+        </p>
+    </section>
 
-  <section xml:id="sec-prep-sci-not-questions">
-    <title>Prep Questions: Scientific Notation</title>
+    <section xml:id="sec-prep-sci-not-questions">
+        <title>Prep Questions: Scientific Notation</title>
 
-    <!-- CONVERT FROM STANDARD TO SCIENTIFIC NOTATION -->
-    <p><term> Convert standard notation to scientific notation. </term></p>
-    
-    <!-- Prep Question 01 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>0.0072</m> to scientific notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>7.2 \times 10^{-3}</m></p></statement>
-          <feedback><p>Correct! <m>0.0072 = 7.2 \times 10^{-3}</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>72 \times 10^{-4}</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. While <m>72 \times 10^{-4} = 0.0072</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>7.2 \times 10^{3}</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. The decimal moved left, so the power should be negative.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>7.2 \times 10^{-2}</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. <m>0.0072</m> is smaller than <m>0.072</m>.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+        <!-- CONVERT FROM STANDARD TO SCIENTIFIC NOTATION -->
+        <p>
+            <term> Convert standard notation to scientific notation. </term>
+        </p>
+        <!-- Prep Question 01 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 0.0072 to scientific notation.
+                </p>
+            </statement>
 
-<!-- Prep Question 02 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>0.00000702</m> to scientific notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>7.02 \times 10^{-6}</m></p></statement>
-          <feedback><p>Correct! <m>0.00000702 = 7.02 \times 10^{-6}</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>7.0 \times 10^{-6}</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. You left out a digit—don’t forget the <m>2</m>.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>7.02 \times 10^{6}</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. The decimal moved left, so the exponent should be negative.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>7.02 \times 10^{-5}</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. That gives <m>0.0000702</m>, not <m>0.00000702</m>.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>7.2 \times 10^{-3}</m>
+                        </p>
+                    </statement>
 
+                    <feedback>
+                        <p>
+                            Correct! <m>0.0072 = 7.2 \times 10^{-3}</m>
+                        </p>
+                    </feedback>
+                </choice>
 
-<!-- Prep Question 03 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>0.70</m> to scientific notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>7.0 \times 10^{-1}</m></p></statement>
-          <feedback><p>Correct! <m>0.70 = 7.0 \times 10^{-1}</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.70 \times 10^{0}</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. While <m>0.70 \times 10^{0} = 0.70</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>7.0 \times 10^{1}</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. The decimal moved left, so the exponent should be negative.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.70 \times 10^{1}</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. That equals <m>7.0</m>, not <m>0.70</m>.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>72 \times 10^{-4}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            While <m>72 \times 10^{-4} = 0.0072</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.2 \times 10^{3}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved left, so the power should be negative.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.2 \times 10^{-2}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            0.0072 is smaller than 0.072.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 02 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>0.00000702</m> to scientific notation.
+                </p>
+            </statement>
 
 
-<!-- Prep Question 04 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>4,242</m> to scientific notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>4.242 \times 10^{3}</m></p></statement>
-          <feedback><p>Correct! <m>4,242 = 4.242 \times 10^{3}</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>4.242 \times 10^{4}</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Count your decimal places carefully, it should move 3, not 4.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>4.242 \times 10^{-3}</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. The decimal moved right, so the exponent should be positive.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>4.242 \times 10^{-4}</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. Count your decimal places carefully, and remember if the decimal moved right then exponent should be positive.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>7.02 \times 10^{-6}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>0.00000702 = 7.02 \times 10^{-6}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.0 \times 10^{-6}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            You left out a digit—don't forget the 2.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.02 \times 10^{6}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved left, so the exponent should be negative.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.02 \times 10^{-5}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            That gives 0.0000702, not 0.00000702.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 03 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 0.70 to scientific notation.
+                </p>
+            </statement>
 
 
-<!-- Prep Question 05 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>10.0</m> to scientific notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>1.0 \times 10^{1}</m></p></statement>
-          <feedback><p>Correct! <m>10.0 = 1.0 \times 10^{1}</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>1.0 \times 10^{0}</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. That equals <m>1.0</m>, not <m>10.0</m>.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>10.0 \times 10^{0}</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. While <m>10.0 \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>1.0 \times 10^{-1}</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. The decimal moved right, so the exponent should be positive.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>7.0 \times 10^{-1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>0.70 = 7.0 \times 10^{-1}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>0.70 \times 10^{0}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            While <m>0.70 \times 10^{0} = 0.70</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>7.0 \times 10^{1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved left, so the exponent should be negative.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>0.70 \times 10^{1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            That equals 7.0, not 0.70.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 04 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 4,242 to scientific notation.
+                </p>
+            </statement>
 
 
-<!-- Prep Question 06 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>1.0</m> to scientific notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>1.0 \times 10^{0}</m></p></statement>
-          <feedback><p>Correct! <m>1.0 = 1.0 \times 10^{0}</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>10. \times 10^{-1}</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. While <m>10. \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.10 \times 10^{1}</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. While <m>0.10 \times 10^{0} = 1.0</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>1.0 \times 10^{1}</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. That equals <m>10.0</m>, not <m>1.0</m>.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>4.242 \times 10^{3}</m>
+                        </p>
+                    </statement>
 
-    <!-- CONVERT FROM SCIENTIFIC NOTATION TO STANDARD -->
-    <p><term> Convert scientific notation to standard notation. </term></p>
+                    <feedback>
+                        <p>
+                            Correct! <m>4,242 = 4.242 \times 10^{3}</m>
+                        </p>
+                    </feedback>
+                </choice>
 
-    <!-- Prep Question 07 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>6.23 \times 10^{-2}</m> to standard notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>0.0623</m></p></statement>
-          <feedback><p>Correct! <m>6.23 \times 10^{-2} = 0.0632</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.00623</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Count your decimal places carefully.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>6230</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>623</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. The exponent is negative, so the decimal should move to the left.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>4.242 \times 10^{4}</m>
+                        </p>
+                    </statement>
 
-    <!-- Prep Question 08 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>42 \times 10^{3}</m> to standard notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>42000</m></p></statement>
-          <feedback><p>Correct! <m>42 \times 10^{3} = 42000</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>4200</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Count your decimal places carefully.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.00042</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.042</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Count your decimal places carefully, it should move 3, not 4.
+                        </p>
+                    </feedback>
+                </choice>
 
-    <!-- Prep Question 09 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>5.02 \times 10^{1}</m> to standard notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>50.2</m></p></statement>
-          <feedback><p>Correct! <m>5.02 \times 10^{1} = 50.2</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>502</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Count your decimal places carefully.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.0502</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.502</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>4.242 \times 10^{-3}</m>
+                        </p>
+                    </statement>
 
-    <!-- Prep Question 10 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>5122 \times 10^{-3}</m> to standard notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>5.122</m></p></statement>
-          <feedback><p>Correct! <m>5122 \times 10^{-3} = 5.122</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>51.22</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Count your decimal places carefully.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>512200</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>5122000</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. The exponent is negative, so the decimal should move to the left.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved right, so the exponent should be positive.
+                        </p>
+                    </feedback>
+                </choice>
 
-    <!-- Prep Question 11 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>3 \times 10^{1}</m> to standard notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>30</m></p></statement>
-          <feedback><p>Correct! <m>3 \times 10^{1} = 30</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>300</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Count your decimal places carefully.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.003</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.03</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. The exponent is positive, so the decimal should move to the right.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>4.242 \times 10^{-4}</m>
+                        </p>
+                    </statement>
 
-    <!-- Prep Question 12 -->
-    <exercise>
-      <statement>
-        <p>Convert <m>7.55 \times 10^{0}</m> to standard notation.</p>
-      </statement>
-      <choices randomize="yes">
-        <choice correct="yes">
-          <statement><p><m>7.55</m></p></statement>
-          <feedback><p>Correct! <m>7.55 \times 10^{0} = 7.55</m></p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0</m></p></statement>
-          <feedback><p>Your targeting system glitched, try again. Recall any nonzero number raised to <m>0</m> is equal to <m>1</m>.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>75.5</m></p></statement>
-          <feedback><p>Your enchanted click missed the mark, try again. Recall any nonzero number raised to <m>0</m> is equal to <m>1</m>.</p></feedback>
-        </choice>
-        <choice correct="no">
-          <statement><p><m>0.755</m></p></statement>
-          <feedback><p>Your digital blade missed the mark, try again. Recall any nonzero number raised to <m>0</m> is equal to <m>1</m>.</p></feedback>
-        </choice>
-      </choices>
-    </exercise>
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Count your decimal places carefully, and remember if the decimal moved right then exponent should be positive.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 05 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 10.0 to scientific notation.
+                </p>
+            </statement>
 
-  </section>
 
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>1.0 \times 10^{1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>10.0 = 1.0 \times 10^{1}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>1.0 \times 10^{0}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            That equals 1.0, not 10.0.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>10.0 \times 10^{0}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            While <m>10.0 \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>1.0 \times 10^{-1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The decimal moved right, so the exponent should be positive.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 06 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert 1.0 to scientific notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>1.0 \times 10^{0}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>1.0 = 1.0 \times 10^{0}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>10. \times 10^{-1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            While <m>10.
+                            \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>0.10 \times 10^{1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            While <m>0.10 \times 10^{0} = 1.0</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>1.0 \times 10^{1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            That equals 10.0, not 1.0.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- CONVERT FROM SCIENTIFIC NOTATION TO STANDARD -->
+        <p>
+            <term> Convert scientific notation to standard notation. </term>
+        </p>
+        <!-- Prep Question 07 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>6.23 \times 10^{-2}</m> to standard notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            0.0623
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>6.23 \times 10^{-2} = 0.0632</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.00623
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Count your decimal places carefully.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            6230
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            623
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The exponent is negative, so the decimal should move to the left.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 08 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>42 \times 10^{3}</m> to standard notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            42000
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>42 \times 10^{3} = 42000</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            4200
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Count your decimal places carefully.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.00042
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.042
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The exponent is positive, so the decimal should move to the right.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 09 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>5.02 \times 10^{1}</m> to standard notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            50.2
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>5.02 \times 10^{1} = 50.2</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            502
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Count your decimal places carefully.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.0502
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.502
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The exponent is positive, so the decimal should move to the right.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 10 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>5122 \times 10^{-3}</m> to standard notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            5.122
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>5122 \times 10^{-3} = 5.122</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            51.22
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Count your decimal places carefully.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            512200
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Count your decimal places carefully and recall that if the exponent is negative the decimal should move to the left.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            5122000
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The exponent is negative, so the decimal should move to the left.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 11 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>3 \times 10^{1}</m> to standard notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            30
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>3 \times 10^{1} = 30</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            300
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Count your decimal places carefully.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.003
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Count your decimal places carefully and recall that if the exponent is positive the decimal should move to the right.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.03
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The exponent is positive, so the decimal should move to the right.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 12 -->
+        <exercise>
+            <statement>
+                <p>
+                    Convert <m>7.55 \times 10^{0}</m> to standard notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            7.55
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>7.55 \times 10^{0} = 7.55</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Recall any nonzero number raised to 0 is equal to 1.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            75.5
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Recall any nonzero number raised to 0 is equal to 1.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.755
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Recall any nonzero number raised to0 is equal to 1.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+    </section>
 </chapter>
