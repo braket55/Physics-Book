@@ -119,7 +119,13 @@
         <p>
             Scientific notation reveals <em>orders of magnitude</em>.
             Two numbers differ by one order of magnitude for every tenfold difference.
-            A dragon's hoard of <m>1 \times 10^6</m> gold coins is <em>three orders of magnitude</em> larger than a goblin's pouch of <m>1 \times 10^3</m>.
+            A dragon's hoard of <m>4.2 \times 10^6</m> gold coins is <em>about three orders of magnitude</em> larger than a goblin's pouch of <m>1.7 \times 10^3</m>.
+            3 was obtained by subtracting the exponents (6 - 3 = 3).
+        </p>
+
+        <p>
+            Likewise, a nanobot's processor that uses <m>3.0 \times 10^{-9}</m> joules per operation is <em>about two orders of magnitude</em> smaller than a clunky space probe core drawing <m>1 \times 10^{-7}</m> joules per operation.
+            2 was obtained by subtracting the exponents (-9 - (-7) = -2).
         </p>
 
         <p>
@@ -146,6 +152,7 @@
                     Convert 0.0072 to scientific notation.
                 </p>
             </statement>
+
 
             <choices randomize="yes">
                 <choice correct="yes">
@@ -202,7 +209,7 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            0.0072 is smaller than 0.072.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
@@ -272,7 +279,7 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That gives 0.0000702, not 0.00000702.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
@@ -382,7 +389,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Count your decimal places carefully, it should move 3, not 4.
+                            Try counting the decimal places again. 
                         </p>
                     </feedback>
                 </choice>
@@ -597,7 +604,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Count your decimal places carefully.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
@@ -667,7 +674,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Count your decimal places carefully.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
@@ -737,7 +744,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Count your decimal places carefully.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
@@ -807,7 +814,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Count your decimal places carefully.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
@@ -877,7 +884,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Count your decimal places carefully.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>

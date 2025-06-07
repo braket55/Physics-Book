@@ -9,8 +9,7 @@
         <p>
             Extra questions to help level up your abilities.
         </p>
-        <!-- Practice Question 01 -->
-        <!-- Distance from Earth to Pluto -->
+        <!-- Practice Question 01 --> <!-- Distance from Earth to Pluto -->
         <exercise xml:id ="practice-sci-not-01">
             <statement>
                 <p>
@@ -75,14 +74,13 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            <m>5.9 \times 10^8 = 590,000,000</m>, which is smaller than 5,900,000,000.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 02-->
-        <!-- Distance from Earth to Proxima Centauri -->
+        <!-- Practice Question 02--> <!-- Distance from Earth to Proxima Centauri -->
         <exercise xml:id ="practice-sci-not-02">
             <statement>
                 <p>
@@ -140,21 +138,20 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>4.02 \times 10^{12}</m>
+                            <m>4.02 \times 10^{11}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            <m>4.02 \times 10^{12} = 4,020,000,000,000</m>, which is smaller than 40,200,000,000,000.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 03-->
-        <!-- Distance from Milky Way to Andromeda Galaxy -->
+        <!-- Practice Question 03--> <!-- Distance from Milky Way to Andromeda Galaxy -->
         <exercise xml:id ="practice-sci-not-03">
             <statement>
                 <p>
@@ -219,14 +216,13 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            <m>2.5 \times 10^{17} = 250,000,000,000,000,000</m>, which is smaller than 2,500,000,000,000,000,000.
+                            Try counting the decimal places again.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 04-->
-        <!-- Diameter of a Hydrogen Atom --> 
+        <!-- Practice Question 04--> <!-- Diameter of a Hydrogen Atom -->
         <exercise xml:id ="practice-sci-not-04">
             <statement>
                 <p>
@@ -291,14 +287,13 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That’s one place too far! The exponent is -11, not -13.
+                            That's one place too far! The exponent is -11, not -13.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 05 -->
-        <!-- Planck Length -->
+        <!-- Practice Question 05 --> <!-- Planck Length -->
         <exercise xml:id ="practice-sci-not-05">
             <statement>
                 <p>
@@ -363,7 +358,78 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That's 42 places, we see what you did there.  Try again.
+                            That's 42 places, we see what you did there.
+                            Try again.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 06 --> <!-- Order of Magnitude (Earth/Proxima Centauri) and (Milky Way/Andromeda Galaxy) -->
+        <exercise xml:id ="practice-sci-not-06">
+            <statement>
+                <p>
+                    About how many orders of magnitude larger is the distance from Milky Way to Andromeda Galaxy compared to the distanced from Earth to Proxima Centauri? <em>Use questions <xref ref="practice-sci-not-02"/> and <xref ref="practice-sci-not-03"/> to help.</em>
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            5
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! (18-13) = 5 orders of magnitude.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            31
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            You added the exponents, try subtracting.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            1.38
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            You divided the exponents, try subtracting.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.722
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            You divided the exponents, try subtracting.
                         </p>
                     </feedback>
                 </choice>
