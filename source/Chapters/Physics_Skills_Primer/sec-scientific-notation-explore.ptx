@@ -25,10 +25,11 @@
         <page>
             <pagebreak/> 
             <!-- Worksheet Exercise 01 -->
-            <exercise workspace="0.2in">
+            <!-- Influenza virus size -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-01">
                 <statement>
                     <p>
-                        The influenze virus can have a diameter of about 0.000000099 meters.
+                        The influenza virus can have a diameter of about 0.000000099 meters.
                         Convert 0.000000099 to scientific notation.
                     </p>
                 </statement>
@@ -58,7 +59,8 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 02 -->
-            <exercise workspace="0.2in">
+            <!-- Human hair diameter -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-02">
                 <statement>
                     <p>
                         A strand of human hair is about 0.00007 meters in diameter.
@@ -91,7 +93,8 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 03 -->
-            <exercise workspace="0.2in">
+            <!-- Grain of sand diameter -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-03">
                 <statement>
                     <p>
                         A grain of sand can be about 0.0012 meters in diameter.
@@ -124,7 +127,8 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 04 -->
-            <exercise workspace="0.2in">
+            <!-- Average human height -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-04">
                 <statement>
                     <p>
                         An average adult human might be about 1.75 meters tall.
@@ -156,7 +160,8 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 05 -->
-            <exercise workspace="0.2in">
+            <!-- Empire State Building height -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-05">
                 <statement>
                     <p>
                         The Empire State Building in New York City is about <m>3.81 \times 10^{2}</m> meters tall.
@@ -188,11 +193,12 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 06 -->
-            <exercise workspace="0.2in">
+            <!-- Mount Everest height -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-06">
                 <statement>
                     <p>
                         Mount Everest is approximately <m>8.85 \times 10^{3}</m> meters tall.
-                        Convert <m>8.85 \times 10^{3}</m> to standard decimal notation.
+                        Convert <m>8.85 \times 10^{3}</m> to standard notation.
                     </p>
                 </statement>
 
@@ -219,7 +225,8 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 07 -->
-            <exercise workspace="0.2in">
+            <!-- Earth's diameter -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-07">
                 <statement>
                     <p>
                         The Earth's diameter is about <m>1.27 \times 10^{7}</m> meters.
@@ -250,11 +257,12 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 08 -->
-            <exercise workspace="0.2in">
+            <!-- Distance from Earth to Sun -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-08">
                 <statement>
                     <p>
                         The average distance from Earth to the Sun is about <m>1.496 \times 10^{11}</m> meters.
-                        Convert <m>1.496 \times 10^{11}</m> to standard decimal notation.
+                        Convert <m>1.496 \times 10^{11}</m> to standard notation.
                     </p>
                 </statement>
 
@@ -280,8 +288,86 @@
                     </p>
                 </solution>
             </exercise>
+            <!-- Worksheet Exercise 09 -->
+            <!-- Human height vs grain of sand -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-09">
+                <statement>
+                    <p>
+                        About how many orders of magnitude larger is a human compared to a grain of sand? <em>Use questions <xref ref="worksheet-explore-scientific-notation-03"/> and <xref ref="worksheet-explore-scientific-notation-04"/> to help.</em>
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Compare the exponents: <m>10^{0}</m> vs.
+                        <m>10^{-3}</m>.
+                        How many powers of ten apart are they?
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        3
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        The exponent for the human's height is 0, and for the grain of sand it is -3.
+                        The difference is <m>0 - (-3) = 3</m>.
+                    </p>
+
+                    <p>
+                        So, a human is approximately <term>3 orders of magnitude</term> larger than a grain of sand.
+                        This means the human is about <m>10^3 = 1,000</m> times taller than the grain of sand.
+                    </p>
+                    <p>
+                        In other words, if you stacked 1,000 grains of sand end to end, they would reach about the height of one person!
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 10 -->
+            <!-- Human height vs influenza virus -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-10">
+                <statement>
+                    <p>
+                        About how many orders of magnitude larger is a human compared to an influenza virus? <em>Use questions <xref ref="worksheet-explore-scientific-notation-01"/> and <xref ref="worksheet-explore-scientific-notation-04"/> to help.</em>
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Compare the exponents: <m>10^{0}</m> vs.
+                        <m>10^{-8}</m>.
+                        How many powers of ten apart are they?
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        8
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        The exponent for the human's height is 0, and for the virus it is -8.
+                        The difference is <m>0 - (-8) = 8</m>.
+                    </p>
+
+                    <p>
+                        So, a human is approximately <em>8 orders of magnitude</em> larger than the influenza virus.
+                        This means the human is about <m>10^8 = 100,000,000</m> times taller than the virus.
+                    </p>
+
+                    <p>
+                        In other words, if you stacked 100,000,000 viruses end to end, they would reach about the height of one person!
+                    </p>
+                </solution>
+            </exercise>
+
+
+
         </page>
-
-
-        </worksheet>
-    </chapter>
+    </worksheet>
+</chapter>

@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="sec-practice-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Practice</title>
+    <title>Practice</title>
 
-  <p> Text of section. </p>
+    <section xml:id="practice-sci-not">
+        <title>Practice: Scientific Notation</title>
 
-  <section xml:id="practice-sci-not">
-      <title>Practice: Scientific Notation</title>
-      <p>Extra questions to help level up your abilities.</p>
-
-       <!-- Practice Question 01 -->
-        <exercise>
+        <p>
+            Extra questions to help level up your abilities.
+        </p>
+        <!-- Practice Question 01 -->
+        <!-- Distance from Earth to Pluto -->
+        <exercise xml:id ="practice-sci-not-01">
             <statement>
                 <p>
-                    Convert 0.0072 to scientific notation.
+                    The average distance from Earth to Pluto is about 5,900,000,000 meters.
+                    Convert 5,900,000,000 to scientific notation.
                 </p>
             </statement>
+
 
             <choices randomize="yes">
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>7.2 \times 10^{-3}</m>
+                            <m>5.9 \times 10^9</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! <m>0.0072 = 7.2 \times 10^{-3}</m>
+                            Correct! <m>5,900,000,000 = 5.9 \times 10^9</m>
                         </p>
                     </feedback>
                 </choice>
@@ -35,14 +38,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>72 \times 10^{-4}</m>
+                            <m>59 \times 10^8</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            While <m>72 \times 10^{-4} = 0.0072</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>59 \times 10^8 = 5,900,000,000</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -50,14 +53,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>7.2 \times 10^{3}</m>
+                            <m>5.9 \times 10^{-9}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            The decimal moved left, so the power should be negative.
+                            The decimal moved left, so the power should be positive.
                         </p>
                     </feedback>
                 </choice>
@@ -65,21 +68,306 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>7.2 \times 10^{-2}</m>
+                            <m>5.9 \times 10^8</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            0.0072 is smaller than 0.072.
+                            <m>5.9 \times 10^8 = 590,000,000</m>, which is smaller than 5,900,000,000.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
+        <!-- Practice Question 02-->
+        <!-- Distance from Earth to Proxima Centauri -->
+        <exercise xml:id ="practice-sci-not-02">
+            <statement>
+                <p>
+                    The distance from Earth to the nearest star (Proxima Centauri) is about 40,200,000,000,000 meters.
+                    Convert 40,200,000,000,000 to scientific notation.
+                </p>
+            </statement>
 
-  </section>
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>4.02 \times 10^{13}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>40,200,000,000,000 = 4.02 \times 10^{13}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>402 \times 10^{11}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            While <m>402 \times 10^{11} = 40,200,000,000,000</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>4.02 \times 10^{-13}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved left, so the power should be positive.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>4.02 \times 10^{12}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            <m>4.02 \times 10^{12} = 4,020,000,000,000</m>, which is smaller than 40,200,000,000,000.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 03-->
+        <!-- Distance from Milky Way to Andromeda Galaxy -->
+        <exercise xml:id ="practice-sci-not-03">
+            <statement>
+                <p>
+                    The distance from the Milky Way to the Andromeda Galaxy is about 2,500,000,000,000,000,000 meters.
+                    Convert 2,500,000,000,000,000,000 to scientific notation.
+                </p>
+            </statement>
 
 
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>2.5 \times 10^{18}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>2,500,000,000,000,000,000 = 2.5 \times 10^{18}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>25 \times 10^{17}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            While <m>25 \times 10^{17} = 2.5 \times 10^{18}</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>2.5 \times 10^{-18}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The decimal moved left, so the power should be positive.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>2.5 \times 10^{17}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            <m>2.5 \times 10^{17} = 250,000,000,000,000,000</m>, which is smaller than 2,500,000,000,000,000,000.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 04-->
+        <!-- Diameter of a Hydrogen Atom --> 
+        <exercise xml:id ="practice-sci-not-04">
+            <statement>
+                <p>
+                    The diameter of a hydrogen atom is about <m>5.3 \times 10^{-11}</m> meters.
+                    Convert <m>5.3 \times 10^{-11}</m> to standard decimal notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            0.000000000053
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>5.3 \times 10^{-11} = 0.000000000053</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.0000000053
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            You only moved the decimal 9 places instead of 11
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            530000000000
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Recall that if the exponent is negative the decimal should move to the left.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.000000000000053
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            That’s one place too far! The exponent is -11, not -13.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 05 -->
+        <!-- Planck Length -->
+        <exercise xml:id ="practice-sci-not-05">
+            <statement>
+                <p>
+                    The Planck length is approximately <m>1.6 \times 10^{-35}</m> meters.
+                    Convert <m>1.6 \times 10^{-35}</m> to standard decimal notation.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            0.000000000000000000000000000000000016
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! <m>1.6 \times 10^{-35} = 0.000000000000000000000000000000000016</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.00000000000000000000000016
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            You only moved the decimal 25 places instead of 35.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            160000000000000000000000000000000000
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Recall that if the exponent is negative the decimal should move to the left.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.0000000000000000000000000000000000000000016
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            That's 42 places, we see what you did there.  Try again.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+    </section>
 </chapter>
