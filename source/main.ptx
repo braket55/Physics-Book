@@ -14,7 +14,8 @@
     <!-- First part -->
     <part xml:id="part-skills">
       <title>Physics Skills Primer</title>
-      <xi:include href="Chapters/Physics_Skills_Primer/ch-physics-skills-primer.ptx" />
+      <xi:include href="Chapters/Physics_Skills_Primer/ch-scientific-notation.ptx" />
+      <xi:include href="Chapters/Physics_Skills_Primer/ch-significant-figures.ptx" />
     </part>
 
     <!-- Second part -->

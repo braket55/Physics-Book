@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="ch-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prep</title>
 
     <!--
@@ -13,7 +13,7 @@
         </video>
     </section>
     -->
-    <section xml:id="sec-prep-sci-not-text">
+    <subsection xml:id="sec-prep-sci-not-text">
         <title>Prep Text: Scientific Notation</title>
 
         <p>
@@ -136,9 +136,9 @@
             With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement.
             Write your numbers with care, check your powers of ten, and let no zero go unwielded.
         </p>
-    </section>
+    </subsection>
 
-    <section xml:id="sec-prep-sci-not-questions">
+    <subsection xml:id="sec-prep-sci-not-questions">
         <title>Prep Questions: Scientific Notation</title>
 
         <!-- CONVERT FROM STANDARD TO SCIENTIFIC NOTATION -->
@@ -990,5 +990,5 @@
                 </choice>
             </choices>
         </exercise>
-    </section>
-</chapter>
+    </subsection>
+</section>

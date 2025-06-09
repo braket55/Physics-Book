@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="ch-prep-sci-not-v2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Prep</title>
+
+    <!--
+    <section xml:id="sec-prep-sci-not-video">
+        <title>Prep Video: Scientific Notation</title>
+
+        <video youtube="2ilCSXm7iMQ">
+        <title>Great Example of Interference</title>
+
+        </video>
+    </section>
+    -->
+    <subsection xml:id="sec-prep-sci-not-text-v2">
+        <title>Prep Text: Scientific Notation</title>
+
+        <p>
+            <term>To wield scientific notation properly, follow these arcane guidelines:</term>
+        </p>
+
+        <ol>
+            <li>
+                <p>
+                    <em>Find the coefficient.</em> Move the decimal point so the number becomes at least 1 but less than 10. This becomes the <em>coefficient</em>. For example, 32,700 becomes "3.27".
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Count the decimal steps.</em> Count how many places you moved the decimal. That number becomes the exponent on your power of ten. If you moved the decimal to the left, the exponent is <em>positive</em>. If you moved it to the right, the exponent is <em>negative</em>.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Check your form.</em> The final expression should look like <m>a \times 10^n</m>, where <m>1 \leq |a| &lt; 10</m> and <m>n</m> is an integer.
+                </p>
+            </li>
+        </ol>
+        
+    </subsection>
+</section>

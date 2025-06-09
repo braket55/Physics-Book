@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="sec-practice-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-practice-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Practice</title>
 
-    <section xml:id="practice-sci-not">
+    <subsection xml:id="practice-sci-not">
         <title>Practice: Scientific Notation</title>
 
         <p>
@@ -435,5 +435,5 @@
                 </choice>
             </choices>
         </exercise>
-    </section>
-</chapter>
+    </subsection>
+</section>
