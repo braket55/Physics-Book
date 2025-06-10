@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="ch-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-prep-sci-not" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prep</title>
 
     <!--
@@ -13,7 +13,7 @@
         </video>
     </section>
     -->
-    <subsection xml:id="sec-prep-sci-not-text">
+    <subsection xml:id="subsec-prep-sci-not-text">
         <title>Prep Text: Scientific Notation</title>
 
         <p>
@@ -40,7 +40,7 @@
             </li>
         </ol>
         <!-- Checkpoint Question 01 -->
-        <exercise xml:id ="sec-prep-sci-not-text-01">
+        <exercise xml:id ="subsec-prep-sci-not-text-01">
             <statement>
                 <p>
                     Convert 32,700 to scientific notation.
@@ -72,7 +72,7 @@
             </solution>
         </exercise>
         <!-- Checkpoint Question 02 -->
-        <exercise xml:id ="sec-prep-sci-not-text-02">
+        <exercise xml:id ="subsec-prep-sci-not-text-02">
             <statement>
                 <p>
                     Convert 0.0000089 to scientific notation.
@@ -138,7 +138,7 @@
         </p>
     </subsection>
 
-    <subsection xml:id="sec-prep-sci-not-questions">
+    <subsection xml:id="subsec-prep-sci-not-questions">
         <title>Prep Questions: Scientific Notation</title>
 
         <!-- CONVERT FROM STANDARD TO SCIENTIFIC NOTATION -->
@@ -146,7 +146,7 @@
             <term> Convert standard notation to scientific notation. </term>
         </p>
         <!-- Prep Question 01 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-01">
+        <exercise xml:id ="subsec-prep-sci-not-questions-01">
             <statement>
                 <p>
                     Convert 0.0072 to scientific notation.
@@ -216,7 +216,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 02 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-02">
+        <exercise xml:id ="subsec-prep-sci-not-questions-02">
             <statement>
                 <p>
                     Convert <m>0.00000702</m> to scientific notation.
@@ -286,7 +286,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 03 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-03">
+        <exercise xml:id ="subsec-prep-sci-not-questions-03">
             <statement>
                 <p>
                     Convert 0.70 to scientific notation.
@@ -356,7 +356,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 04 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-04">
+        <exercise xml:id ="subsec-prep-sci-not-questions-04">
             <statement>
                 <p>
                     Convert 4,242 to scientific notation.
@@ -426,7 +426,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 05 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-05">
+        <exercise xml:id ="subsec-prep-sci-not-questions-05">
             <statement>
                 <p>
                     Convert 10.0 to scientific notation.
@@ -496,7 +496,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 06 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-06">
+        <exercise xml:id ="subsec-prep-sci-not-questions-06">
             <statement>
                 <p>
                     Convert 1.0 to scientific notation.
@@ -571,7 +571,7 @@
             <term> Convert scientific notation to standard notation. </term>
         </p>
         <!-- Prep Question 07 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-07">
+        <exercise xml:id ="subsec-prep-sci-not-questions-07">
             <statement>
                 <p>
                     Convert <m>6.23 \times 10^{-2}</m> to standard notation.
@@ -641,7 +641,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 08 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-08">
+        <exercise xml:id ="subsec-prep-sci-not-questions-08">
             <statement>
                 <p>
                     Convert <m>42 \times 10^{3}</m> to standard notation.
@@ -711,7 +711,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 09 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-09">
+        <exercise xml:id ="subsec-prep-sci-not-questions-09">
             <statement>
                 <p>
                     Convert <m>5.02 \times 10^{1}</m> to standard notation.
@@ -781,7 +781,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 10 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-10">
+        <exercise xml:id ="subsec-prep-sci-not-questions-10">
             <statement>
                 <p>
                     Convert <m>5122 \times 10^{-3}</m> to standard notation.
@@ -851,7 +851,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 11 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-11">
+        <exercise xml:id ="subsec-prep-sci-not-questions-11">
             <statement>
                 <p>
                     Convert <m>3 \times 10^{1}</m> to standard notation.
@@ -921,7 +921,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 12 -->
-        <exercise xml:id ="sec-prep-sci-not-questions-12">
+        <exercise xml:id ="subsec-prep-sci-not-questions-12">
             <statement>
                 <p>
                     Convert <m>7.55 \times 10^{0}</m> to standard notation.

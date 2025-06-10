@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-title-v2" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
+<chapter xml:id="ch-significant-figures" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
     <title>Significant Figures</title>
 
     <introduction>
         <p>
-            In the land of science, numbers can grow as vast as a dragon's hoard or shrink as small as a quark's shadow.
-            But wise scholars and clever spellcasters don't waste time counting endless zeros, they use a magical cantrip called scientific notation.
+            Whether brewing a potion, calibrating a starship engine, or decoding alien glyphs, the smallest mistake can turn triumph into catastrophe. 
+            That's why careful minds rely on the ancient art of significant figures.
         </p>
 
         <p>
-            With just one enchanted rule: write a number between 1 and 10, then multiply by a power of ten, you can tame even the wildest figures.
-            A beast like 5,000 becomes <m> 5 \times 10^3 </m>, and a whisper-small 0.0002 transforms into <m> 2 \times 10^{-4} </m>.
+            Each digit in a number holds meaning. Some digits are trustworthy messengers, others are mere illusions. 
+            Significant figures tell you which numbers are true companions and which are just cosmic noise.
+        </p>
+        <p>
+            Take a mass spectrometer aboard a deep-space probe, it doesn't just spit out numbers for fun. 
+            It captures bits of alien atmospheres, sifts through that ionized dust, and offers data etched with meaning. 
+            A reading of 4.20 tells you more than 4.2 ever could; that final zero isn't decoration, it's a promise of precision.
+            And what about a reading of 004.20? The leading zeros are but shadows, offering no real insight over what 4.20 tells you.
         </p>
 
         <p>
-            It's the secret spell of astronomers,  constructs, and magic folk everywhere.
-            Use it wisely, and even the stars won't feel out of reach.
+            By counting only the figures that matter, you wield the power to communicate with percision. 
+            It's the trusted cantrip of alchemists, data druids, and quantum sages alike.
         </p>
     </introduction>
     <!-- include sections -->
