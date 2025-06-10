@@ -90,11 +90,16 @@
 
                 <ul>
                     <li>
-                        <strong>Multiplying or dividing?</strong> Your answer should have the <em>same number of significant figures</em> as the measurement with the fewest. For example, <m>2.5 × 3.42 = 8.55</m>, but since <m>2.5</m> has only two sig figs, you round your answer to <m>8.6</m>.
+                        <term>Multiplying or dividing?</term> Your answer should have the <em>same number of significant figures</em> as the measurement with the fewest. For example, <m>2.5 × 3.42 = 8.55</m>, but since <m>2.5</m> has only two sig figs, you round your answer to <m>8.6</m>.
                     </li>
 
                     <li>
-                        <strong>Adding or subtracting?</strong> Line up your decimal points. Your answer should be rounded to the <em>least precise decimal place</em> from your inputs. For example, <m>12.11 + 3.6 = 15.71</m>, which gets rounded to <m>15.7</m> because <m>3.6</m> is only precise to the tenths place.
+                        <term>Adding or subtracting?</term> Line up your decimal points. Your answer should be rounded to the <em>least precise decimal place</em> from your inputs. For example, <m>12.11 + 3.6 = 15.71</m>, which gets rounded to <m>15.7</m> because <m>3.6</m> is only precise to the tenths place.
+                    </li>
+                    <li>
+                        <term>Multiple Operations</term> Cast each spell in the proper order! Follow the standard order of operations (parentheses, exponents, multiplication/division from left to right, then addition/subtraction from left to right)., 
+                        Only round at the very end—after all the magic is done. Do not round after each step. 
+                        Rounding too early can throw your final result out of balance, like miscasting a potion halfway through.
                     </li>
                 </ul>
             </li>
@@ -1073,8 +1078,7 @@
 
                 <feedback>
                     <p>
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        81.201 has three decimal places, and 3.02 has two decimal places.
+                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places. 81.201 has three decimal places, and 3.02 has two decimal places.
                     </p>
                 </feedback>
             </choice>

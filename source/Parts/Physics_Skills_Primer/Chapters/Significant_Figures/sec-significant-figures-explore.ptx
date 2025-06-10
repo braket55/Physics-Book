@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-explore-sig-figs" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Explore</title>
+
+    <!-- Start of Worksheet -->
+    <worksheet xml:id="worksheet-explore-significant-figures">
+        <title>Explore: Scientific Notation</title>
+
+        <!-- Objectives -->
+        <objectives>
+            <ul>
+                <li>
+                    Reinforce your ability to convert between standard and scientific notation and interpret the meaning of powers of ten in real-world and scientific contexts.
+                </li>
+            </ul>
+        </objectives>
+        <!-- Introduction -->
+        <introduction>
+            <p>
+                This worksheet is designed to help you explore the concept of scientific notation in physics.
+            </p>
+        </introduction>
+        <!-- Page 01 -->
+        <page>
+            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- Influenza virus size -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-01">
+                <statement>
+                    <p>
+                        The influenza virus can have a diameter of about 0.000000099 meters.
+                        Convert 0.000000099 to scientific notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        The decimal point would need to move to the right by 8 places.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>9.9 \times 10^{-8}</m>
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        To write 0.000000099 in scientific notation, move the decimal point <em>eight places to the right</em> to place it after the first nonzero digit.
+                        This gives "9.9".
+                        Since the decimal moved right by eight places, the exponent on 10 is -8.
+                    </p>
+
+                    <p>
+                        So, <m>0.000000099 = 9.9 \times 10^{-8}</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 02 --> <!-- Human hair diameter -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-02">
+                <statement>
+                    <p>
+                        A strand of human hair is about 0.00007 meters in diameter.
+                        Convert 0.00007 to scientific notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        The decimal point would need to move to the right by 5 places.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>7.0 \times 10^{-5}</m>
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        To write 0.00007 in scientific notation, move the decimal point <em>five places to the right</em> to place it after the first nonzero digit.
+                        This gives "7.0".
+                        Since the decimal moved right by five places, the exponent on 10 is -5.
+                    </p>
+
+                    <p>
+                        So, <m>0.00007 = 7.0 \times 10^{-5}</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 03 --> <!-- Grain of sand diameter -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-03">
+                <statement>
+                    <p>
+                        A grain of sand can be about 0.0012 meters in diameter.
+                        Convert 0.0012 to scientific notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        The decimal point would need to move to the right by 3 places.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>1.2 \times 10^{-3}</m>
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        To write 0.0012 in scientific notation, move the decimal point <em>three places to the right</em> to place it after the first nonzero digit.
+                        This gives "1.2".
+                        Since the decimal moved right by three places, the exponent on 10 is -3.
+                    </p>
+
+                    <p>
+                        So, <m>0.0012 = 1.2 \times 10^{-3}</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 04 --> <!-- Average human height -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-04">
+                <statement>
+                    <p>
+                        An average adult human might be about 1.75 meters tall.
+                        Convert 1.75 to scientific notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        The decimal point would need to move to the left by 0 places.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>1.75 \times 10^{0}</m>
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        To write 1.75 in scientific notation, the decimal is already after the first nonzero digit, so we don’t need to move it.
+                        That means the exponent on 10 is 0.
+                    </p>
+
+                    <p>
+                        So, <m>1.75 = 1.75 \times 10^{0}</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 05 --> <!-- Empire State Building height -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-05">
+                <statement>
+                    <p>
+                        The Empire State Building in New York City is about <m>3.81 \times 10^{2}</m> meters tall.
+                        Convert <m>3.81 \times 10^{2}</m> to standard notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        A positive exponent means move the decimal to the right.
+                        Move it 2 places to the right.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        381
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        <m>3.81 \times 10^{2}</m> means move the decimal point 2 places to the right: <m>3.81 → 38.1 → 381.</m>.
+                    </p>
+
+                    <p>
+                        So, <m>3.81 \times 10^{2} = 381</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 06 --> <!-- Mount Everest height -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-06">
+                <statement>
+                    <p>
+                        Mount Everest is approximately <m>8.85 \times 10^{3}</m> meters tall.
+                        Convert <m>8.85 \times 10^{3}</m> to standard notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Move the decimal point 3 places to the right.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        8850
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        <m>8.85 \times 10^{3}</m> means move the decimal 3 places to the right: <m>8.85 → 88.5 → 885 → 8850</m>.
+                    </p>
+
+                    <p>
+                        So, <m>8.85 \times 10^{3} = 8850</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 07 --> <!-- Earth's diameter -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-07">
+                <statement>
+                    <p>
+                        The Earth's diameter is about <m>1.27 \times 10^{7}</m> meters.
+                        Convert <m>1.27 \times 10^{7}</m> to standard notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Move the decimal 7 places to the right.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        12,700,000
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        <m>1.27 \times 10^{7}</m> means move the decimal 7 places to the right: <m>1.27 → 12.7 → 127 → … → 12,700,000</m>.
+                    </p>
+
+                    <p>
+                        So, <m>1.27 \times 10^{7} = 12,700,000</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 08 --> <!-- Distance from Earth to Sun -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-08">
+                <statement>
+                    <p>
+                        The average distance from Earth to the Sun is about <m>1.496 \times 10^{11}</m> meters.
+                        Convert <m>1.496 \times 10^{11}</m> to standard notation.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Move the decimal 11 places to the right.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        149,600,000,000
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        <m>1.496 \times 10^{11}</m> means move the decimal 11 places to the right: <m>1.496 → 14.96 → 149.6 → … → 149,600,000,000</m>.
+                    </p>
+
+                    <p>
+                        So, <m>1.496 \times 10^{11} = 149,600,000,000</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 09 --> <!-- Human height vs grain of sand -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-09">
+                <statement>
+                    <p>
+                        About how many orders of magnitude larger is a human compared to a grain of sand? <em>Use questions <xref ref="worksheet-explore-significant-figures-03"/> and <xref ref="worksheet-explore-significant-figures-04"/> to help.</em>
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Compare the exponents: <m>10^{0}</m> vs.
+                        <m>10^{-3}</m>.
+                        How many powers of ten apart are they?
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        3
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        The exponent for the human's height is 0, and for the grain of sand it is -3.
+                        The difference is <m>0 - (-3) = 3</m>.
+                    </p>
+
+                    <p>
+                        So, a human is approximately <term>3 orders of magnitude</term> larger than a grain of sand.
+                        This means the human is about <m>10^3 = 1,000</m> times taller than the grain of sand.
+                    </p>
+
+                    <p>
+                        In other words, if you stacked 1,000 grains of sand end to end, they would reach about the height of one person!
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 10 --> <!-- Human height vs influenza virus -->
+            <exercise workspace="0.2in" xml:id="worksheet-explore-significant-figures-10">
+                <statement>
+                    <p>
+                        About how many orders of magnitude larger is a human compared to an influenza virus? <em>Use questions <xref ref="worksheet-explore-significant-figures-01"/> and <xref ref="worksheet-explore-significant-figures-04"/> to help.</em>
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Compare the exponents: <m>10^{0}</m> vs.
+                        <m>10^{-8}</m>.
+                        How many powers of ten apart are they?
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        8
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        The exponent for the human's height is 0, and for the virus it is -8.
+                        The difference is <m>0 - (-8) = 8</m>.
+                    </p>
+
+                    <p>
+                        So, a human is approximately <em>8 orders of magnitude</em> larger than the influenza virus.
+                        This means the human is about <m>10^8 = 100,000,000</m> times taller than the virus.
+                    </p>
+
+                    <p>
+                        In other words, if you stacked 100,000,000 viruses end to end, they would reach about the height of one person!
+                    </p>
+                </solution>
+            </exercise>
+        </page>
+    </worksheet>
+</section>

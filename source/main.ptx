@@ -14,14 +14,14 @@
     <!-- First part -->
     <part xml:id="part-skills">
       <title>Physics Skills Primer</title>
-      <xi:include href="Chapters/Physics_Skills_Primer/ch-scientific-notation.ptx" />
-      <xi:include href="Chapters/Physics_Skills_Primer/ch-significant-figures.ptx" />
+      <xi:include href="Parts/Physics_Skills_Primer/Chapters/Scientific_Notation/ch-scientific-notation.ptx" />
+      <xi:include href="Parts/Physics_Skills_Primer/Chapters/Significant_Figures/ch-significant-figures.ptx" />
     </part>
 
     <!-- Second part -->
     <part xml:id="part-vectors">
       <title>Scalars and Vectors</title>
-      <xi:include href="Chapters/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
+      <xi:include href="Parts/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
     </part>
 
     <!-- Backmatter (glossary, index, etc.) -->
