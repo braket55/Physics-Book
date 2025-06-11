@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-prep-sig-figs" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-prep-units-dims" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prep</title>
 
     <!--
@@ -13,7 +13,7 @@
         </video>
     </section>
     -->
-    <subsection xml:id="subsec-prep-sig-figs-text">
+    <subsection xml:id="subsec-prep-units-dims-text">
         <title>Prep Text: Significant Figures</title>
 
         <p>
@@ -119,7 +119,7 @@
             -->
         </ol>
         <!-- Checkpoint Question 01 -->
-        <exercise xml:id ="subsec-prep-sig-figs-text-01">
+        <exercise xml:id ="subsec-prep-units-dims-text-01">
             <statement>
                 <p>
                     How many significant figures are in the number: 42.02?
@@ -152,7 +152,7 @@
             </solution>
         </exercise>
         <!-- Checkpoint Question 02 -->
-        <exercise xml:id ="subsec-prep-sig-figs-text-02">
+        <exercise xml:id ="subsec-prep-units-dims-text-02">
             <statement>
                 <p>
                     How many significant figures are in the number: 0.007?
@@ -234,7 +234,7 @@
     </subsection>
 
 
-    <subsection xml:id="subsec-prep-sig-figs-questions">
+    <subsection xml:id="subsec-prep-units-dims-questions">
         <title>Prep Questions: Significant Figures</title>
 
         <!-- Count Number of Significant Figures -->
@@ -242,7 +242,7 @@
             <term> Count the number of significant figures. </term>
         </p>
         <!-- Prep Question 01 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-01">
+        <exercise xml:id ="subsec-prep-units-dims-questions-01">
             <statement>
                 <p>
                     How many significant figures are in the number: 4202?
@@ -312,7 +312,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 02 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-02">
+        <exercise xml:id ="subsec-prep-units-dims-questions-02">
             <statement>
                 <p>
                     How many significant figures are in the number: 0.00560?
@@ -382,7 +382,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 03 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-03">
+        <exercise xml:id ="subsec-prep-units-dims-questions-03">
             <statement>
                 <p>
                     How many significant figures are in the number: <m>10\underline{0}</m>?
@@ -455,7 +455,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 04 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-04">
+        <exercise xml:id ="subsec-prep-units-dims-questions-04">
             <statement>
                 <p>
                     How many significant figures are in the number: 40.070?
@@ -531,7 +531,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 05 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-05">
+        <exercise xml:id ="subsec-prep-units-dims-questions-05">
             <statement>
                 <p>
                     How many significant figures are in the number: 0.03040?
@@ -614,7 +614,7 @@
             <term> Round the number to the desired significant figures. </term>
         </p>
         <!-- Prep Question 06 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-06">
+        <exercise xml:id ="subsec-prep-units-dims-questions-06">
             <statement>
                 <p>
                     Round 1.25 to two significant figures.
@@ -684,7 +684,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 07 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-07">
+        <exercise xml:id ="subsec-prep-units-dims-questions-07">
             <statement>
                 <p>
                     Round 6.750 to three significant figures.
@@ -754,7 +754,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 08 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-08">
+        <exercise xml:id ="subsec-prep-units-dims-questions-08">
             <statement>
                 <p>
                     Round 0.004509 to three significant figures.
@@ -825,7 +825,7 @@
             </choices>
         </exercise>
         <!-- Prep Question 09 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-09">
+        <exercise xml:id ="subsec-prep-units-dims-questions-09">
             <statement>
                 <p>
                     Round 35 to one significant figure.
@@ -901,7 +901,7 @@
         <term> Solve the following expression, rounding your final answer the appropiate amount of significant figures. </term>
     </p>
     <!-- Prep Question 10 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-10">
+    <exercise xml:id ="subsec-prep-units-dims-questions-10">
         <statement>
             <p>
                 Solve the expression: <m>2.00 \times 366.25</m>, and round your answer to the appropriate number of significant figures.
@@ -973,7 +973,7 @@
         </choices>
     </exercise>
     <!-- Prep Question 11 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-11">
+    <exercise xml:id ="subsec-prep-units-dims-questions-11">
         <statement>
             <p>
                 Solve the expression: <m>15.00 \div 4.5</m>, and round your answer to the appropriate number of significant figures.
@@ -1046,7 +1046,7 @@
         </choices>
     </exercise>
     <!-- Prep Question 12 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-12">
+    <exercise xml:id ="subsec-prep-units-dims-questions-12">
         <statement>
             <p>
                 Solve the expression: <m>81.201 - 3.02</m>, and round your answer to the appropriate number of decimal places.
@@ -1117,7 +1117,7 @@
         </choices>
     </exercise>
     <!-- Prep Question 13 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-13">
+    <exercise xml:id ="subsec-prep-units-dims-questions-13">
         <statement>
             <p>
                 Solve the expression: <m>12.1 + 0.35</m>, and round your answer to the appropriate number of decimal places.

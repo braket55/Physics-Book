@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-units-and-dimensions" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
+    <title>Units and Dimensions</title>
+
+    <introduction>
+        <p>
+            Whether brewing a potion, calibrating a starship engine, or decoding alien glyphs, the smallest mistake can turn triumph into catastrophe. 
+            That's why careful minds rely on the ancient art of significant figures.
+        </p>
+
+        <p>
+            Each digit in a number holds meaning. Some digits are trustworthy messengers, others are mere illusions. 
+            Significant figures tell you which numbers are true companions and which are just cosmic noise.
+        </p>
+        <p>
+            Take a mass spectrometer aboard a deep-space probe, it doesn't just spit out numbers for fun. 
+            It captures bits of alien atmospheres, sifts through that ionized dust, and offers data etched with meaning. 
+            A reading of 4.20 tells you more than 4.2 ever could; that final zero isn't decoration, it's a promise of precision.
+            And what about a reading of 004.20? The leading zeros are but shadows, offering no real insight over what 4.20 tells you.
+        </p>
+
+        <p>
+            By counting only the figures that matter, you wield the power to communicate with percision. 
+            It's the trusted cantrip of alchemists, data druids, and quantum sages alike.
+        </p>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="sec-units-and-dimensions-prep.ptx" />
+    <xi:include href="sec-units-and-dimensions-explore.ptx" />
+    <xi:include href="sec-units-and-dimensions-practice.ptx" />
+</chapter>

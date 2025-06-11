@@ -16,6 +16,7 @@
       <title>Physics Skills Primer</title>
       <xi:include href="Parts/Physics_Skills_Primer/Chapters/Scientific_Notation/ch-scientific-notation.ptx" />
       <xi:include href="Parts/Physics_Skills_Primer/Chapters/Significant_Figures/ch-significant-figures.ptx" />
+      <xi:include href="Parts/Physics_Skills_Primer/Chapters/Units_and_Dimensions/ch-units-and-dimensions.ptx" />
     </part>
 
     <!-- Second part -->

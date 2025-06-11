@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-practice-sig-figs" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-practice-units-dims" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Practice</title>
 
-    <subsection xml:id="sec-practice-sig-figs-questions">
+    <subsection xml:id="sec-practice-units-dims-questions">
         <title>Practice: Scientific Notation</title>
 
         <p>
             Extra questions to help level up your abilities.
         </p>
         <!-- Practice Question 01 --> <!-- Escape velocity of Earth and Moon -->
-        <exercise xml:id ="practice-sig-figs-01">
+        <exercise xml:id ="practice-units-dims-01">
             <statement>
                 <p>
                     If you launch an object straight up from the surface of the Earth and want it to avoid being pulled back by gravity, it must leave the surface of Earth at what's called the escape velocity.
@@ -87,7 +87,7 @@
             </choices>
         </exercise>
         <!-- Practice Question 02--> <!-- Average temp of Moon's surface -->
-        <exercise xml:id ="practice-sig-figs-02">
+        <exercise xml:id ="practice-units-dims-02">
             <statement>
                 <p>
                     The Moon's surface can reach a maximum temperature of 121 °C during the day and drop to -178.89 °C at night.
