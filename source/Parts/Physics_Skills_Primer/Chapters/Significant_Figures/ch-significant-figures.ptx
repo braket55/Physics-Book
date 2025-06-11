@@ -28,5 +28,5 @@
     <!-- include sections -->
     <xi:include href="sec-significant-figures-prep.ptx" />
     <xi:include href="sec-significant-figures-explore.ptx" />
-    <!--<xi:include href="sec-scientific-notation-practice.ptx" />-->
+    <xi:include href="sec-significant-figures-practice.ptx" />
 </chapter>
