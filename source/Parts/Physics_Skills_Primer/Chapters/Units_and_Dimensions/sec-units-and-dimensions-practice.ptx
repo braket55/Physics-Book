@@ -9,16 +9,14 @@
         <p>
             Extra questions to help level up your abilities.
         </p>
-        <!-- Practice Question 01 --> <!-- Escape velocity of Earth and Moon -->
+        <!-- PROBABILITY, PROBABILITY DENSITY ELECTION 1/m^3 --> <!-- Practice Question 01 --> <!-- base SI units of Volume -->
         <exercise xml:id ="practice-units-dims-01">
             <statement>
                 <p>
-                    If you launch an object straight up from the surface of the Earth and want it to avoid being pulled back by gravity, it must leave the surface of Earth at what's called the escape velocity.
-                    Escape velocity is also defined for other large objects such as planets, moons, and stars.
-                    The escape velocity from the surface of the Earth is about 11,200 m/s.
-                    Where m is meters and s is seconds.
-                    The escape velocity from the surface of the Moon is about 21.25% of the escape velocity from the surface of the Earth.
-                    Calculate the escape velocity from the surface of the Moon in meters per second using the correct number of significant figures.
+                    Consider a cube.
+                    Perhaps a magical or a glowing futuristic cube.
+                    You can find the volume of this cube by multiplying the length by width by height.
+                    What are the base SI units for volume?
                 </p>
             </statement>
 
@@ -27,7 +25,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            2.38 m/s
+                            <m>m^3</m>
                         </p>
                     </statement>
 
@@ -41,15 +39,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            2.380
+                            <m>[L]^3</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            11,200 m/s has three significant figures, and 21.25% has four significant figures.
-                            Since we are multiplying, the answer should have three significant figures.
+                            This is the dimensions of volume, but not the base SI units.
                         </p>
                     </feedback>
                 </choice>
@@ -57,14 +54,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            59.1 m/s
+                            <m>m^{-3}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Try multiplying 11,200 m/s by 0.2125 (which is 21.25% expressed as a decimal).
+                            Volume is length multipled by width multiplied by height, this would be in the numerator, not the denominator.
                         </p>
                     </feedback>
                 </choice>
@@ -72,26 +69,26 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            59.09
+                            <m>[L]^{-3}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Try multiplying 11,200 m/s by 0.2125 (which is 21.25% expressed as a decimal).
-                            Also, double check your significant figures.
+                            Volume is length multipled by width multiplied by height, this would be in the numerator, not the denominator.
+                            Also, this is notation for dimensions, not base SI units.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 02--> <!-- Average temp of Moon's surface -->
+        <!-- Practice Question 02--> <!-- base SI units of Mass Density -->
         <exercise xml:id ="practice-units-dims-02">
             <statement>
                 <p>
-                    The Moon's surface can reach a maximum temperature of 121 °C during the day and drop to -178.89 °C at night.
-                    What is the average surface temperature of the Moon over one full day-night cycle, rounded to the correct number of significant figures?
+                    The mass density of an object is defined as the mass divided by the volume.
+                    What are the base SI units for mass density?
                 </p>
             </statement>
 
@@ -100,7 +97,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            -29 °C
+                            <m>\frac{kg}{m^3}</m>
                         </p>
                     </statement>
 
@@ -114,14 +111,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            -28.9 °C
+                            <m>\frac{[M]}{[L]^3}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Since one measurement (121) has zero decimal places, the result must be rounded to zero decimal places as well.
+                            This is the dimensions of mass density, but not the base SI units.
                         </p>
                     </feedback>
                 </choice>
@@ -129,15 +126,15 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            150 °C
+                            <m>\frac{[L]^3}{[M]}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            The basic definition of an average is to add all the numbers together and then divide by the total number of values.
-                            For example, the average of 1, 4, and 7 is: <m>\frac{1+4+7}{3} = 4</m>
+                            Mass density is mass divided by volume; mass would be in the numerator and volume in the denominator.
+                            Also, this is notation for dimensions, not base SI units.
                         </p>
                     </feedback>
                 </choice>
@@ -145,16 +142,309 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            149.95 °C
+                            <m>\frac{m^3}{kg}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Double check your significant figures.
-                            ALso, the basic definition of an average is to add all the numbers together and then divide by the total number of values.
-                            For example, the average of 1, 4, and 7 is: <m>\frac{1+4+7}{3} = 4</m>
+                            Mass density is mass divided by volume; mass would be in the numerator and volume in the denominator.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 03--> <!-- base SI units of Energy density -->
+        <exercise xml:id ="practice-units-dims-03">
+            <statement>
+                <p>
+                    The energy density of a system is defined as the energy divided by the volume.
+                    What are the base SI units for energy density?
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>\frac{kg}{s^2 \cdot m}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>\frac{kg \cdot m}{s^2}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Recall energy has base SI units of <m>\frac{kg \cdot m^2}{s^2}</m>.
+                            Energy density is this divided by volume, which has base SI units of <m>m^3</m>.
+                            What is <m>\frac{m^2}{m^3}</m>?
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>\frac{kg \cdot m^2}{s^3}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Recall energy has base SI units of <m>\frac{kg \cdot m^2}{s^2}</m>.
+                            Energy density is this divided by volume, which has base SI units of <m>m^3</m>.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>\frac{s^2 \cdot m}{kg}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Oops, you have the energy in the denominator and volume in the numerator.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 04--> <!-- base SI units of Current Density -->
+        <exercise xml:id ="practice-units-dims-04">
+            <statement>
+                <p>
+                    The current density in a material is defined as the electric current divided by the area the current is passing through.
+                    What are the base SI units for current density?
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>\frac{A}{m^2}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>A \cdot m</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Recall current has base SI units of <m>A</m>.
+                            Current density is this divided by area, which has base SI units of <m>m^2</m>.
+                            What is <m>A \cdot m</m> compared to <m>\frac{A}{m^2}</m>?
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>\frac{A}{m}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Recall current has base SI units of <m>A</m>.
+                            Current density is this divided by area, which has base SI units of <m>m^2</m>.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>\frac{m^2}{A}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Oops, you have the current in the denominator and the area in the numerator.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 05--> <!-- dimensions of Probability -->
+        <exercise xml:id ="practice-units-dims-05">
+            <statement>
+                <p>
+                    Probability is a measure of the likelihood that a particular event will occur.
+                    Whether you're rolling dice, detecting particles, or predicting the path of a rogue comet, probability helps quantify uncertainty.
+                    The value of probability ranges from 0 (impossible event) to 1 (certain event).
+                    What are the dimensions of probability?
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            Dimensionless
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! Probability is a pure number with no dimensions.
+                            It represents a ratio or likelihood.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>[T]^{-1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Probability isn't tied to time.
+                            It doesn't describe a rate or frequency by itself.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>[L]^3</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            This would describe a volume, not the likelihood of an outcome.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>[M]^0[L]^0[T]^0</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            You're technically correct in notation, but the better answer is to call it "dimensionless."
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 06--> <!-- dimensions of probability density for electrons -->
+        <exercise xml:id ="practice-units-dims-06">
+            <statement>
+                <p>
+                    In quantum mechanics, the <em>probability density</em> of an electron tells you how likely you are to find the electron in a particular region of space.
+                    Unlike probability itself, probability density spreads that likelihood out over a volume.
+                    What are the base dimensions of probability density?
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>[L]^{-3}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct! Probability density represents probability per unit volume.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>[L]^3</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            This would represent a volume, not a density that spreads probability through space.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            Dimensionless
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            While total probability is dimensionless, the <em>density</em> must compensate for the volume it's distributed across.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>[T]^{-1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Time doesn't play a direct role in the dimensionality of spatial probability density.
                         </p>
                     </feedback>
                 </choice>

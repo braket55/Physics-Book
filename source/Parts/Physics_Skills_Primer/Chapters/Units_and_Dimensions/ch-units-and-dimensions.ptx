@@ -5,24 +5,102 @@
 
     <introduction>
         <p>
-            Whether brewing a potion, calibrating a starship engine, or decoding alien glyphs, the smallest mistake can turn triumph into catastrophe. 
-            That's why careful minds rely on the ancient art of significant figures.
+            <term> Units</term>
         </p>
 
         <p>
-            Each digit in a number holds meaning. Some digits are trustworthy messengers, others are mere illusions. 
-            Significant figures tell you which numbers are true companions and which are just cosmic noise.
-        </p>
-        <p>
-            Take a mass spectrometer aboard a deep-space probe, it doesn't just spit out numbers for fun. 
-            It captures bits of alien atmospheres, sifts through that ionized dust, and offers data etched with meaning. 
-            A reading of 4.20 tells you more than 4.2 ever could; that final zero isn't decoration, it's a promise of precision.
-            And what about a reading of 004.20? The leading zeros are but shadows, offering no real insight over what 4.20 tells you.
+            Once you've tamed a number with scientific notation and balanced it with significant figures, there's still one more charm to cast: <em>units</em>.
         </p>
 
         <p>
-            By counting only the figures that matter, you wield the power to communicate with percision. 
-            It's the trusted cantrip of alchemists, data druids, and quantum sages alike.
+            In our vast universe, numbers alone are like potions with no labels; mysterious at best, dangerous at worst.
+            Is that “5” a length? A time? The weight of a standard unit dragon egg? Without units, we're just guessing.
+        </p>
+
+        <p>
+            Units are the magical tags that anchor numbers to reality.
+            A second tells us we're measuring time.
+            A meter marks distance.
+            A kilogram weighs in with mass.
+            These are three of the seven <em>base units</em>, the foundational runes of measurement used by scholars and spellcasters across the realms.
+        </p>
+
+        <p>
+            And just like combining spells, we can fuse base units into more complex ones:
+            <ul>
+                <li>
+                    Speed - The SI units meters per second: m/s
+                </li>
+
+                <li>
+                    Force - The SI units are kilogram meter per second squared: kg·m/s²
+                </li>
+
+                <li>
+                    Energy - The SI units are kilogram meter squared per second squred: kg·m²/s²
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            If you forget a unit, your calculations will fall apart faster than a novice wizard's first fireball.
+            Include the wrong one, and you might mix healing potions with poison.
+            Choose wisely.
+        </p>
+
+        <p>
+            <term> Dimensions </term>
+        </p>
+
+        <p>
+            Even deeper than units lie the <em>dimensions</em>, the ancient scaffolding of the universe itself.
+            Where units name things, <em>dimensions</em> define what they <em>are</em>.
+        </p>
+
+        <p>
+            No matter where you are (on Earth, on Mars, or sailing the outer moons of Jupiter) the same fundamental dimensions form the basis of all physical quantities.
+            Time, mass, and length may behave differently under extreme conditions, but they remain the core ingredients of the universe. 
+            The following are three of the seven fundamental dimensions:
+            <ul>
+                <li>
+                    <m>[T]</m> for time
+                </li>
+
+                <li>
+                    <m>[M]</m> for mass
+                </li>
+
+                <li>
+                    <m>[L]</m> for length
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            All physical quantities are built from the seven dimensions, combined and rearranged like alchemical ingredients:
+            <ul>
+                <li>
+                    Speed has dimensions Length per Time: <m>[L][T]^{-1}</m>
+                </li>
+
+                <li>
+                    Force has dimensions Mass multiplied by Length divided by Time squared: <m>[M][L][T]^{-2}</m>
+                </li>
+
+                <li>
+                    Energy has dimensions Mass multiplied by Length squared divded by Time squared: <m>[M][L]^{2}[T]^{-2}</m>
+                </li>
+            </ul>
+        </p>
+        <p>
+            
+        </p>
+
+        <term>Quick Summary</term>
+        <p>
+            <strong>Units</strong> label your measurements.
+            <strong>Dimensions</strong> reveal the nature of your measurements.
+            Alone or together, they help keep your calculations from turning into chaos.
         </p>
     </introduction>
     <!-- include sections -->

@@ -103,20 +103,7 @@
                     </li>
                 </ul>
             </li>
-            <!--
-            <li>
-                <term>Count with care.</term>
-                <ul>
-                    <li>
-                        When multiplying or dividing, your answer should match the <em>least</em> number of sig figs from your ingredients.
-                    </li>
 
-                    <li>
-                        When adding or subtracting, match the smallest number of decimal places.
-                    </li>
-                </ul>
-            </li>
-            -->
         </ol>
         <!-- Checkpoint Question 01 -->
         <exercise xml:id ="subsec-prep-sig-figs-text-01">
@@ -228,8 +215,8 @@
         </p>
 
         <p>
-            With significant figures in your database, you can communicate your uncertainty the vast realms of physics, chemistry, and cosmic measurement.
-            Write your numbers with care, check your sig figs, and let no leading zeros invade your notes.
+            With significant figures in your database, you can communicate your uncertainty across the vast realms of physics, chemistry, and cosmic measurement.
+            Write your numbers with care, check your sig figs, and let no leading zero invade your notes.
         </p>
     </subsection>
 

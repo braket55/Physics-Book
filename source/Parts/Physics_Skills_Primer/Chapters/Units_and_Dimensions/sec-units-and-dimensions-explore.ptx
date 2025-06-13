@@ -5,277 +5,349 @@
 
     <!-- Start of Worksheet -->
     <worksheet xml:id="worksheet-explore-units-dimensions">
-        <title>Explore: Significant Figures</title>
+        <title>Explore: Units and Dimensions</title>
 
         <!-- Objectives -->
         <objectives>
             <ul>
                 <li>
-                    Reinforce your ability to identify significant figures in real-world and scientific contexts.
+                    Reinforce your ability to identify SI units and dimensions in real-world and scientific contexts.
                 </li>
             </ul>
         </objectives>
         <!-- Introduction -->
         <introduction>
             <p>
-                This worksheet is designed to help you explore the concept of significant figures in physics.
+                This worksheet is designed to help you explore the concept of units and dimensions in physics.
             </p>
         </introduction>
         <!-- Page 01 -->
         <page>
-            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- Count sig figs: Moon orbit -->
+            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- SI units of Position -->
             <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-01">
                 <statement>
                     <p>
-                        It take the Moon about 27.3 days to orbit Earth.
-                        How many significant figures are in this measurement?
+                        The quantity <em>position</em> has the following dimensions: <m>[L]</m>.
+                        Position is a measure of how far and in what direction an object is from a reference point.
+                        What is the SI unit of position?
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        Non-zero digits are always significant.
+                        [L] stands for length.]
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        Three
+                        m, where m is the symbol for meters.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        27.3 has three non-zero digits: 2, 7, and 3.
-                        This counts as three significant figures.
+                        Replace [L] with the SI unit symbol for length, m.
                     </p>
 
                     <p>
-                        So, 27.3 has three significant figures.
+                        So, the SI unit of position is m, where m is the symbol for meters.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 02 --> <!-- Count sig figs: Moon diameter -->
+            <!-- Worksheet Exercise 02 --> <!-- SI units of velocity -->
             <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-02">
                 <statement>
                     <p>
-                        The mean diameter of the Moon is about 3,475,000 meters.
-                        How many significant figures are in this measurement?
+                        The quantity <em>velocity</em> has the following dimensions: <m>[L][T]^{-1}</m>.
+                        Velocity is a measure of how fast an object is moving and in what direction.
+                        What is the SI unit of velocity?
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        All non-zero digits are significant.
-                        Leading zeros are not significant.
-                        Trailing zeros in a whole number without a decimal point are not significant.
+                        [L] stands for length, and [T] stands for time.
+                        Also, the exponent -1 means that the unit for time is in the denominator (i.e.
+                        <m>[T]^{-1} = \frac{1}{[T]}</m>)
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        Four
+                        m/s, where m is the symbol for meters and s is the symbol for seconds.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        3,475,000 has four non-zero digits: 3, 4, 7, and 5.
-                        The trailing zeros after the 5 are not significant because there is no decimal point or underline.
+                        Replace [L] with the SI unit for length, which is m, and [T] with the SI unit for time, which is s.
                     </p>
 
                     <p>
-                        So, 3,475,000 has four significant figures.
+                        The unit becomes <m>\text{m/s}</m>, which is meters per second.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 03 --> <!-- Count sig figs: Mass of the Moon -->
+            <!-- Worksheet Exercise 03 --> <!-- SI units of acceleration -->
             <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-03">
                 <statement>
                     <p>
-                        The mass of the Moon is about <m>7.3460 \times 10^{22}</m> kilograms.
-                        How many significant figures are in this measurement?
+                        The quantity <em>acceleration</em> has the following dimensions: <m>[L][T]^{-2}</m>.
+                        Acceleration is a measure of how quickly an object changes its velocity and in what direction.
+                        What is the SI unit of acceleration?
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        All non-zero digits are significant.
-                        Zeros between non-zero digits are significant.
-                        Trailing zeros after a decimal point are significant.
+                        [L] stands for length, and [T] stands for time.
+                        Also, the exponent -2 means that the unit for time is in the denominator (i.e.
+                        <m>[T]^{-2} = \frac{1}{[T]^2}</m>)
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        Five
+                        m/s², where m is the symbol for meters and s is the symbol for seconds.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>7.3460 \times 10^{22}</m> has four non-zero digits: 7, 3, 4, and 6. The zero occurs after a decimal so it is also significant.
+                        Replace [L] with m and [T] with s.
                     </p>
 
                     <p>
-                        So, <m>7.3460 \times 10^{22}</m> has five significant figures.
+                        The unit becomes <m>\text{m/s}^2</m>, which is meters per second squared.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 04 --> <!-- Volume of the Moon -->
-            <exercise workspace="2.0in" xml:id="worksheet-explore-units-dimensions-04">
+            <!-- Worksheet Exercise 04 --> <!-- SI units of force -->
+            <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-04">
                 <statement>
                     <p>
-                        The mean diameter of the Moon is about 3,475,000 meters.
-                        Since the Moon is roughly spherical, we can calculate its volume using the formula: <m>V = \frac{4}{3} \pi r^{3}</m>, where <m>r</m> is the radius.
-                        Calculate the volume of the Moon and express your answer in scientific notation with the correct number of significant figures.
+                        The quantity <em>force</em> has the following dimensions: <m>[M][L][T]^{-2}</m>.
+                        Force is a measure of how hard and in what direction an object pushs or pulls on another object.
+                        What is the SI unit of force?
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        The 4 and 3 in the fraction <m>\frac{4}{3}</m> are exact numbers, so they do not affect the number of significant figures.
-                        The radius is half the diameter, so <m>r = \frac{3,475,000}{2} = 1,737,500</m> meters.
-                        The given diameter has four significant figures, and we are multiplying it by itself three times in the volume formula, so the final answer should also have four significant figures.
+                        [M] stands for mass, [L] for length, and [T] for time.
+                        Also, the exponent -2 means that the unit for time is in the denominator (i.e.
+                        <m>[T]^{-2} = \frac{1}{[T]^2}</m>)
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        <m>2.197 \times 10^{19} \, m^3</m>, where <m>m</m> is the symbol for meters.
+                        kg·m/s², where kg is the symbol for kilogram, m is the symbol for meter, and s is the symbol for second.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>r = \frac{3,475,000 \, \text{meters}}{2} = 1,737,500 \, \text{meters}</m>. Do not round yet, as we will keep all significant figures until the end.
+                        Replace [M] with kg, [L] with m, and [T] with s.
                     </p>
 
                     <p>
-                        <m>V = \frac{4}{3} \pi r^{3}</m>.
-                    </p>
-
-                    <p>
-                        <m>V = \frac{4}{3} \pi (1,737,500 \, \text{meters})^{3}</m>.
-                    </p>
-
-                    <p>
-                        <m>V = 2.197166906 \times 10^{19} \, \text{meters}^{3}</m>.
-                    </p>
-
-                    <p>
-                        Our original value of the diameter has four sig figs, and we are muliplying itself three time in the volume equaiton.
-                        So our volume should have four sig figs.<m>V = 2.197166906 \times 10^{19} \, \text{meters}^{3}</m>.
-                    </p>
-
-                    <p>
-                        Then the volume of the Moon is, <m>V = 2.197 \times 10^{19} \, m^3</m>, where <m>m</m> is the symbol for meters.
+                        The unit becomes <m>\text{kg·m/s}^2</m>, which is kilogram multipled by meter per second.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 05 --> <!-- Mean density of the Moon -->
-            <exercise workspace="2.0in" xml:id="worksheet-explore-units-dimensions-05">
+            <!-- Worksheet Exercise 05 --> <!-- Dimensions of Energy -->
+            <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-05">
                 <statement>
                     <p>
-                        The mass of the Moon is about <m>7.3460 \times 10^{22}</m> kilograms.
-                        The volume of the Moon is about, <m>2.197 \times 10^{19} \, \text{meters}^3</m>.
-                        The mass density of the Moon can be calculated using the formula: <m>\rho = \frac{m}{V}</m>, where <m>m</m> is the mass and <m>V</m> is the volume.
-                        Calculate the mean density of the Moon and express your answer in scientific notation with the correct number of significant figures.
+                        The quantity <em>energy</em> has the following SI units: <m>\frac{kg \, m^2}{s^2}</m>.
+                        Energy can't be summarized by a simple sentence.
+                        However, it's related to many things in our everyday lives, such as the energy stored in food that our body needs to function, 
+                        the energy stored in batteries that our electronic devices need to function, and even energy stored in the vacuum of space itself! 
+                        What is the base dimensions of energy?
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        The mass has five significant figures, and the volume has four significant figures.
+                        Look at the units: kg (kilogram) is mass, m (meter) is length, and s (second) is time.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        3344 <m>\frac{\text{kilograms}}{\text{meters}^3}</m>
+                        <m>[M][L]^2[T]^{-2}</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Let mass be represented by the sombol <m>m</m>.
-                        So <m> m =7.3460 \times 10^{22}</m> kilograms.
+                        From the units <m>\frac{kg \, m^2}{s^2}</m>, we identify:
                     </p>
 
-                    <p>
-                        Let volume be represented by the sombol <m>V</m>.
-                        So <m> V = 2.197 \times 10^{19} \, \text{meters}^3</m>.
-                    </p>
+                    <ul>
+                        <li>
+                            kg → <m>[M]</m>
+                        </li>
+
+                        <li>
+                            <m>m^2</m> → <m>[L]^2</m>
+                        </li>
+
+                        <li>
+                            <m>s^2</m> in denominator → <m>[T]^{-2}</m>
+                        </li>
+                    </ul>
 
                     <p>
-                        Mass density "<m>\rho</m>" is given by the formula: <m>\rho = \frac{m}{V}</m>.
-                    </p>
-
-                    <p>
-                        <m>\rho = \frac{m}{V}</m>.
-                    </p>
-
-                    <p>
-                        <m>\rho = \frac{7.3460 \times 10^{22} \, \text{kilograms}}{2.197 \times 10^{19} \, \text{meters}^3}</m>.
-                    </p>
-
-                    <p>
-                        <m>\rho = 3343.650432 \, \frac{\text{kilograms}}{\text{meters}^3}</m>.
-                    </p>
-
-                    <p>
-                        The original mass has five significant figures, and the volume has four significant figures.
-                        The final answer should have the same number of significant figures as the measurement with the fewest significant figures, which is four.
-                    </p>
-
-                    <p>
-                        So the mean density of the Moon is <m>3344 \, \frac{\text{kilograms}}{\text{meters}^3}</m>.
+                        So, the base dimensions of energy are <m>[M][L]^2[T]^{-2}</m>.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 06 --> <!-- Surface acceleration on Moon compared to Earth -->
-            <exercise  xml:id="worksheet-explore-units-dimensions-06">
+            <!-- Worksheet Exercise 06 --> <!-- Dimensions of Power  -->
+            <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-06">
                 <statement>
                     <p>
-                        When an object falls near the surface of the Earth, ignoring air resistance, the object will have an acceleration of about 9.80 <m>\frac{m}{s^2}</m>, where <m>m</m> is the symbol for meters and <m>s</m> is the symbol for seconds.
-                        When an object falls near the surface of the Moon, the object will have an acceleration of about 1.622 <m>\frac{m}{s^2}</m>.
-                        Calculate the absolute value of the difference between the surface acceleration on the Moon and the surface acceleration on Earth.
+                        The quantity <em>power</em> has the following SI units: <m>\frac{kg \, m^2}{s^3}</m>.
+                        Power is the rate of energy use or transfer, or in other words power is energy per time.
+                        It's how fast your starship engines burn fuel or how quickly your phone draws energy from an energy source.
+                        What is the base dimensions of power?
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        Difference is calculated by subtracting the two values.
-                        The surface acceleration on the Moon has four significant figures, and the surface acceleration on Earth has three significant figures.
+                        Look at the units: kg (kilogram) is mass, m (meter) is length, and s (second) is time.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        8.18 <m>\frac{m}{s^2}</m>.
+                        <m>[M][L]^2[T]^{-3}</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        The difference between the surface acceleration on the Moon and the surface acceleration on Earth is calculated by subtracting the two values:
+                        From the units <m>\frac{kg \, m^2}{s^3}</m>, we identify:
                     </p>
 
-                    <p>
-                        <m>1.622 \, \frac{m}{s^2} - 9.80 \, \frac{m}{s^2} = -8.178 \frac{m}{s^2} </m>. Note that the question didn't specify which value to subtract from which, so we can choose either order. If you subtract the surface acceleration on the Moon from the surface acceleration on Earth, you will get a positive value.
-                    </p>
+                    <ul>
+                        <li>
+                            kg → <m>[M]</m>
+                        </li>
+
+                        <li>
+                            <m>m^2</m> → <m>[L]^2</m>
+                        </li>
+
+                        <li>
+                            <m>s^3</m> in denominator → <m>[T]^{-3}</m>
+                        </li>
+                    </ul>
 
                     <p>
-                        The absolute value of the difference is <m>|-8.178 \, \frac{m}{s^2}| =8.178 \, \frac{m}{s^2} </m>.
+                        So, the base dimensions of power are <m>[M][L]^2[T]^{-3}</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 07 --> <!-- Dimensions of molar gas constant -->
+            <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-07">
+                <statement>
+                    <p>
+                        The <em>molar gas constant</em> <m>R</m> has SI units of <m>\frac{kg \, m^2}{s^2 \, mol \, K}</m>.
+                        The molar gas constant connects microscopic energy of molecules and macroscopic quantities like pressure, volume, and temperature - 
+                        bridging the gap between the tiny molecular world and measurable gas behavior.
+                        What is the base dimensions of the molar gas constant?
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Look at the units: kg (kilogram) is mass, m (meter) is length, s (second) is time, mol (mole) is amount of substance, 
+                        and K (kelvin) is thermodynamic temperature.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>[M][L]^2[T]^{-2}[n]^{-1}[\Theta]^{-1}</m>
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        From the units <m>\frac{kg \, m^2}{s^2 \, mol \, K}</m>, we identify:
                     </p>
 
-                    <p>
-                        The surface acceleration on the Moon has four significant figures, and the surface acceleration on Earth has three significant figures.
-                        The final answer should have the same number of significant figures as the measurement with the fewest significant figures, which is three.
-                    </p>
+                    <ul>
+                        <li>
+                            kg → <m>[M]</m>
+                        </li>
+
+                        <li>
+                            <m>m^2</m> → <m>[L]^2</m>
+                        </li>
+
+                        <li>
+                            <m>s^2</m> in denominator → <m>[T]^{-2}</m>
+                        </li>
+
+                        <li>
+                            <m>mol</m> in denominator → <m>[n]^{-1}</m>
+                        </li>
+
+                        <li>
+                            <m>K</m> in denominator → <m>[\Theta]^{-1}</m>
+                        </li>
+                    </ul>
 
                     <p>
-                        So the absolute value of the difference between the surface acceleration on the Moon and the surface acceleration on Earth is 8.18 <m>\frac{m}{s^2}</m>.
+                        So, the base dimensions of the molar gas constant are <m>[M][L]^2[T]^{-2}[n]^{-1}[\Theta]^{-1}</m>.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 08 --> <!-- Dimensions of Charge -->
+            <exercise  xml:id="worksheet-explore-units-dimensions-08">
+                <statement>
+                    <p>
+                        The quantity <em>electric charge</em> has SI units of <m>A \cdot s</m>.
+                        Charge is a fundamental property of matter that governs how particles respond to electromagnetic fields and how they produce those fields themselves.
+                        Every lightning bolt, every battery, and every cat rubbing against a sweater has charge involved.
+                        What is the base dimensions of electric charge?
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Look at the units: A (ampere) is electric current, and s (second) is time.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>[I][T]</m>
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        From the units <m>A \cdot s</m>, we identify:
+                    </p>
+
+                    <ul>
+                        <li>
+                            A → <m>[I]</m>
+                        </li>
+
+                        <li>
+                            S → <m>[T]</m>
+                        </li>
+                    </ul>
+
+                    <p>
+                        So, the base dimensions of charge are <m>[I][T]</m>.
                     </p>
                 </solution>
             </exercise>

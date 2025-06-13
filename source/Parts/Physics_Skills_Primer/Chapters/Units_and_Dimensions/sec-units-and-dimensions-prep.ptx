@@ -14,140 +14,136 @@
     </section>
     -->
     <subsection xml:id="subsec-prep-units-dims-text">
-        <title>Prep Text: Significant Figures</title>
+        <title>Prep Text: Units and Dimensions</title>
 
         <p>
-            Significant figures (or <em>sig figs</em>) are the trustworthy digits in a measurement—those that carry real meaning.
-            They help ensure precision and honesty in your scientific spells and calculations.
-            To wield them wisely, follow these rules:
+            <term>Units</term>
         </p>
 
-        <ol>
-            <li>
-                <term>Start with what you see.</term> All <em>non-zero digits</em> are significant. If your magic crystal reads 3.472 volts, that's four significant figures—each non-zero digit counts.
-            </li>
+        <p>
+            Units are the steadfast way to seal your spells after casting.
+            Units give your numbers meaning.
+            The international system of units is called the SI system (from the French <em>Système International d'Unités</em>).
+            It defines seven base units <xref ref="subsec-prep-units-dims-table"/>, which form the foundation of all measurements in the magical realms of science: kilogram (kg), meter (m), second (s), mole (mol), ampere (A), kelvin (K), and candela (cd).
+        </p>
 
-            <li>
-                <term>Zeroes have secrets.</term>
-                <ul>
-                    <li>
-                        Zeroes <em>between</em> non-zero digits are always significant.
-                        Example: 101 has three sig figs.
-                    </li>
+        <p>
+            <term>Dimensions</term>
+        </p>
 
-                    <li>
-                        Leading zeroes (before any non-zero digits) are just placeholders—they don't count.
-                        Example: 0.0035 has two sig figs.
-                    </li>
+        <p>
+            While units tell you how much of something you have, dimensions tell you what kind of thing it is.
+            Dimensions <xref ref="subsec-prep-units-dims-table"/> are the elemental ingredients behind every physical quantity: mass [M], length [L], time [T], electric current [I], temperature [Θ], amount of substance [n], and luminous intensity [J].
+        </p>
 
-                    <li>
-                        Trailing zeroes (after the decimal point) <em>do</em> count! Example: 2.300 has four sig figs.
-                    </li>
+        <p>
+            Dimensions help you see through the illusion of numbers.
+            For example, the dimension of length can be measured using many different units: meters, feet, centimeters, light-years, and so on.
+            No matter which unit you choose, the underlying dimension—length—is the true quantity being measured.
+        </p>
 
-                    <li>
-                        Trailing zeroes in a whole number without a decimal? Mysterious! They may not be significant unless written in scientific notation.
-                        Example: 1500 could have two, three, or four sig figs—but <m>1.500 \times 10^3</m> definitely has four.
-                        To help clarify our communication in this guide, we will treat 1500 as two sig figs and <m>15\underline{0}0</m> as three sig figs.
-                    </li>
-                </ul>
-            </li>
+        <p>
+            <term>Units and Dimensions</term>
+        </p>
 
-            <li>
-                <term>Rounding</term>
-                <p>
-                    To round properly, follow these enchanted guidelines:
-                </p>
+        <p>
+            Units and dimensions are powerful tools for checking whether your work makes sense.
+            When you cast a spell (or perform a calculation), you can examine whether the units and/or dimensions on both sides of the equation match.
+            If they do, your spell is likely valid.
+            If they don't, you may have miscalculated or miscast.
+        </p>
 
-                <ul>
-                    <li>
-                        If digit to the right of your last desired digit is <term>6, 7, 8 or 9</term> then round the last desired digit up by one.
-                        Example: 2.46 → 2.5 (if keeping two sig figs)
-                    </li>
+        <p>
+            In your quest through physics, units and dimensions will act like your spellcraft syntax checker, quietly verifying your logic and guiding you toward equations that make physical sense.
+            Be careful, though: if the dimensions or units do match, that only means the equation is dimensionally consistent.
+            It doesn't guarantee the equation is correct or useful, just that it's dimensionally consistent.
+        </p>
 
-                    <li>
-                        If digit to the right of your last desired digit is <term>4, 3, 2, or 0</term> then keep the desired digit unchanged.
-                        Example: 2.14 → 2.1 (if keeping two sig figs)
-                    </li>
+        <table xml:id="subsec-prep-units-dims-table">
+            <title>SI Base Dimensions and Corresponding Units</title>
 
-                    <li>
-                        If digit to the right of your last desired digit is <term>5</term> and there are other non-zero digits to the right of that 5, then round the last desired digit up by one.
-                        Example: 2.2501 → 2.3 (if keeping two sig figs)
-                    </li>
+            <tabular halign="center">
+                <row header="yes" bottom="minor">
+                    <cell><em>Base Dimension</em></cell>
+                    <cell><em>Dimension Symbol</em></cell>
+                    <cell><em>SI Base Unit</em></cell>
+                    <cell><em>Unit Symbol</em></cell>
+                </row>
 
-                    <li>
-                        If digit to the right of your last desired digit is <term>5</term> and there is no other non-zero digits to the right of that 5, then round to the nearest even digit.
-                        Example: 2.250 → 2.2 (if keeping two sig figs).
-                        Example: 2.35 → 2.4 (if keeping two sig figs).
-                    </li>
-                </ul>
-            </li>
+                <row>
+                    <cell>Length</cell>
+                    <cell>[L]</cell>
+                    <cell>meter</cell>
+                    <cell>m</cell>
+                </row>
 
-            <li>
-                <term>Math with Care</term>
-                <p>
-                    When combining numbers in your calculations, the significant figures must follow the rules of magical balance:
-                </p>
+                <row>
+                    <cell>Mass</cell>
+                    <cell>[M]</cell>
+                    <cell>kilogram</cell>
+                    <cell>kg</cell>
+                </row>
 
-                <ul>
-                    <li>
-                        <term>Multiplying or dividing?</term> Your answer should have the <em>same number of significant figures</em> as the measurement with the fewest. For example, <m>2.5 × 3.42 = 8.55</m>, but since <m>2.5</m> has only two sig figs, you round your answer to <m>8.6</m>.
-                    </li>
+                <row>
+                    <cell>Time</cell>
+                    <cell>[T]</cell>
+                    <cell>second</cell>
+                    <cell>s</cell>
+                </row>
 
-                    <li>
-                        <term>Adding or subtracting?</term> Line up your decimal points. Your answer should be rounded to the <em>least precise decimal place</em> from your inputs. For example, <m>12.11 + 3.6 = 15.71</m>, which gets rounded to <m>15.7</m> because <m>3.6</m> is only precise to the tenths place.
-                    </li>
-                    <li>
-                        <term>Multiple Operations</term> Cast each spell in the proper order! Follow the standard order of operations (parentheses, exponents, multiplication/division from left to right, then addition/subtraction from left to right)., 
-                        Only round at the very end—after all the magic is done. Do not round after each step. 
-                        Rounding too early can throw your final result out of balance, like miscasting a potion halfway through.
-                    </li>
-                </ul>
-            </li>
-            <!--
-            <li>
-                <term>Count with care.</term>
-                <ul>
-                    <li>
-                        When multiplying or dividing, your answer should match the <em>least</em> number of sig figs from your ingredients.
-                    </li>
+                <row>
+                    <cell>Electric current</cell>
+                    <cell>[I]</cell>
+                    <cell>ampere</cell>
+                    <cell>A</cell>
+                </row>
 
-                    <li>
-                        When adding or subtracting, match the smallest number of decimal places.
-                    </li>
-                </ul>
-            </li>
-            -->
-        </ol>
+                <row>
+                    <cell>Temperature</cell>
+                    <cell>[Θ]</cell>
+                    <cell>kelvin</cell>
+                    <cell>K</cell>
+                </row>
+
+                <row>
+                    <cell>Amount of substance</cell>
+                    <cell>[n]</cell>
+                    <cell>mole</cell>
+                    <cell>mol</cell>
+                </row>
+
+                <row>
+                    <cell>Luminous intensity</cell>
+                    <cell>[J]</cell>
+                    <cell>candela</cell>
+                    <cell>cd</cell>
+                </row>
+            </tabular>
+        </table>
         <!-- Checkpoint Question 01 -->
         <exercise xml:id ="subsec-prep-units-dims-text-01">
             <statement>
                 <p>
-                    How many significant figures are in the number: 42.02?
+                    What are length, mass, and time refered to as?
                 </p>
             </statement>
 
             <hint>
                 <p>
-                    All non-zero digits count.
-                    Also, zeros between non-zero digits count.
+                    They are not units.
                 </p>
             </hint>
 
             <answer>
                 <p>
-                    42.02 has four significant figures.
+                    Length, mass, and time are referred to as dimensions, or more specifically base dimensions.
                 </p>
             </answer>
 
             <solution>
                 <p>
-                    42.02 has three non-zero digits: 4, 2, and 2.
-                    This counts as three significant figures so far.
-                    There is also a zero between two of the non-zero digits, which counts as a fourth significant figure.
-                </p>
-
-                <p>
-                    So, 42.02 has four significant figures.
+                    No need to engage the computation core.
+                    This question is a databank lookup on dimensional protocols.
                 </p>
             </solution>
         </exercise>
@@ -155,72 +151,53 @@
         <exercise xml:id ="subsec-prep-units-dims-text-02">
             <statement>
                 <p>
-                    How many significant figures are in the number: 0.007?
+                    What are meter, kilogram, and second refered to as?
                 </p>
             </statement>
 
             <hint>
                 <p>
-                    All non-zero digits count.
-                    Leading zeros (zeros that occur to the left of the first non-zero digit) don't count.
+                    These are not dimensions.
                 </p>
             </hint>
 
             <answer>
                 <p>
-                    0.007 has one significant figure.
+                    Meter, kilogram, and second are referred to as units, or more specifically base units or even SI units.
                 </p>
             </answer>
 
             <solution>
                 <p>
-                    0.007 has one non-zero digit: 7.
-                    This counts as one significant figures so far.
-                    There is also zeros, but all the zeros occur to the left of the 7 and are not between non-zero digits, so the zeros do not count.
-                </p>
-
-                <p>
-                    So, 0.007 has one significant figure.
+                    No need to unsheathe your scroll.
+                    This question is more of a quick lore check.
                 </p>
             </solution>
         </exercise>
 
         <p>
-            <term>Why Use It?</term>
+            <term>Why Use Them?</term>
         </p>
 
         <p>
-            Significant figures are like a secret code shared among scientists and magic folk alike.
-            When you report a measurement of 1.27 meters, you're really telling your fellow colleague: "I'm confident about the 1 and the 2, but the last digit—the 7—could vary a bit." That message is embedded in the number's three-digit significant figure code, quietly revealing both precision and uncertainty.
+            A number without clearly labeled units is just a riddle.
+            And while riddles can be fun, we're dealing with science, magic, and pressing matters that demand clear communication.
         </p>
 
         <p>
-            <term>Bonus Trick: Using Sig Figs in Scientific Notation</term>
+            <term>Bonus Trick: How do we define units and dimensions?</term>
         </p>
 
         <p>
-            Scientific notation and significant figures are best friends.
-            Writing a number like <m>6.02 \times 10^{23}</m> clearly shows that you've got three sig figs—no more, no less.
+            A wonderful location to dig deeper into units and dimensions is at the National Institude of Standards and Technology (NIST).
         </p>
 
         <p>
-            Here's how to combine their powers:
-            <ul>
-                <li>
-                    <p>
-                        <m>3.0 \times 10^2</m> → 2 sig figs
-                    </p>
-                </li>
+            Looking for a quick refresher on SI units? Try <url href="https://www.nist.gov/pml/owm/metric-si/si-units">SI Units</url>.
+        </p>
 
-                <li>
-                    <m>3.00 \times 10^2</m> → 3 sig figs
-                </li>
-
-                <li>
-                    <m>3 \times 10^2</m> → 1 sig fig
-                </li>
-            </ul>
-            Each extra zero you <em>intentionally</em> include after the decimal adds more confidence to your measurement.
+        <p>
+            Want to dig a little deeper and learn how each SI unit is defined experimentally and some historical context? Check out <url href="https://www.nist.gov/si-redefinition/definitions-si-base-units">NIST: Definitions of the SI Base Units</url>.
         </p>
 
         <p>
@@ -228,24 +205,24 @@
         </p>
 
         <p>
-            With significant figures in your database, you can communicate your uncertainty the vast realms of physics, chemistry, and cosmic measurement.
-            Write your numbers with care, check your sig figs, and let no leading zeros invade your notes.
+            With units in your toolkit and dimensions as your compass, you're ready to navigate the equations of the universe.
+            Always label your quantities, track your dimensions, and remember: a well-crafted spell—or equation—begins with knowing what kind of magic you're working with.
         </p>
     </subsection>
 
 
     <subsection xml:id="subsec-prep-units-dims-questions">
-        <title>Prep Questions: Significant Figures</title>
+        <title>Prep Questions: Units and Dimensions</title>
 
-        <!-- Count Number of Significant Figures -->
+        <!-- Units and Dimensions -->
         <p>
-            <term> Count the number of significant figures. </term>
+            <term> What is the SI unit for _____? </term>
         </p>
         <!-- Prep Question 01 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-01">
+        <exercise xml:id="subsec-prep-units-dims-questions-01">
             <statement>
                 <p>
-                    How many significant figures are in the number: 4202?
+                    What is the SI unit for mass?
                 </p>
             </statement>
 
@@ -254,13 +231,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            Four
+                            Kilogram
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! 4202 has four significant figures.
+                            Correct! The SI unit for mass is the kilogram.
                         </p>
                     </feedback>
                 </choice>
@@ -268,14 +245,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Three
+                            Gram
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            All non-zero digits count, and zeros between non-zeros digits count.
+                            Almost.  The SI unit has the word "gram" in it, but it is not the gram.
                         </p>
                     </feedback>
                 </choice>
@@ -283,14 +260,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Two
+                            Meter
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            All non-zero digits count, and zeros between non-zeros digits count.
+                            Seems like you are thinking about length, not mass.
                         </p>
                     </feedback>
                 </choice>
@@ -298,24 +275,24 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            One
+                            Second
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            All non-zero digits count, and zeros between non-zeros digits count.
+                            Seems like you are thinking about time, not mass.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <!-- Prep Question 02 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-02">
+        <exercise xml:id="subsec-prep-units-dims-questions-02">
             <statement>
                 <p>
-                    How many significant figures are in the number: 0.00560?
+                    What is the SI unit for time?
                 </p>
             </statement>
 
@@ -324,13 +301,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            Three
+                            Second
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! 0.00560 has three significant figures.
+                            Correct! The SI unit for time is the second.
                         </p>
                     </feedback>
                 </choice>
@@ -338,14 +315,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Two
+                            Minute
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Leading zeros are not significant, but trailing zeros after a decimal and digit are.
+                            This unit is a measure of time, just not the SI unit measure of time. Think smaller than a minute.
                         </p>
                     </feedback>
                 </choice>
@@ -353,14 +330,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            One
+                            Hour
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Leading zeros are not significant, but trailing zeros after a decimal and digit are.
+                            This unit is a measure of time, just not the SI unit measure of time. Think smaller than an hour.
                         </p>
                     </feedback>
                 </choice>
@@ -368,24 +345,24 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Four
+                            Meter
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Leading zeros are not significant, but trailing zeros after a decimal and digit are.
+                            Seems like you are thinking about length, not time.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <!-- Prep Question 03 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-03">
+        <exercise xml:id="subsec-prep-units-dims-questions-03">
             <statement>
                 <p>
-                    How many significant figures are in the number: <m>10\underline{0}</m>?
+                    What is the SI unit for length?
                 </p>
             </statement>
 
@@ -394,13 +371,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            Three
+                            Meter
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! <m>10\underline{0}</m> has three significant figures.
+                            Correct! The SI unit for length is the meter.
                         </p>
                     </feedback>
                 </choice>
@@ -408,15 +385,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Two
+                            Foot
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            All non-zero digits count.
-                            Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
+                            This unit is a measure of length, just not the SI unit measure of length. Think metric.
                         </p>
                     </feedback>
                 </choice>
@@ -424,15 +400,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            One
+                            Yard
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
+                            This unit is a measure of length, just not the SI unit measure of length. Think metric.
                         </p>
                     </feedback>
                 </choice>
@@ -440,25 +415,24 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Four
+                            Liter
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
+                            This unit is a measure of volume, not length.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <!-- Prep Question 04 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-04">
+        <exercise xml:id="subsec-prep-units-dims-questions-04">
             <statement>
                 <p>
-                    How many significant figures are in the number: 40.070?
+                    What is the SI unit for electric current?
                 </p>
             </statement>
 
@@ -467,13 +441,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            Five
+                            Ampere
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! 40.070 has five significant figures.
+                            Correct! The SI unit for electric current is the ampere.
                         </p>
                     </feedback>
                 </choice>
@@ -481,16 +455,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Three
+                            Volt
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
+                            This unit is a measure of electric potential, not current.
                         </p>
                     </feedback>
                 </choice>
@@ -498,16 +470,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Two
+                            Ohm
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
+                            This unit is a measure of electrical resistance, not current.
                         </p>
                     </feedback>
                 </choice>
@@ -515,26 +485,24 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Four
+                            Coulomb
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
+                            This unit is a measure of electric charge, not current.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <!-- Prep Question 05 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-05">
+        <exercise xml:id="subsec-prep-units-dims-questions-05">
             <statement>
                 <p>
-                    How many significant figures are in the number: 0.03040?
+                    What is the SI unit for thermodynamic temperature?
                 </p>
             </statement>
 
@@ -543,13 +511,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            Four
+                            Kelvin
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! 0.03040 has four significant figures.
+                            Correct! The SI unit for thermodynamic temperature is the kelvin.
                         </p>
                     </feedback>
                 </choice>
@@ -557,17 +525,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Six
+                            Celsius
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                            Leading zeros do not count.
+                            This unit is a measure of thermodynamic temperature, just not the SI unit.
                         </p>
                     </feedback>
                 </choice>
@@ -575,17 +540,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Five
+                            Fahrenheit
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                            Leading zeros do not count.
+                            This unit is a measure of thermodynamic temperature, just not the SI unit.
                         </p>
                     </feedback>
                 </choice>
@@ -593,31 +555,24 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            Two
+                            Joule
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                            Leading zeros do not count.
+                            This unit is a measure of energy, not thermodynamic temperature.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Round a Number to the Desired Sig Figs -->
-        <p>
-            <term> Round the number to the desired significant figures. </term>
-        </p>
         <!-- Prep Question 06 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-06">
+        <exercise xml:id="subsec-prep-units-dims-questions-06">
             <statement>
                 <p>
-                    Round 1.25 to two significant figures.
+                    What is the SI unit for amount of substance?
                 </p>
             </statement>
 
@@ -626,13 +581,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            1.2
+                            Mole
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct!
+                            Correct! The SI unit for amount of substance is the mole.
                         </p>
                     </feedback>
                 </choice>
@@ -640,14 +595,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            1.3
+                            Atom
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            When digit to right after the last desired digit is 5, you round to the nearest even digit.
+                            This unit is a measure of the smallest unit of matter, not the SI unit for amount of substance.
                         </p>
                     </feedback>
                 </choice>
@@ -655,14 +610,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            1
+                            Dozen
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Round to two significant figures, not one.
+                            This unit is a measure of quantity, but not the SI unit for amount of substance.
                         </p>
                     </feedback>
                 </choice>
@@ -670,24 +625,24 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            1.4
+                            Gram
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            When digit to right after the last desired digit is 5, you round to the nearest even digit.
+                            This unit is a measure of mass, not the SI unit for amount of substance.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <!-- Prep Question 07 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-07">
+        <exercise xml:id="subsec-prep-units-dims-questions-07">
             <statement>
                 <p>
-                    Round 6.750 to three significant figures.
+                    What is the SI unit for luminous intensity?
                 </p>
             </statement>
 
@@ -696,13 +651,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            6.75
+                            Candela
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct!
+                            Correct! The SI unit for luminous intensity is the candela.
                         </p>
                     </feedback>
                 </choice>
@@ -710,14 +665,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            6.76
+                            Lumen
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The digit after the last desired digit is 0, so you keep the last digit unchanged.
+                            This unit is a measure of luminous flux, not luminous intensity.
                         </p>
                     </feedback>
                 </choice>
@@ -725,14 +680,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            6.74
+                            Lux
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            The digit after the last desired digit is 0, so you keep the last digit unchanged.
+                            This unit is a measure of luminous flux per area, not luminous intensity.
                         </p>
                     </feedback>
                 </choice>
@@ -740,452 +695,18 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            6.8
+                            Watt
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Round to three significant figures, not two.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 08 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-08">
-            <statement>
-                <p>
-                    Round 0.004509 to three significant figures.
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            0.00451
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            0.00450
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            There is a 9 next to the 0, round the thrid sig fig up.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            0.0045
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            Round to three significant figures, not two.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            0.0046
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            You rounded too early—only the third sig fig (after 4 and 5, i.e.
-                            the 0) should be affected.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 09 -->
-        <exercise xml:id ="subsec-prep-units-dims-questions-09">
-            <statement>
-                <p>
-                    Round 35 to one significant figure.
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            4
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            3
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            The digit after the last desired digit is exactly 5, so you round to the nearest even digit.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            20
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            The digit after the last desired digit is exactly 5, so you round to the nearest even digit.
-                            There is a closer even number to 35 than 20.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            35
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            Round to one significant figure, not two.
+                            This unit is a measure of power, not luminous intensity.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
     </subsection>
-    <!-- Round to three sig figs after algebra -->
-    <p>
-        <term> Solve the following expression, rounding your final answer the appropiate amount of significant figures. </term>
-    </p>
-    <!-- Prep Question 10 -->
-    <exercise xml:id ="subsec-prep-units-dims-questions-10">
-        <statement>
-            <p>
-                Solve the expression: <m>2.00 \times 366.25</m>, and round your answer to the appropriate number of significant figures.
-            </p>
-        </statement>
-
-
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        732
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        733
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your targeting system glitched, try again.
-                        <m>2.00 \times 366.25 = 732.5</m> The digit after the last desired digit is exactly 5, so you round to the nearest even digit.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        732.5
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>2.00 \times 366.25 = 732.5</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        2.00 has three sig figs, and 366.25 has five sig figs.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        700
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>2.00 \times 366.25 = 732.5</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        2.00 has three sig figs, and 366.25 has five sig figs.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-    <!-- Prep Question 11 -->
-    <exercise xml:id ="subsec-prep-units-dims-questions-11">
-        <statement>
-            <p>
-                Solve the expression: <m>15.00 \div 4.5</m>, and round your answer to the appropriate number of significant figures.
-            </p>
-        </statement>
-
-
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        3.3
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        3.333
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your targeting system glitched, try again.
-                        <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        15.00 has four sig figs, and 4.5 has two sig figs.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        3.33
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        15.00 has four sig figs, and 4.5 has two sig figs.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        3
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        15.00 has four sig figs, and 4.5 has two sig figs.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-    <!-- Prep Question 12 -->
-    <exercise xml:id ="subsec-prep-units-dims-questions-12">
-        <statement>
-            <p>
-                Solve the expression: <m>81.201 - 3.02</m>, and round your answer to the appropriate number of decimal places.
-            </p>
-        </statement>
-
-
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        78.18
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        78.2
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places. 81.201 has three decimal places, and 3.02 has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        78.181
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        81.201 has three decimal places, and 3.02 has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        78
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        81.201 has three decimal places, and 3.02 has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-    <!-- Prep Question 13 -->
-    <exercise xml:id ="subsec-prep-units-dims-questions-13">
-        <statement>
-            <p>
-                Solve the expression: <m>12.1 + 0.35</m>, and round your answer to the appropriate number of decimal places.
-            </p>
-        </statement>
-
-
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        12.4
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        12.5
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your targeting system glitched, try again.
-                        <m>12.1 + 0.35 = 12.45</m> The digit after the last desired digit is exactly 5, so you round to the nearest even digit.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        12.45
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>12.1 + 0.35 = 12.45</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        12.1 has one decimal places, and 0.35 has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        12
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>12.1 + 0.35 = 12.45</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        12.1 has one decimal places, and 0.35 has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-</section>
+    </section>

@@ -318,7 +318,7 @@
                 </solution>
             </exercise>
             <!-- Worksheet Exercise 10 --> <!-- Human height vs influenza virus -->
-            <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-10">
+            <exercise xml:id="worksheet-explore-scientific-notation-10">
                 <statement>
                     <p>
                         About how many orders of magnitude larger is a human compared to an influenza virus? <em>Use questions <xref ref="worksheet-explore-scientific-notation-01"/> and <xref ref="worksheet-explore-scientific-notation-04"/> to help.</em>
