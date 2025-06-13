@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Significant Figures</title>
+<title>Units and Dimensions</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -130,7 +130,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-practice-sci-not.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="part-skills.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-prep-sig-figs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-practice-sig-figs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="part-skills.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-prep-units-dims.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -164,9 +164,9 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-significant-figures.html" class="internal"><span class="codenumber">2</span> <span class="title">Significant Figures</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-prep-sig-figs.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Prep</span></a></div>
 <ul class="structural toc-item-list">
@@ -184,9 +184,9 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-units-and-dimensions.html" class="internal"><span class="codenumber">3</span> <span class="title">Units and Dimensions</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-prep-units-dims.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Prep</span></a></div>
 <ul class="structural toc-item-list">
@@ -218,19 +218,54 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-significant-figures"><h2 class="heading">
-<span class="type">Chapter</span><span class="space"> </span><span class="codenumber">2</span><span class="space"> </span><span class="title">Significant Figures</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-units-and-dimensions"><h2 class="heading">
+<span class="type">Chapter</span><span class="space"> </span><span class="codenumber">3</span><span class="space"> </span><span class="title">Units and Dimensions</span>
 </h2>
-<section class="introduction" id="ch-significant-figures-2"><div class="para" id="ch-significant-figures-2-1">Whether brewing a potion, calibrating a starship engine, or decoding alien glyphs, the smallest mistake can turn triumph into catastrophe. That’s why careful minds rely on the ancient art of significant figures.</div>
-<div class="para" id="ch-significant-figures-2-2">Each digit in a number holds meaning. Some digits are trustworthy messengers, others are mere illusions. Significant figures tell you which numbers are true companions and which are just cosmic noise.</div>
-<div class="para" id="ch-significant-figures-2-3">Take a mass spectrometer aboard a deep-space probe, it doesn’t just spit out numbers for fun. It captures bits of alien atmospheres, sifts through that ionized dust, and offers data etched with meaning. A reading of 4.20 tells you more than 4.2 ever could; that final zero isn’t decoration, it’s a promise of precision. And what about a reading of 004.20? The leading zeros are but shadows, offering no real insight over what 4.20 tells you.</div>
-<div class="para" id="ch-significant-figures-2-4">By counting only the figures that matter, you wield the power to communicate with percision. It’s the trusted cantrip of alchemists, data druids, and quantum sages alike.</div></section><nav class="summary-links"><ul>
-<li><a href="sec-prep-sig-figs.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Prep</span></a></li>
-<li><a href="sec-explore-sig-figs.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Explore</span></a></li>
-<li><a href="sec-practice-sig-figs.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Practice</span></a></li>
+<section class="introduction" id="ch-units-and-dimensions-2"><div class="para" id="ch-units-and-dimensions-2-1"><dfn class="terminology">Units</dfn></div>
+<div class="para" id="ch-units-and-dimensions-2-2">Once you’ve tamed a number with scientific notation and balanced it with significant figures, there’s still one more charm to cast: <em class="emphasis">units</em>.</div>
+<div class="para" id="ch-units-and-dimensions-2-3">In our vast universe, numbers alone are like potions with no labels; mysterious at best, dangerous at worst. Is that “5” a length? A time? The weight of a standard unit dragon egg? Without units, we’re just guessing.</div>
+<div class="para" id="ch-units-and-dimensions-2-4">Units are the magical tags that anchor numbers to reality. A second tells us we’re measuring time. A meter marks distance. A kilogram weighs in with mass. These are three of the seven <em class="emphasis">base units</em>, the foundational runes of measurement used by scholars and spellcasters across the realms.</div>
+<div class="para logical" id="ch-units-and-dimensions-2-5">
+<div class="para">And just like combining spells, we can fuse base units into more complex ones:</div>
+<ul class="disc" id="ch-units-and-dimensions-2-5-1">
+<li id="ch-units-and-dimensions-2-5-1-1"><div class="para" id="p-derived-ch-units-and-dimensions-2-5-1-1">Speed - The SI units meters per second: m/s</div></li>
+<li id="ch-units-and-dimensions-2-5-1-2"><div class="para" id="p-derived-ch-units-and-dimensions-2-5-1-2">Force - The SI units are kilogram meter per second squared: kg·m/s²</div></li>
+<li id="ch-units-and-dimensions-2-5-1-3"><div class="para" id="p-derived-ch-units-and-dimensions-2-5-1-3">Energy - The SI units are kilogram meter squared per second squred: kg·m²/s²</div></li>
+</ul>
+</div>
+<div class="para" id="ch-units-and-dimensions-2-6">If you forget a unit, your calculations will fall apart faster than a novice wizard’s first fireball. Include the wrong one, and you might mix healing potions with poison. Choose wisely.</div>
+<div class="para" id="ch-units-and-dimensions-2-7"><dfn class="terminology">Dimensions</dfn></div>
+<div class="para" id="ch-units-and-dimensions-2-8">Even deeper than units lie the <em class="emphasis">dimensions</em>, the ancient scaffolding of the universe itself. Where units name things, <em class="emphasis">dimensions</em> define what they <em class="emphasis">are</em>.</div>
+<div class="para logical" id="ch-units-and-dimensions-2-9">
+<div class="para">No matter where you are (on Earth, on Mars, or sailing the outer moons of Jupiter) the same fundamental dimensions form the basis of all physical quantities. Time, mass, and length may behave differently under extreme conditions, but they remain the core ingredients of the universe. The following are three of the seven fundamental dimensions:</div>
+<ul class="disc" id="ch-units-and-dimensions-2-9-1">
+<li id="ch-units-and-dimensions-2-9-1-1"><div class="para" id="p-derived-ch-units-and-dimensions-2-9-1-1">
+<span class="process-math">\([T]\)</span> for time</div></li>
+<li id="ch-units-and-dimensions-2-9-1-2"><div class="para" id="p-derived-ch-units-and-dimensions-2-9-1-2">
+<span class="process-math">\([M]\)</span> for mass</div></li>
+<li id="ch-units-and-dimensions-2-9-1-3"><div class="para" id="p-derived-ch-units-and-dimensions-2-9-1-3">
+<span class="process-math">\([L]\)</span> for length</div></li>
+</ul>
+</div>
+<div class="para logical" id="ch-units-and-dimensions-2-10">
+<div class="para">All physical quantities are built from the seven dimensions, combined and rearranged like alchemical ingredients:</div>
+<ul class="disc" id="ch-units-and-dimensions-2-10-1">
+<li id="ch-units-and-dimensions-2-10-1-1"><div class="para" id="p-derived-ch-units-and-dimensions-2-10-1-1">Speed has dimensions Length per Time: <span class="process-math">\([L][T]^{-1}\)</span>
+</div></li>
+<li id="ch-units-and-dimensions-2-10-1-2"><div class="para" id="p-derived-ch-units-and-dimensions-2-10-1-2">Force has dimensions Mass multiplied by Length divided by Time squared: <span class="process-math">\([M][L][T]^{-2}\)</span>
+</div></li>
+<li id="ch-units-and-dimensions-2-10-1-3"><div class="para" id="p-derived-ch-units-and-dimensions-2-10-1-3">Energy has dimensions Mass multiplied by Length squared divded by Time squared: <span class="process-math">\([M][L]^{2}[T]^{-2}\)</span>
+</div></li>
+</ul>
+</div>
+<div class="para" id="ch-units-and-dimensions-2-11"></div>
+<dfn class="terminology">Quick Summary</dfn><div class="para" id="ch-units-and-dimensions-2-13">Units label your measurements. Dimensions reveal the nature of your measurements. Alone or together, they help keep your calculations from turning into chaos.</div></section><nav class="summary-links"><ul>
+<li><a href="sec-prep-units-dims.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Prep</span></a></li>
+<li><a href="sec-explore-units-dims.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Explore</span></a></li>
+<li><a href="sec-practice-units-dims.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Practice</span></a></li>
 </ul></nav></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="sec-practice-sci-not.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-prep-sig-figs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-practice-sig-figs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-prep-units-dims.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
