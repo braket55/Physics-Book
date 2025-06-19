@@ -646,7 +646,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Practice",
-  "body": " Practice   Practice: Scientific Notation  Extra questions to help level up your abilities.      If you launch an object straight up from the surface of the Earth and want it to avoid being pulled back by gravity, it must leave the surface of Earth at what's called the escape velocity. Escape velocity is also defined for other large objects such as planets, moons, and stars. The escape velocity from the surface of the Earth is about 11,200 m\/s. Where m is meters and s is seconds. The escape velocity from the surface of the Moon is about 21.25% of the escape velocity from the surface of the Earth. Calculate the escape velocity from the surface of the Moon in meters per second using the correct number of significant figures.      2.38 m\/s    Correct!      2.380    Your targeting system glitched, try again. 11,200 m\/s has three significant figures, and 21.25% has four significant figures. Since we are multiplying, the answer should have three significant figures.      59.1 m\/s    Your enchanted click missed the mark, try again. Try multiplying 11,200 m\/s by 0.2125 (which is 21.25% expressed as a decimal).      59.09    Your digital blade missed the mark, try again. Try multiplying 11,200 m\/s by 0.2125 (which is 21.25% expressed as a decimal). Also, double check your significant figures.          The Moon's surface can reach a maximum temperature of 121 °C during the day and drop to -178.89 °C at night. What is the average surface temperature of the Moon over one full day-night cycle, rounded to the correct number of significant figures?      -29 °C    Correct!      -28.9 °C    Your targeting system glitched, try again. Since one measurement (121) has zero decimal places, the result must be rounded to zero decimal places as well.      150 °C    Your enchanted click missed the mark, try again. The basic definition of an average is to add all the numbers together and then divide by the total number of values. For example, the average of 1, 4, and 7 is:       149.95 °C    Your digital blade missed the mark, try again. Double check your significant figures. ALso, the basic definition of an average is to add all the numbers together and then divide by the total number of values. For example, the average of 1, 4, and 7 is:        "
+  "body": " Practice   Practice: Significant Figures  Extra questions to help level up your abilities.      If you launch an object straight up from the surface of the Earth and want it to avoid being pulled back by gravity, it must leave the surface of Earth at what's called the escape velocity. Escape velocity is also defined for other large objects such as planets, moons, and stars. The escape velocity from the surface of the Earth is about 11,200 m\/s. Where m is meters and s is seconds. The escape velocity from the surface of the Moon is about 21.25% of the escape velocity from the surface of the Earth. Calculate the escape velocity from the surface of the Moon in meters per second using the correct number of significant figures.      2.38 m\/s    Correct!      2.380    Your targeting system glitched, try again. 11,200 m\/s has three significant figures, and 21.25% has four significant figures. Since we are multiplying, the answer should have three significant figures.      59.1 m\/s    Your enchanted click missed the mark, try again. Try multiplying 11,200 m\/s by 0.2125 (which is 21.25% expressed as a decimal).      59.09    Your digital blade missed the mark, try again. Try multiplying 11,200 m\/s by 0.2125 (which is 21.25% expressed as a decimal). Also, double check your significant figures.          The Moon's surface can reach a maximum temperature of 121 °C during the day and drop to -178.89 °C at night. What is the average surface temperature of the Moon over one full day-night cycle, rounded to the correct number of significant figures?      -29 °C    Correct!      -28.9 °C    Your targeting system glitched, try again. Since one measurement (121) has zero decimal places, the result must be rounded to zero decimal places as well.      150 °C    Your enchanted click missed the mark, try again. The basic definition of an average is to add all the numbers together and then divide by the total number of values. For example, the average of 1, 4, and 7 is:       149.95 °C    Your digital blade missed the mark, try again. Double check your significant figures. ALso, the basic definition of an average is to add all the numbers together and then divide by the total number of values. For example, the average of 1, 4, and 7 is:        "
 },
 {
   "id": "practice-sig-figs-01",
@@ -925,7 +925,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Practice",
-  "body": " Practice   Practice: Scientific Notation  Extra questions to help level up your abilities.       Consider a cube. Perhaps a magical or a glowing futuristic cube. You can find the volume of this cube by multiplying the length by width by height. What are the base SI units for volume?           Correct!           Your targeting system glitched, try again. This is the dimensions of volume, but not the base SI units.           Your enchanted click missed the mark, try again. Volume is length multipled by width multiplied by height, this would be in the numerator, not the denominator.           Your digital blade missed the mark, try again. Volume is length multipled by width multiplied by height, this would be in the numerator, not the denominator. Also, this is notation for dimensions, not base SI units.          The mass density of an object is defined as the mass divided by the volume. What are the base SI units for mass density?           Correct!           Your targeting system glitched, try again. This is the dimensions of mass density, but not the base SI units.           Your enchanted click missed the mark, try again. Mass density is mass divided by volume; mass would be in the numerator and volume in the denominator. Also, this is notation for dimensions, not base SI units.           Your digital blade missed the mark, try again. Mass density is mass divided by volume; mass would be in the numerator and volume in the denominator.          The energy density of a system is defined as the energy divided by the volume. What are the base SI units for energy density?           Correct!           Your targeting system glitched, try again. Recall energy has base SI units of . Energy density is this divided by volume, which has base SI units of . What is ?           Your enchanted click missed the mark, try again. Recall energy has base SI units of . Energy density is this divided by volume, which has base SI units of .           Your digital blade missed the mark, try again. Oops, you have the energy in the denominator and volume in the numerator.          The current density in a material is defined as the electric current divided by the area the current is passing through. What are the base SI units for current density?           Correct!           Your targeting system glitched, try again. Recall current has base SI units of . Current density is this divided by area, which has base SI units of . What is compared to ?           Your enchanted click missed the mark, try again. Recall current has base SI units of . Current density is this divided by area, which has base SI units of .           Your digital blade missed the mark, try again. Oops, you have the current in the denominator and the area in the numerator.          Probability is a measure of the likelihood that a particular event will occur. Whether you're rolling dice, detecting particles, or predicting the path of a rogue comet, probability helps quantify uncertainty. The value of probability ranges from 0 (impossible event) to 1 (certain event). What are the dimensions of probability?      Dimensionless    Correct! Probability is a pure number with no dimensions. It represents a ratio or likelihood.           Your targeting system glitched, try again. Probability isn't tied to time. It doesn't describe a rate or frequency by itself.           Your enchanted click missed the mark, try again. This would describe a volume, not the likelihood of an outcome.           Your digital blade missed the mark, try again. You're technically correct in notation, but the better answer is to call it \"dimensionless.\"          In quantum mechanics, the probability density of an electron tells you how likely you are to find the electron in a particular region of space. Unlike probability itself, probability density spreads that likelihood out over a volume. What are the base dimensions of probability density?           Correct! Probability density represents probability per unit volume.           Your targeting system glitched, try again. This would represent a volume, not a density that spreads probability through space.      Dimensionless    Your enchanted click missed the mark, try again. While total probability is dimensionless, the density must compensate for the volume it's distributed across.           Your digital blade missed the mark, try again. Time doesn't play a direct role in the dimensionality of spatial probability density.       "
+  "body": " Practice   Practice: Units and Dimensions  Extra questions to help level up your abilities.       Consider a cube. Perhaps a magical or a glowing futuristic cube. You can find the volume of this cube by multiplying the length by width by height. What are the base SI units for volume?           Correct!           Your targeting system glitched, try again. This is the dimensions of volume, but not the base SI units.           Your enchanted click missed the mark, try again. Volume is length multipled by width multiplied by height, this would be in the numerator, not the denominator.           Your digital blade missed the mark, try again. Volume is length multipled by width multiplied by height, this would be in the numerator, not the denominator. Also, this is notation for dimensions, not base SI units.          The mass density of an object is defined as the mass divided by the volume. What are the base SI units for mass density?           Correct!           Your targeting system glitched, try again. This is the dimensions of mass density, but not the base SI units.           Your enchanted click missed the mark, try again. Mass density is mass divided by volume; mass would be in the numerator and volume in the denominator. Also, this is notation for dimensions, not base SI units.           Your digital blade missed the mark, try again. Mass density is mass divided by volume; mass would be in the numerator and volume in the denominator.          The energy density of a system is defined as the energy divided by the volume. What are the base SI units for energy density?           Correct!           Your targeting system glitched, try again. Recall energy has base SI units of . Energy density is this divided by volume, which has base SI units of . What is ?           Your enchanted click missed the mark, try again. Recall energy has base SI units of . Energy density is this divided by volume, which has base SI units of .           Your digital blade missed the mark, try again. Oops, you have the energy in the denominator and volume in the numerator.          The current density in a material is defined as the electric current divided by the area the current is passing through. What are the base SI units for current density?           Correct!           Your targeting system glitched, try again. Recall current has base SI units of . Current density is this divided by area, which has base SI units of . What is compared to ?           Your enchanted click missed the mark, try again. Recall current has base SI units of . Current density is this divided by area, which has base SI units of .           Your digital blade missed the mark, try again. Oops, you have the current in the denominator and the area in the numerator.          Probability is a measure of the likelihood that a particular event will occur. Whether you're rolling dice, detecting particles, or predicting the path of a rogue comet, probability helps quantify uncertainty. The value of probability ranges from 0 (impossible event) to 1 (certain event). What are the dimensions of probability?      Dimensionless    Correct! Probability is a pure number with no dimensions. It represents a ratio or likelihood.           Your targeting system glitched, try again. Probability isn't tied to time. It doesn't describe a rate or frequency by itself.           Your enchanted click missed the mark, try again. This would describe a volume, not the likelihood of an outcome.           Your digital blade missed the mark, try again. You're technically correct in notation, but the better answer is to call it \"dimensionless.\"          In quantum mechanics, the probability density of an electron tells you how likely you are to find the electron in a particular region of space. Unlike probability itself, probability density spreads that likelihood out over a volume. What are the base dimensions of probability density?           Correct! Probability density represents probability per unit volume.           Your targeting system glitched, try again. This would represent a volume, not a density that spreads probability through space.      Dimensionless    Your enchanted click missed the mark, try again. While total probability is dimensionless, the density must compensate for the volume it's distributed across.           Your digital blade missed the mark, try again. Time doesn't play a direct role in the dimensionality of spatial probability density.       "
 },
 {
   "id": "practice-units-dims-01",
@@ -982,11 +982,254 @@ var ptx_lunr_docs = [
   "body": "  In quantum mechanics, the probability density of an electron tells you how likely you are to find the electron in a particular region of space. Unlike probability itself, probability density spreads that likelihood out over a volume. What are the base dimensions of probability density?           Correct! Probability density represents probability per unit volume.           Your targeting system glitched, try again. This would represent a volume, not a density that spreads probability through space.      Dimensionless    Your enchanted click missed the mark, try again. While total probability is dimensionless, the density must compensate for the volume it's distributed across.           Your digital blade missed the mark, try again. Time doesn't play a direct role in the dimensionality of spatial probability density.     "
 },
 {
+  "id": "sec-prep-unit-prefixes",
+  "level": "1",
+  "url": "sec-prep-unit-prefixes.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Prep",
+  "body": " Prep    Prep Text: Unit Prefixes  Unit prefixes are the verbal runes that shrink or stretch your units with a single syllable. They're shortcuts to tame unwieldy measurements without changing their essence. Instead of writing out 3,000 meters, you can invoke the prefix kilo- to conjure “3 kilometers.” Instead of whispering 0.000000001 seconds, you can say “1 nanosecond” and sound like a seasoned chronomancer.  Prefixes are always attached to units, not to the raw numbers themselves. You won't hear \"nano\" on it's own; it always comes with a unit like \"meter\" or \"second.\" This is because prefixes are like magical modifiers that alter the scale of the unit, not the number itself.  If you want to use unit prefixes in your written spells, prefixes come with their own symbols. For example, the prefix kilo- is represented by the symbol k , so \"3 kilometers\" can be written as \"3 km.\" Similarly, \"1 nanosecond\" can be written as \"1 ns.\"   SI Unit Prefixes    Prefix Name  Symbol  Power of Ten  Decimal Name    quetta  Q   nonillion    ronna  R   octillion    yotta  Y   septillion    exa  E   quintillion    peta  P   quadrillion    tera  T   trillion    tera  T   trillion    giga  G   billion    mega  M   million    kilo  k   thousand    hecto  h   hundred    deca  da   ten    deci  d   tenth    centi  c   hundredth    milli  m   thousandth    micro  μ   millionth    nano  n   billionth    pico  p   trillionth    femto  f   quadrillionth    atto  a   quintillionth    zepto  z   sextillionth    yocto  y   septillionth    ronto  r   octillionth    quecto  q   nonillionth        How would you say 73 Mg in words?    The prefix \"M\" is for mega, which means . The \"g\" follows the prefix, and it stands for gram.    73 megagrams    The prefix \"M\" is for mega, which means . The \"g\" follows the prefix, and it stands for gram. So 73 Mg is 73 megagrams. Or, if you prefer the decimal name, you could say 73 million grams.       How would you write the value of 22 nanoseconds?    nano is the prefix for , and the symbol for nano is \"n\".    22 ns    nano is the prefix for , and the symbol for nano is \"n\". Seconds is the unit that follows the prefix nano. So 22 nanoseconds can be written as 22 ns. Or, if you prefer the decimal name, you could write 22 billionths of a second.     Why Use Them?   You might wonder: if we can say “megagrams” instead of “a million grams,” why do we need both? The key is that they serve different roles in communication . The prefix name (like mega- ) is part of the official SI system. It's used when naming and writing units in scientific work: megameters, milliamps, nanoseconds. These are concise, precise, and standardized.  The decimal name (like “million”) isn't part of the unit itself, it's just how we describe the value of a number in everyday terms. You'll often hear it in speech, estimates, or media. Saying “a billion cells” or “a trillion dollars” is easier for general audiences to understand than “gigacells” or “teradollars.”  So both ways are valid, but they're used in different contexts. Prefix names are for units ; decimal names are for quantities . And when you're fluent in both, you can navigate smoothly between scientific scrolls and everyday storytelling.   Bonus Trick: How do we define units and dimensions?   Just add the power of ten to the unit or dimension value. For example, 550 nm = 550 x m.  It's customary to not stack unit prefixes. For example, you would not say \"8 kilokilogram\", instead you would say \"8 megagram\" (8 x g).  Be careful when communicating with synthetic beings, since unit prefixes used to represent different things in binary code. For example, 1 kilobyte used to be defined as 1024 bytes. However, those ancient scrolls have been updated to match our standard unit prefix notation. Now 1 kilobyte is 1000 bytes, and 1 kibibyte is 1024 bytes. It's best to extablish a common understanding before engaging in data transfer.   A Parting Word   One prefix to scale them all, one prefix to name them, one prefix to tame them all, and with the units frame them.    Prep Questions: Unit Prefixes    Say the following quantity.      How would you say 25 cm in words?      25 centimeters    Correct!      25 millimeters    Your targeting system glitched, try again. The prefix milli means , and has the symbol \"m\".      25 meters    Your enchanted click missed the mark, try again. This answer has no prefix. The prefix in the statement is the \"c\".      25 decimeters    Your digital blade missed the mark, try again. The prefix milli means , and has the symbol \"d\".         How would you say 611 μA in words?      611 microamperes    Correct!      611 megaamperes    Your targeting system glitched, try again. The prefix mega means , and has the symbol \"M\".      611 milliamperes    Your enchanted click missed the mark, try again. The prefix milli means , and has the symbol \"m\".      611 nanoamperes    Your digital blade missed the mark, try again. The prefix nano means , and has the symbol \"n\".       Write the following quantity.      How would you write the value of 24 terameter?      24 Tm    Correct!      24 tm    Your targeting system glitched, try again. The symbol for tera is \"T\", not \"t\".      24 m    Your enchanted click missed the mark, try again. You have the unit \"m\" for meter, but are missing the prefix.      24 Gm    Your digital blade missed the mark, try again. The prefix \"G\" is for giga, which means .         How would you write the value of 3 femtoseconds?      3 fs    Correct!      3 Fs    Your targeting system glitched, try again. The symbol for femto is \"f\", not \"F\".      3 s    Your enchanted click missed the mark, try again. You have the unit \"s\" for seconds, but are missing the prefix.      3 fS    Your digital blade missed the mark, try again. The prefix is correct, but recall the SI unit symbol for seconds is \"s\", not \"S\".       Power of Ten      Write the following quantity with the power of ten notation: 37 Gm.      37 x m    Correct!      37 x m    Your targeting system glitched, try again. The prefix \"G\" is for giga, which means .      37 x m    Your enchanted click missed the mark, try again. The prefix \"G\" is for giga, which means .      37 x m    Your digital blade missed the mark, try again. The prefix \"G\" is for giga, which means .         Write the following quantity with the power of ten notation: 12 mm.      12 x m    Correct!      12 x m    Your targeting system glitched, try again. The prefix \"m\" is for milli, which means .      12 x m    Your enchanted click missed the mark, try again. The prefix \"m\" is for milli, which means .      12 x m    Your digital blade missed the mark, try again. The prefix \"m\" is for milli, which means .       "
+},
+{
+  "id": "subsec-prep-unit-prefixes-table",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-table",
+  "type": "Table",
+  "number": "4.1.1",
+  "title": "SI Unit Prefixes",
+  "body": " SI Unit Prefixes    Prefix Name  Symbol  Power of Ten  Decimal Name    quetta  Q   nonillion    ronna  R   octillion    yotta  Y   septillion    exa  E   quintillion    peta  P   quadrillion    tera  T   trillion    tera  T   trillion    giga  G   billion    mega  M   million    kilo  k   thousand    hecto  h   hundred    deca  da   ten    deci  d   tenth    centi  c   hundredth    milli  m   thousandth    micro  μ   millionth    nano  n   billionth    pico  p   trillionth    femto  f   quadrillionth    atto  a   quintillionth    zepto  z   sextillionth    yocto  y   septillionth    ronto  r   octillionth    quecto  q   nonillionth    "
+},
+{
+  "id": "subsec-prep-unit-prefixes-text-01",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-text-01",
+  "type": "Checkpoint",
+  "number": "4.1.2",
+  "title": "",
+  "body": "  How would you say 73 Mg in words?    The prefix \"M\" is for mega, which means . The \"g\" follows the prefix, and it stands for gram.    73 megagrams    The prefix \"M\" is for mega, which means . The \"g\" follows the prefix, and it stands for gram. So 73 Mg is 73 megagrams. Or, if you prefer the decimal name, you could say 73 million grams.   "
+},
+{
+  "id": "subsec-prep-unit-prefixes-text-02",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-text-02",
+  "type": "Checkpoint",
+  "number": "4.1.3",
+  "title": "",
+  "body": "  How would you write the value of 22 nanoseconds?    nano is the prefix for , and the symbol for nano is \"n\".    22 ns    nano is the prefix for , and the symbol for nano is \"n\". Seconds is the unit that follows the prefix nano. So 22 nanoseconds can be written as 22 ns. Or, if you prefer the decimal name, you could write 22 billionths of a second.   "
+},
+{
+  "id": "subsec-prep-unit-prefixes-text-8",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-text-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Why Use Them? "
+},
+{
+  "id": "subsec-prep-unit-prefixes-text-12",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-text-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Bonus Trick: How do we define units and dimensions? "
+},
+{
+  "id": "subsec-prep-unit-prefixes-text-16",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-text-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A Parting Word "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-2",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Say the following quantity. "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-01",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-01",
+  "type": "Checkpoint",
+  "number": "4.1.4",
+  "title": "",
+  "body": "  How would you say 25 cm in words?      25 centimeters    Correct!      25 millimeters    Your targeting system glitched, try again. The prefix milli means , and has the symbol \"m\".      25 meters    Your enchanted click missed the mark, try again. This answer has no prefix. The prefix in the statement is the \"c\".      25 decimeters    Your digital blade missed the mark, try again. The prefix milli means , and has the symbol \"d\".     "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-02",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-02",
+  "type": "Checkpoint",
+  "number": "4.1.5",
+  "title": "",
+  "body": "  How would you say 611 μA in words?      611 microamperes    Correct!      611 megaamperes    Your targeting system glitched, try again. The prefix mega means , and has the symbol \"M\".      611 milliamperes    Your enchanted click missed the mark, try again. The prefix milli means , and has the symbol \"m\".      611 nanoamperes    Your digital blade missed the mark, try again. The prefix nano means , and has the symbol \"n\".     "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-5",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Write the following quantity. "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-03",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-03",
+  "type": "Checkpoint",
+  "number": "4.1.6",
+  "title": "",
+  "body": "  How would you write the value of 24 terameter?      24 Tm    Correct!      24 tm    Your targeting system glitched, try again. The symbol for tera is \"T\", not \"t\".      24 m    Your enchanted click missed the mark, try again. You have the unit \"m\" for meter, but are missing the prefix.      24 Gm    Your digital blade missed the mark, try again. The prefix \"G\" is for giga, which means .     "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-04",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-04",
+  "type": "Checkpoint",
+  "number": "4.1.7",
+  "title": "",
+  "body": "  How would you write the value of 3 femtoseconds?      3 fs    Correct!      3 Fs    Your targeting system glitched, try again. The symbol for femto is \"f\", not \"F\".      3 s    Your enchanted click missed the mark, try again. You have the unit \"s\" for seconds, but are missing the prefix.      3 fS    Your digital blade missed the mark, try again. The prefix is correct, but recall the SI unit symbol for seconds is \"s\", not \"S\".     "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-8",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Power of Ten "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-05",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-05",
+  "type": "Checkpoint",
+  "number": "4.1.8",
+  "title": "",
+  "body": "  Write the following quantity with the power of ten notation: 37 Gm.      37 x m    Correct!      37 x m    Your targeting system glitched, try again. The prefix \"G\" is for giga, which means .      37 x m    Your enchanted click missed the mark, try again. The prefix \"G\" is for giga, which means .      37 x m    Your digital blade missed the mark, try again. The prefix \"G\" is for giga, which means .     "
+},
+{
+  "id": "subsec-prep-unit-prefixes-questions-06",
+  "level": "2",
+  "url": "sec-prep-unit-prefixes.html#subsec-prep-unit-prefixes-questions-06",
+  "type": "Checkpoint",
+  "number": "4.1.9",
+  "title": "",
+  "body": "  Write the following quantity with the power of ten notation: 12 mm.      12 x m    Correct!      12 x m    Your targeting system glitched, try again. The prefix \"m\" is for milli, which means .      12 x m    Your enchanted click missed the mark, try again. The prefix \"m\" is for milli, which means .      12 x m    Your digital blade missed the mark, try again. The prefix \"m\" is for milli, which means .     "
+},
+{
+  "id": "sec-explore-unit-prefixes",
+  "level": "1",
+  "url": "sec-explore-unit-prefixes.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Explore",
+  "body": " Explore    Explore: Unit Prefixes     Reinforce your ability to use unit prefixes in real-world and scientific contexts.      This worksheet is designed to help you explore the concept of unit prefixes in physics.         The Mars rover Perseverance launched from Cape Canaveral, Florida, on July 30, 2020, aboard an Atlas V 541 rocket. Its main engine, the RD-180, burned a mix of liquid oxygen and rocket-grade kerosene to produce the thrust needed for takeoff. The total mass of fuel used by the main engine during launch was about 284 megagrams. Write this mass in scientific notation using SI units.    Mega means . So, 284 megagrams can be written as grams. However, the SI unit of mass is not grams, it's kilograms.     kg.    284 megagrams can be written as grams.  The SI unit of mass is kilograms, not grams. To convert grams to kilograms, divide by (or multiply by ). So, grams is equal to kg.  Simplifying this gives us kg.  Finally, we can express this in scientific notation as kg.  Therefore, the mass of fuel used by the main engine during launch is kg.        During its decent onto the surface of Mars, the Perseverance moved through the Martian atmosphere which can contain dust particles roughly 2.5 micrometers in diameter. Write the diameter of the dust particles in scientific notation using SI units.    Micro means . And the SI unit of length is meters.     m    2.5 micrometers can be written as meters.  Meters is the SI unit of length, so we don't need to convert it.  Therefore, the diameter of the dust particles is m.        The data collected by the Perseverance rover is transmitted back to Earth. It can take about 300 seconds for the data to reach Earth from Mars. Use unit prefixes to express the time it takes for data to reach Earth. Keep the same unit of seconds, just add a prefix.    There are many options, but it's common to have the value between 1 and 10 when the original value has one sig fig. So your answer could be 3 \"prefix\"seconds.    3 hectoseconds.    Rewrite 300 seconds as seconds.  The prefix \"hecto\" means .  Therefore, 300 seconds can be expressed as 3 hectoseconds.  For fun: you can also say 30 decaseconds, 30,000 centiseconds, etc...        The data collected by the Perseverance rover can be directly transmitted back to Earth from the rover. The rate at which this data is transferred is about 32,000 bits per second. Use unit prefixes to express the rate data is transferred from the rover to Earth. Keep the same unit of bits per second, just add a prefix.    There are many options, but it's common to have the value between 10 and 100 when the original value has two sig figs. So your answer could be 32 \"prefix\"bits per second.    32 kilobits\/second    Rewrite 32,000 bits\/second as bits\/seconds.  The prefix \"kilo\" means .  Therefore, 32,000 bits per seconds can be expressed as 32 kilobits per second.  For fun: you can also say .032 megabits per second, 3,200,000 centibits per second, etc...      "
+},
+{
+  "id": "worksheet-explore-unit-prefixes-2",
+  "level": "2",
+  "url": "sec-explore-unit-prefixes.html#worksheet-explore-unit-prefixes-2",
+  "type": "Objectives",
+  "number": "4.2.1",
+  "title": "",
+  "body": "  Reinforce your ability to use unit prefixes in real-world and scientific contexts.   "
+},
+{
+  "id": "worksheet-explore-unit-prefixes-01",
+  "level": "2",
+  "url": "sec-explore-unit-prefixes.html#worksheet-explore-unit-prefixes-01",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1.1",
+  "title": "",
+  "body": "  The Mars rover Perseverance launched from Cape Canaveral, Florida, on July 30, 2020, aboard an Atlas V 541 rocket. Its main engine, the RD-180, burned a mix of liquid oxygen and rocket-grade kerosene to produce the thrust needed for takeoff. The total mass of fuel used by the main engine during launch was about 284 megagrams. Write this mass in scientific notation using SI units.    Mega means . So, 284 megagrams can be written as grams. However, the SI unit of mass is not grams, it's kilograms.     kg.    284 megagrams can be written as grams.  The SI unit of mass is kilograms, not grams. To convert grams to kilograms, divide by (or multiply by ). So, grams is equal to kg.  Simplifying this gives us kg.  Finally, we can express this in scientific notation as kg.  Therefore, the mass of fuel used by the main engine during launch is kg.   "
+},
+{
+  "id": "worksheet-explore-unit-prefixes-02",
+  "level": "2",
+  "url": "sec-explore-unit-prefixes.html#worksheet-explore-unit-prefixes-02",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1.2",
+  "title": "",
+  "body": "  During its decent onto the surface of Mars, the Perseverance moved through the Martian atmosphere which can contain dust particles roughly 2.5 micrometers in diameter. Write the diameter of the dust particles in scientific notation using SI units.    Micro means . And the SI unit of length is meters.     m    2.5 micrometers can be written as meters.  Meters is the SI unit of length, so we don't need to convert it.  Therefore, the diameter of the dust particles is m.   "
+},
+{
+  "id": "worksheet-explore-unit-prefixes-03",
+  "level": "2",
+  "url": "sec-explore-unit-prefixes.html#worksheet-explore-unit-prefixes-03",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1.3",
+  "title": "",
+  "body": "  The data collected by the Perseverance rover is transmitted back to Earth. It can take about 300 seconds for the data to reach Earth from Mars. Use unit prefixes to express the time it takes for data to reach Earth. Keep the same unit of seconds, just add a prefix.    There are many options, but it's common to have the value between 1 and 10 when the original value has one sig fig. So your answer could be 3 \"prefix\"seconds.    3 hectoseconds.    Rewrite 300 seconds as seconds.  The prefix \"hecto\" means .  Therefore, 300 seconds can be expressed as 3 hectoseconds.  For fun: you can also say 30 decaseconds, 30,000 centiseconds, etc...   "
+},
+{
+  "id": "worksheet-explore-unit-prefixes-04",
+  "level": "2",
+  "url": "sec-explore-unit-prefixes.html#worksheet-explore-unit-prefixes-04",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1.4",
+  "title": "",
+  "body": "  The data collected by the Perseverance rover can be directly transmitted back to Earth from the rover. The rate at which this data is transferred is about 32,000 bits per second. Use unit prefixes to express the rate data is transferred from the rover to Earth. Keep the same unit of bits per second, just add a prefix.    There are many options, but it's common to have the value between 10 and 100 when the original value has two sig figs. So your answer could be 32 \"prefix\"bits per second.    32 kilobits\/second    Rewrite 32,000 bits\/second as bits\/seconds.  The prefix \"kilo\" means .  Therefore, 32,000 bits per seconds can be expressed as 32 kilobits per second.  For fun: you can also say .032 megabits per second, 3,200,000 centibits per second, etc...   "
+},
+{
+  "id": "sec-practice-unit-prefixes",
+  "level": "1",
+  "url": "sec-practice-unit-prefixes.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Practice",
+  "body": " Practice   Practice: Unit Prefixes  Extra questions to help level up your abilities.      In 2020, Utqiaġvik, Alaska (formerly Barrow) recorded about 530 millimeters of snow. Write this amount in meters using scientific notation with the correct number of significant figures.           Correct!           Your targeting system glitched, try again. This is correct, but not in scientific notation.           Your enchanted click missed the mark, try again. Mili does mean , so 530 millimeters is . But now you need to convert this to scientific notation.           Your digital blade missed the mark, try again. Mili does mean , so 530 millimeters is . But now you need to convert this to scientific notation.          NASA reports that Greenland has been losing ice at an average rate of 0.279 exagrams per year. Convert this mass into kilograms using scientific notation with the correct number of significant figures.       kg    Correct!       kg    Your targeting system glitched, try again. Exa means , so 0.279 exagrams = g. However, we need to convert this to kilograms. 1 kilogram = grams, so we need to divide by .       kg    Your enchanted click missed the mark, try again. Exa means , so 0.279 exagrams = g. However, we need to convert this to kilograms. 1 kilogram = grams, so we need to divide by .       kg    Your digital blade missed the mark, try again. Exa means , so 0.279 exagrams = g. However, we need to convert this to kilograms. 1 kilogram = grams, so we need to divide by .          A typical 1-kW rooftop solar panel system can generate about joules of energy over a year in sunny regions. Express this annual energy production using a unit prefix. The SI symbol for joule is \"J\".      3.6 GJ    Correct!      3.6 MJ    Your targeting system glitched, try again. Mega means , not .      3.6 gJ    Your enchanted click missed the mark, try again. There is no prefix \"g\".      3.6 nJ    Your digital blade missed the mark, try again. On the right track, but nano means , not .          A certified HEPA filter is capable of capturing 99.97% of airborne particles with diameters as small as 0.0000003 meters. Express this diameter using a unit prefix.      0.3     Correct!      3     Your targeting system glitched, try again. Try counting the zeros again.      0.3     Your enchanted click missed the mark, try again. Try counting the zeros again.      3     Your digital blade missed the mark, try again. Try counting the zeros again.       "
+},
+{
+  "id": "practice-unit-prefixes-01",
+  "level": "2",
+  "url": "sec-practice-unit-prefixes.html#practice-unit-prefixes-01",
+  "type": "Checkpoint",
+  "number": "4.3.1",
+  "title": "",
+  "body": "  In 2020, Utqiaġvik, Alaska (formerly Barrow) recorded about 530 millimeters of snow. Write this amount in meters using scientific notation with the correct number of significant figures.           Correct!           Your targeting system glitched, try again. This is correct, but not in scientific notation.           Your enchanted click missed the mark, try again. Mili does mean , so 530 millimeters is . But now you need to convert this to scientific notation.           Your digital blade missed the mark, try again. Mili does mean , so 530 millimeters is . But now you need to convert this to scientific notation.     "
+},
+{
+  "id": "practice-unit-prefixes-02",
+  "level": "2",
+  "url": "sec-practice-unit-prefixes.html#practice-unit-prefixes-02",
+  "type": "Checkpoint",
+  "number": "4.3.2",
+  "title": "",
+  "body": "  NASA reports that Greenland has been losing ice at an average rate of 0.279 exagrams per year. Convert this mass into kilograms using scientific notation with the correct number of significant figures.       kg    Correct!       kg    Your targeting system glitched, try again. Exa means , so 0.279 exagrams = g. However, we need to convert this to kilograms. 1 kilogram = grams, so we need to divide by .       kg    Your enchanted click missed the mark, try again. Exa means , so 0.279 exagrams = g. However, we need to convert this to kilograms. 1 kilogram = grams, so we need to divide by .       kg    Your digital blade missed the mark, try again. Exa means , so 0.279 exagrams = g. However, we need to convert this to kilograms. 1 kilogram = grams, so we need to divide by .     "
+},
+{
+  "id": "practice-unit-prefixes-03",
+  "level": "2",
+  "url": "sec-practice-unit-prefixes.html#practice-unit-prefixes-03",
+  "type": "Checkpoint",
+  "number": "4.3.3",
+  "title": "",
+  "body": "  A typical 1-kW rooftop solar panel system can generate about joules of energy over a year in sunny regions. Express this annual energy production using a unit prefix. The SI symbol for joule is \"J\".      3.6 GJ    Correct!      3.6 MJ    Your targeting system glitched, try again. Mega means , not .      3.6 gJ    Your enchanted click missed the mark, try again. There is no prefix \"g\".      3.6 nJ    Your digital blade missed the mark, try again. On the right track, but nano means , not .     "
+},
+{
+  "id": "practice-unit-prefixes-04",
+  "level": "2",
+  "url": "sec-practice-unit-prefixes.html#practice-unit-prefixes-04",
+  "type": "Checkpoint",
+  "number": "4.3.4",
+  "title": "",
+  "body": "  A certified HEPA filter is capable of capturing 99.97% of airborne particles with diameters as small as 0.0000003 meters. Express this diameter using a unit prefix.      0.3     Correct!      3     Your targeting system glitched, try again. Try counting the zeros again.      0.3     Your enchanted click missed the mark, try again. Try counting the zeros again.      3     Your digital blade missed the mark, try again. Try counting the zeros again.     "
+},
+{
   "id": "sec-section-name-2",
   "level": "1",
   "url": "sec-section-name-2.html",
   "type": "Section",
-  "number": "4.1",
+  "number": "5.1",
   "title": "Section Title",
   "body": " Section Title  Text of section.  "
 },
@@ -995,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-section-name-3.html",
   "type": "Section",
-  "number": "4.2",
+  "number": "5.2",
   "title": "Section Title",
   "body": " Section Title  Text of section.  "
 },
