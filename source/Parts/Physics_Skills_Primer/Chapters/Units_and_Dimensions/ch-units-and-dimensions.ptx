@@ -59,7 +59,7 @@
 
         <p>
             No matter where you are (on Earth, on Mars, or sailing the outer moons of Jupiter) the same fundamental dimensions form the basis of all physical quantities.
-            Time, mass, and length may behave differently under extreme conditions, but they remain the core ingredients of the universe. 
+            Time, mass, and length may behave differently under extreme conditions, but they remain the core ingredients of the universe.
             The following are three of the seven fundamental dimensions:
             <ul>
                 <li>
@@ -92,15 +92,12 @@
                 </li>
             </ul>
         </p>
-        <p>
-            
-        </p>
 
+        <p>
+        </p>
         <term>Quick Summary</term>
         <p>
-            <strong>Units</strong> label your measurements.
-            <strong>Dimensions</strong> reveal the nature of your measurements.
-            Alone or together, they help keep your calculations from turning into chaos.
+            <strong>Units</strong> label your measurements. <strong>Dimensions</strong> reveal the nature of your measurements. Alone or together, they help keep your calculations from turning into chaos.
         </p>
     </introduction>
     <!-- include sections -->

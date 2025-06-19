@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-explore-unit-prefixes" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Explore</title>
+
+    <!-- Start of Worksheet -->
+    <worksheet xml:id="worksheet-explore-unit-prefixes">
+        <title>Explore: Unit Prefixes</title>
+
+        <!-- Objectives -->
+        <objectives>
+            <ul>
+                <li>
+                    Reinforce your ability to use unit prefixes in real-world and scientific contexts.
+                </li>
+            </ul>
+        </objectives>
+        <!-- Introduction -->
+        <introduction>
+            <p>
+                This worksheet is designed to help you explore the concept of unit prefixes in physics.
+            </p>
+        </introduction>
+        <!-- Page 01 -->
+        <page>
+            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- Mass of rocket fuel -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-unit-prefixes-01">
+                <statement>
+                    <p>
+                        The Mars rover Perseverance launched from Cape Canaveral, Florida, on July 30, 2020, aboard an Atlas V 541 rocket.
+                        Its main engine, the RD-180, burned a mix of liquid oxygen and rocket-grade kerosene to produce the thrust needed for takeoff.
+                        The total mass of fuel used by the main engine during launch was about 284 megagrams.
+                        Write this mass in scientific notation using SI units.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Mega means <m>10^6</m>.
+                        So, 284 megagrams can be written as <m>284 \times 10^6</m> grams.
+                        However, the SI unit of mass is not grams, it's kilograms.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>2.84 \times 10^{5}</m> kg.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        284 megagrams can be written as <m>284 \times 10^6</m> grams.
+                    </p>
+
+                    <p>
+                        The SI unit of mass is kilograms, not grams.
+                        To convert grams to kilograms, divide by <m>10^3</m> (or multiply by <m>10^{-3}</m>).
+                        So, <m>284 \times 10^6</m> grams is equal to <m>\frac{284 \times 10^6}{10^{3}}</m> kg.
+                    </p>
+                    <p>
+                        Simplifying this gives us <m>284 \times 10^{3}</m> kg.
+                    </p>
+                    <p>
+                        Finally, we can express this in scientific notation as <m>2.84 \times 10^{5}</m> kg.
+                    </p>
+                    <p>
+                        Therefore, the mass of fuel used by the main engine during launch is <m>2.84 \times 10^{5}</m> kg.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 02 --> <!-- diameter of Mars dust -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-unit-prefixes-02">
+                <statement>
+                    <p>
+                        During its decent onto the surface of Mars, the Perseverance moved through the Martian atmosphere which can contain dust particles roughly 2.5 micrometers in diameter.
+                        Write the diameter of the dust particles in scientific notation using SI units. 
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Micro means <m>10^{-6}</m>.
+                        And the SI unit of length is meters.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        <m>2.5 \times 10^{-6}</m> m
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        2.5 micrometers can be written as <m>2.5 \times 10^{-6}</m> meters.
+                    </p>
+
+                    <p>
+                        Meters is the SI unit of length, so we don't need to convert it.
+                    </p>
+                    <p>
+                        Therefore, the diameter of the dust particles is <m>2.5 \times 10^{-6}</m> m.
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 03 --> <!-- time of data transfer -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-unit-prefixes-03">
+                <statement>
+                    <p>
+                        The data collected by the Perseverance rover is transmitted back to Earth.  
+                        It can take about 300 seconds for the data to reach Earth from Mars.
+                        Use unit prefixes to express the time it takes for data to reach Earth.  Keep the same unit of seconds, just add a prefix.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        There are many options, but it's common to have the value between 1 and 10 when the original value has one sig fig.
+                        So your answer could be 3 "prefix"seconds.  
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        3 hectoseconds.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Rewrite 300 seconds as <m>3 \times 10^2</m> seconds.
+                    </p>
+
+                    <p>
+                        The prefix "hecto" means <m>10^2</m>.
+                    </p>
+                    <p>
+                        Therefore, 300 seconds can be expressed as 3 hectoseconds.
+                    </p>
+                    <p>
+                        For fun: you can also say 30 decaseconds, 30,000 centiseconds, etc...
+                    </p>
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 04 --> <!-- data rate transfer -->
+            <exercise xml:id="worksheet-explore-unit-prefixes-04">
+                <statement>
+                    <p>
+                        The data collected by the Perseverance rover can be directly transmitted back to Earth from the rover.
+                        The rate at which this data is transferred is about 32,000 bits per second.
+                        Use unit prefixes to express the rate data is transferred from the rover to Earth.  Keep the same unit of bits per second, just add a prefix. 
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        There are many options, but it's common to have the value between 10 and 100 when the original value has two sig figs.
+                        So your answer could be 32 "prefix"bits per second.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        32 kilobits/second
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Rewrite 32,000 bits/second as <m>32 \times 10^{3}</m> bits/seconds.
+                    </p>
+
+                    <p>
+                        The prefix "kilo" means <m>10^3</m>.
+                    </p>
+                    <p>
+                        Therefore, 32,000 bits per seconds can be expressed as 32 kilobits per second.
+                    </p>
+                    <p>
+                        For fun: you can also say .032 megabits per second, 3,200,000 centibits per second, etc...
+                    </p>
+                </solution>
+            </exercise>
+            
+        </page>
+    </worksheet>
+</section>

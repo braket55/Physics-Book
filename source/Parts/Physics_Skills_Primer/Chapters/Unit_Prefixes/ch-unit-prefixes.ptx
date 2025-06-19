@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-unit-prefixes" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
+    <title>Unit Prefixes</title>
+
+    <introduction>
+        <p>
+            <term>Unit Prefixes</term>
+        </p>
+
+        <p>
+            Once you've labeled your numbers with proper units, there's still one more charm to simplify your incantation: <em>unit prefixes</em>.
+            Instead of casting a long spell like <m>3.7 \times 10^3</m> meters, you can simply say 3.7 kilometers: same magic, less chanting.
+        </p>
+
+        <p>
+            Unit prefixes are like verbal shortcuts for your measurements: just a word, and your notation becomes neater, quicker, and easier to wield.
+        </p>
+
+        <ul>
+            <li>
+                A “kilo-” means a thousand (<m>10^3</m>), so instead of saying 3,000 meters, you can simply say 3 kilometers.
+            </li>
+
+            <li>
+                A “nano-” means one-billionth (<m>10^{-9}</m>), which might be perfect for producing electrical parts while building your robot.
+            </li>
+        </ul>
+
+        <p>
+            Whether you're measuring the mass of a star (quettagrams) or the charge on a single electron (attocoulombs), unit prefixes help you speak the right language clearly and concisely.
+        </p>
+
+        <p>
+            Mastering prefixes means your scientific spells are never too long, never too vague, but just the right length for whatever tricky situation you find yourself in.
+        </p>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="sec-unit-prefixes-prep.ptx" />
+    <xi:include href="sec-unit-prefixes-explore.ptx" />
+    <xi:include href="sec-unit-prefixes-practice.ptx" />
+</chapter>
