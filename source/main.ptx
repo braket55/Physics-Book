@@ -18,6 +18,7 @@
       <xi:include href="Parts/Physics_Skills_Primer/Chapters/Significant_Figures/ch-significant-figures.ptx" />
       <xi:include href="Parts/Physics_Skills_Primer/Chapters/Units_and_Dimensions/ch-units-and-dimensions.ptx" />
       <xi:include href="Parts/Physics_Skills_Primer/Chapters/Unit_Prefixes/ch-unit-prefixes.ptx" />
+      <xi:include href="Parts/Physics_Skills_Primer/Chapters/Unit_Conversions/ch-unit-conversions.ptx" />
     </part>
 
     <!-- Second part -->

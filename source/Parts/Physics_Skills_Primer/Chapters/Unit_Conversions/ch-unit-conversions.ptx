@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-unit-conversions" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
+    <title>Unit Conversions</title>
+
+    <introduction>
+        <p>
+            <term>Unit Conversions</term>
+        </p>
+
+        <p>
+            Suppose you've just measured the length of a wyvern's wingspan in meters, but your potion recipe calls for inches.
+            Fear not.
+            All you need is to cast a unit conversion spell.
+        </p>
+
+        <p>
+            Unit conversions let you pass between unit realms, preserving both the quantity and the dimension it belongs to.
+        </p>
+
+        <p>
+            To convert a unit, you multiply it by a cleverly chosen form of one: a conversion factor which is a ratio that equals the value of one.
+            These enchanted ratios are built from equal quantities written in different units, like <m>1 \text{ inch} = 2.54 \text{ cm}</m>.
+            Use them wisely, and you can reshape any unit into the a different unit your quest requires.
+        </p>
+
+        <p>
+            With this skill in your spellbook, you'll never be caught off guard when moving between units.
+        </p>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="sec-unit-conversions-prep.ptx" />
+    <xi:include href="sec-unit-conversions-explore.ptx" />
+    <xi:include href="sec-unit-conversions-practice.ptx" />
+</chapter>

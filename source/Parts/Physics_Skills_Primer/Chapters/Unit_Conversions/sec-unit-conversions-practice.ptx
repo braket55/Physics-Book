@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-practice-unit-conversions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Practice</title>
+
+    <subsection xml:id="sec-practice-unit-conversions-questions">
+        <title>Practice: Unit Conversions</title>
+
+        <p>
+            Extra questions to help level up your abilities.
+        </p>
+        <!-- Practice Question 01 --> <!-- snowfall depth -->
+        <exercise xml:id ="practice-unit-conversions-01">
+            <statement>
+                <p>
+                    In 2020, Utqiaġvik, Alaska (formerly Barrow) recorded about 530 millimeters of snow.
+                    Write this amount in meters using scientific notation with the correct number of significant figures.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>5.3 \times 10^{-1}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>530 \times 10{-3}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            This is correct, but not in scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>5.3 \times 10^{-3}</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Mili does mean <m>10^{-3}</m>, so 530 millimeters is <m>530 \times 10^{-3}</m>.
+                            But now you need to convert this to scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>5.3 \times 10^3</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Mili does mean <m>10^{-3}</m>, so 530 millimeters is <m>530 \times 10^{-3}</m>.
+                            But now you need to convert this to scientific notation.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 02--> <!-- ice melt -->
+        <exercise xml:id ="practice-unit-conversions-02">
+            <statement>
+                <p>
+                    NASA reports that Greenland has been losing ice at an average rate of 0.279 exagrams per year.
+                    Convert this mass into kilograms using scientific notation with the correct number of significant figures.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            <m>2.79 \times 10^{14}</m> kg
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>0.279 \times 10^{18}</m> kg
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
+                            However, we need to convert this to kilograms.
+                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>2.79 \times 10^{18}</m> kg
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
+                            However, we need to convert this to kilograms.
+                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            <m>2.79 \times 10^{17}</m> kg
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
+                            However, we need to convert this to kilograms.
+                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 03--> <!-- energy solar panel -->
+        <exercise xml:id ="practice-unit-conversions-03">
+            <statement>
+                <p>
+                    A typical 1-kW rooftop solar panel system can generate about <m>3.6 \times 10^9</m> joules of energy over a year in sunny regions.
+                    Express this annual energy production using a unit prefix. The SI symbol for joule is "J".
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            3.6 GJ
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            3.6 MJ
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Mega means <m>10^6</m>, not <m>10^9</m>.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            3.6 gJ
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            There is no prefix "g".
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            3.6 nJ
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            On the right track, but nano means <m>10^{-9}</m>, not <m>10^9</m>.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 04--> <!-- hepa filters -->
+        <exercise xml:id ="practice-unit-conversions-04">
+            <statement>
+                <p>
+                    A certified HEPA filter is capable of capturing 99.97% of airborne particles with diameters as small as 0.0000003 meters.
+                    Express this diameter using a unit prefix.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            0.3 <m>\mu m</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                             3 <m>\mu m</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Try counting the zeros again.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                             0.3 <m>m m</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            Try counting the zeros again.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                             3 <m>m m</m>
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Try counting the zeros again.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        
+    </subsection>
+</section>

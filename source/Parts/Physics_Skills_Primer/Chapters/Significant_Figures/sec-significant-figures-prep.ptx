@@ -17,14 +17,14 @@
         <title>Prep Text: Significant Figures</title>
 
         <p>
-            Significant figures (or <em>sig figs</em>) are the trustworthy digits in a measurement—those that carry real meaning.
+            Significant figures (or <em>sig figs</em>) are the trustworthy digits in a measurement.
             They help ensure precision and honesty in your scientific spells and calculations.
             To wield them wisely, follow these rules:
         </p>
 
         <ol>
             <li>
-                <term>Start with what you see.</term> All <em>non-zero digits</em> are significant. If your magic crystal reads 3.472 volts, that's four significant figures—each non-zero digit counts.
+                <term>Start with what you see.</term> All <em>non-zero digits</em> are significant. If your magic crystal reads 3.472 volts, that's four significant figures; each non-zero digit counts.
             </li>
 
             <li>
@@ -36,7 +36,7 @@
                     </li>
 
                     <li>
-                        Leading zeroes (before any non-zero digits) are just placeholders—they don't count.
+                        Leading zeroes (before any non-zero digits) are just placeholders; they don't count.
                         Example: 0.0035 has two sig figs.
                     </li>
 
@@ -46,7 +46,7 @@
 
                     <li>
                         Trailing zeroes in a whole number without a decimal? Mysterious! They may not be significant unless written in scientific notation.
-                        Example: 1500 could have two, three, or four sig figs—but <m>1.500 \times 10^3</m> definitely has four.
+                        Example: 1500 could have two, three, or four sig figs, but <m>1.500 \times 10^3</m> definitely has four.
                         To help clarify our communication in this guide, we will treat 1500 as two sig figs and <m>15\underline{0}0</m> as three sig figs.
                     </li>
                 </ul>
@@ -98,7 +98,7 @@
                     </li>
                     <li>
                         <term>Multiple Operations</term> Cast each spell in the proper order! Follow the standard order of operations (parentheses, exponents, multiplication/division from left to right, then addition/subtraction from left to right)., 
-                        Only round at the very end—after all the magic is done. Do not round after each step. 
+                        Only round at the very end after all the magic is done. Do not round after each step. 
                         Rounding too early can throw your final result out of balance, like miscasting a potion halfway through.
                     </li>
                 </ul>
@@ -178,7 +178,7 @@
 
         <p>
             Significant figures are like a secret code shared among scientists and magic folk alike.
-            When you report a measurement of 1.27 meters, you're really telling your fellow colleague: "I'm confident about the 1 and the 2, but the last digit—the 7—could vary a bit." That message is embedded in the number's three-digit significant figure code, quietly revealing both precision and uncertainty.
+            When you report a measurement of 1.27 meters, you're really telling your fellow colleague: "I'm confident about the 1 and the 2, but the last digit (the 7) could vary a bit." That message is embedded in the number's three-digit significant figure code, quietly revealing both precision and uncertainty.
         </p>
 
         <p>
@@ -187,7 +187,7 @@
 
         <p>
             Scientific notation and significant figures are best friends.
-            Writing a number like <m>6.02 \times 10^{23}</m> clearly shows that you've got three sig figs—no more, no less.
+            Writing a number like <m>6.02 \times 10^{23}</m> clearly shows that you've got three sig figs, no more, no less.
         </p>
 
         <p>

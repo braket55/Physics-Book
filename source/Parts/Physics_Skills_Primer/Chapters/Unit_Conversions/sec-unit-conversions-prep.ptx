@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-prep-unit-conversions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Prep</title>
+
+    <!--
+    <section xml:id="sec-prep-sci-not-video">
+        <title>Prep Video: Scientific Notation</title>
+
+        <video youtube="2ilCSXm7iMQ">
+        <title>Great Example of Interference</title>
+
+        </video>
+    </section>
+    -->
+    <subsection xml:id="subsec-prep-unit-conversions-text">
+        <title>Prep Text: Unit Conversions</title>
+
+        <p>
+            You've measured the mass of a dragon's scale in ounces, but your spellbook demands grams.
+            You're plotting a star map in light-years, but your onboard thrusters calculate in meters.
+            What do you do?
+        </p>
+
+        <p>
+            You cast a unit conversion spell.
+        </p>
+
+        <p>
+            Unit conversions are the dimensional bridges that connect different lands of measurement.
+            They don't change what you have, they simply describe it in a new tongue.
+            Whether you're switching from meters to miles, hours to seconds, or joules to electronvolts, you're not summoning new quantities, you're just translating between dialects of the universal languages of science.
+        </p>
+
+        <p>
+            To convert between units, you multiply by a conversion factor which is a magical ratio equal to one.
+        </p>
+
+        <example>
+            <p>
+                Suppose a star cruiser travels at <m>90 \text{ km/hr}</m>.
+                To express this in meters per second:
+            </p>
+
+            <p>
+                <m> \frac{90 \text{km}}{\text{hr}} \cdot \frac{1000 \, \text{m}}{1 \, \text{km}} \cdot \frac{1 \, \text{h}}{3600 \, \text{s}} = 25 \, \text{m/s} </m>
+            </p>
+
+            <p>
+                Both of the two conversion factors are fractions that equal one and stem from the following: <m>1000 \, \text{m} = 1 \, \text{km}</m> and <m>3600 \, \text{s} = 1 \, \text{h}</m>.
+            </p>
+
+            <p>
+                For example, start with the expression <m> 3600 \, \text{s} = 1 \, \text{h} </m>.
+            </p>
+
+            <p>
+                If you divide both sides by 3600 s, you get <m>1  = \frac{1 \, \text{h}}{3600 \, \text{s}}</m>.
+                This tells us that multiplying any quantity by this fraction is like casting a harmless illusion; it doesn't change the true value of a quantity, only the form in which it's expressed.
+                In other words, you're not altering reality, just viewing it through a different unit's lens.
+            </p>
+        </example>
+
+        <p>
+            It's like casting a chain of transmutation spells, each one carefully crafted so the old unit cancels and the new one takes its place.
+            As long as your units behave, your math will too.
+        </p>
+
+        <p>
+            While there's no universal conversion for all situations below are some common conversions that will occur during the first part of of our journey through classical physics:
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    Length
+                </p>
+
+                <ul>
+                    <li>
+                        <m>2.54 \, \text{centimeters} = 1 \, \text{inch}</m>
+                    </li>
+
+                    <li>
+                        <m>1 \, \text{meter} = 3.28084 \, \text{feet}</m>
+                    </li>
+
+                    <li>
+                        <m>1 \, \text{meter} = 1.09361 \, \text{yards}</m>
+                    </li>
+
+                    <li>
+                        <m>1.609 \, \text{kilometers} = 1 \, \text{mile}</m>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <p>
+                    Mass
+                </p>
+
+                <ul>
+                    <li>
+                        <m>1 \, \text{kilogram} = 2.20462 \, \text{pounds}</m>
+                    </li>
+
+                    <li>
+                        <m>1 \, \text{kilogram} = 35.274 \, \text{ounces}</m>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>
+            For derived dimensions like area or volume, you can use the above conversions or use the internet to search for a conversion.
+        </p>
+        <!-- Checkpoint Question 01 -->
+        <exercise xml:id ="subsec-prep-unit-conversions-text-01">
+            <statement>
+                <p>
+                    Convert 5.30 kilograms to pounds.
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    Use the conversion factor <m>1 \, \text{kilogram} = 2.20462 \, \text{pounds}</m>, which can be written as a fraction: <m>\frac{2.20462 \, \text{pounds}}{1 \, \text{kilogram}}</m>.
+                </p>
+            </hint>
+
+            <answer>
+                <p>
+                    <m>11.7 \, \text{pounds}</m>
+                </p>
+            </answer>
+
+            <solution>
+                <p>
+                    To convert 5.3 kilograms to pounds, multiply by the conversion factor:
+                </p>
+
+                <p>
+                    <m>5.3 \, \text{kilograms} \times \frac{2.20462 \, \text{pounds}}{1 \, \text{kilogram}} = 11.684 \, \text{pounds}</m>
+                </p>
+
+                <p>
+                    Using the proper significant figures: 5.30 kilograms is equal to 11.7 pounds.
+                </p>
+            </solution>
+        </exercise>
+        <!-- Checkpoint Question 02 -->
+        <exercise xml:id ="subsec-prep-unit-conversions-text-02">
+            <statement>
+                <p>
+                    Convert <m>1,530 \, ft^2</m> to <m>m^2</m>.
+                </p>
+            </statement>
+
+            <hint>
+                <p>
+                    ft is the symbol for feet, and m is the symbol for meters.
+                    Use the conversion factor <m>1 \, \text{meter} = 3.28084 \, \text{feet}</m>, twice!
+                </p>
+            </hint>
+
+            <answer>
+                <p>
+                    <m>142 \, \text{m}^2</m>
+                </p>
+            </answer>
+
+            <solution>
+                <p>
+                    Note that our original unit is <m>ft^2</m> which can be written as <m>ft \cdot ft</m>.
+                </p>
+
+                <p>
+                    So we need to multiply by the conversion between feet and meters <term>twice</term>:
+                </p>
+
+                <p>
+                    <m>1530 \, \text{ft}^2 \times \frac{1 \, \text{meter}}{3.28084 \, \text{feet}} \times \frac{1 \, \text{meter}}{3.28084 \, \text{feet}} = 142.1447 \, \text{m}^2</m>
+                </p>
+
+                <p>
+                    ...or...
+                </p>
+
+                <p>
+                    <m>1530 \, \text{ft}^2 \times \left(\frac{1 \, \text{meter}}{3.28084 \, \text{feet}}\right)^2 = 142.1447 \, \text{m}^2</m>
+                </p>
+
+                <p>
+                    Using the proper significant figures: <m>1,530 \, \text{ft}^2</m> is equal to <m>142 \, \text{m}^2</m>.
+                </p>
+            </solution>
+        </exercise>
+
+        <p>
+            <term>Why Use Them?</term>
+        </p>
+
+        <p>
+            Humans, robots, magic folk, and aliens tend to use units that make sense in their context.
+            When they want to communicate with each other, they need a way to convert thier measurement's unit to anothers preferred unit.
+            For example, a human might measure the length of a dragon's tail in feet, while a robot might use meters.
+            If they want to work together, they need to convert between these units.
+        </p>
+
+        <p>
+            Humans in different fields of study even use different units.
+            For example, in physics, we often use the International System of Units (SI), which uses meters, kilograms, and seconds as its base units.
+            While some engineers tend to use feet, pounds, and seconds as their base units.
+        </p>
+
+        <p>
+            <term>Bonus Trick: Fermi Problems</term>
+        </p>
+
+        <p>
+            So you have made it this far, from scientific notation all the way to unit conversions, despite the curse placed upon you.
+            Congratulations! Now, you can use your newfound skills to tackle Fermi problems.
+        </p>
+
+        <p>
+            A Fermi problem is a type of estimation problem that requires you to make reasonable assumptions and use unit conversions to arrive at an answer.
+            Named after the physicist Enrico Fermi, these problems often involve estimating quantities that are difficult to measure directly, such as the number of jelly beans in a jar or the amount of energy consumed by a city in a day.
+            The key is to break the problem down into smaller, manageable parts, make reasonable assumptions, and use unit conversions to arrive at an answer.
+        </p>
+
+        <p>
+            The answer to a Fermi problem is an estimate, not an exact value.
+            Usually the answer is given in scientific notation with the order of magnitude being the most important part of the answer.
+        </p>
+
+        <p>
+            <!-- Example Question 01 --> <!-- Fermi Question -->
+            <example xml:id ="subsec-prep-unit-conversions-text-example-01">
+                <p>
+                    <em>Fermi Problem: </em> <term>How much tea would it take to fill an airship's cargo bay?</term>
+                </p>
+
+                <p>
+                    Initial thought 1: The problem didn't specify the size of the airship's cargo bay, so we will estimate the size as a volume based on a typical commercial jet's passenger volume.
+                </p>
+
+                <ul>
+                    <li>
+                        <p>
+                            Height of the cargo bay.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    The height of a typical commercial jet is tall enough for a person to stand up, so let's estimate about 2 meters.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            Width of the cargo bay.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    The width of a typical commercial jet is wide enough for 6 people to side shoulder to shoulder, and an aisle for 1 person to walk through.
+                                    So let's estimate the width of the jet to be about 7 people widths.
+                                    Since we are looking for an estimate, lets round up to 10 people widths.
+                                    A person is probably about 0.5 meters wide, so the total width of the jet would be about 10 times 0.5 = 5 meters.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            Length of the cargo bay.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    The length of a typical commercial jet is long enough for 50 seats to fit in front of or behind each other.
+                                    Let's estimate the length for each seat to be about the width of a person.
+                                    Using 0.5 meters as a person width again, that means the total length of the jet's passenger space is about 50 times 0.5 meters = 25 meters.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            Volume of cargo bay.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    The volume is the product of the cargo bay's height, width, and length.
+                                    So the total volume is about 2 meters (height) times 5 meters (width) times 25 meters (length) = 250 cubic meters.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <p>
+                    Initial thought 2: We now have the volume of the cargo bay in meters cubed, thus we also know much volume of tea we need in meters cubed: 250 cubic meters.
+                </p>
+                <p>
+                    While this is an answer, it might not be the most human friendly answer.  
+                    In other words, do you immediately have a mental visual of how much 250 cubic meters of tea is?
+                    Let's convert it to a more human friendly unit, cups.  We will use cups since is reasonable to assume folks drink tea a cup at a time.  
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Cups of tea.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    A quick internet search tells us that 1 cubic meter is equal to 4,226.75 cups.  
+                                    But remember, Fermi problems are about estimates, so we will round that to 4,000 cups.
+                                    Or in other words, <m>1 \, \text{m}^3 = 4,000 \, \text{cups}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    So the total amount of tea needed to fill the airship's cargo bay is:
+                                    <m>250 \, \text{m}^3 \times \frac{4,000 \, \text{cups}}{1 \, \text{m}^3} = 1,000,000 \, \text{cups}</m>.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+               
+                <p>
+                    That's <m>1 \times 10^6 \, \text{cups}</m>! Or one million cups of tea.
+                    Enough to host a tea party for every elf in the eastern forest, twice.
+                </p>
+            </example>
+            <p>
+                
+            </p>
+            <term>A Parting Word</term>
+        </p>
+
+        <p>
+            In general, when working on a project, if you start in SI units, and stay in SI units unless you have a solid reason (like a prophecy, or a stubborn client from another dimension).
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-prep-unit-conversions-questions">
+        <title>Prep Questions: Unit conversions</title>
+
+        <!-- Units conversions -->
+        <p>
+            <term> Unit Conversions </term>
+        </p>
+        <!-- Prep Question 01 -->
+        <exercise xml:id="subsec-prep-unit-conversions-questions-01">
+            <statement>
+                <p>
+                    Convert 5.91 feet to meters.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            1.80 meters
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.555 meters
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Looks like you might have inverted the answer.
+                            Start with 5.92 meters and multiple it by one obtained from the conversion factor:
+                            <m>1 \, \text{meter} = 3.28084 \, \text{feet}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            19.4 meters
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            It looks like you might have multiplied instead of divided.
+                            Start with 5.92 meters and multiple it by one obtained from the conversion factor:
+                            <m>1 \, \text{meter} = 3.28084 \, \text{feet}</m>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            0.549 meters
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            It looks like you might have applied the conversion factor twice instead of once.
+                            Since the given value is "meters", we only need to apply the conversion factor once.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Prep Question 02 -->
+        <exercise xml:id="subsec-prep-unit-conversions-questions-02">
+            <statement>
+                <p>
+                    How would you say 611 &#x03bc;A in words?
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            611 microamperes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            611 megaamperes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            The prefix mega means <m>10^{6}</m>, and has the symbol "M".
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            611 milliamperes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            The prefix milli means <m>10^{-3}</m>, and has the symbol "m".
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            611 nanoamperes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The prefix nano means <m>10^{-9}</m>, and has the symbol "n".
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+
+        <!-- Prep Question 03 -->
+        <exercise xml:id="subsec-prep-unit-conversions-questions-03">
+            <statement>
+                <p>
+                    How would you write the value of 24 terameter?
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            24 Tm
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            24 tm
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            The symbol for tera is "T", not "t".
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            24 m
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                            You have the unit "m" for meter, but are missing the prefix.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            24 Gm
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            The prefix "G" is for giga, which means <m>10^{9}</m>.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        
+    </subsection>
+</section>
