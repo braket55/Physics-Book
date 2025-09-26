@@ -1423,11 +1423,776 @@ var ptx_lunr_docs = [
   "body": "  A certified HEPA filter is capable of capturing 99.97% of airborne particles with diameters as small as 0.0000003 meters. Express this diameter using a unit prefix.      0.3     Correct!      3     Your targeting system glitched, try again. Try counting the zeros again.      0.3     Your enchanted click missed the mark, try again. Try counting the zeros again.      3     Your digital blade missed the mark, try again. Try counting the zeros again.     "
 },
 {
+  "id": "sec-prep-algebra",
+  "level": "1",
+  "url": "sec-prep-algebra.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Prep",
+  "body": " Prep    Prep Text: Algebra  This is the main introduction to the topic.  Esentially a mini textbook.  Doesn't need to be extremely thorough for the first pass through. You can edit it later during a 2nd round of edits.  I try to aim for about 0-1 example problems at this point after the introduction for any involved calculations. Example problems have a single drop down with the statement and solution all containted within the drop down.     This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.   Maybe a short debreif after the examples?  I also like to have 1-3 check point questions after the examples if any. The check point questions have a dropdown that shows the question, then there are three more drop downs for hints, answer, and solution.     Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.       Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.     Why Use Them?   This is a why section. Not sure if I will always have this since I try to motivate the topic throughout. But keep this short, very short if included.   Bonus Trick: something fun   Is this topic related to something else fun, if so mention it here.  Keep it short.  If the bonus trick needs a longer example, include it after here.      This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.     A Parting Word   Very short parting word. Keep it whimiscal.  Quick review questions after this section. These questions have a drop down for the problem statement, then have multiple choice options. Each option has a hint after clicked and checked by user.    Prep Questions: Algebra    Algebra      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.        "
+},
+{
+  "id": "subsec-prep-algebra-text-example-01",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-text-example-01",
+  "type": "Example",
+  "number": "6.1.1",
+  "title": "",
+  "body": " This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.  "
+},
+{
+  "id": "subsec-prep-algebra-text-01",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-text-01",
+  "type": "Checkpoint",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-algebra-text-02",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-text-02",
+  "type": "Checkpoint",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-algebra-text-11",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-text-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Why Use Them? "
+},
+{
+  "id": "subsec-prep-algebra-text-13",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-text-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Bonus Trick: something fun "
+},
+{
+  "id": "subsec-prep-algebra-text-17",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-text-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A Parting Word "
+},
+{
+  "id": "subsec-prep-algebra-questions-2",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-questions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Algebra "
+},
+{
+  "id": "subsec-prep-algebra-questions-01",
+  "level": "2",
+  "url": "sec-prep-algebra.html#subsec-prep-algebra-questions-01",
+  "type": "Checkpoint",
+  "number": "6.1.5",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-explore-algebra",
+  "level": "1",
+  "url": "sec-explore-algebra.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Explore",
+  "body": " Explore    Explore: Algebra     Reinforce your ability to use TOPIC in real-world and scientific contexts.      This worksheet is designed to help you explore the concept of TOPIC in physics.         Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.      "
+},
+{
+  "id": "worksheet-explore-algebra-2",
+  "level": "2",
+  "url": "sec-explore-algebra.html#worksheet-explore-algebra-2",
+  "type": "Objectives",
+  "number": "6.2.1",
+  "title": "",
+  "body": "  Reinforce your ability to use TOPIC in real-world and scientific contexts.   "
+},
+{
+  "id": "worksheet-explore-algebra-01",
+  "level": "2",
+  "url": "sec-explore-algebra.html#worksheet-explore-algebra-01",
+  "type": "Worksheet Exercise",
+  "number": "6.2.1.1",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-algebra-02",
+  "level": "2",
+  "url": "sec-explore-algebra.html#worksheet-explore-algebra-02",
+  "type": "Worksheet Exercise",
+  "number": "6.2.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-algebra-03",
+  "level": "2",
+  "url": "sec-explore-algebra.html#worksheet-explore-algebra-03",
+  "type": "Worksheet Exercise",
+  "number": "6.2.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-algebra-04",
+  "level": "2",
+  "url": "sec-explore-algebra.html#worksheet-explore-algebra-04",
+  "type": "Worksheet Exercise",
+  "number": "6.2.1.4",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "sec-practice-algebra",
+  "level": "1",
+  "url": "sec-practice-algebra.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "Practice",
+  "body": " Practice   Practice: Algebra  Extra questions to help level up your abilities.      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.         "
+},
+{
+  "id": "practice-algebra-01",
+  "level": "2",
+  "url": "sec-practice-algebra.html#practice-algebra-01",
+  "type": "Checkpoint",
+  "number": "6.3.1",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-prep-right-angle-trig",
+  "level": "1",
+  "url": "sec-prep-right-angle-trig.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Prep",
+  "body": " Prep    Prep Text: Right Angle Trig  This is the main introduction to the topic.  Esentially a mini textbook.  Doesn't need to be extremely thorough for the first pass through. You can edit it later during a 2nd round of edits.  I try to aim for about 0-1 example problems at this point after the introduction for any involved calculations. Example problems have a single drop down with the statement and solution all containted within the drop down.     This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.   Maybe a short debreif after the examples?  I also like to have 1-3 check point questions after the examples if any. The check point questions have a dropdown that shows the question, then there are three more drop downs for hints, answer, and solution.     Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.       Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.     Why Use Them?   This is a why section. Not sure if I will always have this since I try to motivate the topic throughout. But keep this short, very short if included.   Bonus Trick: something fun   Is this topic related to something else fun, if so mention it here.  Keep it short.  If the bonus trick needs a longer example, include it after here.      This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.     A Parting Word   Very short parting word. Keep it whimiscal.  Quick review questions after this section. These questions have a drop down for the problem statement, then have multiple choice options. Each option has a hint after clicked and checked by user.    Prep Questions: right-angle-trig    Right Angle Trig      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.        "
+},
+{
+  "id": "subsec-prep-right-angle-trig-text-example-01",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-text-example-01",
+  "type": "Example",
+  "number": "7.1.1",
+  "title": "",
+  "body": " This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.  "
+},
+{
+  "id": "subsec-prep-right-angle-trig-text-01",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-text-01",
+  "type": "Checkpoint",
+  "number": "7.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-right-angle-trig-text-02",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-text-02",
+  "type": "Checkpoint",
+  "number": "7.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-right-angle-trig-text-11",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-text-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Why Use Them? "
+},
+{
+  "id": "subsec-prep-right-angle-trig-text-13",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-text-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Bonus Trick: something fun "
+},
+{
+  "id": "subsec-prep-right-angle-trig-text-17",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-text-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A Parting Word "
+},
+{
+  "id": "subsec-prep-right-angle-trig-questions-2",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-questions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Right Angle Trig "
+},
+{
+  "id": "subsec-prep-right-angle-trig-questions-01",
+  "level": "2",
+  "url": "sec-prep-right-angle-trig.html#subsec-prep-right-angle-trig-questions-01",
+  "type": "Checkpoint",
+  "number": "7.1.5",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-explore-right-angle-trig",
+  "level": "1",
+  "url": "sec-explore-right-angle-trig.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Explore",
+  "body": " Explore    Explore: Right Angle Trig     Reinforce your ability to use TOPIC in real-world and scientific contexts.      This worksheet is designed to help you explore the concept of TOPIC in physics.         Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.      "
+},
+{
+  "id": "worksheet-explore-right-angle-trig-2",
+  "level": "2",
+  "url": "sec-explore-right-angle-trig.html#worksheet-explore-right-angle-trig-2",
+  "type": "Objectives",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Reinforce your ability to use TOPIC in real-world and scientific contexts.   "
+},
+{
+  "id": "worksheet-explore-right-angle-trig-01",
+  "level": "2",
+  "url": "sec-explore-right-angle-trig.html#worksheet-explore-right-angle-trig-01",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.1",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-right-angle-trig-02",
+  "level": "2",
+  "url": "sec-explore-right-angle-trig.html#worksheet-explore-right-angle-trig-02",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-right-angle-trig-03",
+  "level": "2",
+  "url": "sec-explore-right-angle-trig.html#worksheet-explore-right-angle-trig-03",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-right-angle-trig-04",
+  "level": "2",
+  "url": "sec-explore-right-angle-trig.html#worksheet-explore-right-angle-trig-04",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.4",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "sec-practice-right-angle-trig",
+  "level": "1",
+  "url": "sec-practice-right-angle-trig.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Practice",
+  "body": " Practice   Practice: Right Angle Trig  Extra questions to help level up your abilities.      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.         "
+},
+{
+  "id": "practice-right-angle-trig-01",
+  "level": "2",
+  "url": "sec-practice-right-angle-trig.html#practice-right-angle-trig-01",
+  "type": "Checkpoint",
+  "number": "7.3.1",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-prep-mathematization",
+  "level": "1",
+  "url": "sec-prep-mathematization.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Prep",
+  "body": " Prep    Prep Text: Mathematization  This is the main introduction to the topic.  Esentially a mini textbook.  Doesn't need to be extremely thorough for the first pass through. You can edit it later during a 2nd round of edits.  I try to aim for about 0-1 example problems at this point after the introduction for any involved calculations. Example problems have a single drop down with the statement and solution all containted within the drop down.     This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.   Maybe a short debreif after the examples?  I also like to have 1-3 check point questions after the examples if any. The check point questions have a dropdown that shows the question, then there are three more drop downs for hints, answer, and solution.     Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.       Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.     Why Use Them?   This is a why section. Not sure if I will always have this since I try to motivate the topic throughout. But keep this short, very short if included.   Bonus Trick: something fun   Is this topic related to something else fun, if so mention it here.  Keep it short.  If the bonus trick needs a longer example, include it after here.      This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.     A Parting Word   Very short parting word. Keep it whimiscal.  Quick review questions after this section. These questions have a drop down for the problem statement, then have multiple choice options. Each option has a hint after clicked and checked by user.    Prep Questions: Mathematization    mathematization      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.        "
+},
+{
+  "id": "subsec-prep-mathematization-text-example-01",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-text-example-01",
+  "type": "Example",
+  "number": "8.1.1",
+  "title": "",
+  "body": " This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.  "
+},
+{
+  "id": "subsec-prep-mathematization-text-01",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-text-01",
+  "type": "Checkpoint",
+  "number": "8.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-mathematization-text-02",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-text-02",
+  "type": "Checkpoint",
+  "number": "8.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-mathematization-text-11",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-text-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Why Use Them? "
+},
+{
+  "id": "subsec-prep-mathematization-text-13",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-text-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Bonus Trick: something fun "
+},
+{
+  "id": "subsec-prep-mathematization-text-17",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-text-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A Parting Word "
+},
+{
+  "id": "subsec-prep-mathematization-questions-2",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-questions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "mathematization "
+},
+{
+  "id": "subsec-prep-mathematization-questions-01",
+  "level": "2",
+  "url": "sec-prep-mathematization.html#subsec-prep-mathematization-questions-01",
+  "type": "Checkpoint",
+  "number": "8.1.5",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-explore-mathematization",
+  "level": "1",
+  "url": "sec-explore-mathematization.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "Explore",
+  "body": " Explore    Explore: Mathematization     Reinforce your ability to use TOPIC in real-world and scientific contexts.      This worksheet is designed to help you explore the concept of TOPIC in physics.         Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.      "
+},
+{
+  "id": "worksheet-explore-mathematization-2",
+  "level": "2",
+  "url": "sec-explore-mathematization.html#worksheet-explore-mathematization-2",
+  "type": "Objectives",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  Reinforce your ability to use TOPIC in real-world and scientific contexts.   "
+},
+{
+  "id": "worksheet-explore-mathematization-01",
+  "level": "2",
+  "url": "sec-explore-mathematization.html#worksheet-explore-mathematization-01",
+  "type": "Worksheet Exercise",
+  "number": "8.2.1.1",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-mathematization-02",
+  "level": "2",
+  "url": "sec-explore-mathematization.html#worksheet-explore-mathematization-02",
+  "type": "Worksheet Exercise",
+  "number": "8.2.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-mathematization-03",
+  "level": "2",
+  "url": "sec-explore-mathematization.html#worksheet-explore-mathematization-03",
+  "type": "Worksheet Exercise",
+  "number": "8.2.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-mathematization-04",
+  "level": "2",
+  "url": "sec-explore-mathematization.html#worksheet-explore-mathematization-04",
+  "type": "Worksheet Exercise",
+  "number": "8.2.1.4",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "sec-practice-mathematization",
+  "level": "1",
+  "url": "sec-practice-mathematization.html",
+  "type": "Section",
+  "number": "8.3",
+  "title": "Practice",
+  "body": " Practice   Practice: Mathematization  Extra questions to help level up your abilities.      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.         "
+},
+{
+  "id": "practice-mathematization-01",
+  "level": "2",
+  "url": "sec-practice-mathematization.html#practice-mathematization-01",
+  "type": "Checkpoint",
+  "number": "8.3.1",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-prep-sensemaking",
+  "level": "1",
+  "url": "sec-prep-sensemaking.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "Prep",
+  "body": " Prep    Prep Text: Sensemaking  This is the main introduction to the topic.  Esentially a mini textbook.  Doesn't need to be extremely thorough for the first pass through. You can edit it later during a 2nd round of edits.  I try to aim for about 0-1 example problems at this point after the introduction for any involved calculations. Example problems have a single drop down with the statement and solution all containted within the drop down.     This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.   Maybe a short debreif after the examples?  I also like to have 1-3 check point questions after the examples if any. The check point questions have a dropdown that shows the question, then there are three more drop downs for hints, answer, and solution.     Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.       Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.     Why Use Them?   This is a why section. Not sure if I will always have this since I try to motivate the topic throughout. But keep this short, very short if included.   Bonus Trick: something fun   Is this topic related to something else fun, if so mention it here.  Keep it short.  If the bonus trick needs a longer example, include it after here.      This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.     A Parting Word   Very short parting word. Keep it whimiscal.  Quick review questions after this section. These questions have a drop down for the problem statement, then have multiple choice options. Each option has a hint after clicked and checked by user.    Prep Questions: Sensemaking    sensemaking      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.        "
+},
+{
+  "id": "subsec-prep-sensemaking-text-example-01",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-text-example-01",
+  "type": "Example",
+  "number": "9.1.1",
+  "title": "",
+  "body": " This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.  "
+},
+{
+  "id": "subsec-prep-sensemaking-text-01",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-text-01",
+  "type": "Checkpoint",
+  "number": "9.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-sensemaking-text-02",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-text-02",
+  "type": "Checkpoint",
+  "number": "9.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-sensemaking-text-11",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-text-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Why Use Them? "
+},
+{
+  "id": "subsec-prep-sensemaking-text-13",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-text-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Bonus Trick: something fun "
+},
+{
+  "id": "subsec-prep-sensemaking-text-17",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-text-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A Parting Word "
+},
+{
+  "id": "subsec-prep-sensemaking-questions-2",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-questions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sensemaking "
+},
+{
+  "id": "subsec-prep-sensemaking-questions-01",
+  "level": "2",
+  "url": "sec-prep-sensemaking.html#subsec-prep-sensemaking-questions-01",
+  "type": "Checkpoint",
+  "number": "9.1.5",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-explore-sensemaking",
+  "level": "1",
+  "url": "sec-explore-sensemaking.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "Explore",
+  "body": " Explore    Explore: Sense Making     Reinforce your ability to use TOPIC in real-world and scientific contexts.      This worksheet is designed to help you explore the concept of TOPIC in physics.         Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.      "
+},
+{
+  "id": "worksheet-explore-sensemaking-2",
+  "level": "2",
+  "url": "sec-explore-sensemaking.html#worksheet-explore-sensemaking-2",
+  "type": "Objectives",
+  "number": "9.2.1",
+  "title": "",
+  "body": "  Reinforce your ability to use TOPIC in real-world and scientific contexts.   "
+},
+{
+  "id": "worksheet-explore-sensemaking-01",
+  "level": "2",
+  "url": "sec-explore-sensemaking.html#worksheet-explore-sensemaking-01",
+  "type": "Worksheet Exercise",
+  "number": "9.2.1.1",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-sensemaking-02",
+  "level": "2",
+  "url": "sec-explore-sensemaking.html#worksheet-explore-sensemaking-02",
+  "type": "Worksheet Exercise",
+  "number": "9.2.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-sensemaking-03",
+  "level": "2",
+  "url": "sec-explore-sensemaking.html#worksheet-explore-sensemaking-03",
+  "type": "Worksheet Exercise",
+  "number": "9.2.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-sensemaking-04",
+  "level": "2",
+  "url": "sec-explore-sensemaking.html#worksheet-explore-sensemaking-04",
+  "type": "Worksheet Exercise",
+  "number": "9.2.1.4",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "sec-practice-sensemaking",
+  "level": "1",
+  "url": "sec-practice-sensemaking.html",
+  "type": "Section",
+  "number": "9.3",
+  "title": "Practice",
+  "body": " Practice   Practice: Sense Making  Extra questions to help level up your abilities.      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.         "
+},
+{
+  "id": "practice-sensemaking-01",
+  "level": "2",
+  "url": "sec-practice-sensemaking.html#practice-sensemaking-01",
+  "type": "Checkpoint",
+  "number": "9.3.1",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-prep-computational-physics",
+  "level": "1",
+  "url": "sec-prep-computational-physics.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Prep",
+  "body": " Prep    Prep Text: Computational Physics  This is the main introduction to the topic.  Esentially a mini textbook.  Doesn't need to be extremely thorough for the first pass through. You can edit it later during a 2nd round of edits.  I try to aim for about 0-1 example problems at this point after the introduction for any involved calculations. Example problems have a single drop down with the statement and solution all containted within the drop down.     This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.   Maybe a short debreif after the examples?  I also like to have 1-3 check point questions after the examples if any. The check point questions have a dropdown that shows the question, then there are three more drop downs for hints, answer, and solution.     Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.       Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.     Why Use Them?   This is a why section. Not sure if I will always have this since I try to motivate the topic throughout. But keep this short, very short if included.   Bonus Trick: something fun   Is this topic related to something else fun, if so mention it here.  Keep it short.  If the bonus trick needs a longer example, include it after here.      This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.     A Parting Word   Very short parting word. Keep it whimiscal.  Quick review questions after this section. These questions have a drop down for the problem statement, then have multiple choice options. Each option has a hint after clicked and checked by user.    Prep Questions: Computational Physics    Computational Physics      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.        "
+},
+{
+  "id": "subsec-prep-computational-physics-text-example-01",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-text-example-01",
+  "type": "Example",
+  "number": "10.1.1",
+  "title": "",
+  "body": " This is a the first example problem example. This is a good spot for a question.  This is the begining of the solution.  Include as many paragraphs as needed. You can include math stuff too.  "
+},
+{
+  "id": "subsec-prep-computational-physics-text-01",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-text-01",
+  "type": "Checkpoint",
+  "number": "10.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-computational-physics-text-02",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-text-02",
+  "type": "Checkpoint",
+  "number": "10.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Be nice, include a hint.    Answer goes here.    A detailed solution goes here.  Can always have multiple paragraphs in any of these sections.   "
+},
+{
+  "id": "subsec-prep-computational-physics-text-11",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-text-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Why Use Them? "
+},
+{
+  "id": "subsec-prep-computational-physics-text-13",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-text-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Bonus Trick: something fun "
+},
+{
+  "id": "subsec-prep-computational-physics-text-17",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-text-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A Parting Word "
+},
+{
+  "id": "subsec-prep-computational-physics-questions-2",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-questions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Computational Physics "
+},
+{
+  "id": "subsec-prep-computational-physics-questions-01",
+  "level": "2",
+  "url": "sec-prep-computational-physics.html#subsec-prep-computational-physics-questions-01",
+  "type": "Checkpoint",
+  "number": "10.1.5",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
+  "id": "sec-explore-computational-physics",
+  "level": "1",
+  "url": "sec-explore-computational-physics.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Explore",
+  "body": " Explore    Explore: Computational Physics     Reinforce your ability to use TOPIC in real-world and scientific contexts.      This worksheet is designed to help you explore the concept of TOPIC in physics.         Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.        Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.      "
+},
+{
+  "id": "worksheet-explore-computational-physics-2",
+  "level": "2",
+  "url": "sec-explore-computational-physics.html#worksheet-explore-computational-physics-2",
+  "type": "Objectives",
+  "number": "10.2.1",
+  "title": "",
+  "body": "  Reinforce your ability to use TOPIC in real-world and scientific contexts.   "
+},
+{
+  "id": "worksheet-explore-computational-physics-01",
+  "level": "2",
+  "url": "sec-explore-computational-physics.html#worksheet-explore-computational-physics-01",
+  "type": "Worksheet Exercise",
+  "number": "10.2.1.1",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-computational-physics-02",
+  "level": "2",
+  "url": "sec-explore-computational-physics.html#worksheet-explore-computational-physics-02",
+  "type": "Worksheet Exercise",
+  "number": "10.2.1.2",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-computational-physics-03",
+  "level": "2",
+  "url": "sec-explore-computational-physics.html#worksheet-explore-computational-physics-03",
+  "type": "Worksheet Exercise",
+  "number": "10.2.1.3",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "worksheet-explore-computational-physics-04",
+  "level": "2",
+  "url": "sec-explore-computational-physics.html#worksheet-explore-computational-physics-04",
+  "type": "Worksheet Exercise",
+  "number": "10.2.1.4",
+  "title": "",
+  "body": "  Problem statement goes here.    Hint goes here.    Answer here.    Detailed solution here.   "
+},
+{
+  "id": "sec-practice-computational-physics",
+  "level": "1",
+  "url": "sec-practice-computational-physics.html",
+  "type": "Section",
+  "number": "10.3",
+  "title": "Practice",
+  "body": " Practice   Practice: Computational Physics  Extra questions to help level up your abilities.      Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.         "
+},
+{
+  "id": "practice-computational-physics-01",
+  "level": "2",
+  "url": "sec-practice-computational-physics.html#practice-computational-physics-01",
+  "type": "Checkpoint",
+  "number": "10.3.1",
+  "title": "",
+  "body": "  Problem statment goes here.      Correct answer.    Correct!      Incorrect answer 1    Your targeting system glitched, try again. Give a hint.      Incorrect answer 2    Your enchanted click missed the mark, try again. Give a hint.      Incorrect answer 3    Your digital blade missed the mark, try again. Give a hint.     "
+},
+{
   "id": "sec-section-name-2",
   "level": "1",
   "url": "sec-section-name-2.html",
   "type": "Section",
-  "number": "6.1",
+  "number": "11.1",
   "title": "Section Title",
   "body": " Section Title  Text of section.  "
 },
@@ -1436,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-section-name-3.html",
   "type": "Section",
-  "number": "6.2",
+  "number": "11.2",
   "title": "Section Title",
   "body": " Section Title  Text of section.  "
 },
