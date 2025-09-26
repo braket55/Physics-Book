@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-practice-mathematization" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Practice</title>
+
+    <subsection xml:id="sec-practice-mathematization-questions">
+        <title>Practice: Mathematization</title>
+
+        <p>
+            Extra questions to help level up your abilities.
+        </p>
+        <!-- Practice Question 01 --> <!-- snowfall depth -->
+        <exercise xml:id ="practice-mathematization-01">
+            <statement>
+                <p>
+                    Problem statment goes here.
+                </p>
+            </statement>
+
+
+            <choices randomize="yes">
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            Correct answer.
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Correct!
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            Incorrect answer 1
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your targeting system glitched, try again.
+                            Give a hint.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            Incorrect answer 2
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your enchanted click missed the mark, try again.
+                           Give a hint.
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice correct="no">
+                    <statement>
+                        <p>
+                            Incorrect answer 3
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                            Your digital blade missed the mark, try again.
+                            Give a hint.
+                        </p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <!-- Practice Question 02--> <!-- ice melt -->
+        
+        
+    </subsection>
+</section>

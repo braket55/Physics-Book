@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-right-angle-trig" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
+    <title>Right Angle Trig</title>
+
+    <introduction>
+        <p>
+            <term>Right Angle Trig</term>
+        </p>
+
+        <p>
+            Quick fun introduction.
+        </p>
+
+        <p>
+            Motly motivation for topic.
+        </p>
+
+        <p>
+            A little bit of fantasy and science fiction too.
+        </p>
+
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="sec-right-angle-trig-prep.ptx" />
+    <xi:include href="sec-right-angle-trig-explore.ptx" />
+    <xi:include href="sec-right-angle-trig-practice.ptx" />
+</chapter>

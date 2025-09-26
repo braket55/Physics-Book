@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-explore-mathematization" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Explore</title>
+
+    <!-- Start of Worksheet -->
+    <worksheet xml:id="worksheet-explore-mathematization">
+        <title>Explore: Mathematization</title>
+
+        <!-- Objectives -->
+        <objectives>
+            <ul>
+                <li>
+                    Reinforce your ability to use TOPIC in real-world and scientific contexts.
+                </li>
+            </ul>
+        </objectives>
+        <!-- Introduction -->
+        <introduction>
+            <p>
+                This worksheet is designed to help you explore the concept of TOPIC in physics.
+            </p>
+        </introduction>
+        <!-- Page 01 -->
+        <page>
+            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- Mass of rocket fuel -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-mathematization-01">
+                <statement>
+                    <p>
+                        Problem statement goes here.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Hint goes here.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        Answer here.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Detailed solution here.
+                    </p>
+
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 02 --> <!-- diameter of Mars dust -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-mathematization-02">
+                <statement>
+                    <p>
+                        Problem statement goes here.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Hint goes here.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        Answer here.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Detailed solution here.
+                    </p>
+
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 03 --> <!-- time of data transfer -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-mathematization-03">
+                <statement>
+                    <p>
+                        Problem statement goes here.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Hint goes here.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        Answer here.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Detailed solution here.
+                    </p>
+
+                </solution>
+            </exercise>
+            <!-- Worksheet Exercise 04 --> <!-- data rate transfer -->
+            <exercise xml:id="worksheet-explore-mathematization-04">
+                <statement>
+                    <p>
+                        Problem statement goes here.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        Hint goes here.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        Answer here.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Detailed solution here.
+                    </p>
+
+                </solution>
+            </exercise>
+            
+        </page>
+    </worksheet>
+</section>

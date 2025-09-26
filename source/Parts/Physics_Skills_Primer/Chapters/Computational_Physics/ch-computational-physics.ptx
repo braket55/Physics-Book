@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-computational-physics" xmlns:xi="http://www.w3.org/2001/XInclude" number="2">
+    <title>Computational Physics</title>
+
+    <introduction>
+        <p>
+            <term>Computational Physics</term>
+        </p>
+
+        <p>
+            Quick fun introduction.
+        </p>
+
+        <p>
+            Motly motivation for topic.
+        </p>
+
+        <p>
+            A little bit of fantasy and science fiction too.
+        </p>
+
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="sec-computational-physics-prep.ptx" />
+    <xi:include href="sec-computational-physics-explore.ptx" />
+    <xi:include href="sec-computational-physics-practice.ptx" />
+</chapter>
