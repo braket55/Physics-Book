@@ -27,7 +27,7 @@
             <exercise workspace="0.1in" xml:id="worksheet-explore-significant-figures-01">
                 <statement>
                     <p>
-                        It take the Moon about 27.3 days to orbit Earth.
+                        It take the Moon about <m>27.3</m> days to orbit Earth.
                         How many significant figures are in this measurement?
                     </p>
                 </statement>
@@ -46,12 +46,12 @@
 
                 <solution>
                     <p>
-                        27.3 has three non-zero digits: 2, 7, and 3.
+                        <m>27.3</m> has three non-zero digits: <m>2</m>, <m>7</m>, and <m>3</m>.
                         This counts as three significant figures.
                     </p>
 
                     <p>
-                        So, 27.3 has three significant figures.
+                        So, <m>27.3</m> has three significant figures.
                     </p>
                 </solution>
             </exercise>
@@ -59,7 +59,7 @@
             <exercise workspace="0.1in" xml:id="worksheet-explore-significant-figures-02">
                 <statement>
                     <p>
-                        The mean diameter of the Moon is about 3,475,000 meters.
+                        The mean diameter of the Moon is about <m>3475000</m> meters.
                         How many significant figures are in this measurement?
                     </p>
                 </statement>
@@ -80,12 +80,12 @@
 
                 <solution>
                     <p>
-                        3,475,000 has four non-zero digits: 3, 4, 7, and 5.
-                        The trailing zeros after the 5 are not significant because there is no decimal point or underline.
+                        <m>3475000</m> has four non-zero digits: <m>3</m>, <m>4</m>, <m>7</m>, and <m>5</m>.
+                        The trailing zeros after the <m>5</m> are not significant because there is no decimal point or underline.
                     </p>
 
                     <p>
-                        So, 3,475,000 has four significant figures.
+                        So, <m>3475000</m> has four significant figures.
                     </p>
                 </solution>
             </exercise>
@@ -114,7 +114,7 @@
 
                 <solution>
                     <p>
-                        <m>7.3460 \times 10^{22}</m> has four non-zero digits: 7, 3, 4, and 6. The zero occurs after a decimal so it is also significant.
+                        <m>7.3460 \times 10^{22}</m> has four non-zero digits: <m>7</m>, <m>3</m>, <m>4</m>, and <m>6</m>. The zero occurs after a decimal so it is also significant.
                     </p>
 
                     <p>
@@ -126,8 +126,8 @@
             <exercise workspace="2.0in" xml:id="worksheet-explore-significant-figures-04">
                 <statement>
                     <p>
-                        The mean diameter of the Moon is about 3,475,000 meters.
-                        Since the Moon is roughly spherical, we can calculate its volume using the formula: <m>V = \frac{4}{3} \pi r^{3}</m>, where <m>r</m> is the radius.
+                        The mean diameter of the Moon is about <m>3475000</m> meters.
+                        Since the Moon is roughly spherical, we can calculate its volume using the formula: <m>V = \frac{4}{3} \pi R^{3}</m>, where <m>R</m> is the radius.
                         Calculate the volume of the Moon and express your answer in scientific notation with the correct number of significant figures.
                     </p>
                 </statement>
@@ -135,28 +135,28 @@
                 <hint>
                     <p>
                         The 4 and 3 in the fraction <m>\frac{4}{3}</m> are exact numbers, so they do not affect the number of significant figures.
-                        The radius is half the diameter, so <m>r = \frac{3,475,000}{2} = 1,737,500</m> meters.
+                        The radius is half the diameter, so <m>R = \frac{3475000}{2} = 1737500</m> meters.
                         The given diameter has four significant figures, and we are multiplying it by itself three times in the volume formula, so the final answer should also have four significant figures.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        <m>2.197 \times 10^{19} \, m^3</m>, where <m>m</m> is the symbol for meters.
+                        <m>2.197 \times 10^{19} \, m^3</m>, where m is the symbol for meters.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>r = \frac{3,475,000 \, \text{meters}}{2} = 1,737,500 \, \text{meters}</m>. Do not round yet, as we will keep all significant figures until the end.
+                        <m>r = \frac{3475000 \, \text{meters}}{2} = 1737500 \, \text{meters}</m>. Do not round yet, as we will keep all significant figures until the end.
                     </p>
 
                     <p>
-                        <m>V = \frac{4}{3} \pi r^{3}</m>.
+                        <m>V = \frac{4}{3} \pi R^{3}</m>.
                     </p>
 
                     <p>
-                        <m>V = \frac{4}{3} \pi (1,737,500 \, \text{meters})^{3}</m>.
+                        <m>V = \frac{4}{3} \pi (1737500 \, \text{meters})^{3}</m>.
                     </p>
 
                     <p>
@@ -169,7 +169,7 @@
                     </p>
 
                     <p>
-                        Then the volume of the Moon is, <m>V = 2.197 \times 10^{19} \, m^3</m>, where <m>m</m> is the symbol for meters.
+                        Then the volume of the Moon is, <m>V = 2.197 \times 10^{19}</m> meters cubed.
                     </p>
                 </solution>
             </exercise>
@@ -192,19 +192,19 @@
 
                 <answer>
                     <p>
-                        3344 <m>\frac{\text{kilograms}}{\text{meters}^3}</m>
+                        <m>3344</m> <m>\frac{\text{kilograms}}{\text{meters}^3}</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
                         Let mass be represented by the sombol <m>m</m>.
-                        So <m> m =7.3460 \times 10^{22}</m> kilograms.
+                        So <m>m =7.3460 \times 10^{22}</m> kilograms.
                     </p>
 
                     <p>
                         Let volume be represented by the sombol <m>V</m>.
-                        So <m> V = 2.197 \times 10^{19} \, \text{meters}^3</m>.
+                        So <m>V = 2.197 \times 10^{19} \, \text{meters}^3</m>.
                     </p>
 
                     <p>
@@ -237,8 +237,8 @@
             <exercise  xml:id="worksheet-explore-significant-figures-06">
                 <statement>
                     <p>
-                        When an object falls near the surface of the Earth, ignoring air resistance, the object will have an acceleration of about 9.80 <m>\frac{m}{s^2}</m>, where <m>m</m> is the symbol for meters and <m>s</m> is the symbol for seconds.
-                        When an object falls near the surface of the Moon, the object will have an acceleration of about 1.622 <m>\frac{m}{s^2}</m>.
+                        When an object falls near the surface of the Earth, ignoring air resistance, the object will have an acceleration of about <m>9.80</m> meters per second squared.
+                        When an object falls near the surface of the Moon, the object will have an acceleration of about <m>1.622</m> meters per second squared.
                         Calculate the absolute value of the difference between the surface acceleration on the Moon and the surface acceleration on Earth.
                     </p>
                 </statement>
@@ -252,7 +252,7 @@
 
                 <answer>
                     <p>
-                        8.18 <m>\frac{m}{s^2}</m>.
+                        <m>8.18</m> meters per second squared
                     </p>
                 </answer>
 
@@ -262,11 +262,11 @@
                     </p>
 
                     <p>
-                        <m>1.622 \, \frac{m}{s^2} - 9.80 \, \frac{m}{s^2} = -8.178 \frac{m}{s^2} </m>. Note that the question didn't specify which value to subtract from which, so we can choose either order. If you subtract the surface acceleration on the Moon from the surface acceleration on Earth, you will get a positive value.
+                        <m>1.622-9.80=-8.178</m> meters per second squared. Note that the question didn't specify which value to subtract from which, so we can choose either order. If you subtract the surface acceleration on the Moon from the surface acceleration on Earth, you will get a positive value.
                     </p>
 
                     <p>
-                        The absolute value of the difference is <m>|-8.178 \, \frac{m}{s^2}| =8.178 \, \frac{m}{s^2} </m>.
+                        The absolute value of the difference is <m>|-8.178|=8.178</m> meters per second squared.
                     </p>
 
                     <p>
@@ -275,7 +275,7 @@
                     </p>
 
                     <p>
-                        So the absolute value of the difference between the surface acceleration on the Moon and the surface acceleration on Earth is 8.18 <m>\frac{m}{s^2}</m>.
+                        So the absolute value of the difference between the surface acceleration on the Moon and the surface acceleration on Earth is <m>8.18</m> meters per second squared.
                     </p>
                 </solution>
             </exercise>

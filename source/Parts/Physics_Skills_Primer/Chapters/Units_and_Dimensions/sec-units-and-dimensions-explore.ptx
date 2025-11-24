@@ -35,23 +35,23 @@
 
                 <hint>
                     <p>
-                        [L] stands for length.]
+                        <m>[L]</m> stands for length.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        m, where m is the symbol for meters.
+                        <m>\text{m}</m>, where <m>\text{m}</m> is the symbol for meters.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Replace [L] with the SI unit symbol for length, m.
+                        Replace <m>[L]</m> with the SI unit symbol for length, <m>\text{m}</m>.
                     </p>
 
                     <p>
-                        So, the SI unit of position is m, where m is the symbol for meters.
+                        So, the SI unit of position is <m>\text{m}</m>, where <m>\text{m}</m> is the symbol for meters.
                     </p>
                 </solution>
             </exercise>
@@ -67,21 +67,21 @@
 
                 <hint>
                     <p>
-                        [L] stands for length, and [T] stands for time.
-                        Also, the exponent -1 means that the unit for time is in the denominator (i.e.
+                        <m>[L]</m> stands for length, and <m>[T]</m> stands for time.
+                        Also, the exponent <m>-1</m> means that the unit for time is in the denominator (i.e.
                         <m>[T]^{-1} = \frac{1}{[T]}</m>)
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        m/s, where m is the symbol for meters and s is the symbol for seconds.
+                        <m>\text{m/s}</m>, where <m>\text{m}</m> is the symbol for meters and <m>\text{s}</m> is the symbol for seconds.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Replace [L] with the SI unit for length, which is m, and [T] with the SI unit for time, which is s.
+                        Replace <m>[L]</m> with the SI unit for length, which is <m>\text{m}</m>, and <m>[T]</m> with the SI unit for time, which is <m>\text{s}</m>.
                     </p>
 
                     <p>
@@ -101,21 +101,21 @@
 
                 <hint>
                     <p>
-                        [L] stands for length, and [T] stands for time.
-                        Also, the exponent -2 means that the unit for time is in the denominator (i.e.
+                        <m>[L]</m> stands for length, and <m>[T]</m> stands for time.
+                        Also, the exponent <m>-2</m> means that the unit for time is in the denominator (i.e.
                         <m>[T]^{-2} = \frac{1}{[T]^2}</m>)
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        m/s², where m is the symbol for meters and s is the symbol for seconds.
+                        <m>\text{m/s}^2</m>, where <m>\text{m}</m> is the symbol for meters and <m>\text{s}</m> is the symbol for seconds.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Replace [L] with m and [T] with s.
+                        Replace <m>[L]</m> with <m>\text{m}</m> and <m>[T]</m> with <m>\text{s}</m>.
                     </p>
 
                     <p>
@@ -135,25 +135,25 @@
 
                 <hint>
                     <p>
-                        [M] stands for mass, [L] for length, and [T] for time.
-                        Also, the exponent -2 means that the unit for time is in the denominator (i.e.
+                        [M] stands for mass, <m>[L]</m> for length, and <m>[T]</m> for time.
+                        Also, the exponent <m>-2</m> means that the unit for time is in the denominator (i.e.
                         <m>[T]^{-2} = \frac{1}{[T]^2}</m>)
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        kg·m/s², where kg is the symbol for kilogram, m is the symbol for meter, and s is the symbol for second.
+                        <m>\frac{kg \cdot m}{s^2}</m>, where <m>\text{kg}</m> is the symbol for kilogram, <m>\text{m}</m> is the symbol for meter, and <m>\text{s}</m> is the symbol for second.
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Replace [M] with kg, [L] with m, and [T] with s.
+                        Replace <m>[M]</m> with <m>\text{kg}</m>, <m>[L]</m> with <m>\text{m}</m>, and <m>[T]</m> with <m>\text{s}</m>.
                     </p>
 
                     <p>
-                        The unit becomes <m>\text{kg·m/s}^2</m>, which is kilogram multipled by meter per second.
+                        The unit becomes <m>\frac{\text{kg·m}}{\text{s}^2}</m>, which is kilogram multiplied by meter per second squared.
                     </p>
                 </solution>
             </exercise>
@@ -161,7 +161,7 @@
             <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-05">
                 <statement>
                     <p>
-                        The quantity <em>energy</em> has the following SI units: <m>\frac{kg \, m^2}{s^2}</m>.
+                        The quantity <em>energy</em> has the following SI units: <m>\frac{\text{kg·m}^2}{\text{s}^2}</m>.
                         Energy can't be summarized by a simple sentence.
                         However, it's related to many things in our everyday lives, such as the energy stored in food that our body needs to function, 
                         the energy stored in batteries that our electronic devices need to function, and even energy stored in the vacuum of space itself! 
@@ -171,7 +171,7 @@
 
                 <hint>
                     <p>
-                        Look at the units: kg (kilogram) is mass, m (meter) is length, and s (second) is time.
+                        Look at the units: <m>\text{kg}</m> (kilogram) is mass, <m>\text{m}</m> (meter) is length, and <m>\text{s}</m> (second) is time.
                     </p>
                 </hint>
 
@@ -183,20 +183,20 @@
 
                 <solution>
                     <p>
-                        From the units <m>\frac{kg \, m^2}{s^2}</m>, we identify:
+                        From the units <m>\frac{\text{kg·m}^2}{\text{s}^2}</m>, we identify:
                     </p>
 
                     <ul>
                         <li>
-                            kg → <m>[M]</m>
+                            <m>\text{kg}</m> is replaced with <m>[M]</m>
                         </li>
 
                         <li>
-                            <m>m^2</m> → <m>[L]^2</m>
+                            <m>\text{m}^2</m> is replaced with <m>[L]^2</m>
                         </li>
 
                         <li>
-                            <m>s^2</m> in denominator → <m>[T]^{-2}</m>
+                            <m>\text{s}^2</m> in denominator is replaced with <m>[T]^{-2}</m>
                         </li>
                     </ul>
 
@@ -209,7 +209,7 @@
             <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-06">
                 <statement>
                     <p>
-                        The quantity <em>power</em> has the following SI units: <m>\frac{kg \, m^2}{s^3}</m>.
+                        The quantity <em>power</em> has the following SI units: <m>\frac{\text{kg·m}^2}{\text{s}^3}</m>.
                         Power is the rate of energy use or transfer, or in other words power is energy per time.
                         It's how fast your starship engines burn fuel or how quickly your phone draws energy from an energy source.
                         What is the base dimensions of power?
@@ -218,7 +218,7 @@
 
                 <hint>
                     <p>
-                        Look at the units: kg (kilogram) is mass, m (meter) is length, and s (second) is time.
+                        Look at the units: <m>\text{kg}</m> (kilogram) is mass, <m>\text{m}</m> (meter) is length, and <m>\text{s}</m> (second) is time.
                     </p>
                 </hint>
 
@@ -230,20 +230,20 @@
 
                 <solution>
                     <p>
-                        From the units <m>\frac{kg \, m^2}{s^3}</m>, we identify:
+                        From the units <m>\frac{\text{kg·m}^2}{\text{s}^2}</m>, we identify:
                     </p>
 
                     <ul>
                         <li>
-                            kg → <m>[M]</m>
+                            <m>\text{kg}</m> is replaced with <m>[M]</m>
                         </li>
 
                         <li>
-                            <m>m^2</m> → <m>[L]^2</m>
+                            <m>\text{m}^2</m> is replaced with <m>[L]^2</m>
                         </li>
 
                         <li>
-                            <m>s^3</m> in denominator → <m>[T]^{-3}</m>
+                            <m>\text{s}^3</m> in denominator is replaced with <m>[T]^{-3}</m>
                         </li>
                     </ul>
 
@@ -256,7 +256,7 @@
             <exercise workspace="0.1in" xml:id="worksheet-explore-units-dimensions-07">
                 <statement>
                     <p>
-                        The <em>molar gas constant</em> <m>R</m> has SI units of <m>\frac{kg \, m^2}{s^2 \, mol \, K}</m>.
+                        The <em>molar gas constant</em> R has SI units of <m>\frac{\text{kg·m}^2}{\text{s}^2\text{·mol·K}}</m>.
                         The molar gas constant connects microscopic energy of molecules and macroscopic quantities like pressure, volume, and temperature - 
                         bridging the gap between the tiny molecular world and measurable gas behavior.
                         What is the base dimensions of the molar gas constant?
@@ -265,8 +265,8 @@
 
                 <hint>
                     <p>
-                        Look at the units: kg (kilogram) is mass, m (meter) is length, s (second) is time, mol (mole) is amount of substance, 
-                        and K (kelvin) is thermodynamic temperature.
+                        Look at the units: <m>\text{kg}</m> (kilogram) is mass, <m>\text{m}</m> (meter) is length, <m>\text{s}</m> (second) is time, 
+                        <m>\text{mol}</m> (mole) is amount of substance, and <m>\text{K}</m> (kelvin) is thermodynamic temperature.
                     </p>
                 </hint>
 
@@ -278,28 +278,28 @@
 
                 <solution>
                     <p>
-                        From the units <m>\frac{kg \, m^2}{s^2 \, mol \, K}</m>, we identify:
+                        From the units <m>\frac{\text{kg·m}^2}{\text{s}^2\text{·mol·K}}</m>, we identify:
                     </p>
 
                     <ul>
                         <li>
-                            kg → <m>[M]</m>
+                            <m>\text{kg}</m> is replaced with <m>[M]</m>
                         </li>
 
                         <li>
-                            <m>m^2</m> → <m>[L]^2</m>
+                            <m>\text{m}^2</m> is replaced with <m>[L]^2</m>
                         </li>
 
                         <li>
-                            <m>s^2</m> in denominator → <m>[T]^{-2}</m>
+                            <m>\text{s}^2</m> in denominator is replaced with <m>[T]^{-2}</m>
                         </li>
 
                         <li>
-                            <m>mol</m> in denominator → <m>[n]^{-1}</m>
+                            <m>\text{mol}</m> in denominator is replaced with <m>[n]^{-1}</m>
                         </li>
 
                         <li>
-                            <m>K</m> in denominator → <m>[\Theta]^{-1}</m>
+                            <m>\text{K}</m> in denominator is replaced with <m>[\Theta]^{-1}</m>
                         </li>
                     </ul>
 
@@ -312,7 +312,7 @@
             <exercise  xml:id="worksheet-explore-units-dimensions-08">
                 <statement>
                     <p>
-                        The quantity <em>electric charge</em> has SI units of <m>A \cdot s</m>.
+                        The quantity <em>electric charge</em> has SI units of <m>\text{A·s}</m>.
                         Charge is a fundamental property of matter that governs how particles respond to electromagnetic fields and how they produce those fields themselves.
                         Every lightning bolt, every battery, and every cat rubbing against a sweater has charge involved.
                         What is the base dimensions of electric charge?
@@ -321,7 +321,7 @@
 
                 <hint>
                     <p>
-                        Look at the units: A (ampere) is electric current, and s (second) is time.
+                        Look at the units: <m>text{A}</m> (ampere) is electric current, and <m>\text{s}</m> (second) is time.
                     </p>
                 </hint>
 
@@ -333,16 +333,16 @@
 
                 <solution>
                     <p>
-                        From the units <m>A \cdot s</m>, we identify:
+                        From the units <m>\text{A·s}</m>, we identify:
                     </p>
 
                     <ul>
                         <li>
-                            A → <m>[I]</m>
+                            <m>\text{A}</m> is replaced with <m>[I]</m>
                         </li>
 
                         <li>
-                            S → <m>[T]</m>
+                            <m>\text{s}</m> is replaced with <m>[T]</m>
                         </li>
                     </ul>
 

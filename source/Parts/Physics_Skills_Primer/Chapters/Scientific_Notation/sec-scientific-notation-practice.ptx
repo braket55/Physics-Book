@@ -13,8 +13,8 @@
         <exercise xml:id ="practice-sci-not-01">
             <statement>
                 <p>
-                    The average distance from Earth to Pluto is about 5,900,000,000 meters.
-                    Convert 5,900,000,000 to scientific notation.
+                    The average distance from Earth to Pluto is about <m>5900000000</m> meters.
+                    Convert <m>5900000000</m> to scientific notation.
                 </p>
             </statement>
 
@@ -29,7 +29,7 @@
 
                     <feedback>
                         <p>
-                            Correct! <m>5,900,000,000 = 5.9 \times 10^9</m>
+                            Correct! <m>5900000000 = 5.9 \times 10^9</m>
                         </p>
                     </feedback>
                 </choice>
@@ -44,7 +44,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            While <m>59 \times 10^8 = 5,900,000,000</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>59 \times 10^8 = 5900000000</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -84,8 +84,8 @@
         <exercise xml:id ="practice-sci-not-02">
             <statement>
                 <p>
-                    The distance from Earth to the nearest star (Proxima Centauri) is about 40,200,000,000,000 meters.
-                    Convert 40,200,000,000,000 to scientific notation.
+                    The distance from Earth to the nearest star (Proxima Centauri) is about <m>40200000000000</m> meters.
+                    Convert <m>40200000000000</m> to scientific notation.
                 </p>
             </statement>
 
@@ -100,7 +100,7 @@
 
                     <feedback>
                         <p>
-                            Correct! <m>40,200,000,000,000 = 4.02 \times 10^{13}</m>
+                            Correct! <m>40200000000000 = 4.02 \times 10^{13}</m>
                         </p>
                     </feedback>
                 </choice>
@@ -115,7 +115,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            While <m>402 \times 10^{11} = 40,200,000,000,000</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>402 \times 10^{11} = 40200000000000</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -155,8 +155,8 @@
         <exercise xml:id ="practice-sci-not-03">
             <statement>
                 <p>
-                    The distance from the Milky Way to the Andromeda Galaxy is about 2,500,000,000,000,000,000 meters.
-                    Convert 2,500,000,000,000,000,000 to scientific notation.
+                    The distance from the Milky Way to the Andromeda Galaxy is about <m>2500000000000000000</m> meters.
+                    Convert <m>2500000000000000000</m> to scientific notation.
                 </p>
             </statement>
 
@@ -171,7 +171,7 @@
 
                     <feedback>
                         <p>
-                            Correct! <m>2,500,000,000,000,000,000 = 2.5 \times 10^{18}</m>
+                            Correct! <m>2500000000000000000 = 2.5 \times 10^{18}</m>
                         </p>
                     </feedback>
                 </choice>
@@ -186,7 +186,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            While <m>25 \times 10^{17} = 2.5 \times 10^{18}</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>25 \times 10^{17} = 2.5 \times 10^{18}</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -236,7 +236,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            0.000000000053
+                            <m>0.000000000053</m>
                         </p>
                     </statement>
 
@@ -250,14 +250,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.0000000053
+                            <m>0.0000000053</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            You only moved the decimal 9 places instead of 11
+                            You only moved the decimal <m>9</m> places instead of <m>11</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -265,7 +265,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            530000000000
+                            <m>530000000000</m>
                         </p>
                     </statement>
 
@@ -280,14 +280,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.000000000000053
+                            <m>0.000000000000053</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That's one place too far! The exponent is -11, not -13.
+                            That's one place too far! The exponent is <m>-11</m>, not <m>-13</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -307,7 +307,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            0.000000000000000000000000000000000016
+                            <m>0.000000000000000000000000000000000016</m>
                         </p>
                     </statement>
 
@@ -321,14 +321,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.00000000000000000000000016
+                            <m>0.00000000000000000000000016</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            You only moved the decimal 25 places instead of 35.
+                            You only moved the decimal <m>25</m> places instead of <m>35</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -336,7 +336,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            160000000000000000000000000000000000
+                            <m>160000000000000000000000000000000000</m>
                         </p>
                     </statement>
 
@@ -351,14 +351,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.0000000000000000000000000000000000000000016
+                            <m>0.0000000000000000000000000000000000000000016</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That's 42 places, we see what you did there.
+                            That's <m>42</m> places, we see what you did there.
                             Try again.
                         </p>
                     </feedback>
@@ -378,13 +378,13 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            5
+                            <m>5</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
-                            Correct! (18-13) = 5 orders of magnitude.
+                            Correct! <m>18-13=5</m> orders of magnitude.
                         </p>
                     </feedback>
                 </choice>
@@ -392,7 +392,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            31
+                            <m>31</m>
                         </p>
                     </statement>
 
@@ -407,7 +407,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            1.38
+                            <m>1.38</m>
                         </p>
                     </statement>
 
@@ -422,7 +422,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.722
+                            <m>0.722</m>
                         </p>
                     </statement>
 

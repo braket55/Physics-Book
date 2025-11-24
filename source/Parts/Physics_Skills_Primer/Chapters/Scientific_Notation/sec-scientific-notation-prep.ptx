@@ -16,14 +16,33 @@
     <subsection xml:id="subsec-prep-sci-not-text">
         <title>Prep Text: Scientific Notation</title>
 
+        <subsubsection xml:id="subsec-prep-sci-not-what">
+            <title>What Is Scientific Notation?</title>
+            <definition xml:id="def-scientific-notation">
+                <term>Scientific Notation</term>
+                <meaning>
+                    <p>
+                        A standardized way to write very large or very small numbers using a coefficient
+                        between <m>1</m> and <m>10</m> multiplied by a power of ten. In scientific notation,
+                        a number has the form <m>a \times 10^{n}</m>, where <m>1 \le |a| &lt; 10</m> and
+                        <m>n</m> is an integer. The exponent <m>n</m> indicates how many places the decimal
+                        point has been moved.
+                    </p>
+                </meaning>
+            </definition>
+            <idx>Scientific Notation</idx>
+        </subsubsection>
+
+        <subsubsection xml:id="subsec-prep-sci-not-how">
+            <title>Writing Numbers in Scientific Notation</title>
         <p>
-            <term>To wield scientific notation properly, follow these arcane guidelines:</term>
+            To wield scientific notation properly, follow these arcane guidelines:
         </p>
 
         <ol>
             <li>
                 <p>
-                    <em>Find the coefficient.</em> Move the decimal point so the number becomes at least 1 but less than 10. This becomes the <em>coefficient</em>. For example, 32,700 becomes "3.27".
+                    <em>Find the coefficient.</em> Move the decimal point so the number becomes at least <m>1</m> but less than <m>10</m>. This becomes the <em>coefficient</em>. For example, <m>32700</m> becomes <m>3.27</m>.
                 </p>
             </li>
 
@@ -43,13 +62,13 @@
         <exercise xml:id ="subsec-prep-sci-not-text-01">
             <statement>
                 <p>
-                    Convert 32,700 to scientific notation.
+                    Convert <m>32700</m> to scientific notation.
                 </p>
             </statement>
 
             <hint>
                 <p>
-                    The decimal point would need to move to the left by 4 places.
+                    The decimal point would need to move to the left by <m>4</m> places.
                 </p>
             </hint>
 
@@ -61,13 +80,13 @@
 
             <solution>
                 <p>
-                    To write 32,700 in scientific notation, move the decimal point <em>four places to the left</em> to place it after the first nonzero digit.
-                    This gives "3.27".
-                    Since the decimal moved left by four places, the exponent on 10 is 4.
+                    To write <m>32700</m> in scientific notation, move the decimal point <em>four places to the left</em> to place it after the first nonzero digit.
+                    This gives <m>3.27</m>.
+                    Since the decimal moved left by four places, the exponent on <m>10</m> is <m>4</m>.
                 </p>
 
                 <p>
-                    So, <m>32,700 = 3.27 \times 10^4</m>.
+                    So, <m>32700 = 3.27 \times 10^4</m>.
                 </p>
             </solution>
         </exercise>
@@ -75,13 +94,13 @@
         <exercise xml:id ="subsec-prep-sci-not-text-02">
             <statement>
                 <p>
-                    Convert 0.0000089 to scientific notation.
+                    Convert <m>0.0000089</m> to scientific notation.
                 </p>
             </statement>
 
             <hint>
                 <p>
-                    The decimal point would need to move to the right by 6 places.
+                    The decimal point would need to move to the right by <m>6</m> places.
                 </p>
             </hint>
 
@@ -93,9 +112,9 @@
 
             <solution>
                 <p>
-                    To write 0.0000089 in scientific notation, move the decimal point <em>six places to the right</em> to place it after the first nonzero digit.
-                    This gives "8.9".
-                    Because the decimal moved right by six places, the exponent on 10 is -6.
+                    To write <m>0.0000089</m> in scientific notation, move the decimal point <em>six places to the right</em> to place it after the first nonzero digit.
+                    This gives <m>8.9</m>.
+                    Because the decimal moved right by six places, the exponent on the <m>10</m> is <m>-6</m>.
                 </p>
 
                 <p>
@@ -103,39 +122,39 @@
                 </p>
             </solution>
         </exercise>
+    </subsubsection>
+    <subsubsection xml:id="subsec-prep-sci-not-why">
+        <title>Why Use Scientific Notation?</title>
 
         <p>
-            <term>Why Use It?</term>
+            Imagine trying to write the mass of the Earth (about <m>5.97 \times 10^{24}</m> kilograms),
+            or the mass of an electron (about <m>9.11 \times 10^{-31}</m> kilograms) without magical shorthand! 
+            Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.
         </p>
-
-        <p>
-            Imagine trying to write the mass of the Earth (~<m>5.97 \times 10^{24}</m> kg) or the mass of an electron (~<m>9.1 \times 10^{-31}</m> kg) without magical shorthand! Scientific notation saves parchment, keeps calculations neat, and makes comparison of large and small values easier.
-        </p>
-
-        <p>
-            <term>Bonus Trick: Comparing Powers</term>
-        </p>
+    </subsubsection>
+    <subsubsection xml:id="subsec-prep-sci-not-orders">
+        <title>Orders of Magnitude</title>
 
         <p>
             Scientific notation reveals <em>orders of magnitude</em>.
             Two numbers differ by one order of magnitude for every tenfold difference.
-            A dragon's hoard of <m>4.2 \times 10^6</m> gold coins is <em>about three orders of magnitude</em> larger than a goblin's pouch of <m>1.7 \times 10^3</m>.
-            3 was obtained by subtracting the exponents (6 - 3 = 3).
+            A dragon's hoard of <m>4.2 \times 10^6</m> gold coins is <em>about 4 orders of magnitude</em> larger than a goblin's pouch of <m>1.7 \times 10^2</m> coins.
+            The order of magnitude, <m>4</m>, was obtained by subtracting the exponents: <m>6 - 2 = 4</m>
         </p>
 
         <p>
             Likewise, a nanobot's processor that uses <m>3.0 \times 10^{-9}</m> joules per operation is <em>about two orders of magnitude</em> smaller than a clunky space probe core drawing <m>1 \times 10^{-7}</m> joules per operation.
-            2 was obtained by subtracting the exponents (-9 - (-7) = -2).
+            The two for order of magnitude was obtained by subtracting the original exponents: <m>-9 - (-7) = -2</m>
         </p>
-
-        <p>
-            <term>A Parting Word</term>
-        </p>
+    </subsubsection>
+    <subsubsection xml:id="subsec-prep-sci-not-parting">
+        <title>A Parting Word</title>
 
         <p>
             With scientific notation in your spellbook, you can navigate the vast realms of physics, chemistry, and cosmic measurement.
             Write your numbers with care, check your powers of ten, and let no zero go unwielded.
         </p>
+    </subsubsection>
     </subsection>
 
     <subsection xml:id="subsec-prep-sci-not-questions">
@@ -143,13 +162,13 @@
 
         <!-- CONVERT FROM STANDARD TO SCIENTIFIC NOTATION -->
         <p>
-            <term> Convert standard notation to scientific notation. </term>
+            Convert standard notation to scientific notation.
         </p>
         <!-- Prep Question 01 -->
         <exercise xml:id ="subsec-prep-sci-not-questions-01">
             <statement>
                 <p>
-                    Convert 0.0072 to scientific notation.
+                    Convert <m>0.0072</m> to scientific notation.
                 </p>
             </statement>
 
@@ -179,7 +198,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            While <m>72 \times 10^{-4} = 0.0072</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>72 \times 10^{-4} = 0.0072</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -249,7 +268,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            You left out a digit—don't forget the 2.
+                            You left out a digit—don't forget the <m>2</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -289,7 +308,7 @@
         <exercise xml:id ="subsec-prep-sci-not-questions-03">
             <statement>
                 <p>
-                    Convert 0.70 to scientific notation.
+                    Convert <m>0.70</m> to scientific notation.
                 </p>
             </statement>
 
@@ -319,7 +338,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            While <m>0.70 \times 10^{0} = 0.70</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>0.70 \times 10^{0} = 0.70</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -349,7 +368,7 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That equals 7.0, not 0.70.
+                            That equals <m>7.0</m>, not <m>0.70</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -359,7 +378,7 @@
         <exercise xml:id ="subsec-prep-sci-not-questions-04">
             <statement>
                 <p>
-                    Convert 4,242 to scientific notation.
+                    Convert <m>4242</m> to scientific notation.
                 </p>
             </statement>
 
@@ -429,7 +448,7 @@
         <exercise xml:id ="subsec-prep-sci-not-questions-05">
             <statement>
                 <p>
-                    Convert 10.0 to scientific notation.
+                    Convert <m>10.0</m> to scientific notation.
                 </p>
             </statement>
 
@@ -459,7 +478,7 @@
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            That equals 1.0, not 10.0.
+                            That equals <m>1.0</m>, not <m>10.0</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -474,7 +493,7 @@
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            While <m>10.0 \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>10.0 \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -499,7 +518,7 @@
         <exercise xml:id ="subsec-prep-sci-not-questions-06">
             <statement>
                 <p>
-                    Convert 1.0 to scientific notation.
+                    Convert <m>1.0</m> to scientific notation.
                 </p>
             </statement>
 
@@ -530,7 +549,7 @@
                         <p>
                             Your targeting system glitched, try again.
                             While <m>10.
-                            \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            \times 10^{0} = 10.0</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -545,7 +564,7 @@
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            While <m>0.10 \times 10^{0} = 1.0</m>, the coefficient must be greater than or equal to 1 and less than 10 for scientific notation.
+                            While <m>0.10 \times 10^{0} = 1.0</m>, the coefficient must be greater than or equal to <m>1</m> and less than <m>10</m> for scientific notation.
                         </p>
                     </feedback>
                 </choice>
@@ -560,7 +579,7 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            That equals 10.0, not 1.0.
+                            That equals <m>10.0</m>, not <m>1.0</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -568,7 +587,7 @@
         </exercise>
         <!-- CONVERT FROM SCIENTIFIC NOTATION TO STANDARD -->
         <p>
-            <term> Convert scientific notation to standard notation. </term>
+            Convert scientific notation to standard notation.
         </p>
         <!-- Prep Question 07 -->
         <exercise xml:id ="subsec-prep-sci-not-questions-07">
@@ -583,7 +602,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            0.0623
+                            <m>0.0623</m>
                         </p>
                     </statement>
 
@@ -597,7 +616,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.00623
+                            <m>0.00623</m>
                         </p>
                     </statement>
 
@@ -612,7 +631,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            6230
+                            <m>6230</m>
                         </p>
                     </statement>
 
@@ -627,7 +646,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            623
+                            <m>623</m>
                         </p>
                     </statement>
 
@@ -653,7 +672,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            42000
+                            <m>42000</m>
                         </p>
                     </statement>
 
@@ -667,7 +686,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            4200
+                            <m>4200</m>
                         </p>
                     </statement>
 
@@ -682,7 +701,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.00042
+                            <m>0.00042</m>
                         </p>
                     </statement>
 
@@ -697,7 +716,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.042
+                            <m>0.042</m>
                         </p>
                     </statement>
 
@@ -723,7 +742,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            50.2
+                            <m>50.2</m>
                         </p>
                     </statement>
 
@@ -737,7 +756,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            502
+                            <m>502</m>
                         </p>
                     </statement>
 
@@ -752,7 +771,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.0502
+                            <m>0.0502</m>
                         </p>
                     </statement>
 
@@ -767,7 +786,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.502
+                            <m>0.502</m>
                         </p>
                     </statement>
 
@@ -793,7 +812,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            5.122
+                            <m>5.122</m>
                         </p>
                     </statement>
 
@@ -807,7 +826,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            51.22
+                            <m>51.22</m>
                         </p>
                     </statement>
 
@@ -822,7 +841,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            512200
+                            <m>512200</m>
                         </p>
                     </statement>
 
@@ -837,7 +856,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            5122000
+                            <m>5122000</m>
                         </p>
                     </statement>
 
@@ -863,7 +882,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            30
+                            <m>30</m>
                         </p>
                     </statement>
 
@@ -877,7 +896,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            300
+                            <m>300</m>
                         </p>
                     </statement>
 
@@ -892,7 +911,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.003
+                            <m>0.003</m>
                         </p>
                     </statement>
 
@@ -907,7 +926,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.03
+                            <m>0.03</m>
                         </p>
                     </statement>
 
@@ -933,7 +952,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            7.55
+                            <m>7.55</m>
                         </p>
                     </statement>
 
@@ -947,14 +966,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0
+                            <m>0</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Recall any nonzero number raised to 0 is equal to 1.
+                            Recall any nonzero number raised to <m>0</m> is equal to <m>1</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -962,14 +981,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            75.5
+                            <m>75.5</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Recall any nonzero number raised to 0 is equal to 1.
+                            Recall any nonzero number raised to <m>0</m> is equal to <m>1</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -977,14 +996,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            0.755
+                            <m>0.755</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Recall any nonzero number raised to0 is equal to 1.
+                            Recall any nonzero number raised to <m>0</m> is equal to <m>1</m>.
                         </p>
                     </feedback>
                 </choice>

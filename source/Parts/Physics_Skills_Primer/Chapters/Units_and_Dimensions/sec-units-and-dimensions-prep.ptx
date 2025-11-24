@@ -16,35 +16,65 @@
     <subsection xml:id="subsec-prep-units-dims-text">
         <title>Prep Text: Units and Dimensions</title>
 
-        <p>
-            <term>Units</term>
-        </p>
+        <subsubsection xml:id="subsec-prep-units">
+            <title>Units</title>
 
-        <p>
-            Units are the steadfast way to seal your spells after casting.
-            Units give your numbers meaning.
-            The international system of units is called the SI system (from the French <em>Système International d'Unités</em>).
-            It defines seven base units <xref ref="subsec-prep-units-dims-table"/>, which form the foundation of all measurements in the magical realms of science: kilogram (kg), meter (m), second (s), mole (mol), ampere (A), kelvin (K), and candela (cd).
-        </p>
+            <definition xml:id="def-units">
+                <term>Units</term>
+                <meaning>
+                    <p>
+                        Standardized quantities used to express and compare measurements. Each physical
+                        quantity has an associated unit that defines the scale of measurement. For example,
+                        the SI system uses the meter (<m>\text{m}</m>) for length, the kilogram
+                        (<m>\text{kg}</m>) for mass, and the second (<m>\text{s}</m>) for time; where meter, kilogram, and second are all units.
+                    </p>
+                </meaning>
+            </definition>
+            <idx>Unit</idx>
 
-        <p>
-            <term>Dimensions</term>
-        </p>
+            <p>
+                Units are the steadfast way to seal your spells after casting.
+                Units give your numbers meaning.
+                The international system of units is called the SI system (from the French <em>Système International d'Unités</em>).
+                It defines seven base units <xref ref="subsec-prep-units-dims-table"/>, which form the foundation of all measurements in the magical realms of science include the seven SI base units:
+                kilogram (<m>\text{kg}</m>), meter (<m>\text{m}</m>), second (<m>\text{s}</m>),
+                mole (<m>\text{mol}</m>), ampere (<m>\text{A}</m>), kelvin (<m>\text{K}</m>),
+                and candela (<m>\text{cd}</m>).
+            </p>
+        </subsubsection>
 
-        <p>
-            While units tell you how much of something you have, dimensions tell you what kind of thing it is.
-            Dimensions <xref ref="subsec-prep-units-dims-table"/> are the elemental ingredients behind every physical quantity: mass [M], length [L], time [T], electric current [I], temperature [Θ], amount of substance [n], and luminous intensity [J].
-        </p>
+        <subsubsection xml:id="subsec-prep-dimensions">
+            <title>Dimensions</title>
 
-        <p>
-            Dimensions help you see through the illusion of numbers.
-            For example, the dimension of length can be measured using many different units: meters, feet, centimeters, light-years, and so on.
-            No matter which unit you choose, the underlying dimension, "length" is the true quantity being measured.
-        </p>
+            <definition xml:id="def-dimensions">
+                <term>Dimensions</term>
+                <meaning>
+                    <p>
+                        The fundamental classifications of physical quantities. A dimension specifies the
+                        physical nature of a quantity independently of the units used to measure it. Common
+                        dimension symbols include <m>[L]</m> for length, <m>[M]</m> for mass, and
+                        <m>[T]</m> for time.
+                    </p>
+                </meaning>
+            </definition>
+            <idx>Dimensions</idx>
 
-        <p>
-            <term>Units and Dimensions</term>
-        </p>
+            <p>
+                While units tell you how much of something you have, dimensions tell you what kind of thing it is.
+                Dimensions <xref ref="subsec-prep-units-dims-table"/> are the elemental ingredients behind every physical quantity: 
+                mass <m>[M]</m>, length <m>[L]</m>, time <m>[T]</m>, electric current <m>[I]</m>, temperature <m>[\Theta]</m>, 
+                amount of substance <m>[n]</m>, and luminous intensity <m>[J]</m>.
+            </p>
+
+            <p>
+                Dimensions help you see through the illusion of numbers.
+                For example, the dimension of length can be measured using many different units: meters, feet, centimeters, light-years, and so on.
+                No matter which unit you choose, the underlying dimension, "length" is the true quantity being measured.
+            </p>
+        </subsubsection>
+
+        <subsubsection xml:id="subsec-prep-units-and-dims">
+            <title>Using Units and Dimensions</title>
 
         <p>
             Units and dimensions are powerful tools for checking whether your work makes sense.
@@ -72,51 +102,51 @@
 
                 <row>
                     <cell>Length</cell>
-                    <cell>[L]</cell>
+                    <cell><m>[L]</m></cell>
                     <cell>meter</cell>
-                    <cell>m</cell>
+                    <cell><m>\text{m}</m></cell>
                 </row>
 
                 <row>
                     <cell>Mass</cell>
-                    <cell>[M]</cell>
+                    <cell><m>[M]</m></cell>
                     <cell>kilogram</cell>
-                    <cell>kg</cell>
+                    <cell><m>\text{kg}</m></cell>
                 </row>
 
                 <row>
                     <cell>Time</cell>
-                    <cell>[T]</cell>
+                    <cell><m>[T]</m></cell>
                     <cell>second</cell>
-                    <cell>s</cell>
+                    <cell><m>\text{s}</m></cell>
                 </row>
 
                 <row>
                     <cell>Electric current</cell>
-                    <cell>[I]</cell>
+                    <cell><m>[I]</m></cell>
                     <cell>ampere</cell>
-                    <cell>A</cell>
+                    <cell><m>\text{A}</m></cell>
                 </row>
 
                 <row>
                     <cell>Temperature</cell>
-                    <cell>[Θ]</cell>
+                    <cell><m>[\Theta]</m></cell>
                     <cell>kelvin</cell>
-                    <cell>K</cell>
+                    <cell><m>\text{K}</m></cell>
                 </row>
 
                 <row>
                     <cell>Amount of substance</cell>
-                    <cell>[n]</cell>
+                    <cell><m>[n]</m></cell>
                     <cell>mole</cell>
-                    <cell>mol</cell>
+                    <cell><m>\text{mol}</m></cell>
                 </row>
 
                 <row>
                     <cell>Luminous intensity</cell>
-                    <cell>[J]</cell>
+                    <cell><m>[J]</m></cell>
                     <cell>candela</cell>
-                    <cell>cd</cell>
+                    <cell><m>\text{cd}</m></cell>
                 </row>
             </tabular>
         </table>
@@ -175,39 +205,31 @@
             </solution>
         </exercise>
 
-        <p>
-            <term>Why Use Them?</term>
-        </p>
+        </subsubsection>
 
-        <p>
-            A number without clearly labeled units is just a riddle.
-            And while riddles can be fun, we're dealing with science, magic, and pressing matters that demand clear communication.
-        </p>
+        <subsubsection xml:id="subsec-prep-units-dims-resources">
+            <title>Where to Learn More</title>
+                <p>
+                    A wonderful location to dig deeper into units and dimensions is at the National Institude of Standards and Technology (NIST).
+                </p>
 
-        <p>
-            <term>Bonus Trick: How do we define units and dimensions?</term>
-        </p>
+                <p>
+                    Looking for a quick refresher on SI units? Try <url href="https://www.nist.gov/pml/owm/metric-si/si-units">SI Units</url>.
+                </p>
 
-        <p>
-            A wonderful location to dig deeper into units and dimensions is at the National Institude of Standards and Technology (NIST).
-        </p>
+                <p>
+                    Want to dig a little deeper and learn how each SI unit is defined experimentally and some historical context? Check out <url href="https://www.nist.gov/si-redefinition/definitions-si-base-units">NIST: Definitions of the SI Base Units</url>.
+                </p>
+        </subsubsection>
 
-        <p>
-            Looking for a quick refresher on SI units? Try <url href="https://www.nist.gov/pml/owm/metric-si/si-units">SI Units</url>.
-        </p>
-
-        <p>
-            Want to dig a little deeper and learn how each SI unit is defined experimentally and some historical context? Check out <url href="https://www.nist.gov/si-redefinition/definitions-si-base-units">NIST: Definitions of the SI Base Units</url>.
-        </p>
-
-        <p>
-            <term>A Parting Word</term>
-        </p>
-
-        <p>
-            With units in your toolkit and dimensions as your compass, you're ready to navigate the equations of the universe.
-            Always label your quantities, track your dimensions, and remember: a well-crafted spell or equation begins with knowing what kind of magic you're working with.
-        </p>
+        <subsubsection xml:id="subsec-prep-units-dims-parting">
+            <title>A Parting Word</title>
+            <p>
+                With units in your toolkit and dimensions as your compass, you're ready to navigate the equations of the universe.
+                Always label your quantities, track your dimensions, and remember: a well-crafted spell or equation begins with knowing what kind of magic you're working with.
+            </p>
+        </subsubsection>
+        
     </subsection>
 
 
@@ -216,7 +238,7 @@
 
         <!-- Units and Dimensions -->
         <p>
-            <term> What is the SI unit for _____? </term>
+            What is the SI unit for "insert_quantity"?
         </p>
         <!-- Prep Question 01 -->
         <exercise xml:id="subsec-prep-units-dims-questions-01">

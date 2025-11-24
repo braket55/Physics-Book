@@ -27,14 +27,14 @@
             <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-01">
                 <statement>
                     <p>
-                        The influenza virus can have a diameter of about 0.000000099 meters.
-                        Convert 0.000000099 to scientific notation.
+                        The influenza virus can have a diameter of about <m>0.000000099</m> meters.
+                        Convert <m>0.000000099</m> to scientific notation.
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        The decimal point would need to move to the right by 8 places.
+                        The decimal point would need to move to the right by <m>8</m> places.
                     </p>
                 </hint>
 
@@ -46,9 +46,9 @@
 
                 <solution>
                     <p>
-                        To write 0.000000099 in scientific notation, move the decimal point <em>eight places to the right</em> to place it after the first nonzero digit.
-                        This gives "9.9".
-                        Since the decimal moved right by eight places, the exponent on 10 is -8.
+                        To write <m>0.000000099</m> in scientific notation, move the decimal point <em>eight places to the right</em> to place it after the first nonzero digit.
+                        This gives <m>9.9</m>.
+                        Since the decimal moved right by eight places, the exponent on <m>10</m> is <m>-8</m>.
                     </p>
 
                     <p>
@@ -60,14 +60,14 @@
             <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-02">
                 <statement>
                     <p>
-                        A strand of human hair is about 0.00007 meters in diameter.
-                        Convert 0.00007 to scientific notation.
+                        A strand of human hair is about <m>0.00007</m> meters in diameter.
+                        Convert <m>0.00007</m> to scientific notation.
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        The decimal point would need to move to the right by 5 places.
+                        The decimal point would need to move to the right by <m>5</m> places.
                     </p>
                 </hint>
 
@@ -79,9 +79,9 @@
 
                 <solution>
                     <p>
-                        To write 0.00007 in scientific notation, move the decimal point <em>five places to the right</em> to place it after the first nonzero digit.
-                        This gives "7.0".
-                        Since the decimal moved right by five places, the exponent on 10 is -5.
+                        To write <m>0.00007</m> in scientific notation, move the decimal point <em>five places to the right</em> to place it after the first nonzero digit.
+                        This gives <m>7.0</m>.
+                        Since the decimal moved right by five places, the exponent on <m>10</m> is <m>-5</m>.
                     </p>
 
                     <p>
@@ -93,14 +93,14 @@
             <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-03">
                 <statement>
                     <p>
-                        A grain of sand can be about 0.0012 meters in diameter.
-                        Convert 0.0012 to scientific notation.
+                        A grain of sand can be about <m>0.0012</m> meters in diameter.
+                        Convert <m>0.0012</m> to scientific notation.
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        The decimal point would need to move to the right by 3 places.
+                        The decimal point would need to move to the right by <m>3</m> places.
                     </p>
                 </hint>
 
@@ -112,9 +112,9 @@
 
                 <solution>
                     <p>
-                        To write 0.0012 in scientific notation, move the decimal point <em>three places to the right</em> to place it after the first nonzero digit.
-                        This gives "1.2".
-                        Since the decimal moved right by three places, the exponent on 10 is -3.
+                        To write <m>0.0012</m> in scientific notation, move the decimal point <em>three places to the right</em> to place it after the first nonzero digit.
+                        This gives <m>1.2</m>.
+                        Since the decimal moved right by three places, the exponent on <m>10</m> is <m>-3</m>.
                     </p>
 
                     <p>
@@ -126,14 +126,14 @@
             <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-04">
                 <statement>
                     <p>
-                        An average adult human might be about 1.75 meters tall.
-                        Convert 1.75 to scientific notation.
+                        An average adult human might be about <m>1.75</m> meters tall.
+                        Convert <m>1.75</m> to scientific notation.
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        The decimal point would need to move to the left by 0 places.
+                        The decimal point would need to move to the left by <m>0</m> places.
                     </p>
                 </hint>
 
@@ -145,8 +145,8 @@
 
                 <solution>
                     <p>
-                        To write 1.75 in scientific notation, the decimal is already after the first nonzero digit, so we don’t need to move it.
-                        That means the exponent on 10 is 0.
+                        To write <m>1.75</m> in scientific notation, the decimal is already after the first nonzero digit, so we don't need to move it.
+                        That means the exponent on <m>10</m> is <m>0</m>.
                     </p>
 
                     <p>
@@ -166,19 +166,19 @@
                 <hint>
                     <p>
                         A positive exponent means move the decimal to the right.
-                        Move it 2 places to the right.
+                        Move it <m>2</m> places to the right.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        381
+                        <m>381</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>3.81 \times 10^{2}</m> means move the decimal point 2 places to the right: <m>3.81 → 38.1 → 381.</m>.
+                        <m>3.81 \times 10^{2}</m> means move the decimal point <m>2</m> places to the right: <m>3.81 \rightarrow 38.1 \rightarrow 381.</m>.
                     </p>
 
                     <p>
@@ -197,19 +197,19 @@
 
                 <hint>
                     <p>
-                        Move the decimal point 3 places to the right.
+                        Move the decimal point <m>3</m> places to the right.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        8850
+                        <m>8850</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>8.85 \times 10^{3}</m> means move the decimal 3 places to the right: <m>8.85 → 88.5 → 885 → 8850</m>.
+                        <m>8.85 \times 10^{3}</m> means move the decimal <m>3</m> places to the right: <m>8.85 \rightarrow 88.5 \rightarrow 885 \rightarrow 8850</m>.
                     </p>
 
                     <p>
@@ -228,19 +228,19 @@
 
                 <hint>
                     <p>
-                        Move the decimal 7 places to the right.
+                        Move the decimal <m>7</m> places to the right.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        12,700,000
+                        <m>12,700,000</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>1.27 \times 10^{7}</m> means move the decimal 7 places to the right: <m>1.27 → 12.7 → 127 → … → 12,700,000</m>.
+                        <m>1.27 \times 10^{7}</m> means move the decimal <m>7</m> places to the right: <m>1.27 \rightarrow 12.7 \rightarrow 127 \rightarrow … \rightarrow 12700000</m>.
                     </p>
 
                     <p>
@@ -259,23 +259,23 @@
 
                 <hint>
                     <p>
-                        Move the decimal 11 places to the right.
+                        Move the decimal <m>11</m> places to the right.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        149,600,000,000
+                        <m>149,600,000,000</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>1.496 \times 10^{11}</m> means move the decimal 11 places to the right: <m>1.496 → 14.96 → 149.6 → … → 149,600,000,000</m>.
+                        <m>1.496 \times 10^{11}</m> means move the decimal <m>11</m> places to the right: <m>1.496 \rightarrow 14.96 \rightarrow 149.6 \rightarrow … \rightarrow 149600000000</m>.
                     </p>
 
                     <p>
-                        So, <m>1.496 \times 10^{11} = 149,600,000,000</m>.
+                        So, <m>1.496 \times 10^{11} = 149600000000</m>.
                     </p>
                 </solution>
             </exercise>
@@ -297,23 +297,23 @@
 
                 <answer>
                     <p>
-                        3
+                        <m>3</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        The exponent for the human's height is 0, and for the grain of sand it is -3.
+                        The exponent for the human's height is <m>0</m>, and for the grain of sand it is <m>-3</m>.
                         The difference is <m>0 - (-3) = 3</m>.
                     </p>
 
                     <p>
-                        So, a human is approximately <term>3 orders of magnitude</term> larger than a grain of sand.
-                        This means the human is about <m>10^3 = 1,000</m> times taller than the grain of sand.
+                        So, a human is approximately <em>3 orders of magnitude</em> larger than a grain of sand.
+                        This means the human is about <m>10^3 = 1000</m> times taller than the grain of sand.
                     </p>
 
                     <p>
-                        In other words, if you stacked 1,000 grains of sand end to end, they would reach about the height of one person!
+                        In other words, if you stacked <m>1000</m> grains of sand end to end, they would reach about the height of one person!
                     </p>
                 </solution>
             </exercise>
@@ -335,23 +335,23 @@
 
                 <answer>
                     <p>
-                        8
+                        <m>8</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        The exponent for the human's height is 0, and for the virus it is -8.
+                        The exponent for the human's height is <m>0</m>, and for the virus it is <m>-8</m>.
                         The difference is <m>0 - (-8) = 8</m>.
                     </p>
 
                     <p>
-                        So, a human is approximately <em>8 orders of magnitude</em> larger than the influenza virus.
-                        This means the human is about <m>10^8 = 100,000,000</m> times taller than the virus.
+                        So, a human is approximately <em>eight orders of magnitude</em> larger than the influenza virus.
+                        This means the human is about <m>10^8 = 100000000</m> times taller than the virus.
                     </p>
 
                     <p>
-                        In other words, if you stacked 100,000,000 viruses end to end, they would reach about the height of one person!
+                        In other words, if you stacked <m>100000000</m> viruses end to end, they would reach about the height of one person!
                     </p>
                 </solution>
             </exercise>

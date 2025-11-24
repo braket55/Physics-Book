@@ -16,8 +16,8 @@
         <p>
             Take a mass spectrometer aboard a deep-space probe, it doesn't just spit out numbers for fun. 
             It captures bits of alien atmospheres, sifts through that ionized dust, and offers data etched with meaning. 
-            A reading of 4.20 tells you more than 4.2 ever could; that final zero isn't decoration, it's a promise of precision.
-            And what about a reading of 004.20? The leading zeros are but shadows, offering no real insight over what 4.20 tells you.
+            A reading of <m>4.20</m> tells you more than <m>4.2</m> ever could; that final zero isn't decoration, it's a promise of precision.
+            And what about a reading of <m>004.20</m>? The leading zeros are but shadows, offering no real insight over what <m>4.20</m> tells you.
         </p>
 
         <p>

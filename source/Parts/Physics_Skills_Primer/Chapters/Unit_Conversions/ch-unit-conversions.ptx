@@ -9,7 +9,7 @@
         </p>
 
         <p>
-            Suppose you've just measured the length of a wyvern's wingspan in meters, but your potion recipe calls for inches.
+            Suppose you've just measured the length of a wyvern's wingspan in meters, <m>\text{m}</m>, but your potion recipe calls for inches, <m>\text{in}</m>.
             Fear not.
             All you need is to cast a unit conversion spell.
         </p>
@@ -20,7 +20,7 @@
 
         <p>
             To convert a unit, you multiply it by a cleverly chosen form of one: a conversion factor which is a ratio that equals the value of one.
-            These enchanted ratios are built from equal quantities written in different units, like <m>1 \text{ inch} = 2.54 \text{ cm}</m>.
+            These enchanted ratios are built from equal quantities written in different units, like <m>1\, \text{in} = 2.54\, \text{cm}</m>.
             Use them wisely, and you can reshape any unit into the a different unit your quest requires.
         </p>
 

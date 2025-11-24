@@ -13,7 +13,7 @@
         <exercise xml:id ="practice-unit-prefixes-01">
             <statement>
                 <p>
-                    In 2020, Utqiaġvik, Alaska (formerly Barrow) recorded about 530 millimeters of snow.
+                    In 2020, Utqiaġvik, Alaska (formerly Barrow) recorded about <m>530</m> millimeters of snow.
                     Write this amount in meters using scientific notation with the correct number of significant figures.
                 </p>
             </statement>
@@ -23,7 +23,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>5.3 \times 10^{-1}</m>
+                            <m>5.3 \times 10^{-1}\, \text{m}</m>
                         </p>
                     </statement>
 
@@ -37,7 +37,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>530 \times 10{-3}</m>
+                            <m>530 \times 10{-3}\, \text{m}</m>
                         </p>
                     </statement>
 
@@ -52,14 +52,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>5.3 \times 10^{-3}</m>
+                            <m>5.3 \times 10^{-3}\, \text{m}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Mili does mean <m>10^{-3}</m>, so 530 millimeters is <m>530 \times 10^{-3}</m>.
+                            Mili does mean <m>10^{-3}</m>, so <m>530</m> millimeters is <m>530 \times 10^{-3}\, \text{m}</m>.
                             But now you need to convert this to scientific notation.
                         </p>
                     </feedback>
@@ -75,7 +75,7 @@
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Mili does mean <m>10^{-3}</m>, so 530 millimeters is <m>530 \times 10^{-3}</m>.
+                            Mili does mean <m>10^{-3}</m>, so <m>530</m> millimeters is <m>530 \times 10^{-3}\, \text{m}</m>.
                             But now you need to convert this to scientific notation.
                         </p>
                     </feedback>
@@ -86,8 +86,8 @@
         <exercise xml:id ="practice-unit-prefixes-02">
             <statement>
                 <p>
-                    NASA reports that Greenland has been losing ice at an average rate of 0.279 exagrams per year.
-                    Convert this mass into kilograms using scientific notation with the correct number of significant figures.
+                    NASA reports that Greenland has been losing ice at an average rate of <m>0.279</m> exagrams per year.
+                    Convert this mass per year into kilograms per year using scientific notation with the correct number of significant figures.
                 </p>
             </statement>
 
@@ -96,7 +96,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>2.79 \times 10^{14}</m> kg
+                            <m>2.79 \times 10^{14}\, \text{kg/yr}</m>
                         </p>
                     </statement>
 
@@ -110,16 +110,16 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>0.279 \times 10^{18}</m> kg
+                            <m>0.279 \times 10^{18}\, \text{kg/yr}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
+                            Exa means <m>10^{18}</m>, so <m>0.279</m> exagrams <m>=0.279 \times 10^{18}\, \text{g}</m>.
                             However, we need to convert this to kilograms.
-                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                            <m>1</m> kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -127,16 +127,16 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>2.79 \times 10^{18}</m> kg
+                            <m>2.79 \times 10^{18}\, \text{kg/yr}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
+                            Exa means <m>10^{18}</m>, so <m>0.279</m> exagrams <m>=0.279 \times 10^{18}\, \text{kg}</m>.
                             However, we need to convert this to kilograms.
-                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                            <m>1</m> kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -144,16 +144,16 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>2.79 \times 10^{17}</m> kg
+                            <m>2.79 \times 10^{17}\, \text{kg/yr}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
+                            Exa means <m>10^{18}</m>, so <m>0.279</m> exagrams <m>=0.279 \times 10^{18}\, \text{kg}</m>.
                             However, we need to convert this to kilograms.
-                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                            <m>1</m> kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -163,8 +163,8 @@
         <exercise xml:id ="practice-unit-prefixes-03">
             <statement>
                 <p>
-                    A typical 1-kW rooftop solar panel system can generate about <m>3.6 \times 10^9</m> joules of energy over a year in sunny regions.
-                    Express this annual energy production using a unit prefix. The SI symbol for joule is "J".
+                    A typical <m>1\, \text{kW}</m> rooftop solar panel system can generate about <m>3.6 \times 10^9</m> joules of energy over a year in sunny regions.
+                    Express this annual energy in joules using a unit prefix. The SI symbol for joule is <m>\text{J}</m>.
                 </p>
             </statement>
 
@@ -173,7 +173,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            3.6 GJ
+                            <m>3.6\, \text{GJ}</m>
                         </p>
                     </statement>
 
@@ -187,7 +187,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            3.6 MJ
+                            <m>3.6\, \text{MJ}</m>
                         </p>
                     </statement>
 
@@ -202,14 +202,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            3.6 gJ
+                            <m>3.6\, \text{gJ}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            There is no prefix "g".
+                            There is no prefix <m>\text{g}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -217,7 +217,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            3.6 nJ
+                            <m>3.6\, \text{nJ}</m>
                         </p>
                     </statement>
 
@@ -234,7 +234,7 @@
         <exercise xml:id ="practice-unit-prefixes-04">
             <statement>
                 <p>
-                    A certified HEPA filter is capable of capturing 99.97% of airborne particles with diameters as small as 0.0000003 meters.
+                    A certified HEPA filter is capable of capturing <m>99.97%</m> of airborne particles with diameters as small as <m>0.0000003</m> meters.
                     Express this diameter using a unit prefix.
                 </p>
             </statement>
@@ -244,7 +244,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            0.3 <m>\mu m</m>
+                            <m>0.3\, \text{&#x03bc;m}</m>
                         </p>
                     </statement>
 
@@ -258,7 +258,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                             3 <m>\mu m</m>
+                             <m>3\, \text{&#x03bc;m}</m>
                         </p>
                     </statement>
 
@@ -273,7 +273,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                             0.3 <m>m m</m>
+                             <m>0.3\, \text{mm}</m>
                         </p>
                     </statement>
 
@@ -288,7 +288,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                             3 <m>m m</m>
+                             <m>3\, \text{mm}</m>
                         </p>
                     </statement>
 

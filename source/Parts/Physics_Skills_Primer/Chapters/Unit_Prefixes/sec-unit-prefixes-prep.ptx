@@ -15,21 +15,52 @@
     -->
     <subsection xml:id="subsec-prep-unit-prefixes-text">
         <title>Prep Text: Unit Prefixes</title>
+        <subsubsection xml:id="subsub-prefix-what">
+        <title>What Are Unit Prefixes?</title>
+        
+        
+        <definition xml:id="def-unit-prefix">
+            <term>Unit Prefix</term>
+            <meaning>
+                <p>
+                    A modifier placed before a base unit to indicate a power-of-ten multiple or fraction of that unit. 
+                    Unit prefixes provide a compact way to express very large or very small quantities. 
+                    For example, the prefix <em>kilo-</em> means <m>10^{3}</m>, so <m>\text{km}</m> represents <em>kilometers</em>, or <m>10^{3}</m> meters. 
+                    Similarly, <em>milli-</em> means <m>10^{-3}</m>, so <m>\text{ms}</m> denotes <em>milliseconds</em>, or <m>10^{-3}</m> seconds.
+                </p>
+            </meaning>
+        </definition>
+        <idx>Unit Prefix</idx>
 
         <p>
             Unit prefixes are the verbal runes that shrink or stretch your units with a single syllable.
             They're shortcuts to tame unwieldy measurements without changing their essence.
-            Instead of writing out 3,000 meters, you can invoke the prefix <em>kilo-</em> to conjure “3 kilometers.” Instead of whispering 0.000000001 seconds, you can say “1 nanosecond” and sound like a seasoned chronomancer.
+            Instead of writing out <m>3000</m> meters, you can invoke the prefix <em>kilo-</em> to conjure <m>3</m> kilometers. Instead of whispering <m>0.000000001</m> seconds, you can say <m>1</m> nanosecond and sound like a seasoned chronomancer.
         </p>
 
         <p>
             Prefixes are always attached to units, not to the raw numbers themselves.
             You won't hear "nano" on it's own; it always comes with a unit like "meter" or "second." This is because prefixes are like magical modifiers that alter the scale of the unit, not the number itself.
         </p>
-
+        </subsubsection>   
+        
+        <subsubsection xml:id="subsub-prefix-symbols">
+        <title>Writing Prefixes and Their Symbols</title>
         <p>
-            If you want to use unit prefixes in your written spells, prefixes come with their own symbols.
-            For example, the prefix <em>kilo-</em> is represented by the symbol <em>k</em>, so "3 kilometers" can be written as "3 km." Similarly, "1 nanosecond" can be written as "1 ns."
+            If you want to use unit prefixes in your written spells, each prefix has its own symbol.
+            For example, the prefix <em>kilo-</em> is represented by <m>\text{k}</m>. 
+            A distance of 
+            <quantity>
+                <mag>3</mag>
+                <unit prefix="kilo" base="meter" />
+            </quantity>
+            can be written more compactly as <m>3\,\text{km}</m>.
+            Likewise, a time interval of 
+            <quantity>
+                <mag>1</mag>
+                <unit prefix="nano" base="second" />
+            </quantity>
+            can be written as <m>1\,\text{ns}</m>.
         </p>
 
         <table xml:id="subsec-prep-unit-prefixes-table">
@@ -45,200 +76,220 @@
 
                 <row>
                     <cell>quetta</cell>
-                    <cell>Q</cell>
+                    <cell><m>\text{Q}</m></cell>
                     <cell><m>10^{30}</m></cell>
                     <cell>nonillion</cell>
                 </row>
 
                 <row>
                     <cell>ronna</cell>
-                    <cell>R</cell>
+                    <cell><m>\text{R}</m></cell>
                     <cell><m>10^{27}</m></cell>
                     <cell>octillion</cell>
                 </row>
 
                 <row>
                     <cell>yotta</cell>
-                    <cell>Y</cell>
+                    <cell><m>\text{Y}</m></cell>
                     <cell><m>10^{24}</m></cell>
                     <cell>septillion</cell>
                 </row>
 
                 <row>
                     <cell>exa</cell>
-                    <cell>E</cell>
+                    <cell><m>\text{E}</m></cell>
                     <cell><m>10^{18}</m></cell>
                     <cell>quintillion</cell>
                 </row>
 
                 <row>
                     <cell>peta</cell>
-                    <cell>P</cell>
+                    <cell><m>\text{P}</m></cell>
                     <cell><m>10^{15}</m></cell>
                     <cell>quadrillion</cell>
                 </row>
 
                 <row>
                     <cell>tera</cell>
-                    <cell>T</cell>
+                    <cell><m>\text{T}</m></cell>
                     <cell><m>10^{12}</m></cell>
                     <cell>trillion</cell>
                 </row>
 
                 <row>
                     <cell>tera</cell>
-                    <cell>T</cell>
+                    <cell><m>\text{T}</m></cell>
                     <cell><m>10^{12}</m></cell>
                     <cell>trillion</cell>
                 </row>
 
                 <row>
                     <cell>giga</cell>
-                    <cell>G</cell>
+                    <cell><m>\text{G}</m></cell>
                     <cell><m>10^9</m></cell>
                     <cell>billion</cell>
                 </row>
 
                 <row>
                     <cell>mega</cell>
-                    <cell>M</cell>
+                    <cell><m>\text{M}</m></cell>
                     <cell><m>10^6</m></cell>
                     <cell>million</cell>
                 </row>
 
                 <row>
                     <cell>kilo</cell>
-                    <cell>k</cell>
+                    <cell><m>\text{k}</m></cell>
                     <cell><m>10^3</m></cell>
                     <cell>thousand</cell>
                 </row>
 
                 <row>
                     <cell>hecto</cell>
-                    <cell>h</cell>
+                    <cell><m>\text{h}</m></cell>
                     <cell><m>10^2</m></cell>
                     <cell>hundred</cell>
                 </row>
 
                 <row>
                     <cell>deca</cell>
-                    <cell>da</cell>
+                    <cell><m>\text{da}</m></cell>
                     <cell><m>10^1</m></cell>
                     <cell>ten</cell>
                 </row>
 
                 <row>
                     <cell>deci</cell>
-                    <cell>d</cell>
+                    <cell><m>\text{d}</m></cell>
                     <cell><m>10^{-1}</m></cell>
                     <cell>tenth</cell>
                 </row>
 
                 <row>
                     <cell>centi</cell>
-                    <cell>c</cell>
+                    <cell><m>\text{c}</m></cell>
                     <cell><m>10^{-2}</m></cell>
                     <cell>hundredth</cell>
                 </row>
 
                 <row>
                     <cell>milli</cell>
-                    <cell>m</cell>
+                    <cell><m>\text{m}</m></cell>
                     <cell><m>10^{-3}</m></cell>
                     <cell>thousandth</cell>
                 </row>
 
                 <row>
                     <cell>micro</cell>
-                    <cell>&#x03bc;</cell>
+                    <cell><m>\text{&#x03bc;}</m></cell>
                     <cell><m>10^{-6}</m></cell>
                     <cell>millionth</cell>
                 </row>
 
                 <row>
                     <cell>nano</cell>
-                    <cell>n</cell>
+                    <cell><m>\text{n}</m></cell>
                     <cell><m>10^{-9}</m></cell>
                     <cell>billionth</cell>
                 </row>
 
                 <row>
                     <cell>pico</cell>
-                    <cell>p</cell>
+                    <cell><m>\text{p}</m></cell>
                     <cell><m>10^{-12}</m></cell>
                     <cell>trillionth</cell>
                 </row>
 
                 <row>
                     <cell>femto</cell>
-                    <cell>f</cell>
+                    <cell><m>\text{f}</m></cell>
                     <cell><m>10^{-15}</m></cell>
                     <cell>quadrillionth</cell>
                 </row>
 
                 <row>
                     <cell>atto</cell>
-                    <cell>a</cell>
+                    <cell><m>\text{a}</m></cell>
                     <cell><m>10^{-18}</m></cell>
                     <cell>quintillionth</cell>
                 </row>
 
                 <row>
                     <cell>zepto</cell>
-                    <cell>z</cell>
+                    <cell><m>\text{z}</m></cell>
                     <cell><m>10^{-21}</m></cell>
                     <cell>sextillionth</cell>
                 </row>
 
                 <row>
                     <cell>yocto</cell>
-                    <cell>y</cell>
+                    <cell><m>\text{y}</m></cell>
                     <cell><m>10^{-24}</m></cell>
                     <cell>septillionth</cell>
                 </row>
 
                 <row>
                     <cell>ronto</cell>
-                    <cell>r</cell>
+                    <cell><m>\text{r}</m></cell>
                     <cell><m>10^{-27}</m></cell>
                     <cell>octillionth</cell>
                 </row>
 
                 <row>
                     <cell>quecto</cell>
-                    <cell>q</cell>
+                    <cell><m>\text{q}</m></cell>
                     <cell><m>10^{-30}</m></cell>
                     <cell>nonillionth</cell>
                 </row>
             </tabular>
         </table>
+        <idx>
+            <primary>Unit Prefix</primary>
+            <secondary>SI Unit Prefix Table</secondary>
+        </idx>
+        <p>
+            Note that there are also two ways to verbalize unit prefixes: the <em>prefix name</em> and the <em>decimal name</em>.
+            The prefix name is the official SI term used in scientific contexts, like <em>mega-</em> or <em>nano-</em>.
+            The decimal name is the everyday term that describes the quantity in more familiar terms, like "million" or "billionth."
+        </p>
+        </subsubsection>
         <!-- Checkpoint Question 01 -->
         <exercise xml:id ="subsec-prep-unit-prefixes-text-01">
             <statement>
                 <p>
-                    How would you say 73 Mg in words?
+                    How would you say 
+                    <quantity>
+                        <mag>73</mag>
+                        <unit prefix="mega" base="gram" />
+                    </quantity>
+                    in words?
                 </p>
             </statement>
 
             <hint>
                 <p>
-                    The prefix "M" is for mega, which means <m>10^{6}</m>.
-                    The "g" follows the prefix, and it stands for gram.
+                    The prefix <m>\text{M}</m> is for mega, which means <m>10^{6}</m>.
+                    The <m>\text{g}</m> follows the prefix, and it stands for gram.
                 </p>
             </hint>
 
             <answer>
                 <p>
-                    73 megagrams
+                    <m>73</m> megagrams.
                 </p>
             </answer>
 
             <solution>
                 <p>
-                    The prefix "M" is for mega, which means <m>10^{6}</m>.
-                    The "g" follows the prefix, and it stands for gram.
-                    So 73 Mg is 73 megagrams.
-                    Or, if you prefer the decimal name, you could say 73 million grams.
+                    The prefix <m>\text{M}</m> is for mega, which means <m>10^{6}</m>.
+                    The <m>\text{g}</m> follows the prefix, and it stands for gram.
+                    So
+                    <quantity>
+                        <mag>73</mag>
+                        <unit prefix="mega" base="gram" />
+                    </quantity>
+                    is <m>73</m> megagrams.
+                    Or, if you prefer the decimal name, you could say <m>73</m> million grams.
                 </p>
             </solution>
         </exercise>
@@ -246,78 +297,92 @@
         <exercise xml:id ="subsec-prep-unit-prefixes-text-02">
             <statement>
                 <p>
-                    How would you write the value of 22 nanoseconds?
+                    How would you say
+                    <quantity>
+                        <mag>22</mag>
+                        <unit prefix="nano" base="second" />
+                    </quantity>
+                    in words?
                 </p>
             </statement>
 
             <hint>
                 <p>
-                    nano is the prefix for <m>10^{-9}</m>, and the symbol for nano is "n".
+                    nano is the prefix for <m>10^{-9}</m>, and the symbol for nano is <m>\text{n}</m>.
                 </p>
             </hint>
 
             <answer>
                 <p>
-                    22 ns
+                    <m>22</m> nanoseconds.
                 </p>
             </answer>
 
             <solution>
                 <p>
-                    nano is the prefix for <m>10^{-9}</m>, and the symbol for nano is "n".
+                    nano is the prefix for <m>10^{-9}</m>, and the symbol for nano is <m>\text{n}</m>.
                     Seconds is the unit that follows the prefix nano.
-                    So 22 nanoseconds can be written as 22 ns.
-                    Or, if you prefer the decimal name, you could write 22 billionths of a second.
+                    So 
+                    <quantity>
+                        <mag>22</mag>
+                        <unit prefix="nano" base="second" />
+                    </quantity>
+                    is <m>22</m> nanoseconds.
+                    Or, if you prefer the decimal name, you could write <m>22</m> billionths of a second.
                 </p>
             </solution>
         </exercise>
 
-        <p>
-            <term>Why Use Them?</term>
-        </p>
+        <subsubsection xml:id="subsub-prefix-pitfalls">
+        <title>Summary and Common Pitfalls</title>
 
         <p>
-            You might wonder: if we can say “megagrams” instead of “a million grams,” why do we need both? The key is that they serve different <em>roles in communication</em>.
+            You might wonder: if we can say “megagrams” instead of “a million grams,” why do we need both? The key is that they serve different roles in communication.
             The prefix name (like <em>mega-</em>) is part of the official SI system. It's used when naming and writing units in scientific work: megameters, milliamps, nanoseconds.
             These are concise, precise, and standardized.
         </p>
 
         <p>
-            The decimal name (like “million”) isn't part of the unit itself, it's just how we describe the <em>value</em> of a number in everyday terms.
+            The decimal name (like “million”) isn't part of the unit itself, it's just how we describe the value of a number in everyday terms.
             You'll often hear it in speech, estimates, or media.
-            Saying “a billion cells” or “a trillion dollars” is easier for general audiences to understand than “gigacells” or “teradollars.”
+            Saying “a billion cells” or “a trillion dollars” is more natural for general audiences to understand compared to “gigacells” or “teradollars.”
         </p>
 
         <p>
             So both ways are valid, but they're used in different contexts.
-            Prefix names are for <em>units</em>; decimal names are for <em>quantities</em>.
             And when you're fluent in both, you can navigate smoothly between scientific scrolls and everyday storytelling.
         </p>
 
         <p>
-            <term>Bonus Trick: How do we define units and dimensions?</term>
+            Bonus Trick: How do we define units and dimensions?
         </p>
 
         <p>
-            Just add the power of ten to the unit or dimension value.  For example, 550 nm = 550 x <m>10^{-9}</m> m.
+            Just add the power of ten to the unit or dimension value.  For example,
+            <m>550\, \text{nm} = 550 \times 10^{-9}\, \text{m}</m>.
         </p>
 
         <p>
-            It's customary to not stack unit prefixes.  For example, you would not say "8 kilokilogram", instead you would say "8 megagram" (8 x <m>10^{6}</m> g).
+            It's customary to not stack unit prefixes.  For example, you would not typically say <m>8</m> kilokilogram,
+            instead you would say <m>8</m> megagrams or <m>8 \times 10^{6}</m> grams.
         </p>
 
         <p>
             Be careful when communicating with synthetic beings, since unit prefixes used to represent different things in binary code.
-            For example, 1 kilobyte used to be defined as 1024 bytes.  However, those ancient scrolls have been updated to match our standard unit prefix notation.  
-            Now 1 kilobyte is 1000 bytes, and 1 kibibyte is 1024 bytes. It's best to extablish a common understanding before engaging in data transfer. 
+            For example, <m>1</m> kilobyte once used to be defined as <m>1024</m> bytes.  However, those ancient scrolls have been updated to match our standard unit prefix notation.  
+            Now <m>1</m> kilobyte is <m>1000</m> bytes, and <m>1</m> kibibyte is <m>1024</m> bytes. It's best to extablish a common understanding before engaging in data transfer. 
         </p>
+        </subsubsection>
+        <subsubsection xml:id="subsub-prefix-parting">
+        <title>A Parting Word</title>
         <p>
-            <term>A Parting Word</term>
+            A Parting Word
         </p>
 
         <p>
             One prefix to scale them all, one prefix to name them, one prefix to tame them all, and with the units frame them.
         </p>
+        </subsubsection>    
     </subsection>
 
 
@@ -326,13 +391,13 @@
 
         <!-- Units Prefixes -->
         <p>
-            <term> Say the following quantity. </term>
+            Say outlout the following quantity.
         </p>
         <!-- Prep Question 01 -->
         <exercise xml:id="subsec-prep-unit-prefixes-questions-01">
             <statement>
                 <p>
-                    How would you say 25 cm in words?
+                    How would you say <m>25\, \text{cm}</m> in words?
                 </p>
             </statement>
 
@@ -341,7 +406,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            25 centimeters
+                            <m>25</m> centimeters.
                         </p>
                     </statement>
 
@@ -355,14 +420,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            25 millimeters
+                            <m>25</m> millimeters.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The prefix milli means <m>10^{-3}</m>, and has the symbol "m".
+                            The prefix milli means <m>10^{-3}</m>, and has the symbol <m>\text{m}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -370,14 +435,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            25 meters
+                            <m>25</m> meters.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            This answer has no prefix.  The prefix in the statement is the "c". 
+                            This answer has no prefix.  The prefix in the statement is the <m>\text{c}</m>>. 
                         </p>
                     </feedback>
                 </choice>
@@ -385,14 +450,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            25 decimeters
+                            <m>25</m> decimeters.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            The prefix milli means <m>10^{-1}</m>, and has the symbol "d".
+                            The prefix deci means <m>10^{-1}</m>, and has the symbol <m>\text{d}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -402,7 +467,7 @@
         <exercise xml:id="subsec-prep-unit-prefixes-questions-02">
             <statement>
                 <p>
-                    How would you say 611 &#x03bc;A in words?
+                    How would you say <m>611\, \text{&#x03bc;A}</m> in words?
                 </p>
             </statement>
 
@@ -411,7 +476,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            611 microamperes
+                            <m>611</m> microamperes.
                         </p>
                     </statement>
 
@@ -425,14 +490,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            611 megaamperes
+                            <m>611</m> megaamperes.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The prefix mega means <m>10^{6}</m>, and has the symbol "M".
+                            The prefix mega means <m>10^{6}</m>, and has the symbol <m>\text{M}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -440,14 +505,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            611 milliamperes
+                            <m>611</m> milliamperes.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            The prefix milli means <m>10^{-3}</m>, and has the symbol "m".
+                            The prefix milli means <m>10^{-3}</m>, and has the symbol <m>\text{m}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -455,27 +520,27 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            611 nanoamperes
+                            <m>611</m> nanoamperes.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            The prefix nano means <m>10^{-9}</m>, and has the symbol "n".
+                            The prefix nano means <m>10^{-9}</m>, and has the symbol <m>\text{n}</m>.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <p>
-            <term> Write the following quantity. </term>
+            Write the following quantity.
         </p>
         <!-- Prep Question 03 -->
         <exercise xml:id="subsec-prep-unit-prefixes-questions-03">
             <statement>
                 <p>
-                    How would you write the value of 24 terameter?
+                    How would you write the value of <m>24</m> terameter using the SI prefix symbol?
                 </p>
             </statement>
 
@@ -484,7 +549,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            24 Tm
+                            <m>24\, \text{Tm}</m>
                         </p>
                     </statement>
 
@@ -498,14 +563,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            24 tm
+                            <m>24\, \text{tm}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The symbol for tera is "T", not "t".
+                            The symbol for tera is <m>\text{T}</m>, not <m>\text{t}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -513,14 +578,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            24 m
+                            <m>24\, \text{m}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            You have the unit "m" for meter, but are missing the prefix.
+                            You have the unit <m>\text{m}</m> for meter, but are missing the prefix.
                         </p>
                     </feedback>
                 </choice>
@@ -528,14 +593,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            24 Gm
+                            <m>24\, \text{Gm}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            The prefix "G" is for giga, which means <m>10^{9}</m>.
+                            The prefix <m>\text{G}</m> is for giga, which means <m>10^{9}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -545,7 +610,7 @@
         <exercise xml:id="subsec-prep-unit-prefixes-questions-04">
             <statement>
                 <p>
-                    How would you write the value of 3 femtoseconds?
+                    How would you write the value of <m>3</m> femtoseconds using the SI prefix symbol??
                 </p>
             </statement>
 
@@ -554,7 +619,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            3 fs
+                            <m>3\, \text{fs}</m>
                         </p>
                     </statement>
 
@@ -568,14 +633,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            3 Fs
+                            <m>3\, \text{Fs}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The symbol for femto is "f", not "F".
+                            The symbol for femto is <m>\text{f}</m>, not <m>\text{F}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -583,14 +648,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            3 s
+                            <m>3\, \text{s}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            You have the unit "s" for seconds, but are missing the prefix.
+                            You have the unit <m>\text{s}</m> for seconds, but are missing the prefix.
                         </p>
                     </feedback>
                 </choice>
@@ -598,27 +663,27 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            3 fS
+                            <m>3\, \text{fS}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            The prefix is correct, but recall the SI unit symbol for seconds is "s", not "S".
+                            The prefix is correct, but recall the SI unit symbol for seconds is <m>\text{s}</m>, not <m>\text{S}</m>.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
         <p>
-            <term> Power of Ten </term>
+            Base Units and Scientific Notation
         </p>
         <!-- Prep Question 05 -->
         <exercise xml:id="subsec-prep-unit-prefixes-questions-05">
             <statement>
                 <p>
-                    Write the following quantity with the power of ten notation: 37 Gm.
+                    Convert the following quantity to base units and express it in scientific notation: <m>37\, \text{Gm}</m>.
                 </p>
             </statement>
 
@@ -627,7 +692,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            37 x <m>10^{9}</m> m
+                            <m>37 \times 10^{9}\, \text{m}</m>.
                         </p>
                     </statement>
 
@@ -641,14 +706,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            37 x <m>10^{6}</m> m
+                            <m>37 \times 10^{6}\, \text{m}</m>.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The prefix "G" is for giga, which means <m>10^{9}</m>.
+                            The prefix <m>\text{G}</m> is for giga, which means <m>10^{9}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -656,14 +721,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            37 x <m>10^{3}</m> m
+                            <m>37 \times 10^{3}\, \text{m}</m>.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            The prefix "G" is for giga, which means <m>10^{9}</m>.
+                            The prefix <m>\text{G}</m> is for giga, which means <m>10^{9}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -671,14 +736,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            37 x <m>10^{12}</m> m
+                            <m>37 \times 10^{12}\, \text{m}</m>.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            The prefix "G" is for giga, which means <m>10^{9}</m>.
+                            The prefix <m>\text{G}</m> is for giga, which means <m>10^{9}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -688,7 +753,7 @@
         <exercise xml:id="subsec-prep-unit-prefixes-questions-06">
             <statement>
                 <p>
-                    Write the following quantity with the power of ten notation: 12 mm.
+                    Convert the following quantity to base units and express it in scientific notation: <m>12\, \text{mm}</m>.
                 </p>
             </statement>
 
@@ -697,7 +762,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            12 x <m>10^{-3}</m> m
+                            <m>12 \times 10^{-3}\, \text{m}</m>.
                         </p>
                     </statement>
 
@@ -711,14 +776,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            12 x <m>10^{3}</m> m
+                            <m>12 \times 10^{3}\, \text{m}</m>.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            The prefix "m" is for milli, which means <m>10^{-3}</m>.
+                            The prefix <m>\text{m}</m> is for milli, which means <m>10^{-3}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -726,14 +791,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            12 x <m>10^{6}</m> m
+                            <m>12 \times 10^{6}\, \text{m}</m>.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            The prefix "m" is for milli, which means <m>10^{-3}</m>.
+                            The prefix <m>\text{m}</m> is for milli, which means <m>10^{-3}</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -741,14 +806,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            12 x <m>10^{-6}</m> m
+                            <m>12 \times 10^{-6}\, \text{m}</m>.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            The prefix "m" is for milli, which means <m>10^{-3}</m>.
+                            The prefix <m>\text{m}</m> is for milli, which means <m>10^{-3}</m>.
                         </p>
                     </feedback>
                 </choice>

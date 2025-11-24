@@ -15,9 +15,8 @@
                 <p>
                     If you launch an object straight up from the surface of the Earth and want it to avoid being pulled back by gravity, it must leave the surface of Earth at what's called the escape velocity.
                     Escape velocity is also defined for other large objects such as planets, moons, and stars.
-                    The escape velocity from the surface of the Earth is about 11,200 m/s.
-                    Where m is meters and s is seconds.
-                    The escape velocity from the surface of the Moon is about 21.25% of the escape velocity from the surface of the Earth.
+                    The escape velocity from the surface of the Earth is about <m>11,200</m> meters per second.
+                    The escape velocity from the surface of the Moon is about <m>21.25%</m> of the escape velocity from the surface of the Earth.
                     Calculate the escape velocity from the surface of the Moon in meters per second using the correct number of significant figures.
                 </p>
             </statement>
@@ -27,7 +26,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            2.38 m/s
+                            <m>2.38 \times 10^{3}</m> meters per second.
                         </p>
                     </statement>
 
@@ -41,14 +40,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            2.380
+                            <m>2.380 \times 10^{3}</m> meters per second.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            11,200 m/s has three significant figures, and 21.25% has four significant figures.
+                            <m>11,200</m> meters per second has three significant figures, and <m>21.25%</m> has four significant figures.
                             Since we are multiplying, the answer should have three significant figures.
                         </p>
                     </feedback>
@@ -57,14 +56,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            59.1 m/s
+                            <m>59.1</m> meters per second.
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Try multiplying 11,200 m/s by 0.2125 (which is 21.25% expressed as a decimal).
+                            Try multiplying <m>11,200</m> meters per second by <m>0.2125</m> (which is <m>21.25%</m> expressed as a decimal).
                         </p>
                     </feedback>
                 </choice>
@@ -72,14 +71,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            59.09
+                            <m>59.09</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Try multiplying 11,200 m/s by 0.2125 (which is 21.25% expressed as a decimal).
+                            Try multiplying <m>11,200</m> meters per second by <m>0.2125</m> (which is <m>21.25%</m> expressed as a decimal).
                             Also, double check your significant figures.
                         </p>
                     </feedback>
@@ -90,7 +89,7 @@
         <exercise xml:id ="practice-sig-figs-02">
             <statement>
                 <p>
-                    The Moon's surface can reach a maximum temperature of 121 °C during the day and drop to -178.89 °C at night.
+                    The Moon's surface can reach a maximum temperature of <m>121\,^{\circ}\text{C}</m> during the day and drop to <m>-178.89\,^{\circ}\text{C}</m> at night.
                     What is the average surface temperature of the Moon over one full day-night cycle, rounded to the correct number of significant figures?
                 </p>
             </statement>
@@ -100,7 +99,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            -29 °C
+                            <m>-29\,^{\circ}\text{C}</m>
                         </p>
                     </statement>
 
@@ -114,14 +113,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            -28.9 °C
+                            <m>-28.9\,^{\circ}\text{C}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Since one measurement (121) has zero decimal places, the result must be rounded to zero decimal places as well.
+                            Since one measurement, <m>121</m>, has zero decimal places, the result must be rounded to zero decimal places as well.
                         </p>
                     </feedback>
                 </choice>
@@ -129,7 +128,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            150 °C
+                            <m>150\,^{\circ}\text{C}</m>
                         </p>
                     </statement>
 
@@ -137,7 +136,7 @@
                         <p>
                             Your enchanted click missed the mark, try again.
                             The basic definition of an average is to add all the numbers together and then divide by the total number of values.
-                            For example, the average of 1, 4, and 7 is: <m>\frac{1+4+7}{3} = 4</m>
+                            For example, the average of <m>1</m>, <m>4</m>, and <m>7</m> is: <m>\frac{1+4+7}{3} = 4</m>
                         </p>
                     </feedback>
                 </choice>
@@ -145,7 +144,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            149.95 °C
+                            <m>149.95\,^{\circ}\text{C}</m>
                         </p>
                     </statement>
 
@@ -154,7 +153,7 @@
                             Your digital blade missed the mark, try again.
                             Double check your significant figures.
                             ALso, the basic definition of an average is to add all the numbers together and then divide by the total number of values.
-                            For example, the average of 1, 4, and 7 is: <m>\frac{1+4+7}{3} = 4</m>
+                            For example, the average of <m>1</m>, <m>4</m>, and <m>7</m> is: <m>\frac{1+4+7}{3} = 4</m>
                         </p>
                     </feedback>
                 </choice>

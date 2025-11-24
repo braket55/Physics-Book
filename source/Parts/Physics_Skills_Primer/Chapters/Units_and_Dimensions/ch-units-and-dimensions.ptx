@@ -5,7 +5,7 @@
 
     <introduction>
         <p>
-            <term> Units</term>
+            Units
         </p>
 
         <p>
@@ -14,7 +14,7 @@
 
         <p>
             In our vast universe, numbers alone are like potions with no labels; mysterious at best, dangerous at worst.
-            Is that “5” a length? A time? The weight of a standard unit dragon egg? Without units, we're just guessing.
+            Is that <m>5</m> a length? A time? The weight of a standard unit dragon egg? Without units, we're just guessing.
         </p>
 
         <p>
@@ -29,15 +29,15 @@
             And just like combining spells, we can fuse base units into more complex ones:
             <ul>
                 <li>
-                    Speed - The SI units meters per second: m/s
+                    Speed — the SI units are meters per second: <m>\text{m/s}</m>.
                 </li>
 
                 <li>
-                    Force - The SI units are kilogram meter per second squared: kg·m/s²
+                    Force — the SI units are kilogram meter per second squared: <m>\text{kg·m/s}^2</m>.
                 </li>
 
                 <li>
-                    Energy - The SI units are kilogram meter squared per second squred: kg·m²/s²
+                    Energy — the SI units are kilogram meter squared per second squared: <m>\text{kg·m}^2\text{/s}^2</m>.
                 </li>
             </ul>
         </p>
@@ -49,7 +49,7 @@
         </p>
 
         <p>
-            <term> Dimensions </term>
+            Dimensions
         </p>
 
         <p>
@@ -95,9 +95,9 @@
 
         <p>
         </p>
-        <term>Quick Summary</term>
+            Quick Summary
         <p>
-            <strong>Units</strong> label your measurements. <strong>Dimensions</strong> reveal the nature of your measurements. Alone or together, they help keep your calculations from turning into chaos.
+            <em>Units</em> label your measurements. <em>Dimensions</em> reveal the nature of your measurements. Alone or together, they help keep your calculations from turning into chaos.
         </p>
     </introduction>
     <!-- include sections -->

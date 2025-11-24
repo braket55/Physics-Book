@@ -8,10 +8,9 @@
             In the land of science, numbers can grow as vast as a dragon's hoard or shrink as small as a quark's shadow.
             But wise scholars and clever spellcasters don't waste time counting endless zeros, they use a magical cantrip called scientific notation.
         </p>
-
         <p>
-            With just one enchanted rule: write a number between 1 and 10, then multiply by a power of ten, you can tame even the wildest figures.
-            A beast like 5,000 becomes <m> 5 \times 10^3 </m>, and a whisper-small 0.0002 transforms into <m> 2 \times 10^{-4} </m>.
+            With just one enchanted rule: write a number between <m>1</m> and <m>10</m>, then multiply by a power of ten, you can tame even the wildest figures.
+            A beast like <m>5000</m> becomes <m>5 \times 10^3 </m>, and a whisper-small <m>0.0002</m> transforms into <m>2 \times 10^{-4} </m>.
         </p>
 
         <p>

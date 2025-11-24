@@ -25,7 +25,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>m^3</m>
+                            <m>\text{m}^3</m>
                         </p>
                     </statement>
 
@@ -54,7 +54,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>m^{-3}</m>
+                            <m>\text{m}^{-3}</m>
                         </p>
                     </statement>
 
@@ -97,7 +97,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>\frac{kg}{m^3}</m>
+                            <m>\frac{\text{kg}}{\text{m}^3}</m>
                         </p>
                     </statement>
 
@@ -142,7 +142,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>\frac{m^3}{kg}</m>
+                            <m>\frac{\text{m}^3}{\text{kg}}</m>
                         </p>
                     </statement>
 
@@ -169,7 +169,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>\frac{kg}{s^2 \cdot m}</m>
+                            <m>\frac{\text{kg}}{\text{s}^2\text{·m}}</m>
                         </p>
                     </statement>
 
@@ -183,16 +183,16 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>\frac{kg \cdot m}{s^2}</m>
+                            <m>\frac{\text{kg·m}}{\text{s}^2}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Recall energy has base SI units of <m>\frac{kg \cdot m^2}{s^2}</m>.
-                            Energy density is this divided by volume, which has base SI units of <m>m^3</m>.
-                            What is <m>\frac{m^2}{m^3}</m>?
+                            Recall energy has base SI units of <m>\frac{\text{kg·m}^2}{\text{s}^2}</m>.
+                            Energy density is this divided by volume, which has base SI units of <m>\text{m}^3</m>.
+                            What is <m>\frac{\text{m}^2}{\text{m}^3}</m>?
                         </p>
                     </feedback>
                 </choice>
@@ -200,15 +200,15 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>\frac{kg \cdot m^2}{s^3}</m>
+                            <m>\frac{\text{kg·m}^2}{\text{s}^3}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Recall energy has base SI units of <m>\frac{kg \cdot m^2}{s^2}</m>.
-                            Energy density is this divided by volume, which has base SI units of <m>m^3</m>.
+                            Recall energy has base SI units of <m>\frac{\text{kg·m}^2}{\text{s}^2}</m>.
+                            Energy density is this divided by volume, which has base SI units of <m>\text{m}^3</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -216,7 +216,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>\frac{s^2 \cdot m}{kg}</m>
+                            <m>\frac{\text{s}^2\text{·m}}{\text{kg}}</m>
                         </p>
                     </statement>
 
@@ -243,7 +243,7 @@
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>\frac{A}{m^2}</m>
+                            <m>\frac{\text{A}}{\text{m}^2}</m>
                         </p>
                     </statement>
 
@@ -257,16 +257,16 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>A \cdot m</m>
+                            <m>\text{A·m}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Recall current has base SI units of <m>A</m>.
-                            Current density is this divided by area, which has base SI units of <m>m^2</m>.
-                            What is <m>A \cdot m</m> compared to <m>\frac{A}{m^2}</m>?
+                            Recall current has base SI units of <m>\text{A}</m>.
+                            Current density is this divided by area, which has base SI units of <m>\text{m}^2</m>.
+                            What is <m>\text{A·m}</m> compared to <m>\frac{\text{A}}{\text{m}^2}</m>?
                         </p>
                     </feedback>
                 </choice>
@@ -274,15 +274,15 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>\frac{A}{m}</m>
+                            <m>\frac{\text{A}}{\text{m}}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Recall current has base SI units of <m>A</m>.
-                            Current density is this divided by area, which has base SI units of <m>m^2</m>.
+                            Recall current has base SI units of <m>\text{A}</m>.
+                            Current density is this divided by area, which has base SI units of <m>\text{m}^2</m>.
                         </p>
                     </feedback>
                 </choice>
@@ -290,7 +290,7 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>\frac{m^2}{A}</m>
+                            <m>\frac{\text{m}^2}{\text{A}}</m>
                         </p>
                     </statement>
 
@@ -309,7 +309,7 @@
                 <p>
                     Probability is a measure of the likelihood that a particular event will occur.
                     Whether you're rolling dice, detecting particles, or predicting the path of a rogue comet, probability helps quantify uncertainty.
-                    The value of probability ranges from 0 (impossible event) to 1 (certain event).
+                    The value of probability ranges from <m>0</m> (impossible event) to <m>1</m> (certain event).
                     What are the dimensions of probability?
                 </p>
             </statement>
@@ -365,14 +365,14 @@
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>[M]^0[L]^0[T]^0</m>
+                            <m>[L]^{-3}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            You're technically correct in notation, but the better answer is to call it "dimensionless."
+                            This would describe some density in three-dimensional space, not the likelihood of an outcome.
                         </p>
                     </feedback>
                 </choice>

@@ -4,13 +4,10 @@
     <title>Unit Prefixes</title>
 
     <introduction>
-        <p>
-            <term>Unit Prefixes</term>
-        </p>
 
         <p>
             Once you've labeled your numbers with proper units, there's still one more charm to simplify your incantation: <em>unit prefixes</em>.
-            Instead of casting a long spell like <m>3.7 \times 10^3</m> meters, you can simply say 3.7 kilometers: same magic, less chanting.
+            Instead of casting a long spell like <m>3.7 \times 10^3</m> meters, you can simply say <m>3.7</m> kilometers: same magic, less chanting.
         </p>
 
         <p>
@@ -19,7 +16,7 @@
 
         <ul>
             <li>
-                A “kilo-” means a thousand (<m>10^3</m>), so instead of saying 3,000 meters, you can simply say 3 kilometers.
+                A “kilo-” means a thousand (<m>10^3</m>), so instead of saying <m>3000</m> meters, you can simply say <m>3</m> kilometers.
             </li>
 
             <li>
