@@ -1,1195 +1,1207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-prep-sig-figs" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Prep</title>
+  <title>Prep</title>
 
-    <!--
-    <section xml:id="sec-prep-sci-not-video">
-        <title>Prep Video: Scientific Notation</title>
+  <p>
+    This preparatory section will equip you with the knowledge and skills to wield significant figures with confidence and precision.
+    Through a combination of instructional video, explanatory text, and practice questions, you will become adept at all things significant figures.
+  </p>
 
-        <video youtube="2ilCSXm7iMQ">
-        <title>Great Example of Interference</title>
 
-        </video>
-    </section>
-    -->
-    <subsection xml:id="subsec-prep-sig-figs-text">
-        <title>Prep Text: Significant Figures</title>
+  <subsection xml:id="sec-prep-sig-figs-videos">
+    <title>Prep Videos: Significant Figures</title>
 
-        <subsubsection xml:id="subsec-prep-sf-what">
-            <title>What Are Significant Figures?</title>
-            <definition xml:id="def-significant-figures">
-                <term>Significant figures</term>
-                <meaning>
-                    <p>
-                        The digits in a measured or calculated value that convey meaningful precision.
-                        Significant figures include all certain digits and the first uncertain digit. 
-                    </p>
-                </meaning>
-            </definition>
-            <idx>Significant Figures</idx>
+    <video youtube="2ilCSXm7iMQ">
+    <title>Great Example of Interference</title>
 
-            <p>
-                Significant figures (or <em>sig figs</em>) are the trustworthy digits in a measurement.
-                They help ensure precision and honesty in your scientific spells and calculations.
-            </p>
-        </subsubsection>
+    </video>
+  </subsection>
 
-        <subsubsection xml:id="subsec-prep-sf-counting">
-            <title>Counting Significant Figures</title>
-            <p>
-                To wield them wisely, follow these rules:
-            </p>
 
-            <ol>
-                <li>
-                    Start with what you see. All <em>non-zero digits</em> are significant. 
-                    If your magic crystal reads <m>3.472</m> volts, that's four significant figures; each non-zero digit counts.
-                </li>
+  <subsection xml:id="subsec-prep-sig-figs-text">
+    <title>Prep Text: Significant Figures</title>
 
-                <li>
-                    <p>Zeroes have secrets.</p>
-                    <ul>
-                        <li>
-                            Zeroes <em>between</em> non-zero digits are always significant.
-                            Example: <m>101</m> has three sig figs.
-                        </li>
+    <subsubsection xml:id="subsec-prep-sf-what">
+      <title>What Are Significant Figures?</title>
 
-                        <li>
-                            Leading zeroes (before any non-zero digits) are just placeholders; they don't count.
-                            Example: <m>0.0035</m> has two sig figs.
-                        </li>
+      <definition xml:id="def-significant-figures">
+        <term> Significant figures
+        <idx><main>significant figures</main></idx>
+        </term> <meaning>
+        <p>
+          The digits in a measured or calculated value that convey meaningful precision.
+          Significant figures include all certain digits and the first uncertain digit.
+        </p>
+        </meaning>
+      </definition>
 
-                        <li>
-                            Trailing zeroes (after the decimal point) <em>do</em> count! Example: <m>2.300</m> has four sig figs.
-                        </li>
+      <p>
+        Significant figures (or <em>sig figs</em>) are the trustworthy digits in a measurement.
+        They help ensure precision and honesty in your scientific spells and calculations.
+      </p>
+    </subsubsection>
 
-                        <li>
-                            Trailing zeroes in a whole number without a decimal? Mysterious! They may not be significant unless written in scientific notation.
-                            Example: <m>1500</m> could have two, three, or four sig figs, but <m>1.500 \times 10^3</m> definitely has four.
-                            To help clarify our communication in this guide, we will treat <m>1500</m> as two sig figs and <m>15\underline{0}0</m> as three sig figs.
-                        </li>
-                    </ul>
-                </li>
-            </ol>
-        </subsubsection>
+    <subsubsection xml:id="subsec-prep-sf-counting">
+      <title>Counting Significant Figures</title>
 
-        <subsubsection xml:id="subsec-prep-sf-rounding">
-            <title>Rounding with Significant Figures</title>
-                <p>
-                    To round properly, follow these enchanted guidelines:
-                </p>
-                <ol>
-                    <li>
-                        If digit to the right of your last desired digit is <m>6, 7, 8, 9</m> then round the last desired digit up by one.
-                        Example: <m>2.46 \rightarrow 2.5</m> (if keeping two sig figs).
-                    </li>
+      <p>
+        To wield them wisely, follow these rules:
+      </p>
 
-                    <li>
-                        If digit to the right of your last desired digit is <term>4, 3, 2, or 0</term> then keep the desired digit unchanged.
-                        Example: 2.14 → 2.1 (if keeping two sig figs)
-                    </li>
+      <ol>
+        <li>
+          Start with what you see.
+          All <em>non-zero digits</em> are significant.
+          If your magic crystal reads <m>3.472</m> volts, that's four significant figures; each non-zero digit counts.
+        </li>
 
-                    <li>
-                        If digit to the right of your last desired digit is <term>5</term> and there are other non-zero digits to the right of that 5, then round the last desired digit up by one.
-                        Example: 2.2501 → 2.3 (if keeping two sig figs)
-                    </li>
+        <li>
+          <p>
+            Zeroes have secrets.
+          </p>
 
-                    <li>
-                        If digit to the right of your last desired digit is <term>5</term> and there is no other non-zero digits to the right of that 5, then round to the nearest even digit.
-                        Example: 2.250 → 2.2 (if keeping two sig figs).
-                        Example: 2.35 → 2.4 (if keeping two sig figs).
-                    </li>
-                </ol>
-        </subsubsection>
-        <subsubsection xml:id="subsec-prep-sf-calculations">
-            <title>Using Sig Figs in Calculations</title>
-                <p>
-                    When combining numbers in your calculations, the significant figures must follow the rules of magical balance:
-                </p>
+          <ul>
+            <li>
+              Zeroes <em>between</em> non-zero digits are always significant.
+              Example: <m>101</m> has three sig figs.
+            </li>
 
-                <ol>
-                    <li>
-                        <em>Multiplying or dividing?</em> Your answer should have the same number of significant figures as the measurement with the fewest. For example, <m>2.5 \times 3.42 = 8.55</m>, but since <m>2.5</m> has only two sig figs, you round your answer to <m>8.6</m>.
-                    </li>
+            <li>
+              Leading zeroes (before any non-zero digits) are just placeholders; they don't count.
+              Example: <m>0.0035</m> has two sig figs.
+            </li>
 
-                    <li>
-                        <em>Adding or subtracting?</em> Line up your decimal points. Your answer should be rounded to the least precise decimal place from your inputs. For example, <m>12.11 + 3.6 = 15.71</m>, which gets rounded to <m>15.7</m> because <m>3.6</m> is only precise to the tenths place.
-                    </li>
-                    <li>
-                        <em>Multiple Operations</em> Cast each spell in the proper order! Follow the standard order of operations (parentheses, exponents, multiplication/division from left to right, then addition/subtraction from left to right). 
-                        Only round at the very end after all the magic is done. Do not round after each step. 
-                        Rounding too early can throw your final result out of balance, like miscasting a potion halfway through.
-                    </li>
-                </ol>
-        </subsubsection>
+            <li>
+              Trailing zeroes (after the decimal point) <em>do</em> count! Example: <m>2.300</m> has four sig figs.
+            </li>
 
-        <!-- Checkpoint Question 01 -->
-        <exercise xml:id ="subsec-prep-sig-figs-text-01">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>42.02</m>?
-                </p>
-            </statement>
+            <li>
+              Trailing zeroes in a whole number without a decimal? Mysterious! They may not be significant unless written in scientific notation.
+              Example: <m>1500</m> could have two, three, or four sig figs, but <m>1.500 \times 10^3</m> definitely has four.
+              To help clarify our communication in this guide, we will treat <m>1500</m> as two sig figs and <m>15\underline{0}0</m> as three sig figs.
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <!-- Checkpoint Question 01 -->
+      <exercise xml:id ="subsec-prep-sig-figs-text-01">
+        <statement>
+          <p>
+            How many significant figures are in the number: <m>42.02</m>?
+          </p>
+        </statement>
 
-            <hint>
-                <p>
-                    All non-zero digits count.
-                    Also, zeros between non-zero digits count.
-                </p>
-            </hint>
+        <hint>
+          <p>
+            All non-zero digits count.
+            Also, zeros between non-zero digits count.
+          </p>
+        </hint>
 
-            <answer>
-                <p>
-                    <m>42.02</m> has four significant figures.
-                </p>
-            </answer>
+        <answer>
+          <p>
+            <m>42.02</m> has four significant figures.
+          </p>
+        </answer>
 
-            <solution>
-                <p>
-                    <m>42.02</m> has three non-zero digits: <m>4</m>, <m>2</m>, and <m>2</m>.
-                    This counts as three significant figures so far.
-                    There is also a zero between two of the non-zero digits, which counts as a fourth significant figure.
-                </p>
+        <solution>
+          <p>
+            <m>42.02</m> has three non-zero digits: <m>4</m>, <m>2</m>, and <m>2</m>. This counts as three significant figures so far. There is also a zero between two of the non-zero digits, which counts as a fourth significant figure.
+          </p>
 
-                <p>
-                    So, <m>42.02</m> has four significant figures.
-                </p>
-            </solution>
-        </exercise>
-        <!-- Checkpoint Question 02 -->
-        <exercise xml:id ="subsec-prep-sig-figs-text-02">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>0.007</m>?
-                </p>
-            </statement>
+          <p>
+            So, <m>42.02</m> has four significant figures.
+          </p>
+        </solution>
+      </exercise>
+      <!-- Checkpoint Question 02 -->
+      <exercise xml:id ="subsec-prep-sig-figs-text-02">
+        <statement>
+          <p>
+            How many significant figures are in the number: <m>0.007</m>?
+          </p>
+        </statement>
 
-            <hint>
-                <p>
-                    All non-zero digits count.
-                    Leading zeros (zeros that occur to the left of the first non-zero digit) don't count.
-                </p>
-            </hint>
+        <hint>
+          <p>
+            All non-zero digits count.
+            Leading zeros (zeros that occur to the left of the first non-zero digit) don't count.
+          </p>
+        </hint>
 
-            <answer>
-                <p>
-                    <m>0.007</m> has one significant figure.
-                </p>
-            </answer>
+        <answer>
+          <p>
+            <m>0.007</m> has one significant figure.
+          </p>
+        </answer>
 
-            <solution>
-                <p>
-                    <m>0.007</m> has one non-zero digit: <m>7</m>.
-                    This counts as one significant figures so far.
-                    There is also zeros, but all the zeros occur to the left of the <m>7</m> and are not between non-zero digits, so the zeros do not count.
-                </p>
+        <solution>
+          <p>
+            <m>0.007</m> has one non-zero digit: <m>7</m>. This counts as one significant figures so far. There is also zeros, but all the zeros occur to the left of the <m>7</m> and are not between non-zero digits, so the zeros do not count.
+          </p>
 
-                <p>
-                    So, <m>0.007</m> has one significant figure.
-                </p>
-            </solution>
-        </exercise>
+          <p>
+            So, <m>0.007</m> has one significant figure.
+          </p>
+        </solution>
+      </exercise>
+    </subsubsection>
+
+    <subsubsection xml:id="subsec-prep-sf-rounding">
+      <title>Rounding with Significant Figures</title>
+
+      <p>
+        To round properly, follow these enchanted guidelines:
+      </p>
+
+      <ol>
+        <li>
+          If digit to the right of your last desired digit is <m>6, 7, 8, 9</m> then round the last desired digit up by one.
+          Example: <m>2.46 \rightarrow 2.5</m> (if keeping two sig figs).
+        </li>
+
+        <li>
+          If digit to the right of your last desired digit is <m>4, 3, 2, 1, or 0</m> then keep the desired digit unchanged.
+          Example: <m>2.14 \rightarrow 2.1</m> (if keeping two sig figs)
+        </li>
+
+        <li>
+          If digit to the right of your last desired digit is <m>5</m> and there are other non-zero digits to the right of that <m>5</m>, then round the last desired digit up by one.
+          Example: <m>2.2501 \rightarrow 2.3</m> (if keeping two sig figs)
+        </li>
+
+        <li>
+          If digit to the right of your last desired digit is <m>5</m> and there is no other non-zero digits to the right of that <m>5</m>, then round to the nearest even digit.
+          Example: <m>2.250 \rightarrow 2.2</m> (if keeping two sig figs).
+          Example: <m>2.35 \rightarrow 2.4</m> (if keeping two sig figs).
+        </li>
+      </ol>
+    </subsubsection>
+
+    <subsubsection xml:id="subsec-prep-sf-calculations">
+      <title>Using Sig Figs in Calculations</title>
+
+      <p>
+        When combining numbers in your calculations, the significant figures must follow the rules of magical balance:
+      </p>
+
+      <ol>
+        <li>
+          <em>Multiplying or dividing?</em> Your answer should have the same number of significant figures as the measurement with the fewest. For example, <m>2.5 \times 3.42 = 8.55</m>, but since <m>2.5</m> has only two sig figs, you round your answer to <m>8.6</m>.
+        </li>
+
+        <li>
+          <em>Adding or subtracting?</em> Line up your decimal points. Your answer should be rounded to the least precise decimal place from your inputs. For example, <m>12.11 + 3.6 = 15.71</m>, which gets rounded to <m>15.7</m> because <m>3.6</m> is only precise to the tenths place.
+        </li>
+
+        <li>
+          <em>Multiple Operations?</em> Cast each spell in the proper order. Follow the standard order of operations (parentheses, exponents, multiplication/division from left to right, then addition/subtraction from left to right). Only round at the very end after all the magic is done. Do not round after each step. Rounding too early can throw your final result out of balance, like mimeasuring a potion halfway through.
+        </li>
+      </ol>
+    </subsubsection>
 
     <subsubsection xml:id="subsec-prep-sf-why">
-        <title>Why Use Significant Figures?</title>
+      <title>Why Use Significant Figures?</title>
 
-        <p>
-            Significant figures are like a secret code shared among scientists and magic folk alike.
-            When you report a measurement of <m>1.27</m> meters, you're really telling your fellow colleague: "I'm confident about the <m>1</m> and the <m>2</m>, but the last digit (the <m>7</m>) could vary a bit." That message is embedded in the number's three-digit significant figure code, quietly revealing both precision and uncertainty.
-        </p>
+      <p>
+        Significant figures are like a secret code shared among scientists and magic folk alike.
+        When you report a measurement of <m>1.27</m> meters, you're really telling your fellow colleague: "I'm confident about the <m>1</m> and the <m>2</m>, but the last digit (the <m>7</m>) could vary a bit." That message is embedded in the number's three-digit significant figure code, quietly revealing both precision and uncertainty.
+      </p>
     </subsubsection>
+
     <subsubsection xml:id="subsec-prep-sf-sci-notation">
-        <title>Sig Figs and Scientific Notation</title>
-        <p>
-            Scientific notation and significant figures are best friends.
-            Writing a number like <m>6.02 \times 10^{23}</m> clearly shows that you've got three sig figs, no more, no less.
-        </p>
+      <title>Sig Figs and Scientific Notation</title>
 
-        <p>
-            Here's how to combine their powers:
-            <ul>
-                <li>
-                    <p>
-                        <m>3.0 \times 10^2</m> has <m>2</m> sig figs
-                    </p>
-                </li>
+      <p>
+        Scientific notation and significant figures are best friends.
+        Writing a number like <m>6.02 \times 10^{23}</m> clearly shows that you've got three sig figs, no more, no less.
+      </p>
 
-                <li>
-                    <m>3.00 \times 10^2</m> has <m>3</m> sig figs
-                </li>
+      <p>
+        Here's how to combine them:
+        <ul>
+          <li>
+            <p>
+              <m>3.0 \times 10^2</m> has <m>2</m> sig figs
+            </p>
+          </li>
 
-                <li>
-                    <m>3 \times 10^2</m> has <m>1</m> sig fig
-                </li>
-            </ul>
-            Each extra zero you <em>intentionally</em> include after the decimal adds more confidence to your measurement.
-        </p>
+          <li>
+            <m>3.00 \times 10^2</m> has <m>3</m> sig figs
+          </li>
+
+          <li>
+            <m>3 \times 10^2</m> has <m>1</m> sig fig
+          </li>
+        </ul>
+        Each extra zero you <em>intentionally</em> include after the decimal adds more confidence to your measurement.
+      </p>
     </subsubsection>
+
     <subsubsection xml:id="subsec-prep-sf-parting">
-        <title>A Parting Word</title>
+      <title>A Parting Word</title>
 
-        <p>
-            With significant figures in your database, you can communicate your uncertainty across the vast realms of physics, chemistry, and cosmic measurement.
-            Write your numbers with care, check your sig figs, and let no leading zero invade your notes.
-        </p>
+      <p>
+        With significant figures in your database, you can communicate your uncertainty across the vast realms of physics, chemistry, and cosmic measurement.
+        Write your numbers with care, check your sig figs, and let no leading zero invade your notes.
+      </p>
     </subsubsection>
+  </subsection>
 
-    </subsection>
 
+  <subsection xml:id="subsec-prep-sig-figs-questions">
+    <title>Prep Questions: Significant Figures</title>
 
-    <subsection xml:id="subsec-prep-sig-figs-questions">
-        <title>Prep Questions: Significant Figures</title>
-
-        <!-- Count Number of Significant Figures -->
-        <p>
-        Count the number of significant figures.
-        </p>
-        <!-- Prep Question 01 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-01">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>4202</m>?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Four
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! <m>4202</m> has four significant figures.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Three
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            All non-zero digits count, and zeros between non-zeros digits count.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Two
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            All non-zero digits count, and zeros between non-zeros digits count.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            One
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            All non-zero digits count, and zeros between non-zeros digits count.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 02 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-02">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>0.00560</m>?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Three
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! <m>0.00560</m> has three significant figures.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Two
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            Leading zeros are not significant, but trailing zeros after a decimal and digit are.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            One
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            Leading zeros are not significant, but trailing zeros after a decimal and digit are.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Four
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            Leading zeros are not significant, but trailing zeros after a decimal and digit are.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 03 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-03">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>10\underline{0}</m>?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Three
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! <m>10\underline{0}</m> has three significant figures.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Two
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            All non-zero digits count.
-                            Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            One
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Four
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 04 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-04">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>40.070</m>?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Five
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! <m>40.070</m> has five significant figures.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Three
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Two
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Four
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 05 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-05">
-            <statement>
-                <p>
-                    How many significant figures are in the number: <m>0.03040</m>?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Four
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! <m>0.03040</m> has four significant figures.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Six
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                            Leading zeros do not count.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Five
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                            Leading zeros do not count.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Two
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            All non-zero digits count.
-                            Zeros between non-zero digits count.
-                            Trailing zeros count.
-                            Leading zeros do not count.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Round a Number to the Desired Sig Figs -->
-        <p>
-            Round the number to the desired significant figures.
-        </p>
-        <!-- Prep Question 06 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-06">
-            <statement>
-                <p>
-                    Round <m>1.25</m> to two significant figures.
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            <m>1.2</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>1.3</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            When digit to right after the last desired digit is <m>5</m>, you round to the nearest even digit.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>1</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            Round to two significant figures, not one.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>1.4</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            When digit to right after the last desired digit is <m>5</m>, you round to the nearest even digit.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 07 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-07">
-            <statement>
-                <p>
-                    Round <m>6.750</m> to three significant figures.
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            <m>6.75</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>6.76</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            The digit after the last desired digit is <m>0</m>, so you keep the last digit unchanged.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>6.74</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            The digit after the last desired digit is <m>0</m>, so you keep the last digit unchanged.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>6.8</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            Round to three significant figures, not two.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 08 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-08">
-            <statement>
-                <p>
-                    Round <m>0.004509</m> to three significant figures.
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            <m>0.00451</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>0.00450</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            There is a <m>9</m> next to the <m>0</m>, round the thrid sig fig up.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>0.0045</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            Round to three significant figures, not two.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>0.0046</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            You rounded too early—only the third sig fig (after <m>4</m> and <m>5</m>, i.e.
-                            the <m>0</m>) should be affected.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 09 -->
-        <exercise xml:id ="subsec-prep-sig-figs-questions-09">
-            <statement>
-                <p>
-                    Round <m>35</m> to one significant figure.
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            <m>4</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>3</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>20</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
-                            There is a closer even number to <m>35</m> than <m>20</m>.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            <m>35</m>
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            Round to one significant figure, not two.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-    </subsection>
-    <!-- Round to three sig figs after algebra -->
+    <!-- Count Number of Significant Figures -->
     <p>
-        Solve the following expression, rounding your final answer the appropiate amount of significant figures.
+      Count the number of significant figures.
     </p>
-    <!-- Prep Question 10 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-10">
-        <statement>
+    <!-- Prep Question 01 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-01">
+      <statement>
+        <p>
+          How many significant figures are in the number: <m>4202</m>?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
             <p>
-                Solve the expression: <m>2.00 \times 366.25</m>, and round your answer to the appropriate number of significant figures.
+              Four
             </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! <m>4202</m> has four significant figures.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Three
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              All non-zero digits count, and zeros between non-zeros digits count.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Two
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              All non-zero digits count, and zeros between non-zeros digits count.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              One
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              All non-zero digits count, and zeros between non-zeros digits count.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 02 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-02">
+      <statement>
+        <p>
+          How many significant figures are in the number: <m>0.00560</m>?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Three
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! <m>0.00560</m> has three significant figures.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Two
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              Leading zeros are not significant, but trailing zeros after a decimal and digit are.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              One
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              Leading zeros are not significant, but trailing zeros after a decimal and digit are.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Four
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              Leading zeros are not significant, but trailing zeros after a decimal and digit are.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 03 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-03">
+      <statement>
+        <p>
+          How many significant figures are in the number: <m>10\underline{0}</m>?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Three
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! <m>10\underline{0}</m> has three significant figures.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Two
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              All non-zero digits count.
+              Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              One
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              All non-zero digits count.
+              Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Four
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              All non-zero digits count.
+              Zeros to the right of a non-zero digit and before a decimal are undefined unless an underline is included.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 04 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-04">
+      <statement>
+        <p>
+          How many significant figures are in the number: <m>40.070</m>?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Five
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! <m>40.070</m> has five significant figures.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Three
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              All non-zero digits count.
+              Zeros between non-zero digits count.
+              Trailing zeros count.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Two
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              All non-zero digits count.
+              Zeros between non-zero digits count.
+              Trailing zeros count.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Four
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              All non-zero digits count.
+              Zeros between non-zero digits count.
+              Trailing zeros count.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 05 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-05">
+      <statement>
+        <p>
+          How many significant figures are in the number: <m>0.03040</m>?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Four
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! <m>0.03040</m> has four significant figures.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Six
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              All non-zero digits count.
+              Zeros between non-zero digits count.
+              Trailing zeros count.
+              Leading zeros do not count.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Five
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              All non-zero digits count.
+              Zeros between non-zero digits count.
+              Trailing zeros count.
+              Leading zeros do not count.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Two
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              All non-zero digits count.
+              Zeros between non-zero digits count.
+              Trailing zeros count.
+              Leading zeros do not count.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Round a Number to the Desired Sig Figs -->
+    <p>
+      Round the number to the desired significant figures.
+    </p>
+    <!-- Prep Question 06 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-06">
+      <statement>
+        <p>
+          Round <m>1.25</m> to two significant figures.
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>1.2</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct!
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>1.3</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              When digit to right after the last desired digit is <m>5</m>, you round to the nearest even digit.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>1</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              Round to two significant figures, not one.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>1.4</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              When digit to right after the last desired digit is <m>5</m>, you round to the nearest even digit.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 07 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-07">
+      <statement>
+        <p>
+          Round <m>6.750</m> to three significant figures.
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>6.75</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct!
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>6.76</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              The digit after the last desired digit is <m>0</m>, so you keep the last digit unchanged.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>6.74</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              The digit after the last desired digit is <m>0</m>, so you keep the last digit unchanged.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>6.8</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              Round to three significant figures, not two.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 08 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-08">
+      <statement>
+        <p>
+          Round <m>0.004509</m> to three significant figures.
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>0.00451</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct!
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>0.00450</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              There is a <m>9</m> next to the <m>0</m>, round the thrid sig fig up.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>0.0045</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              Round to three significant figures, not two.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>0.0046</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              You rounded too early—only the third sig fig (after <m>4</m> and <m>5</m>, i.e.
+              the <m>0</m>) should be affected.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 09 -->
+    <exercise xml:id ="subsec-prep-sig-figs-questions-09">
+      <statement>
+        <p>
+          Round <m>35</m> to one significant figure.
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>4</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct!
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>3</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>20</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
+              There is a closer even number to <m>35</m> than <m>20</m>.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              <m>35</m>
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              Round to one significant figure, not two.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+  <!-- Round to three sig figs after algebra -->
+  <p>
+    Solve the following expression, rounding your final answer the appropiate amount of significant figures.
+  </p>
+  <!-- Prep Question 10 -->
+  <exercise xml:id ="subsec-prep-sig-figs-questions-10">
+    <statement>
+      <p>
+        Solve the expression: <m>2.00 \times 366.25</m>, and round your answer to the appropriate number of significant figures.
+      </p>
+    </statement>
+
+
+    <choices randomize="yes">
+      <choice correct="yes">
+        <statement>
+          <p>
+            <m>732</m>
+          </p>
         </statement>
 
+        <feedback>
+          <p>
+            Correct!
+          </p>
+        </feedback>
+      </choice>
 
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        <m>732</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>733</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your targeting system glitched, try again.
-                        <m>2.00 \times 366.25 = 732.5</m> The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>732.5</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>2.00 \times 366.25 = 732.5</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        <m>2.00</m> has three sig figs, and <m>366.25</m> has five sig figs.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>700</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>2.00 \times 366.25 = 732.5</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        <m>2.00</m> has three sig figs, and <m>366.25</m> has five sig figs.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-    <!-- Prep Question 11 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-11">
+      <choice correct="no">
         <statement>
-            <p>
-                Solve the expression: <m>15.00 \div 4.5</m>, and round your answer to the appropriate number of significant figures.
-            </p>
+          <p>
+            <m>733</m>
+          </p>
         </statement>
 
+        <feedback>
+          <p>
+            Your targeting system glitched, try again.
+            <m>2.00 \times 366.25 = 732.5</m> The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
+          </p>
+        </feedback>
+      </choice>
 
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        <m>3.3</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>3.333</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your targeting system glitched, try again.
-                        <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        <m>15.00</m> has four sig figs, and <m>4.5</m> has two sig figs.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>3.33</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        <m>15.00</m> has four sig figs, and <m>4.5</m> has two sig figs.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>3</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
-                        <m>15.00</m> has four sig figs, and <m>4.5</m> has two sig figs.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-    <!-- Prep Question 12 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-12">
+      <choice correct="no">
         <statement>
-            <p>
-                Solve the expression: <m>81.201 - 3.02</m>, and round your answer to the appropriate number of decimal places.
-            </p>
+          <p>
+            <m>732.5</m>
+          </p>
         </statement>
 
+        <feedback>
+          <p>
+            Your enchanted click missed the mark, try again.
+            <m>2.00 \times 366.25 = 732.5</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
+            <m>2.00</m> has three sig figs, and <m>366.25</m> has five sig figs.
+          </p>
+        </feedback>
+      </choice>
 
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        <m>78.18</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>78.2</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places. <m>81.201</m> has three decimal places, and <m>3.02</m> has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>78.181</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        <m>81.201</m> has three decimal places, and <m>3.02</m> has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>78</m>
-                    </p>
-                </statement>
-
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        <m>81.201</m> has three decimal places, and <m>3.02</m> has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
-    <!-- Prep Question 13 -->
-    <exercise xml:id ="subsec-prep-sig-figs-questions-13">
+      <choice correct="no">
         <statement>
-            <p>
-                Solve the expression: <m>12.1 + 0.35</m>, and round your answer to the appropriate number of decimal places.
-            </p>
+          <p>
+            <m>700</m>
+          </p>
         </statement>
 
+        <feedback>
+          <p>
+            Your digital blade missed the mark, try again.
+            <m>2.00 \times 366.25 = 732.5</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
+            <m>2.00</m> has three sig figs, and <m>366.25</m> has five sig figs.
+          </p>
+        </feedback>
+      </choice>
+    </choices>
+  </exercise>
+  <!-- Prep Question 11 -->
+  <exercise xml:id ="subsec-prep-sig-figs-questions-11">
+    <statement>
+      <p>
+        Solve the expression: <m>15.00 \div 4.5</m>, and round your answer to the appropriate number of significant figures.
+      </p>
+    </statement>
 
-        <choices randomize="yes">
-            <choice correct="yes">
-                <statement>
-                    <p>
-                        <m>12.4</m>
-                    </p>
-                </statement>
 
-                <feedback>
-                    <p>
-                        Correct!
-                    </p>
-                </feedback>
-            </choice>
+    <choices randomize="yes">
+      <choice correct="yes">
+        <statement>
+          <p>
+            <m>3.3</m>
+          </p>
+        </statement>
 
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>12.5</m>
-                    </p>
-                </statement>
+        <feedback>
+          <p>
+            Correct!
+          </p>
+        </feedback>
+      </choice>
 
-                <feedback>
-                    <p>
-                        Your targeting system glitched, try again.
-                        <m>12.1 + 0.35 = 12.45</m> The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
-                    </p>
-                </feedback>
-            </choice>
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>3.333</m>
+          </p>
+        </statement>
 
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>12.45</m>
-                    </p>
-                </statement>
+        <feedback>
+          <p>
+            Your targeting system glitched, try again.
+            <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
+            <m>15.00</m> has four sig figs, and <m>4.5</m> has two sig figs.
+          </p>
+        </feedback>
+      </choice>
 
-                <feedback>
-                    <p>
-                        Your enchanted click missed the mark, try again.
-                        <m>12.1 + 0.35 = 12.45</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        <m>12.1</m> has one decimal places, and <m>0.35</m> has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>3.33</m>
+          </p>
+        </statement>
 
-            <choice correct="no">
-                <statement>
-                    <p>
-                        <m>12</m>
-                    </p>
-                </statement>
+        <feedback>
+          <p>
+            Your enchanted click missed the mark, try again.
+            <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
+            <m>15.00</m> has four sig figs, and <m>4.5</m> has two sig figs.
+          </p>
+        </feedback>
+      </choice>
 
-                <feedback>
-                    <p>
-                        Your digital blade missed the mark, try again.
-                        <m>12.1 + 0.35 = 12.45</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
-                        <m>12.1</m> has one decimal places, and <m>0.35</m> has two decimal places.
-                    </p>
-                </feedback>
-            </choice>
-        </choices>
-    </exercise>
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>3</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Your digital blade missed the mark, try again.
+            <m>15.00 \div 4.5 = 3.33\overline{3}</m> When multiplying or dividing, your answer should have the same number of significant figures as the measurement with the fewest.
+            <m>15.00</m> has four sig figs, and <m>4.5</m> has two sig figs.
+          </p>
+        </feedback>
+      </choice>
+    </choices>
+  </exercise>
+  <!-- Prep Question 12 -->
+  <exercise xml:id ="subsec-prep-sig-figs-questions-12">
+    <statement>
+      <p>
+        Solve the expression: <m>81.201 - 3.02</m>, and round your answer to the appropriate number of decimal places.
+      </p>
+    </statement>
+
+
+    <choices randomize="yes">
+      <choice correct="yes">
+        <statement>
+          <p>
+            <m>78.18</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Correct!
+          </p>
+        </feedback>
+      </choice>
+
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>78.2</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places. <m>81.201</m> has three decimal places, and <m>3.02</m> has two decimal places.
+          </p>
+        </feedback>
+      </choice>
+
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>78.181</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Your enchanted click missed the mark, try again.
+            <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
+            <m>81.201</m> has three decimal places, and <m>3.02</m> has two decimal places.
+          </p>
+        </feedback>
+      </choice>
+
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>78</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Your digital blade missed the mark, try again.
+            <m>81.201 - 3.02 = 78.181</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
+            <m>81.201</m> has three decimal places, and <m>3.02</m> has two decimal places.
+          </p>
+        </feedback>
+      </choice>
+    </choices>
+  </exercise>
+  <!-- Prep Question 13 -->
+  <exercise xml:id ="subsec-prep-sig-figs-questions-13">
+    <statement>
+      <p>
+        Solve the expression: <m>12.1 + 0.35</m>, and round your answer to the appropriate number of decimal places.
+      </p>
+    </statement>
+
+
+    <choices randomize="yes">
+      <choice correct="yes">
+        <statement>
+          <p>
+            <m>12.4</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Correct!
+          </p>
+        </feedback>
+      </choice>
+
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>12.5</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Your targeting system glitched, try again.
+            <m>12.1 + 0.35 = 12.45</m> The digit after the last desired digit is exactly <m>5</m>, so you round to the nearest even digit.
+          </p>
+        </feedback>
+      </choice>
+
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>12.45</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Your enchanted click missed the mark, try again.
+            <m>12.1 + 0.35 = 12.45</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
+            <m>12.1</m> has one decimal places, and <m>0.35</m> has two decimal places.
+          </p>
+        </feedback>
+      </choice>
+
+      <choice correct="no">
+        <statement>
+          <p>
+            <m>12</m>
+          </p>
+        </statement>
+
+        <feedback>
+          <p>
+            Your digital blade missed the mark, try again.
+            <m>12.1 + 0.35 = 12.45</m> When adding or subtracting, your answer should be rounded to the same number of decimal places as the measurement with the fewest decimal places.
+            <m>12.1</m> has one decimal places, and <m>0.35</m> has two decimal places.
+          </p>
+        </feedback>
+      </choice>
+    </choices>
+  </exercise>
 </section>

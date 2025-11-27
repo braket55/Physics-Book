@@ -28,7 +28,7 @@
         <part xml:id="part-vectors">
             <title>Scalars and Vectors</title>
 
-            <xi:include href="Parts/Scalars_and_Vectors/ch-chapter-title-2.ptx" />
+            <xi:include href="Parts/Scalars_and_Vectors/Chapters/Scalars/ch-scalars.ptx" />
         </part>
         <!-- Backmatter (glossary, index, etc.) -->
         <xi:include href="./backmatter.ptx" />

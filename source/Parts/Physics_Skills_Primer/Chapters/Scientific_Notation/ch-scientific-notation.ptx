@@ -17,6 +17,32 @@
             It's the secret spell of astronomers,  constructs, and magic folk everywhere.
             Use it wisely, and even the stars won't feel out of reach.
         </p>
+        <p>
+            The below definition of position is just a test entry for the notation symbol list.  I'll remove this eventually.
+            I could comment it out but I want to make sure it shows up properly first.
+        </p>
+        <definition xml:id="def-test">
+        <term>Position
+            <idx><main>position</main></idx>
+        </term> <meaning>
+        <p>
+          Symbol: <m>\vec{r}</m>
+        </p>
+        <p>
+            SI Base unit: <m>\text{m}</m>
+        </p>
+        <p>
+            Description: A vector quantity that specifies the location of an object in space relative to an origin.
+        </p>
+        </meaning>
+                <notation>
+                    <usage><m>\vec{r}</m></usage>
+                    <description>Position vector.
+                    </description>
+                </notation>
+      </definition>
+      
+
     </introduction>
     <!-- include sections -->
     <xi:include href="sec-scientific-notation-prep.ptx" />

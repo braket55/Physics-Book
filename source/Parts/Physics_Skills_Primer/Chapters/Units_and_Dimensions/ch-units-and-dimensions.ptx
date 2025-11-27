@@ -29,15 +29,15 @@
             And just like combining spells, we can fuse base units into more complex ones:
             <ul>
                 <li>
-                    Speed — the SI units are meters per second: <m>\text{m/s}</m>.
+                    Speed — the SI base units are meters per second: <m>\text{m/s}</m>.
                 </li>
 
                 <li>
-                    Force — the SI units are kilogram meter per second squared: <m>\text{kg·m/s}^2</m>.
+                    Force — the SI base units are kilogram meter per second squared: <m>\text{kg·m/s}^2</m>.
                 </li>
 
                 <li>
-                    Energy — the SI units are kilogram meter squared per second squared: <m>\text{kg·m}^2\text{/s}^2</m>.
+                    Energy — the SI base units are kilogram meter squared per second squared: <m>\text{kg·m}^2\text{/s}^2</m>.
                 </li>
             </ul>
         </p>

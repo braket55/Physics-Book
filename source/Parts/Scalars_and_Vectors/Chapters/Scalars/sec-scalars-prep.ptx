@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-scalars-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Prep</title>
+
+    <subsection xml:id="subsec-prep-scalars-text">
+        <title>Prep Text: Scalars</title>
+
+        <subsubsection xml:id="subsec-prep-examples">
+          <title>Examples of Scalars</title>
+            <p> Text of subsubsection. </p>
+        </subsubsection>
+
+    </subsection>
+
+</section>

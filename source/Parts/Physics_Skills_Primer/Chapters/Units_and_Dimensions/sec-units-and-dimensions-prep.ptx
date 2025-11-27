@@ -1,734 +1,746 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-prep-units-dims" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Prep</title>
+  <title>Prep</title>
 
-    <!--
-    <section xml:id="sec-prep-sci-not-video">
-        <title>Prep Video: Scientific Notation</title>
+  <p>
+    This preparatory section will equip you with the knowledge and skills to wield units and dimensions with confidence and precision.
+    Through a combination of instructional video, explanatory text, and practice questions, you will become adept at all things units and dimensions.
+  </p>
 
-        <video youtube="2ilCSXm7iMQ">
-        <title>Great Example of Interference</title>
 
-        </video>
-    </section>
-    -->
-    <subsection xml:id="subsec-prep-units-dims-text">
-        <title>Prep Text: Units and Dimensions</title>
+  <subsection xml:id="sec-prep-units-and-dimensions-videos">
+    <title>Prep Videos: Units and Dimensions</title>
 
-        <subsubsection xml:id="subsec-prep-units">
-            <title>Units</title>
+    <video youtube="2ilCSXm7iMQ">
+    <title>Great Example of Interference</title>
 
-            <definition xml:id="def-units">
-                <term>Units</term>
-                <meaning>
-                    <p>
-                        Standardized quantities used to express and compare measurements. Each physical
-                        quantity has an associated unit that defines the scale of measurement. For example,
-                        the SI system uses the meter (<m>\text{m}</m>) for length, the kilogram
-                        (<m>\text{kg}</m>) for mass, and the second (<m>\text{s}</m>) for time; where meter, kilogram, and second are all units.
-                    </p>
-                </meaning>
-            </definition>
-            <idx>Unit</idx>
+    </video>
+  </subsection>
 
-            <p>
-                Units are the steadfast way to seal your spells after casting.
-                Units give your numbers meaning.
-                The international system of units is called the SI system (from the French <em>Système International d'Unités</em>).
-                It defines seven base units <xref ref="subsec-prep-units-dims-table"/>, which form the foundation of all measurements in the magical realms of science include the seven SI base units:
-                kilogram (<m>\text{kg}</m>), meter (<m>\text{m}</m>), second (<m>\text{s}</m>),
-                mole (<m>\text{mol}</m>), ampere (<m>\text{A}</m>), kelvin (<m>\text{K}</m>),
-                and candela (<m>\text{cd}</m>).
-            </p>
-        </subsubsection>
 
-        <subsubsection xml:id="subsec-prep-dimensions">
-            <title>Dimensions</title>
+  <subsection xml:id="subsec-prep-units-dims-text">
+    <title>Prep Text: Units and Dimensions</title>
 
-            <definition xml:id="def-dimensions">
-                <term>Dimensions</term>
-                <meaning>
-                    <p>
-                        The fundamental classifications of physical quantities. A dimension specifies the
-                        physical nature of a quantity independently of the units used to measure it. Common
-                        dimension symbols include <m>[L]</m> for length, <m>[M]</m> for mass, and
-                        <m>[T]</m> for time.
-                    </p>
-                </meaning>
-            </definition>
-            <idx>Dimensions</idx>
+    <subsubsection xml:id="subsec-prep-units">
+      <title>Units</title>
 
-            <p>
-                While units tell you how much of something you have, dimensions tell you what kind of thing it is.
-                Dimensions <xref ref="subsec-prep-units-dims-table"/> are the elemental ingredients behind every physical quantity: 
-                mass <m>[M]</m>, length <m>[L]</m>, time <m>[T]</m>, electric current <m>[I]</m>, temperature <m>[\Theta]</m>, 
-                amount of substance <m>[n]</m>, and luminous intensity <m>[J]</m>.
-            </p>
-
-            <p>
-                Dimensions help you see through the illusion of numbers.
-                For example, the dimension of length can be measured using many different units: meters, feet, centimeters, light-years, and so on.
-                No matter which unit you choose, the underlying dimension, "length" is the true quantity being measured.
-            </p>
-        </subsubsection>
-
-        <subsubsection xml:id="subsec-prep-units-and-dims">
-            <title>Using Units and Dimensions</title>
+      <definition xml:id="def-units">
+        <term>Units
+        <idx><main>unit</main></idx>
+        </term> <meaning>
 
         <p>
-            Units and dimensions are powerful tools for checking whether your work makes sense.
-            When you cast a spell (or perform a calculation), you can examine whether the units and/or dimensions on both sides of the equation match.
-            If they do, your spell is likely valid.
-            If they don't, you may have miscalculated or miscast.
+            Standardized quantities used to express and compare measurements.
+            Each physical quantity has an associated unit that defines the scale of measurement.
+            For example, the SI system uses the meter (<m>\text{m}</m>) for length
+            <idx><main>unit</main><sub>meter</sub></idx>,
+            the kilogram (<m>\text{kg}</m>) for mass
+            <idx><main>unit</main><sub>kilogram</sub></idx>,
+            and the second (<m>\text{s}</m>) for time
+            <idx><main>unit</main><sub>second</sub></idx>;
+            where meter, kilogram, and second are all base units.
         </p>
+        </meaning>
+      </definition>
+
+      <p>
+        Units are the steadfast way to seal your spells after casting.
+        Units give your numbers meaning.
+        The international system of units is called the SI system (from the French <em>Système International d'Unités</em>).
+        It defines seven base units <xref ref="subsec-prep-units-dims-table"/>, which form the foundation of all measurements in the magical realms of science include the seven SI base units: kilogram (<m>\text{kg}</m>), meter (<m>\text{m}</m>), second (<m>\text{s}</m>), mole (<m>\text{mol}</m>), ampere (<m>\text{A}</m>), kelvin (<m>\text{K}</m>), and candela (<m>\text{cd}</m>).
+      </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsec-prep-dimensions">
+      <title>Dimensions</title>
+
+      <definition xml:id="def-dimensions">
+        <term>Dimensions
+        <idx><main>dimensions</main></idx>
+        </term> <meaning>
 
         <p>
-            In your quest through physics, units and dimensions will act like your spellcraft syntax checker, quietly verifying your logic and guiding you toward equations that make physical sense.
-            Be careful, though: if the dimensions or units do match, that only means the equation is dimensionally consistent.
-            It doesn't guarantee the equation is correct or useful, just that it's dimensionally consistent.
+          The fundamental classifications of physical quantities.
+          A dimension specifies the physical nature of a quantity independently of the units used to measure it.
+          Common dimension symbols include <m>[L]</m> for length, <m>[M]</m> for mass, and <m>[T]</m> for time.
         </p>
+        </meaning>
+      </definition>
 
-        <table xml:id="subsec-prep-units-dims-table">
-            <title>SI Base Dimensions and Corresponding Units</title>
+      <p>
+        While units tell you how much of something you have, dimensions tell you what kind of thing it is.
+        Dimensions <xref ref="subsec-prep-units-dims-table"/> are the elemental ingredients behind every physical quantity: mass <m>[M]</m>, length <m>[L]</m>, time <m>[T]</m>, electric current <m>[I]</m>, temperature <m>[\Theta]</m>, amount of substance <m>[n]</m>, and luminous intensity <m>[J]</m>.
+      </p>
 
-            <tabular halign="center">
-                <row header="yes" bottom="minor">
-                    <cell><em>Base Dimension</em></cell>
-                    <cell><em>Dimension Symbol</em></cell>
-                    <cell><em>SI Base Unit</em></cell>
-                    <cell><em>Unit Symbol</em></cell>
-                </row>
+      <p>
+        Dimensions help you see through the illusion of numbers.
+        For example, the dimension of length can be measured using many different units: meters, feet, centimeters, light-years, and so on.
+        No matter which unit you choose, the underlying dimension, "length" is the true quantity being measured.
+      </p>
+    </subsubsection>
 
-                <row>
-                    <cell>Length</cell>
-                    <cell><m>[L]</m></cell>
-                    <cell>meter</cell>
-                    <cell><m>\text{m}</m></cell>
-                </row>
+    <subsubsection xml:id="subsec-prep-units-and-dims">
+      <title>Using Units and Dimensions</title>
 
-                <row>
-                    <cell>Mass</cell>
-                    <cell><m>[M]</m></cell>
-                    <cell>kilogram</cell>
-                    <cell><m>\text{kg}</m></cell>
-                </row>
+      <p>
+        Units and dimensions are powerful tools for checking whether your work makes sense.
+        When you cast a spell (or perform a calculation), you can examine whether the units and/or dimensions on both sides of the equation match.
+        If they do, your spell is likely valid.
+        If they don't, you may have miscalculated or miscast.
+      </p>
 
-                <row>
-                    <cell>Time</cell>
-                    <cell><m>[T]</m></cell>
-                    <cell>second</cell>
-                    <cell><m>\text{s}</m></cell>
-                </row>
+      <p>
+        In your quest through physics, units and dimensions will act like your spellcraft syntax checker, quietly verifying your logic and guiding you toward equations that make physical sense.
+        Be careful, though: if the dimensions or units do match, that only means the equation is dimensionally consistent.
+        It doesn't guarantee the equation is correct or useful, just that it's dimensionally consistent.
+      </p>
 
-                <row>
-                    <cell>Electric current</cell>
-                    <cell><m>[I]</m></cell>
-                    <cell>ampere</cell>
-                    <cell><m>\text{A}</m></cell>
-                </row>
+      <table xml:id="subsec-prep-units-dims-table">
+        <title>SI Base Dimensions and Corresponding Units</title>
 
-                <row>
-                    <cell>Temperature</cell>
-                    <cell><m>[\Theta]</m></cell>
-                    <cell>kelvin</cell>
-                    <cell><m>\text{K}</m></cell>
-                </row>
+        <tabular halign="center">
+          <row header="yes" bottom="minor">
+            <cell><em>Base Dimension</em></cell>
+            <cell><em>Dimension Symbol</em></cell>
+            <cell><em>SI Base Unit</em></cell>
+            <cell><em>Unit Symbol</em></cell>
+          </row>
 
-                <row>
-                    <cell>Amount of substance</cell>
-                    <cell><m>[n]</m></cell>
-                    <cell>mole</cell>
-                    <cell><m>\text{mol}</m></cell>
-                </row>
+          <row>
+            <cell>Length</cell>
+            <cell><m>[L]</m></cell>
+            <cell>meter</cell>
+            <cell><m>\text{m}</m></cell>
+          </row>
 
-                <row>
-                    <cell>Luminous intensity</cell>
-                    <cell><m>[J]</m></cell>
-                    <cell>candela</cell>
-                    <cell><m>\text{cd}</m></cell>
-                </row>
-            </tabular>
-        </table>
-        <!-- Checkpoint Question 01 -->
-        <exercise xml:id ="subsec-prep-units-dims-text-01">
-            <statement>
-                <p>
-                    What are length, mass, and time refered to as?
-                </p>
-            </statement>
+          <row>
+            <cell>Mass</cell>
+            <cell><m>[M]</m></cell>
+            <cell>kilogram</cell>
+            <cell><m>\text{kg}</m></cell>
+          </row>
 
-            <hint>
-                <p>
-                    They are not units.
-                </p>
-            </hint>
+          <row>
+            <cell>Time</cell>
+            <cell><m>[T]</m></cell>
+            <cell>second</cell>
+            <cell><m>\text{s}</m></cell>
+          </row>
 
-            <answer>
-                <p>
-                    Length, mass, and time are referred to as dimensions, or more specifically base dimensions.
-                </p>
-            </answer>
+          <row>
+            <cell>Electric current</cell>
+            <cell><m>[I]</m></cell>
+            <cell>ampere</cell>
+            <cell><m>\text{A}</m></cell>
+          </row>
 
-            <solution>
-                <p>
-                    No need to engage the computation core.
-                    This question is a databank lookup on dimensional protocols.
-                </p>
-            </solution>
-        </exercise>
-        <!-- Checkpoint Question 02 -->
-        <exercise xml:id ="subsec-prep-units-dims-text-02">
-            <statement>
-                <p>
-                    What are meter, kilogram, and second refered to as?
-                </p>
-            </statement>
+          <row>
+            <cell>Temperature</cell>
+            <cell><m>[\Theta]</m></cell>
+            <cell>kelvin</cell>
+            <cell><m>\text{K}</m></cell>
+          </row>
 
-            <hint>
-                <p>
-                    These are not dimensions.
-                </p>
-            </hint>
+          <row>
+            <cell>Amount of substance</cell>
+            <cell><m>[n]</m></cell>
+            <cell>mole</cell>
+            <cell><m>\text{mol}</m></cell>
+          </row>
 
-            <answer>
-                <p>
-                    Meter, kilogram, and second are referred to as units, or more specifically base units or even SI units.
-                </p>
-            </answer>
+          <row>
+            <cell>Luminous intensity</cell>
+            <cell><m>[J]</m></cell>
+            <cell>candela</cell>
+            <cell><m>\text{cd}</m></cell>
+          </row>
+        </tabular>
+      </table>
+      <!-- Checkpoint Question 01 -->
+      <exercise xml:id ="subsec-prep-units-dims-text-01">
+        <statement>
+          <p>
+            What are length, mass, and time refered to as?
+          </p>
+        </statement>
 
-            <solution>
-                <p>
-                    No need to unsheathe your scroll.
-                    This question is more of a quick lore check.
-                </p>
-            </solution>
-        </exercise>
+        <hint>
+          <p>
+            They are not units.
+          </p>
+        </hint>
 
-        </subsubsection>
+        <answer>
+          <p>
+            Length, mass, and time are referred to as dimensions, or more specifically base dimensions.
+          </p>
+        </answer>
 
-        <subsubsection xml:id="subsec-prep-units-dims-resources">
-            <title>Where to Learn More</title>
-                <p>
-                    A wonderful location to dig deeper into units and dimensions is at the National Institude of Standards and Technology (NIST).
-                </p>
+        <solution>
+          <p>
+            No need to engage the computation core.
+            This question is a databank lookup on dimensional protocols.
+          </p>
+        </solution>
+      </exercise>
+      <!-- Checkpoint Question 02 -->
+      <exercise xml:id ="subsec-prep-units-dims-text-02">
+        <statement>
+          <p>
+            What are meter, kilogram, and second refered to as?
+          </p>
+        </statement>
 
-                <p>
-                    Looking for a quick refresher on SI units? Try <url href="https://www.nist.gov/pml/owm/metric-si/si-units">SI Units</url>.
-                </p>
+        <hint>
+          <p>
+            These are not dimensions.
+          </p>
+        </hint>
 
-                <p>
-                    Want to dig a little deeper and learn how each SI unit is defined experimentally and some historical context? Check out <url href="https://www.nist.gov/si-redefinition/definitions-si-base-units">NIST: Definitions of the SI Base Units</url>.
-                </p>
-        </subsubsection>
+        <answer>
+          <p>
+            Meter, kilogram, and second are referred to as SI units, or more specifically SI base units.
+          </p>
+        </answer>
 
-        <subsubsection xml:id="subsec-prep-units-dims-parting">
-            <title>A Parting Word</title>
+        <solution>
+          <p>
+            No need to unsheathe your scroll.
+            This question is more of a quick lore check.
+          </p>
+        </solution>
+      </exercise>
+    </subsubsection>
+
+    <subsubsection xml:id="subsec-prep-units-dims-resources">
+      <title>Where to Learn More</title>
+
+      <p>
+        A wonderful location to dig deeper into units and dimensions is at the National Institude of Standards and Technology (NIST).
+      </p>
+
+      <p>
+        Looking for a quick refresher on SI units? Try <url href="https://www.nist.gov/pml/owm/metric-si/si-units">SI Units</url>.
+      </p>
+
+      <p>
+        Want to dig a little deeper and learn how each SI unit is defined experimentally and some historical context? Check out <url href="https://www.nist.gov/si-redefinition/definitions-si-base-units">NIST: Definitions of the SI Base Units</url>.
+      </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsec-prep-units-dims-parting">
+      <title>A Parting Word</title>
+
+      <p>
+        With units in your toolkit and dimensions as your compass, you're ready to navigate the equations of the universe.
+        Always label your quantities, track your dimensions, and remember: a well-crafted spell or equation begins with knowing what kind of magic you're working with.
+      </p>
+    </subsubsection>
+  </subsection>
+
+
+  <subsection xml:id="subsec-prep-units-dims-questions">
+    <title>Prep Questions: Units and Dimensions</title>
+
+    <!-- Units and Dimensions -->
+    <p>
+      What is the SI unit for "insert_quantity"?
+    </p>
+    <!-- Prep Question 01 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-01">
+      <statement>
+        <p>
+          What is the SI unit for mass?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
             <p>
-                With units in your toolkit and dimensions as your compass, you're ready to navigate the equations of the universe.
-                Always label your quantities, track your dimensions, and remember: a well-crafted spell or equation begins with knowing what kind of magic you're working with.
+              Kilogram
             </p>
-        </subsubsection>
-        
-    </subsection>
+          </statement>
 
+          <feedback>
+            <p>
+              Correct! The SI unit for mass is the kilogram.
+            </p>
+          </feedback>
+        </choice>
 
-    <subsection xml:id="subsec-prep-units-dims-questions">
-        <title>Prep Questions: Units and Dimensions</title>
+        <choice correct="no">
+          <statement>
+            <p>
+              Gram
+            </p>
+          </statement>
 
-        <!-- Units and Dimensions -->
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              Almost.
+              The SI unit has the word "gram" in it, but it is not the gram.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Meter
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              Seems like you are thinking about length, not mass.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Second
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              Seems like you are thinking about time, not mass.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 02 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-02">
+      <statement>
         <p>
-            What is the SI unit for "insert_quantity"?
+          What is the SI unit for time?
         </p>
-        <!-- Prep Question 01 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-01">
-            <statement>
-                <p>
-                    What is the SI unit for mass?
-                </p>
-            </statement>
+      </statement>
 
 
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Kilogram
-                        </p>
-                    </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Second
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for mass is the kilogram.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Correct! The SI unit for time is the second.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Gram
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Minute
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            Almost.  The SI unit has the word "gram" in it, but it is not the gram.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              This unit is a measure of time, just not the SI unit measure of time.
+              Think smaller than a minute.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Meter
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Hour
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            Seems like you are thinking about length, not mass.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              This unit is a measure of time, just not the SI unit measure of time.
+              Think smaller than an hour.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Second
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Meter
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            Seems like you are thinking about time, not mass.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 02 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-02">
-            <statement>
-                <p>
-                    What is the SI unit for time?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Second
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for time is the second.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Minute
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            This unit is a measure of time, just not the SI unit measure of time. Think smaller than a minute.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Hour
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            This unit is a measure of time, just not the SI unit measure of time. Think smaller than an hour.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Meter
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            Seems like you are thinking about length, not time.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 03 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-03">
-            <statement>
-                <p>
-                    What is the SI unit for length?
-                </p>
-            </statement>
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              Seems like you are thinking about length, not time.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 03 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-03">
+      <statement>
+        <p>
+          What is the SI unit for length?
+        </p>
+      </statement>
 
 
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Meter
-                        </p>
-                    </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Meter
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for length is the meter.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Correct! The SI unit for length is the meter.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Foot
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Foot
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            This unit is a measure of length, just not the SI unit measure of length. Think metric.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              This unit is a measure of length, just not the SI unit measure of length.
+              Think metric.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Yard
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Yard
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            This unit is a measure of length, just not the SI unit measure of length. Think metric.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              This unit is a measure of length, just not the SI unit measure of length.
+              Think metric.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Liter
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Liter
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            This unit is a measure of volume, not length.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 04 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-04">
-            <statement>
-                <p>
-                    What is the SI unit for electric current?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Ampere
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for electric current is the ampere.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Volt
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            This unit is a measure of electric potential, not current.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Ohm
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            This unit is a measure of electrical resistance, not current.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Coulomb
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            This unit is a measure of electric charge, not current.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 05 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-05">
-            <statement>
-                <p>
-                    What is the SI unit for thermodynamic temperature?
-                </p>
-            </statement>
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              This unit is a measure of volume, not length.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 04 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-04">
+      <statement>
+        <p>
+          What is the SI unit for electric current?
+        </p>
+      </statement>
 
 
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Kelvin
-                        </p>
-                    </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Ampere
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for thermodynamic temperature is the kelvin.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Correct! The SI unit for electric current is the ampere.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Celsius
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Volt
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            This unit is a measure of thermodynamic temperature, just not the SI unit.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              This unit is a measure of electric potential, not current.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Fahrenheit
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Ohm
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            This unit is a measure of thermodynamic temperature, just not the SI unit.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              This unit is a measure of electrical resistance, not current.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Joule
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Coulomb
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            This unit is a measure of energy, not thermodynamic temperature.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 06 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-06">
-            <statement>
-                <p>
-                    What is the SI unit for amount of substance?
-                </p>
-            </statement>
-
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Mole
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for amount of substance is the mole.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Atom
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            This unit is a measure of the smallest unit of matter, not the SI unit for amount of substance.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Dozen
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            This unit is a measure of quantity, but not the SI unit for amount of substance.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Gram
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            This unit is a measure of mass, not the SI unit for amount of substance.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Prep Question 07 -->
-        <exercise xml:id="subsec-prep-units-dims-questions-07">
-            <statement>
-                <p>
-                    What is the SI unit for luminous intensity?
-                </p>
-            </statement>
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              This unit is a measure of electric charge, not current.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 05 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-05">
+      <statement>
+        <p>
+          What is the SI unit for thermodynamic temperature?
+        </p>
+      </statement>
 
 
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            Candela
-                        </p>
-                    </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Kelvin
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Correct! The SI unit for luminous intensity is the candela.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Correct! The SI unit for thermodynamic temperature is the kelvin.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Lumen
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Celsius
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            This unit is a measure of luminous flux, not luminous intensity.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              This unit is a measure of thermodynamic temperature, just not the SI unit.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Lux
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Fahrenheit
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            This unit is a measure of luminous flux per area, not luminous intensity.
-                        </p>
-                    </feedback>
-                </choice>
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              This unit is a measure of thermodynamic temperature, just not the SI unit.
+            </p>
+          </feedback>
+        </choice>
 
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            Watt
-                        </p>
-                    </statement>
+        <choice correct="no">
+          <statement>
+            <p>
+              Joule
+            </p>
+          </statement>
 
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            This unit is a measure of power, not luminous intensity.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-    </subsection>
-    </section>
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              This unit is a measure of energy, not thermodynamic temperature.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 06 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-06">
+      <statement>
+        <p>
+          What is the SI unit for amount of substance?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Mole
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! The SI unit for amount of substance is the mole.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Atom
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              This unit is a measure of the smallest unit of matter, not the SI unit for amount of substance.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Dozen
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              This unit is a measure of quantity, but not the SI unit for amount of substance.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Gram
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              This unit is a measure of mass, not the SI unit for amount of substance.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+    <!-- Prep Question 07 -->
+    <exercise xml:id="subsec-prep-units-dims-questions-07">
+      <statement>
+        <p>
+          What is the SI unit for luminous intensity?
+        </p>
+      </statement>
+
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              Candela
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Correct! The SI unit for luminous intensity is the candela.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Lumen
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your targeting system glitched, try again.
+              This unit is a measure of luminous flux, not luminous intensity.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Lux
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your enchanted click missed the mark, try again.
+              This unit is a measure of luminous flux per area, not luminous intensity.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              Watt
+            </p>
+          </statement>
+
+          <feedback>
+            <p>
+              Your digital blade missed the mark, try again.
+              This unit is a measure of power, not luminous intensity.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+</section>
