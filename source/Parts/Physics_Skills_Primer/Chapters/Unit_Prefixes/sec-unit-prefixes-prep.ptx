@@ -11,7 +11,9 @@
 
   <subsection xml:id="sec-prep-units-prefixes-videos">
     <title>Prep Videos: Units Prefixes</title>
-
+    <p>
+      Watch the following video(s) to get an introduction to unit prefixes.
+    </p>
     <video youtube="2ilCSXm7iMQ">
     <title>Great Example of Interference</title>
 
@@ -21,13 +23,15 @@
 
   <subsection xml:id="subsec-prep-unit-prefixes-text">
     <title>Prep Text: Unit Prefixes</title>
-
+    <p>
+      Read the following text to learn about unit prefixes.  Don't forget to try the checkpoint questions along the way!
+    </p>
     <subsubsection xml:id="subsub-prefix-what">
       <title>What Are Unit Prefixes?</title>
 
       <definition xml:id="def-unit-prefix">
         <term>Unit Prefix
-        <idx><main>unit</main><sub>prefix</sub></idx>
+        <idx><h>unit</h><h>prefix</h></idx>
         </term> <meaning>
 
         <p>

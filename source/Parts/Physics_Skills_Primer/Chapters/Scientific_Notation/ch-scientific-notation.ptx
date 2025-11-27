@@ -23,7 +23,7 @@
         </p>
         <definition xml:id="def-test">
         <term>Position
-            <idx><main>position</main></idx>
+            <idx><h>position</h></idx>
         </term> <meaning>
         <p>
           Symbol: <m>\vec{r}</m>

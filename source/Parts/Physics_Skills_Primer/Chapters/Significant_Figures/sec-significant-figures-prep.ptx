@@ -11,7 +11,9 @@
 
   <subsection xml:id="sec-prep-sig-figs-videos">
     <title>Prep Videos: Significant Figures</title>
-
+    <p>
+      Watch the following video(s) to get an introduction to significant figures.
+    </p>
     <video youtube="2ilCSXm7iMQ">
     <title>Great Example of Interference</title>
 
@@ -21,13 +23,15 @@
 
   <subsection xml:id="subsec-prep-sig-figs-text">
     <title>Prep Text: Significant Figures</title>
-
+    <p>
+      Read the following text to learn about significant figures.  Don't forget to try the checkpoint questions along the way!
+    </p>
     <subsubsection xml:id="subsec-prep-sf-what">
       <title>What Are Significant Figures?</title>
 
       <definition xml:id="def-significant-figures">
         <term> Significant figures
-        <idx><main>significant figures</main></idx>
+        <idx><h>significant figures</h></idx>
         </term> <meaning>
         <p>
           The digits in a measured or calculated value that convey meaningful precision.

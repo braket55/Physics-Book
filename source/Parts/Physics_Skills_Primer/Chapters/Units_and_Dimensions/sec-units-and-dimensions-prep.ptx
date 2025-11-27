@@ -11,7 +11,9 @@
 
   <subsection xml:id="sec-prep-units-and-dimensions-videos">
     <title>Prep Videos: Units and Dimensions</title>
-
+    <p>
+      Watch the following video(s) to get an introduction to units and dimensions.
+    </p>
     <video youtube="2ilCSXm7iMQ">
     <title>Great Example of Interference</title>
 
@@ -21,24 +23,26 @@
 
   <subsection xml:id="subsec-prep-units-dims-text">
     <title>Prep Text: Units and Dimensions</title>
-
+    <p>
+      Read the following text to learn about units and dimensions.  Don't forget to try the checkpoint questions along the way!
+    </p>
     <subsubsection xml:id="subsec-prep-units">
       <title>Units</title>
 
       <definition xml:id="def-units">
         <term>Units
-        <idx><main>unit</main></idx>
+        <idx><h>unit</h></idx>
         </term> <meaning>
 
         <p>
             Standardized quantities used to express and compare measurements.
             Each physical quantity has an associated unit that defines the scale of measurement.
             For example, the SI system uses the meter (<m>\text{m}</m>) for length
-            <idx><main>unit</main><sub>meter</sub></idx>,
+            <idx><h>unit</h><h>meter</h></idx>,
             the kilogram (<m>\text{kg}</m>) for mass
-            <idx><main>unit</main><sub>kilogram</sub></idx>,
+            <idx><h>unit</h><h>kilogram</h></idx>,
             and the second (<m>\text{s}</m>) for time
-            <idx><main>unit</main><sub>second</sub></idx>;
+            <idx><h>unit</h><h>second</h></idx>;
             where meter, kilogram, and second are all base units.
         </p>
         </meaning>
@@ -57,7 +61,7 @@
 
       <definition xml:id="def-dimensions">
         <term>Dimensions
-        <idx><main>dimensions</main></idx>
+        <idx><h>dimensions</h></idx>
         </term> <meaning>
 
         <p>

@@ -12,6 +12,9 @@
   <subsection xml:id="sec-prep-sci-not-videos">
     <title>Prep Videos: Scientific Notation</title>
 
+    <p>
+      Watch the following video(s) to get an introduction to scientific notation.
+    </p>
     <video youtube="2ilCSXm7iMQ">
     <title>Great Example of Interference</title>
 
@@ -21,13 +24,15 @@
 
   <subsection xml:id="subsec-prep-sci-not-text">
     <title>Prep Text: Scientific Notation</title>
-
+    <p>
+      Read the following text to learn about scientific notation.  Don't forget to try the checkpoint questions along the way!
+    </p>
     <subsubsection xml:id="subsec-prep-sci-not-what">
       <title>What Is Scientific Notation?</title>
 
       <definition xml:id="def-scientific-notation">
         <term>Scientific Notation
-        <idx><main>scientific notation</main></idx>
+        <idx><h>scientific notation</h></idx>
         </term> <meaning>
 
         <p>

@@ -11,7 +11,9 @@
 
   <subsection xml:id="sec-prep-units-conversions-videos">
     <title>Prep Videos: Units Conversions</title>
-
+    <p>
+      Watch the following video(s) to get an introduction to unit conversions.
+    </p>
     <video youtube="2ilCSXm7iMQ">
     <title>Great Example of Interference</title>
 
@@ -21,13 +23,15 @@
 
   <subsection xml:id="subsec-prep-unit-conversions-text">
     <title>Prep Text: Unit Conversions</title>
-
+    <p>
+      Read the following text to learn about unit conversions.  Don't forget to try the checkpoint questions along the way!
+    </p>
     <subsubsection xml:id="subsub-prep-unit-conversions-factors">
       <title>Conversion Factors as Ratios of One</title>
 
       <definition xml:id="def-unit-conversion">
         <term>Unit Conversion
-        <idx><main>unit</main><sub>conversion</sub></idx>
+        <idx><h>unit</h><h>conversion</h></idx>
         </term> <meaning>
 
         <p>
