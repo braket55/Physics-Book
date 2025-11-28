@@ -297,7 +297,7 @@
         <exercise xml:id ="practice-sci-not-05">
             <statement>
                 <p>
-                    The Planck length is approximately <m>1.6 \times 10^{-35}</m> meters.
+                    The <url href="https://simple.wikipedia.org/wiki/Planck_length">Planck length</url> is approximately <m>1.6 \times 10^{-35}</m> meters.
                     Convert <m>1.6 \times 10^{-35}</m> to standard decimal notation.
                 </p>
             </statement>

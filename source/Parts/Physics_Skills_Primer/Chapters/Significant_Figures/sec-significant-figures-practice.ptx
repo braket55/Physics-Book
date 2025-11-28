@@ -13,7 +13,8 @@
         <exercise xml:id ="practice-sig-figs-01">
             <statement>
                 <p>
-                    If you launch an object straight up from the surface of the Earth and want it to avoid being pulled back by gravity, it must leave the surface of Earth at what's called the escape velocity.
+                    If you launch an object straight up from the surface of the Earth and want it to avoid being returned back to Earth by gravity, 
+                    it must leave the surface of Earth at what's called the <url href="https://en.wikipedia.org/wiki/Escape_velocity">escape velocity.</url>
                     Escape velocity is also defined for other large objects such as planets, moons, and stars.
                     The escape velocity from the surface of the Earth is about <m>11,200</m> meters per second.
                     The escape velocity from the surface of the Moon is about <m>21.25%</m> of the escape velocity from the surface of the Earth.

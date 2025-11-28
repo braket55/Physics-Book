@@ -151,6 +151,10 @@
             <li>
               <m>1\, \text{kg} = 35.274\, \text{oz}</m>
             </li>
+
+            <li>
+              <m>1\, \text{kg} = 0.0685218\, \text{slug}</m>
+            </li>
           </ul>
         </li>
       </ul>
@@ -261,7 +265,7 @@
       <title>Fermi Problems</title>
 
       <p>
-        So you have made it this far, from scientific notation all the way to unit conversions, despite the curse placed upon you.
+        So you have made it this far, from scientific notation all the way to unit conversions, despite all the curses we placed upon you when beginning your journe...uh wait nevermind that.
         Congratulations! Now, you can use your newfound skills to tackle Fermi problems.
       </p>
 
@@ -567,15 +571,14 @@
     <exercise xml:id="subsec-prep-unit-conversions-questions-03">
       <statement>
         <p>
-          Convert <m>5500\, \text{yd}^2</m> to <m>\text{m}^2</m>
+          Convert <m>55\underline{0}0\, \text{yd}^2</m> to <m>\text{m}^2</m>
         </p>
       </statement>
-      <!-- START HERE FOR WORKING ON CONTENT -->
       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>
-              <m>24.6\, \text{m/s}</m>
+              <m>46\underline{0}0\, \text{m}^2</m>
             </p>
           </statement>
 
@@ -589,15 +592,14 @@
         <choice correct="no">
           <statement>
             <p>
-              <m>0.0246\, \text{m/s}</m>
+              <m>6580\, \text{m}^2</m>
             </p>
           </statement>
 
           <feedback>
             <p>
               Your targeting system glitched, try again.
-              This is <m>55.0\, \text{mi/hr} = 0.0246\, \text{km/s}</m>.
-              Continue working on the conversion to meters per second.
+              It looks like you used the correct conversion factor but inverted the conversion fraction.
             </p>
           </feedback>
         </choice>
@@ -605,15 +607,15 @@
         <choice correct="no">
           <statement>
             <p>
-              <m>88.5\, \text{m/s}</m>
+              <m>5030\, \text{m}^2</m>
             </p>
           </statement>
 
           <feedback>
             <p>
               Your enchanted click missed the mark, try again.
-              This is <m>55.0\, \text{mi/hr} = 88.5\, \text{km/hr}</m>.
-              Continue working on the conversion to meters per second.
+              It looks like you are using the correct conversion factor, but only applied it once. 
+              Apply the same conversion factor twice since the original unit is in yards squared.
             </p>
           </feedback>
         </choice>
@@ -621,15 +623,15 @@
         <choice correct="no">
           <statement>
             <p>
-              <m>88500\, \text{m/s}</m>
+              <m>6010\, \text{m}^2</m>
             </p>
           </statement>
 
           <feedback>
             <p>
               Your digital blade missed the mark, try again.
-              This is <m>55.0\, \text{mi/hr} = 88500\, \text{m/hr}</m>.
-              Continue working on the conversion to meters per second.
+              It looks like you used the correct conversion factor but inverted the conversion fraction.
+              You also probably only applied the conversion factor once instead of twice. 
             </p>
           </feedback>
         </choice>

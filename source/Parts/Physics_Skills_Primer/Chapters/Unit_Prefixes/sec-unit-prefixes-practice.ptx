@@ -86,7 +86,7 @@
         <exercise xml:id ="practice-unit-prefixes-02">
             <statement>
                 <p>
-                    NASA reports that Greenland has been losing ice at an average rate of <m>0.279</m> exagrams per year.
+                    NASA reports that <url href="https://en.wikipedia.org/wiki/Greenland#Climate_change">Greenland has been losing ice</url> at an average rate of <m>0.279</m> exagrams per year.
                     Convert this mass per year into kilograms per year using scientific notation with the correct number of significant figures.
                 </p>
             </statement>
@@ -234,7 +234,7 @@
         <exercise xml:id ="practice-unit-prefixes-04">
             <statement>
                 <p>
-                    A certified HEPA filter is capable of capturing <m>99.97%</m> of airborne particles with diameters as small as <m>0.0000003</m> meters.
+                    A certified <url href="https://en.wikipedia.org/wiki/HEPA">HEPA filter</url> is capable of capturing <m>99.97%</m> of airborne particles with diameters as small as <m>0.0000003</m> meters.
                     Express this diameter using a unit prefix.
                 </p>
             </statement>

@@ -23,166 +23,291 @@
         </introduction>
         <!-- Page 01 -->
         <page>
-            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- Mass of rocket fuel -->
+            <pagebreak/> <!-- Worksheet Exercise 01 --> <!-- ISS Water Recovery Volume -->
             <exercise workspace="0.5in" xml:id="worksheet-explore-unit-conversions-01">
                 <statement>
                     <p>
-                        The Mars rover Perseverance launched from Cape Canaveral, Florida, on July 30, 2020, aboard an Atlas V 541 rocket.
-                        Its main engine, the RD-180, burned a mix of liquid oxygen and rocket-grade kerosene to produce the thrust needed for takeoff.
-                        The total mass of fuel used by the main engine during launch was about <m>284</m> megagrams.
-                        Write this mass in scientific notation using SI units.
+                        The International Space Station (ISS) uses a <url href="https://en.wikipedia.org/wiki/ISS_ECLSS">water recovery system</url> to recycle wastewater into clean water used for drinking, food preparation, and hygiene.
+                        The recovery system can clean <m>98\%</m> of wastewater into clean water.
+                        Suppose each astronaut needs about <m>1.00</m> gallons of clean water per day.
+                        Convert this amount of clean water into meters cubed.
+                    </p>
+
+                    <p>
+                        Useful conversion factors:
+                    </p>
+
+                    <p>
+                        <m>1\, \text{gallon} = 3.78541\, \text{liters}</m>
+                    </p>
+
+                    <p>
+                        <m>1\, \text{meter}^3 = 1000\, \text{liters}</m>
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        Mega means <m>10^6</m>.
-                        So, <m>284</m> megagrams can be written as <m>284 \times 10^6</m> grams.
-                        However, the SI unit of mass is not grams, it's kilograms.
+                        Start by converting gallons to liters, then convert liters to cubic meters.
+                        For example: <m>1.00\, \text{gallons} \left( \frac{3.78541\, \text{liters}}{1\, \text{gallons}} \right)</m>
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        <m>2.84 \times 10^{5}\, \text{kg}</m>
+                        <m>1\, \text{gallon} = 0.00379\, \text{m}^3</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        284 megagrams can be written as <m>284 \times 10^6</m> grams.
-                    </p>
-
-                    <p>
-                        The SI unit of mass is kilograms, not grams.
-                        To convert grams to kilograms, divide by <m>10^3</m> (or multiply by <m>10^{-3}</m>).
-                        So, <m>284 \times 10^6</m> grams is equal to <m>\frac{284 \times 10^6}{10^{3}}\, \text{kg}</m>.
-                    </p>
-                    <p>
-                        Simplifying this gives us <m>284 \times 10^{3}\, \text{kg}</m>
-                    </p>
-                    <p>
-                        Finally, we can express this in scientific notation as <m>2.84 \times 10^{5}\, \text{kg}</m>.
-                    </p>
-                    <p>
-                        Therefore, the mass of fuel used by the main engine during launch is <m>2.84 \times 10^{5}\, \text{kg}</m>.
+                        <m>1.00\, \text{gallons} \left( \frac{3.78541\, \text{liters}}{1\, \text{gallons}} \right) \left( \frac{1\, \text{m}^3}{1000\, \text{liters}} \right) = 0.00379\, \text{m}^3</m> when rounded to three significant figures.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 02 --> <!-- diameter of Mars dust -->
+            <!-- Worksheet Exercise 02 --> <!-- ISS Personal Item Mass -->
             <exercise workspace="0.5in" xml:id="worksheet-explore-unit-conversions-02">
                 <statement>
                     <p>
-                        During its decent onto the surface of Mars, the Perseverance moved through the Martian atmosphere which can contain dust particles roughly <m>2.5</m> micrometers in diameter.
-                        Write the diameter of the dust particles in scientific notation using SI units. 
+                        Astronauts traveling to the International Space Station (ISS) are allowed to take with them personal items with a totatl weight up to <m>3.3\, \text{lb}</m>.
+                        The items are contained in a <url href="https://en.wikipedia.org/wiki/Personal_preference_kit">personal preference kit (PPK)</url>.
+                        Convert <m>3.3\, \text{lb}</m> into grams.
+                    </p>
+
+                    <p>
+                        Useful conversion factors:
+                    </p>
+
+                    <p>
+                        <m>1\, \text{kg} = 2.20462\, \text{lb}</m>
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        Micro means <m>10^{-6}</m>.
-                        And the SI unit of length is meters.
+                        Start by converting pounds to kilograms, then convert grams.
+                        For example: <m>3.3\, \text{lb} \left( \frac{1\, \text{kg}}{2.20462\, \text{lb}} \right)</m>.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        <m>2.5 \times 10^{-6}\, \text{m}</m>
+                        <m>3.3\, \text{lb} = 15\underline{0}0\, \text{g}</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        <m>2.5</m> micrometers can be written as <m>2.5 \times 10^{-6}</m> meters.
-                    </p>
-
-                    <p>
-                        Meters is the SI unit of length, so we don't need to convert it.
-                    </p>
-                    <p>
-                        Therefore, the diameter of the dust particles is <m>2.5 \times 10^{-6}\, \text{m}</m>.
+                        <m>3.3\, \text{lb} \left( \frac{1\, \text{kg}}{2.20462\, \text{lb}} \right) \left( \frac{10^3\, \text{g}}{1\, \text{kg}} \right) = 15\underline{0}0\, \text{g}</m> when rounded to three significant figures.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 03 --> <!-- time of data transfer -->
+            <!-- Worksheet Exercise 03 --> <!-- ISS Pressure -->
             <exercise workspace="0.5in" xml:id="worksheet-explore-unit-conversions-03">
                 <statement>
                     <p>
-                        The data collected by the Perseverance rover is transmitted back to Earth.  
-                        It can take about <m>300</m> seconds for the data to reach Earth from Mars.
-                        Use unit conversions to express the time it takes for data to reach Earth.  Keep the same unit of seconds, just add a prefix.
+                        The International Space Station (ISS) maintains an internal pressure close to the atmospheric pressure at sea-level on Earth.
+                        The pressure in the ISS is held at about <m>14.7\, \text{psi}</m>, or pounds per square inch.
+                        Convert this pressure to <m>\text{Pa}</m>, or pascals.
+                    </p>
+
+                    <p>
+                        Useful conversion factors:
+                    </p>
+
+                    <p>
+                        <m>1\, \text{psi} = 6894.76\, \text{Pa}</m>
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        There are many options, but it's common to have the value between <m>1</m> and <m>10</m> when the original value has one sig fig.
-                        So your answer could be <m>3</m> "prefix"seconds.  
+                        Start by converting psi to Pa using the following conversion factor: <m>\left( \frac{6894.76\, \text{Pa}}{1\, \text{psi}} \right)</m>.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        <m>3</m> hectoseconds.
+                        <m>14.7\, \text{psi} = 101000\, \text{Pa}</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Rewrite <m>300</m> seconds as <m>3 \times 10^2</m> seconds.
-                    </p>
-
-                    <p>
-                        The prefix "hecto" means <m>10^2</m>.
-                    </p>
-                    <p>
-                        Therefore, <m>300</m> seconds can be expressed as <m>3</m> hectoseconds.
-                    </p>
-                    <p>
-                        For fun: you can also say <m>30</m> decaseconds, <m>30000</m> centiseconds, etc...
+                        <m>14.7\, \text{psi} \left( \frac{6894.76\, \text{Pa}}{1\, \text{psi}} \right) = 101000\, \text{Pa}</m> when rounded to three significant figures.
                     </p>
                 </solution>
             </exercise>
-            <!-- Worksheet Exercise 04 --> <!-- data rate transfer -->
-            <exercise xml:id="worksheet-explore-unit-conversions-04">
+            <!-- Worksheet Exercise 04 --> <!-- ISS Exercise Power -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-unit-conversions-04">
                 <statement>
                     <p>
-                        The data collected by the Perseverance rover can be directly transmitted back to Earth from the rover.
-                        The rate at which this data is transferred is about <m>32000</m> bits per second.
-                        Use unit conversions to express the rate data is transferred from the rover to Earth.  Keep the same unit of bits per second, just add a prefix. 
+                        The total pressurized volume of the ISS is reported to be <m>35491\, \text{ft}^3</m>.
+                        Convert this volume into cubic meters <m>\text{m}^3</m>.
+                    </p>
+
+                    <p>
+                        Useful conversion factors: <m>1\, \text{m} = 3.28084\, \text{ft}</m>
                     </p>
                 </statement>
 
                 <hint>
                     <p>
-                        There are many options, but it's common to have the value between <m>10</m> and <m>100</m> when the original value has two sig figs.
-                        So your answer could be <m>32</m> "prefix"bits per second.
+                        Start by converting feet to meters, then apply the conversion as many times as needed for cubmic meters.
+                        For example: <m>\left( \frac{1\, \text{m}}{3.28084\, \text{ft}} \right)</m>.
                     </p>
                 </hint>
 
                 <answer>
                     <p>
-                        <m>32</m> kilobits/second
+                        <m>35491\, \text{ft}^3 = 1005.0\, \text{m}^3</m>
                     </p>
                 </answer>
 
                 <solution>
                     <p>
-                        Rewrite <m>32000</m> bits/second as <m>32 \times 10^{3}</m> bits/seconds.
+                        <m>35491\, \text{ft}^3 \left( \frac{1\, \text{m}}{3.28084\, \text{ft}} \right)^3 = 1005.0\, \text{m}^3</m> when rounded to five significant figures.
                     </p>
 
                     <p>
-                        The prefix "kilo" means <m>10^3</m>.
-                    </p>
-                    <p>
-                        Therefore, <m>32000</m> bits per seconds can be expressed as <m>32</m> kilobits per second.
-                    </p>
-                    <p>
-                        For fun: you can also say <m>0.032</m> megabits per second, <m>3200000</m> centibits per second, etc...
+                        Note that the conversion factor is cubed because we are converting cubic feet to cubic meters.
+                        Instead of the shorthand notation by cubing the conversion factor, you could also write it out as: <m>35491\, \text{ft}^3 \left( \frac{1\, \text{m}}{3.28084\, \text{ft}} \right) \left( \frac{1\, \text{m}}{3.28084\, \text{ft}} \right) \left( \frac{1\, \text{m}}{3.28084\, \text{ft}} \right) = 1005.0\, \text{m}^3</m>.
                     </p>
                 </solution>
             </exercise>
-            
+        </page>
+
+
+        <page>
+            <p>
+                <xref ref="subsub-prep-unit-conversions-fermi">Fermi Problems</xref> below:
+            </p>
+
+
+            <pagebreak/> <!-- Worksheet Exercise 05 --> <!-- ISS Breaths -->
+            <exercise workspace="0.5in" xml:id="worksheet-explore-unit-conversions-05">
+                <statement>
+                    <p>
+                        Each time you take a normal breath, your lungs expand by a certain volume.
+                        This expansion is roughly equal to the volume of air you inhale during that breath.
+                        Estimate how many such breaths would be required for the total lung-expansion volume to equal the entire pressurized volume of the International Space Station (ISS).
+                        Consider only the expansion during inhalation.
+                        <em>Use question <xref ref="worksheet-explore-unit-conversions-04"/> for the ISS volume.</em> All other quantities should be estimated without looking them up.
+                    </p>
+                </statement>
+
+                <hint>
+                    <p>
+                        To solve this Fermi problem, start by estimating the volume of air involved in a single normal breath.
+                        To estimate this, think about how much air you inhale when you take a relaxed breath and compare it to the size of common containers, such as a water bottle or a soda can.
+                    </p>
+                    <p>
+                        Then, use the ISS volume, in SI base units <m>\text{m}^3</m> from question <xref ref="worksheet-explore-unit-conversions-04"/> to find how many such breaths would add up to that volume.
+                    </p>
+                    <p>
+                        It's ok to sometimes have to look up basic conversion factors if you don't practice these Fermi estimates often.  The more you practice, the more useful conversions you will remember.
+                        For this question, it's ok to look up the conversion between liters and cubic meters if you need to. The conversion is: <m>1000\, \text{liters} = 1\, \text{m}^3</m>.
+                    </p>
+                </hint>
+
+                <answer>
+                    <p>
+                        It would take about <m>10^{6}</m> normal breaths for the total lung-expansion volume to equal the pressurized volume of the ISS.
+                    </p>
+                    <p>
+                        But don't stop there! Think about how long it would take to reach that many breaths; see the solution for more details on this.
+                    </p>
+                </answer>
+
+                <solution>
+                    <p>
+                        Initial thought 1: From question <xref ref="worksheet-explore-unit-conversions-04"/>, we already have an estimate for the ISS's total pressurized volume in SI base units.
+                        Let's suppose that earlier we found the ISS volume to be about <m>1000\,\text{m}^3</m>.
+                        If your estimate was a bit different, that is okay; Fermi problems are all about reasonable approximations.
+                        The goal here is to round to something that would be easy to do calculations with without a calculator.
+                    </p>
+
+                    <p>
+                        Initial thought 2: To compare this to breaths, we need an estimate for the volume of air involved in a single normal breath; that is, how much your lungs expand when you inhale.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Volume of a single normal breath when inhaling.
+                            </p>
+
+                            <ul>
+                                <li>
+                                    <p>
+                                        Many people have a sense that a normal, relaxed breath is much smaller than a giant “fill your lungs” breath.
+                                        Here it's reasonable to assume that a normal breath is probably larger than a can of soda but smaller than a liter sied bottle of water.
+                                        So a reasonable estimate for a normal breath is somewhere between those to which would be around <m>0.5</m> liters of air.
+                                        But, to keep the numbers simple, we will round this to about <m>1</m> liter of air per breath.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        We also need this in cubic meters to match the ISS volume.
+                                        So we need to convert <m>1</m> liter into <m>\text{m}^3</m>.
+                                        Since <m>1000</m> liters is equal to <m>1\,\text{m}^3</m>, that means: 
+                                        <m>1\, \text{liter} \left( \frac{1\, \text{m}^3}{10^3\, \text{liter}} \right) = 10^{-3}\, \text{m}^3</m>.
+                                        Notice the use of scientific notation to help with algebraic manipulation.
+                                    </p>
+                                </li>   
+
+                                <li>
+                                    <p>
+                                        So we can construct a conversion factor that approximates how breaths are related to volume of lung expansion: 
+                                        <m>1\, \text{breath} = 10^{-3}\, \text{m}^3</m>.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Number of breaths to “match” the ISS volume.
+                            </p>
+
+                            <ul>
+                                <li>
+                                    <p>
+                                        Our goal is to find how many normal breaths, would add up to the full ISS volume.
+                                        We can do this with our newly constructed conversion factor: <m>1\, \text{breath} = 10^{-3}\, \text{m}^3</m>, 
+                                        and the volume of the ISS, which we are approximating as <m>1000\, \text{m}^3</m>, or <m>10^3\, \text{m}^3</m>.
+                                        <m>10^3\, \text{m}^3 \left( \frac{1\, \text{breath}}{10^{-3}\, \text{m^3}} \right) = 10^6\, \text{breath}</m>.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <p>
+                        So our estimate is that it would take on the order of <m>10^{6}</m> normal breaths, or about one million breaths for the total lung-expansion volume to equal the pressurized interior volume of the ISS.
+                    </p>
+
+                    <p>
+                        If you had chosen <m>0.5</m> liters per breath instead of <m>1</m> liter, you would have got about <m>2 \times 10^{6}</m> breaths.
+                        That is still the same order of magnitude, which is exactly what we care about in Fermi problems.
+                    </p>
+
+                    <p>
+                        Just for fun, let's think about how much time it would take for this to happen, afterall that is the spirit of Fermi problems.
+                        You can count how many breaths you take in about 30 seconds, then use that to estimate how many breaths you take in a minute, an hour, a day, and so on.
+                        If you take about <m>12</m> to <m>18</m> breaths per minute, we treat that is <m>10^1\, \frac{\text{breath}}{min}</m>.
+                        So to figure how how many breaths per day you take, we can use the conversions <m>60\, \text{min} = 1\, \text{hr}</m>, 
+                        but in the spirit of Fermi problems, we can round that to <m>10^2\, \text{min} = 1\, \text{hr}</m>, likewise <m>24\, \text{hr} = 1\, \text{day}</m>,
+                        which we can round to <m>10^1\, \text{hr} = 1\, \text{day}</m>.
+                        So we have:
+                        <m>10^6\, \text{breath} \left( \frac{1\, \text{min}}{10^1\, \text{breath}} \right) \left( \frac{1\, \text{hr}}{10^2\, \text{min}} \right) \left( \frac{1\, \text{day}}{10^1\, \text{hr}} \right) = 10^2\, \text{day}</m>.
+                        So it would take about 100 days of continuous, normal breathing for the total expansion of your lungs to equal the entire pressurized volume of the ISS.
+                    </p>
+                </solution>
+            </exercise>
         </page>
     </worksheet>
 </section>

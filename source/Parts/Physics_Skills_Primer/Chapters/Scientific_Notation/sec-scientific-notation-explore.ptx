@@ -27,7 +27,7 @@
             <exercise workspace="0.2in" xml:id="worksheet-explore-scientific-notation-01">
                 <statement>
                     <p>
-                        The influenza virus can have a diameter of about <m>0.000000099</m> meters.
+                        The <url href="https://en.wikipedia.org/wiki/Influenza">influenza virus</url> can have a diameter of about <m>0.000000099</m> meters.
                         Convert <m>0.000000099</m> to scientific notation.
                     </p>
                 </statement>

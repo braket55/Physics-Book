@@ -27,7 +27,7 @@
             <exercise workspace="0.5in" xml:id="worksheet-explore-unit-prefixes-01">
                 <statement>
                     <p>
-                        The Mars rover Perseverance launched from Cape Canaveral, Florida, on July 30, 2020, aboard an Atlas V 541 rocket.
+                        The Mars rover, <url href="https://en.wikipedia.org/wiki/Perseverance_(rover)">Perseverance</url>, launched from Cape Canaveral, Florida, on July 30, 2020, aboard an Atlas V 541 rocket.
                         Its main engine, the RD-180, burned a mix of liquid oxygen and rocket-grade kerosene to produce the thrust needed for takeoff.
                         The total mass of fuel used by the main engine during launch was about <m>284</m> megagrams.
                         Write this mass in scientific notation using SI base units.
