@@ -9,21 +9,37 @@
         <p>
             Extra questions to help level up your abilities.
         </p>
-        <!-- Practice Question 01 --> <!-- snowfall depth -->
+        <!-- Practice Question 01 --> <!-- hummingbird heart rate -->
         <exercise xml:id ="practice-unit-conversions-01">
             <statement>
                 <p>
-                    In 2020, Utqiaġvik, Alaska (formerly Barrow) recorded about <m>530</m> millimeters of snow.
-                    Write this amount in meters using scientific notation with the correct number of significant figures.
+                    A hummingbird's heart can beat up to <m>1200</m> times per minute during flight.
+                    A “beat” in this context means one full cycle of the heart contracting and relaxing.
+                    When a quantity repeats regularly over time, scientists often describe it using a frequency (the number of repetitions per unit time).
+                    Biological frequencies are sometimes expressed in hertz, which in this context means beats per second.
+                </p>
+
+                <p>
+                    Convert <m>1200</m> beats per minute into hertz.
+                    The common symbol for hertz is <m>\text{Hz}</m>.
+                </p>
+
+                <p>
+                    Useful conversion factors:
+                </p>
+
+                <p>
+                    <m>1\, \text{Hz} = 1\, \frac{1}{\text{s}}</m>
                 </p>
             </statement>
 
 
             <choices randomize="yes">
+                <!-- Correct Choice -->
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>5.3 \times 10^{-1}</m>
+                            <m>20\, \text{Hz}</m>
                         </p>
                     </statement>
 
@@ -33,70 +49,86 @@
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 1 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>530 \times 10{-3}</m>
+                            <m>1200\, \text{Hz}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            This is correct, but not in scientific notation.
+                            It looks like you converted the units but forgot to divide by the number of seconds in a minute.
+                            You probably used <m>1\,\text{min} = 1\,\text{s}</m> instead of <m>60\,\text{s}</m>.
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 2 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>5.3 \times 10^{-3}</m>
+                            <m>0.2\, \text{Hz}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Mili does mean <m>10^{-3}</m>, so 530 millimeters is <m>530 \times 10^{-3}</m>.
-                            But now you need to convert this to scientific notation.
+                            It looks like you used the right conversion factor but inverted it, dividing when you should have multiplied.
+                            You probably calculated <m>1200 \div 60 \div 100</m> or something similar.
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 3 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>5.3 \times 10^3</m>
+                            <m>50\, \text{Hz}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Mili does mean <m>10^{-3}</m>, so 530 millimeters is <m>530 \times 10^{-3}</m>.
-                            But now you need to convert this to scientific notation.
+                            It looks like you divided by something close to <m>24</m> or <m>25</m> instead of by <m>60</m>.
+                            You may have confused minutes with hours or mixed up the direction of the conversion.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 02--> <!-- ice melt -->
-        <exercise xml:id ="practice-unit-conversions-02">
+        <!-- Practice Question 02--> <!-- olympic pool volume -->
+        <exercise xml:id="practice-unit-conversions-02">
             <statement>
                 <p>
-                    NASA reports that Greenland has been losing ice at an average rate of 0.279 exagrams per year.
-                    Convert this mass into kilograms using scientific notation with the correct number of significant figures.
+                    An Olympic-sized swimming pool holds about <m>2.5 \times 10^{6}\, \text{L}</m> of water, where <m>\text{L}</m> is the symbol for liter.
+                    Many engineering specifications in the United States use gallons instead of liters.
+                    Convert <m>2.5 \times 10^{6}\, \text{L}</m> into gallons.
+                    The common symbol for gallons is <m>\text{gal}</m>.
+                </p>
+
+                <p>
+                    Useful conversion factor:
+                </p>
+
+                <p>
+                    <m>1\, \text{L} = 1000\, \text{m}^3</m>
+                </p>
+
+                <p>
+                    <m>1\, \text{m}^3 = 264.172\, \text{gal}</m>
                 </p>
             </statement>
 
 
             <choices randomize="yes">
+                <!-- Correct Choice -->
                 <choice correct="yes">
                     <statement>
                         <p>
-                            <m>2.79 \times 10^{14}</m> kg
+                            <m>6.6 \times 10^{5}\, \text{gal}</m>
                         </p>
                     </statement>
 
@@ -106,145 +138,79 @@
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 1 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>0.279 \times 10^{18}</m> kg
+                            <m>9.5 \times 10^{5}\, \text{gal}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
-                            However, we need to convert this to kilograms.
-                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                            It looks like you inverted the liters-to-cubic-meters conversion.
+                            Instead of multiplying by <m>1000</m>, you probably divided by it.
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 2 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>2.79 \times 10^{18}</m> kg
+                            <m>4.0 \times 10^{5}\, \text{gal}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
-                            However, we need to convert this to kilograms.
-                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                            It looks like you performed both conversion steps correctly but rounded the <m>264.172\,\text{gal}</m> per cubic meter conversion factor too aggressively.
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 3 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                            <m>2.79 \times 10^{17}</m> kg
+                            <m>1.0 \times 10^{6}\, \text{gal}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Exa means <m>10^{18}</m>, so 0.279 exagrams = <m>0.279 \times 10^{18}</m> g.
-                            However, we need to convert this to kilograms.
-                            1 kilogram = <m>10^3</m> grams, so we need to divide by <m>10^3</m>.
+                            It looks like you multiplied by <m>1000</m> correctly but then mistakenly multiplied again when converting cubic meters to gallons rather than using the given factor once.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        <!-- Practice Question 03--> <!-- energy solar panel -->
-        <exercise xml:id ="practice-unit-conversions-03">
+        <!-- Practice Question 03--> <!-- peregrin falcon speed -->
+        <exercise xml:id="practice-unit-conversions-03">
             <statement>
                 <p>
-                    A typical 1-kW rooftop solar panel system can generate about <m>3.6 \times 10^9</m> joules of energy over a year in sunny regions.
-                    Express this annual energy production using a unit prefix. The SI symbol for joule is "J".
+                    The peregrine falcon is the fastest animal on Earth, capable of reaching diving speeds of about <m>190</m> miles per hour, or <m>\text{mph}</m>.
+                    Engineers often convert speeds into feet per second when analyzing motion, impacts, or aerodynamics.
+                    Convert <m>190\, \text{mph}</m> into feet per second.
                 </p>
-            </statement>
 
-
-            <choices randomize="yes">
-                <choice correct="yes">
-                    <statement>
-                        <p>
-                            3.6 GJ
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Correct!
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            3.6 MJ
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your targeting system glitched, try again.
-                            Mega means <m>10^6</m>, not <m>10^9</m>.
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            3.6 gJ
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your enchanted click missed the mark, try again.
-                            There is no prefix "g".
-                        </p>
-                    </feedback>
-                </choice>
-
-                <choice correct="no">
-                    <statement>
-                        <p>
-                            3.6 nJ
-                        </p>
-                    </statement>
-
-                    <feedback>
-                        <p>
-                            Your digital blade missed the mark, try again.
-                            On the right track, but nano means <m>10^{-9}</m>, not <m>10^9</m>.
-                        </p>
-                    </feedback>
-                </choice>
-            </choices>
-        </exercise>
-        <!-- Practice Question 04--> <!-- hepa filters -->
-        <exercise xml:id ="practice-unit-conversions-04">
-            <statement>
                 <p>
-                    A certified HEPA filter is capable of capturing 99.97% of airborne particles with diameters as small as 0.0000003 meters.
-                    Express this diameter using a unit prefix.
+                    Useful conversion factors:
+                </p>
+
+                <p>
+                    <m>1\, \text{mile} = 5280\, \text{ft}</m>
                 </p>
             </statement>
 
 
             <choices randomize="yes">
+                <!-- Correct Choice -->
                 <choice correct="yes">
                     <statement>
                         <p>
-                            0.3 <m>\mu m</m>
+                            <m>280\, \text{ft/s}</m>
                         </p>
                     </statement>
 
@@ -254,53 +220,52 @@
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 1 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                             3 <m>\mu m</m>
+                            <m>17000\, \text{ft/s}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your targeting system glitched, try again.
-                            Try counting the zeros again.
+                            It looks like you converted miles to feet correctly and hours to minutes correctly but forgot to convert minutes to seconds.
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 2 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                             0.3 <m>m m</m>
+                            <m>130\,\text{ft/s}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your enchanted click missed the mark, try again.
-                            Try counting the zeros again.
+                            It looks like you used the right conversion factors for miles to feet and hours to seconds but inverted both of them divided when should have multiplied and multiplied when should have divided.
                         </p>
                     </feedback>
                 </choice>
-
+                <!-- Incorrect Choice 3 -->
                 <choice correct="no">
                     <statement>
                         <p>
-                             3 <m>m m</m>
+                            <m>1.0 \times 10^6\, \text{ft/s}</m>
                         </p>
                     </statement>
 
                     <feedback>
                         <p>
                             Your digital blade missed the mark, try again.
-                            Try counting the zeros again.
+                            It looks like you converted miles to feet correctly but forgot to convert hours to seconds.
                         </p>
                     </feedback>
                 </choice>
             </choices>
         </exercise>
-        
     </subsection>
 </section>

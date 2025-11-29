@@ -65,7 +65,7 @@
 
       <example>
         <p>
-          Suppose a star cruiser travels at <quantity> <mag>90</mag> <unit prefix="kilo" base="meter"> <per base="hour"/> </unit> </quantity>.
+          Suppose a star cruiser travels at <m>90\, \frac{\text{km}}{\text{hr}}</m>.
           To express this in meters per second:
         </p>
 
